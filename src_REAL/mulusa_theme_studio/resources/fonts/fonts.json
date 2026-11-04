@@ -1,0 +1,412 @@
+[
+ {
+  "family": "Inter",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "inter-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Manrope",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "manrope-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "DM Sans",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "dm-sans-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Space Grotesk",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "space-grotesk-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Sora",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "sora-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Outfit",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "outfit-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Archivo",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "archivo-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Work Sans",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "work-sans-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Figtree",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "figtree-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Plus Jakarta Sans",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "plus-jakarta-sans-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Syne",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "syne-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Bricolage Grotesque",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "bricolage-grotesque-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Oswald",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "oswald-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Unbounded",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "unbounded-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Jost",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "jost-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Playfair Display",
+  "kind": "serif",
+  "files": [
+   {
+    "file": "playfair-display-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   },
+   {
+    "file": "playfair-display-italic.woff2",
+    "style": "italic",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Cormorant Garamond",
+  "kind": "serif",
+  "files": [
+   {
+    "file": "cormorant-garamond-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   },
+   {
+    "file": "cormorant-garamond-italic.woff2",
+    "style": "italic",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Fraunces",
+  "kind": "serif",
+  "files": [
+   {
+    "file": "fraunces-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   },
+   {
+    "file": "fraunces-italic.woff2",
+    "style": "italic",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Source Serif 4",
+  "kind": "serif",
+  "files": [
+   {
+    "file": "source-serif-4-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   },
+   {
+    "file": "source-serif-4-italic.woff2",
+    "style": "italic",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Lora",
+  "kind": "serif",
+  "files": [
+   {
+    "file": "lora-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   },
+   {
+    "file": "lora-italic.woff2",
+    "style": "italic",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Newsreader",
+  "kind": "serif",
+  "files": [
+   {
+    "file": "newsreader-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   },
+   {
+    "file": "newsreader-italic.woff2",
+    "style": "italic",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Bodoni Moda",
+  "kind": "serif",
+  "files": [
+   {
+    "file": "bodoni-moda-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   },
+   {
+    "file": "bodoni-moda-italic.woff2",
+    "style": "italic",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "EB Garamond",
+  "kind": "serif",
+  "files": [
+   {
+    "file": "eb-garamond-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   },
+   {
+    "file": "eb-garamond-italic.woff2",
+    "style": "italic",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "JetBrains Mono",
+  "kind": "mono",
+  "files": [
+   {
+    "file": "jetbrains-mono-normal.woff2",
+    "style": "normal",
+    "weight": "100 900"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Bebas Neue",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "bebas-neue-400.woff2",
+    "style": "normal",
+    "weight": "400"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Anton",
+  "kind": "sans",
+  "files": [
+   {
+    "file": "anton-400.woff2",
+    "style": "normal",
+    "weight": "400"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "DM Serif Display",
+  "kind": "serif",
+  "files": [
+   {
+    "file": "dm-serif-display-400.woff2",
+    "style": "normal",
+    "weight": "400"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Abril Fatface",
+  "kind": "serif",
+  "files": [
+   {
+    "file": "abril-fatface-400.woff2",
+    "style": "normal",
+    "weight": "400"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Space Mono",
+  "kind": "mono",
+  "files": [
+   {
+    "file": "space-mono-400.woff2",
+    "style": "normal",
+    "weight": "400"
+   },
+   {
+    "file": "space-mono-700.woff2",
+    "style": "normal",
+    "weight": "700"
+   }
+  ],
+  "licence": "OFL-1.1"
+ },
+ {
+  "family": "Libre Baskerville",
+  "kind": "serif",
+  "files": [
+   {
+    "file": "libre-baskerville-400.woff2",
+    "style": "normal",
+    "weight": "400"
+   },
+   {
+    "file": "libre-baskerville-700.woff2",
+    "style": "normal",
+    "weight": "700"
+   }
+  ],
+  "licence": "OFL-1.1"
+ }
+]

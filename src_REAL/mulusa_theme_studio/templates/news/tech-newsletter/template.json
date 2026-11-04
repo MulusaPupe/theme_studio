@@ -1,0 +1,3437 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "news/tech-newsletter",
+  "template_name": "Tech Newsletter",
+  "name": "Signal Weekly",
+  "description": "A sign-up-first newsletter site with mono labels and lime accents.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#15180f",
+   "on_primary": "#fdfdf8",
+   "secondary": "#15180f",
+   "accent": "#5d7c0b",
+   "on_accent": "#fdfdf8",
+   "background": "#fdfdf8",
+   "surface": "#eef2d9",
+   "text": "#15180f",
+   "muted": "#565850",
+   "border": "#d8d8d3"
+  },
+  "fonts": {
+   "heading": "Space Grotesk",
+   "body": "Inter",
+   "extra": [
+    "JetBrains Mono"
+   ]
+  },
+  "type": {
+   "heading_weight": 600,
+   "heading_transform": "none",
+   "heading_tracking": "-0.03em",
+   "heading_line": 1.04,
+   "base": 17,
+   "ratio": 1.3
+  },
+  "shape": {
+   "radius": "10px",
+   "button_radius": "8px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "80px",
+   "gap": "20px",
+   "width": "1040px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Tech Newsletter",
+   "colors": {
+    "primary": "#15180f",
+    "on_primary": "#fdfdf8",
+    "secondary": "#15180f",
+    "accent": "#5d7c0b",
+    "on_accent": "#fdfdf8",
+    "background": "#fdfdf8",
+    "surface": "#eef2d9",
+    "text": "#15180f",
+    "muted": "#565850",
+    "border": "#d8d8d3"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Space Grotesk / Inter",
+   "heading": "Space Grotesk",
+   "body": "Inter"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e265",
+   "type": "header",
+   "props": {
+    "layout": "classic",
+    "brand": "Signal Weekly",
+    "cta": {
+     "label": "Subscribe",
+     "href": {
+      "page": "contact"
+     }
+    }
+   },
+   "style": {
+    "border_bottom": "1px solid $c-border"
+   },
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e277",
+   "type": "footer",
+   "props": {
+    "tone": "default"
+   },
+   "style": {
+    "padding_block": "40px 26px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e276",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e273",
+       "type": "row",
+       "props": {},
+       "style": {
+        "justify_content": "space-between",
+        "gap": "20px"
+       },
+       "children": [
+        {
+         "id": "e266",
+         "type": "heading",
+         "props": {
+          "text": "Signal Weekly",
+          "level": 4
+         },
+         "style": {}
+        },
+        {
+         "id": "e272",
+         "type": "row",
+         "props": {},
+         "style": {
+          "gap": "20px"
+         },
+         "children": [
+          {
+           "id": "e267",
+           "type": "link",
+           "props": {
+            "label": "About",
+            "href": {
+             "page": "about"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e268",
+           "type": "link",
+           "props": {
+            "label": "Subscribe",
+            "href": {
+             "page": "services"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e269",
+           "type": "link",
+           "props": {
+            "label": "Investigations",
+            "href": {
+             "page": "portfolio"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e270",
+           "type": "link",
+           "props": {
+            "label": "Latest",
+            "href": {
+             "page": "blog"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e271",
+           "type": "link",
+           "props": {
+            "label": "Contact",
+            "href": {
+             "page": "contact"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e274",
+       "type": "divider",
+       "props": {},
+       "style": {
+        "margin_block": "20px 14px"
+       }
+      },
+      {
+       "id": "e275",
+       "type": "text",
+       "props": {
+        "text": "© Signal Weekly. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Subscribe",
+    "page": "services"
+   },
+   {
+    "label": "Investigations",
+    "page": "portfolio"
+   },
+   {
+    "label": "Latest",
+    "page": "blog"
+   },
+   {
+    "label": "Contact",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e22",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "clamp(80px,11vw,150px) 64px"
+     },
+     "children": [
+      {
+       "id": "e21",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e20",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "20px",
+          "max_width": "860px"
+         },
+         "children": [
+          {
+           "id": "e14",
+           "type": "text",
+           "props": {
+            "text": "/ Free, every Friday"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e15",
+           "type": "heading",
+           "props": {
+            "text": "The week in technology, without the noise",
+            "level": 1
+           },
+           "style": {
+            "font_size": "clamp(2.7rem,7vw,5.6rem)"
+           }
+          },
+          {
+           "id": "e16",
+           "type": "text",
+           "props": {
+            "text": "One email every Friday. Read by 80,000 engineers and founders who would rather be building.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.16rem",
+            "max_width": "60ch"
+           }
+          },
+          {
+           "id": "e19",
+           "type": "row",
+           "props": {},
+           "style": {
+            "margin_top": "10px",
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e17",
+             "type": "button",
+             "props": {
+              "label": "Subscribe free",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {}
+            },
+            {
+             "id": "e18",
+             "type": "button",
+             "props": {
+              "label": "Read past issues",
+              "href": {
+               "page": "portfolio"
+              },
+              "variant": "secondary"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e13",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {
+          "margin_top": "64px",
+          "padding_top": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "28px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 4
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e3",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e1",
+             "type": "heading",
+             "props": {
+              "text": "1.2M",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e2",
+             "type": "text",
+             "props": {
+              "text": "Monthly readers",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e6",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e4",
+             "type": "heading",
+             "props": {
+              "text": "11",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e5",
+             "type": "text",
+             "props": {
+              "text": "Bureaus",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e9",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e7",
+             "type": "heading",
+             "props": {
+              "text": "64",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e8",
+             "type": "text",
+             "props": {
+              "text": "Journalists",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e12",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e10",
+             "type": "heading",
+             "props": {
+              "text": "7",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e11",
+             "type": "text",
+             "props": {
+              "text": "Press awards",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e51",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e50",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e49",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e47",
+           "type": "text",
+           "props": {
+            "text": "/ Archive"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e48",
+           "type": "heading",
+           "props": {
+            "text": "Past issues",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e28",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e23",
+           "type": "text",
+           "props": {
+            "text": "Culture, 8 hours ago",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e26",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e24",
+             "type": "heading",
+             "props": {
+              "text": "The young directors changing African cinema",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e25",
+             "type": "text",
+             "props": {
+              "text": "A new generation is finding its own audience.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e27",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e34",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e29",
+           "type": "text",
+           "props": {
+            "text": "Economy, 2 hours ago",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e32",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e30",
+             "type": "heading",
+             "props": {
+              "text": "Central bank holds rates as inflation cools for a third month",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e31",
+             "type": "text",
+             "props": {
+              "text": "Policymakers signal caution despite easing prices.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e33",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e40",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e35",
+           "type": "text",
+           "props": {
+            "text": "Business, 3 hours ago",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e38",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e36",
+             "type": "heading",
+             "props": {
+              "text": "New rail link to cut freight times by half, report finds",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e37",
+             "type": "text",
+             "props": {
+              "text": "A long-delayed corridor finally has funding.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e39",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e46",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e41",
+           "type": "text",
+           "props": {
+            "text": "Science, 5 hours ago",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e44",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e42",
+             "type": "heading",
+             "props": {
+              "text": "Scientists map drought resilience across the region",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e43",
+             "type": "text",
+             "props": {
+              "text": "Crop data offers hope for smallholder farmers.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e45",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e72",
+     "type": "section",
+     "props": {
+      "role": "testimonials",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e71",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e69",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e67",
+           "type": "text",
+           "props": {
+            "text": "/ Testimonials"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e68",
+           "type": "heading",
+           "props": {
+            "text": "What people say",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e70",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e56",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e52",
+             "type": "text",
+             "props": {
+              "text": "“Their investigation changed the law. That is what journalism is for.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e55",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e53",
+               "type": "text",
+               "props": {
+                "text": "Prof. James Ade"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e54",
+               "type": "text",
+               "props": {
+                "text": "University of Lagos",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e61",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e57",
+             "type": "text",
+             "props": {
+              "text": "“Careful, fair and impossible to ignore.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e60",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e58",
+               "type": "text",
+               "props": {
+                "text": "Press Council"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e59",
+               "type": "text",
+               "props": {
+                "text": "Annual citation",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e66",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e62",
+             "type": "text",
+             "props": {
+              "text": "“The only morning read I never skip.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e65",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e63",
+               "type": "text",
+               "props": {
+                "text": "Mutinta Hamoonga"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e64",
+               "type": "text",
+               "props": {
+                "text": "Subscriber",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e99",
+     "type": "section",
+     "props": {
+      "role": "pricing"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e98",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e96",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e94",
+           "type": "text",
+           "props": {
+            "text": "/ Subscribe"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e95",
+           "type": "heading",
+           "props": {
+            "text": "Support independent journalism",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e97",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "20px",
+          "align_items": "stretch"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e78",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e73",
+             "type": "heading",
+             "props": {
+              "text": "Group",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e74",
+             "type": "heading",
+             "props": {
+              "text": "From $40",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e75",
+             "type": "text",
+             "props": {
+              "text": "For teams and classrooms.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e76",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e77",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e84",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius"
+           },
+           "children": [
+            {
+             "id": "e79",
+             "type": "heading",
+             "props": {
+              "text": "Gift",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e80",
+             "type": "heading",
+             "props": {
+              "text": "$60",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e81",
+             "type": "text",
+             "props": {
+              "text": "A year of reporting, for someone else.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e82",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e83",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e93",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e88",
+             "type": "heading",
+             "props": {
+              "text": "Digital",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e89",
+             "type": "heading",
+             "props": {
+              "text": "$6",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e90",
+             "type": "text",
+             "props": {
+              "text": "Every article, every device.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e91",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e85",
+             "type": "text",
+             "props": {
+              "text": "✓  All articles",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e86",
+             "type": "text",
+             "props": {
+              "text": "✓  Morning briefing",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e87",
+             "type": "text",
+             "props": {
+              "text": "✓  Full archive",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e92",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e108",
+     "type": "section",
+     "props": {
+      "role": "faq"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e107",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e102",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e100",
+           "type": "text",
+           "props": {
+            "text": "/ FAQ"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e101",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e103",
+         "type": "faq_item",
+         "props": {
+          "question": "Who funds your journalism?",
+          "answer": "Mainly our subscribers. We publish a full funding statement every year.",
+          "open": true
+         },
+         "style": {}
+        },
+        {
+         "id": "e104",
+         "type": "faq_item",
+         "props": {
+          "question": "How do I report a mistake?",
+          "answer": "Write to corrections@example.com. Corrections are published and dated.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e105",
+         "type": "faq_item",
+         "props": {
+          "question": "Can I send a confidential tip?",
+          "answer": "Yes. See our secure tips page for the safest ways to reach us.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e106",
+         "type": "faq_item",
+         "props": {
+          "question": "Can I cancel any time?",
+          "answer": "Yes, with one click from your account page.",
+          "open": false
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e114",
+     "type": "section",
+     "props": {
+      "role": "call_to_action"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e113",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e112",
+         "type": "container",
+         "props": {
+          "tone": "primary"
+         },
+         "style": {
+          "gap": "16px",
+          "padding": "clamp(32px,6vw,72px)",
+          "border_radius": "$radius"
+         },
+         "children": [
+          {
+           "id": "e109",
+           "type": "heading",
+           "props": {
+            "text": "Journalism that answers only to you",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e110",
+           "type": "text",
+           "props": {
+            "text": "Subscribe from the price of a coffee a week and get every story, every day.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem",
+            "max_width": "50ch"
+           }
+          },
+          {
+           "id": "e111",
+           "type": "button",
+           "props": {
+            "label": "Subscribe free",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {
+            "align_self": "flex-start",
+            "margin_top": "8px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e140",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e139",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e137",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e138",
+         "type": "text",
+         "props": {
+          "text": "Who we are, who funds us and the standards we follow.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e118",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e117",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "22px"
+       },
+       "children": [
+        {
+         "id": "e115",
+         "type": "text",
+         "props": {
+          "text": "/ About"
+         },
+         "style": {
+          "font_size": ".8rem",
+          "font_family": "'JetBrains Mono',monospace",
+          "color": "$c-muted"
+         },
+         "name": "Eyebrow"
+        },
+        {
+         "id": "e116",
+         "type": "heading",
+         "props": {
+          "text": "We are an independent newsroom reporting on politics, business, science and culture, with no owner to answer to except our readers.",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(1.8rem,3.8vw,3.2rem)",
+          "line_height": "1.22",
+          "max_width": "24em"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e136",
+     "type": "section",
+     "props": {
+      "role": "team",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e135",
+       "type": "columns",
+       "props": {
+        "columns": "4fr 8fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "48px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e133",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px"
+         },
+         "children": [
+          {
+           "id": "e131",
+           "type": "text",
+           "props": {
+            "text": "/ Team"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e132",
+           "type": "heading",
+           "props": {
+            "text": "The newsroom",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e134",
+         "type": "container",
+         "props": {},
+         "style": {},
+         "children": [
+          {
+           "id": "e121",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e119",
+             "type": "heading",
+             "props": {
+              "text": "Oliver Grant",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e120",
+             "type": "text",
+             "props": {
+              "text": "Culture Editor",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e124",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e122",
+             "type": "heading",
+             "props": {
+              "text": "Chanda Mulenga",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e123",
+             "type": "text",
+             "props": {
+              "text": "Editor-in-Chief",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e127",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e125",
+             "type": "heading",
+             "props": {
+              "text": "Ibrahim Sesay",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e126",
+             "type": "text",
+             "props": {
+              "text": "Investigations Editor",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e130",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e128",
+             "type": "heading",
+             "props": {
+              "text": "Laura Whitfield",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e129",
+             "type": "text",
+             "props": {
+              "text": "Business Editor",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "subscribe",
+   "title": "Subscribe",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e180",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e179",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e177",
+         "type": "heading",
+         "props": {
+          "text": "Subscribe",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e178",
+         "type": "text",
+         "props": {
+          "text": "Newsletters, podcasts and subscriptions.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e167",
+     "type": "section",
+     "props": {
+      "role": "pricing"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e166",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e164",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e162",
+           "type": "text",
+           "props": {
+            "text": "/ Subscribe"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e163",
+           "type": "heading",
+           "props": {
+            "text": "Support independent journalism",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e165",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "20px",
+          "align_items": "stretch"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e146",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e141",
+             "type": "heading",
+             "props": {
+              "text": "Group",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e142",
+             "type": "heading",
+             "props": {
+              "text": "From $40",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e143",
+             "type": "text",
+             "props": {
+              "text": "For teams and classrooms.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e144",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e145",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e152",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius"
+           },
+           "children": [
+            {
+             "id": "e147",
+             "type": "heading",
+             "props": {
+              "text": "Gift",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e148",
+             "type": "heading",
+             "props": {
+              "text": "$60",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e149",
+             "type": "text",
+             "props": {
+              "text": "A year of reporting, for someone else.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e150",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e151",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e161",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e156",
+             "type": "heading",
+             "props": {
+              "text": "Digital",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e157",
+             "type": "heading",
+             "props": {
+              "text": "$6",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e158",
+             "type": "text",
+             "props": {
+              "text": "Every article, every device.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e159",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e153",
+             "type": "text",
+             "props": {
+              "text": "✓  All articles",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e154",
+             "type": "text",
+             "props": {
+              "text": "✓  Morning briefing",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e155",
+             "type": "text",
+             "props": {
+              "text": "✓  Full archive",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e160",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e176",
+     "type": "section",
+     "props": {
+      "role": "faq",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e175",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e170",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e168",
+           "type": "text",
+           "props": {
+            "text": "/ FAQ"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e169",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e171",
+         "type": "faq_item",
+         "props": {
+          "question": "Who funds your journalism?",
+          "answer": "Mainly our subscribers. We publish a full funding statement every year.",
+          "open": true
+         },
+         "style": {}
+        },
+        {
+         "id": "e172",
+         "type": "faq_item",
+         "props": {
+          "question": "How do I report a mistake?",
+          "answer": "Write to corrections@example.com. Corrections are published and dated.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e173",
+         "type": "faq_item",
+         "props": {
+          "question": "Can I send a confidential tip?",
+          "answer": "Yes. See our secure tips page for the safest ways to reach us.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e174",
+         "type": "faq_item",
+         "props": {
+          "question": "Can I cancel any time?",
+          "answer": "Yes, with one click from your account page.",
+          "open": false
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "investigations",
+   "title": "Investigations",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e219",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e218",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e216",
+         "type": "heading",
+         "props": {
+          "text": "Investigations",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e217",
+         "type": "text",
+         "props": {
+          "text": "Our longest and most important reporting.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e215",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e214",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e213",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e211",
+           "type": "text",
+           "props": {
+            "text": "/ In depth"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e212",
+           "type": "heading",
+           "props": {
+            "text": "Investigations",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e186",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e181",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "tech-newsletter-1",
+             "subject": "landscape",
+             "ratio": 1.6,
+             "label": "Lost Harvest"
+            },
+            "alt": "Lost Harvest",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e184",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e182",
+             "type": "heading",
+             "props": {
+              "text": "Lost Harvest",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e183",
+             "type": "text",
+             "props": {
+              "text": "Photo essay",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e185",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e192",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e187",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "tech-newsletter-2",
+             "subject": "landscape",
+             "ratio": 1.6,
+             "label": "The City After Dark"
+            },
+            "alt": "The City After Dark",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e190",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e188",
+             "type": "heading",
+             "props": {
+              "text": "The City After Dark",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e189",
+             "type": "text",
+             "props": {
+              "text": "Documentary",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e191",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e198",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e193",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "tech-newsletter-3",
+             "subject": "landscape",
+             "ratio": 1.6,
+             "label": "The Offshore Files"
+            },
+            "alt": "The Offshore Files",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e196",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e194",
+             "type": "heading",
+             "props": {
+              "text": "The Offshore Files",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e195",
+             "type": "text",
+             "props": {
+              "text": "A two-year investigation",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e197",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e204",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e199",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "tech-newsletter-4",
+             "subject": "landscape",
+             "ratio": 1.6,
+             "label": "Who Owns the Water"
+            },
+            "alt": "Who Owns the Water",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e202",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e200",
+             "type": "heading",
+             "props": {
+              "text": "Who Owns the Water",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e201",
+             "type": "text",
+             "props": {
+              "text": "Series, six parts",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e203",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e210",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e205",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "tech-newsletter-5",
+             "subject": "landscape",
+             "ratio": 1.6,
+             "label": "The Price of Copper"
+            },
+            "alt": "The Price of Copper",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e208",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e206",
+             "type": "heading",
+             "props": {
+              "text": "The Price of Copper",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e207",
+             "type": "text",
+             "props": {
+              "text": "Data investigation",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e209",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "latest",
+   "title": "Latest",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e252",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e251",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e249",
+         "type": "heading",
+         "props": {
+          "text": "Latest",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e250",
+         "type": "text",
+         "props": {
+          "text": "The latest news and analysis.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e248",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e247",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e246",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e244",
+           "type": "text",
+           "props": {
+            "text": "/ Archive"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e245",
+           "type": "heading",
+           "props": {
+            "text": "Past issues",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e225",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e220",
+           "type": "text",
+           "props": {
+            "text": "Culture, 8 hours ago",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e223",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e221",
+             "type": "heading",
+             "props": {
+              "text": "The young directors changing African cinema",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e222",
+             "type": "text",
+             "props": {
+              "text": "A new generation is finding its own audience.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e224",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e231",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e226",
+           "type": "text",
+           "props": {
+            "text": "Economy, 2 hours ago",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e229",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e227",
+             "type": "heading",
+             "props": {
+              "text": "Central bank holds rates as inflation cools for a third month",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e228",
+             "type": "text",
+             "props": {
+              "text": "Policymakers signal caution despite easing prices.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e230",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e237",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e232",
+           "type": "text",
+           "props": {
+            "text": "Business, 3 hours ago",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e235",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e233",
+             "type": "heading",
+             "props": {
+              "text": "New rail link to cut freight times by half, report finds",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e234",
+             "type": "text",
+             "props": {
+              "text": "A long-delayed corridor finally has funding.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e236",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e243",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e238",
+           "type": "text",
+           "props": {
+            "text": "Science, 5 hours ago",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e241",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e239",
+             "type": "heading",
+             "props": {
+              "text": "Scientists map drought resilience across the region",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e240",
+             "type": "text",
+             "props": {
+              "text": "Crop data offers hope for smallholder farmers.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e242",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e264",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e263",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e261",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e262",
+         "type": "text",
+         "props": {
+          "text": "Tips, corrections and general enquiries.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e260",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e259",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e258",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e255",
+           "type": "text",
+           "props": {
+            "text": "/ Contact"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e256",
+           "type": "heading",
+           "props": {
+            "text": "Reach the newsroom",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e257",
+           "type": "text",
+           "props": {
+            "text": "Subscribe from the price of a coffee a week and get every story, every day.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e254",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px",
+          "border": "1px solid $c-border",
+          "border_radius": "$card-radius",
+          "padding": "clamp(24px,4vw,44px)"
+         },
+         "children": [
+          {
+           "id": "e253",
+           "type": "contact_form",
+           "props": {
+            "fields": [
+             {
+              "label": "Your name",
+              "type": "text"
+             },
+             {
+              "label": "Email address",
+              "type": "email"
+             },
+             {
+              "label": "Message",
+              "type": "textarea"
+             }
+            ],
+            "submit": "Send to the newsroom"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "line",
+  "assets": []
+ },
+ "reusable": []
+}

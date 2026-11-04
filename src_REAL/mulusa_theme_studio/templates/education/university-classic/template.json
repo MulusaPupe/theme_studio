@@ -1,0 +1,4091 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "education/university-classic",
+  "template_name": "University Classic",
+  "name": "Kingsway University",
+  "description": "Heritage maroon and traditional serif for an established institution.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#7a1b2e",
+   "on_primary": "#ffffff",
+   "secondary": "#5a1927",
+   "accent": "#b7913e",
+   "on_accent": "#20161a",
+   "background": "#ffffff",
+   "surface": "#f7f2ec",
+   "text": "#20161a",
+   "muted": "#5e575a",
+   "border": "#dbdada"
+  },
+  "fonts": {
+   "heading": "Libre Baskerville",
+   "body": "Source Serif 4",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 700,
+   "heading_transform": "none",
+   "heading_tracking": "-0.012em",
+   "heading_line": 1.18,
+   "base": 17,
+   "ratio": 1.25
+  },
+  "shape": {
+   "radius": "2px",
+   "button_radius": "2px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "92px",
+   "gap": "26px",
+   "width": "1220px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "University Classic",
+   "colors": {
+    "primary": "#7a1b2e",
+    "on_primary": "#ffffff",
+    "secondary": "#5a1927",
+    "accent": "#b7913e",
+    "on_accent": "#20161a",
+    "background": "#ffffff",
+    "surface": "#f7f2ec",
+    "text": "#20161a",
+    "muted": "#5e575a",
+    "border": "#dbdada"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Libre Baskerville / Source Serif 4",
+   "heading": "Libre Baskerville",
+   "body": "Source Serif 4"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e304",
+   "type": "header",
+   "props": {
+    "layout": "classic",
+    "brand": "Kingsway University",
+    "overlay": true,
+    "cta": {
+     "label": "Apply",
+     "href": {
+      "page": "contact"
+     }
+    }
+   },
+   "style": {
+    "color": "#ffffff"
+   },
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e323",
+   "type": "footer",
+   "props": {
+    "tone": "primary"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e322",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e319",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 3fr 4fr"
+       },
+       "style": {
+        "gap": "40px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": "5fr 3fr 4fr"
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e307",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "10px"
+         },
+         "children": [
+          {
+           "id": "e305",
+           "type": "heading",
+           "props": {
+            "text": "Kingsway University",
+            "level": 3
+           },
+           "style": {
+            "font_size": "1.5rem"
+           }
+          },
+          {
+           "id": "e306",
+           "type": "text",
+           "props": {
+            "text": "For over fifty years we have helped students of every background find what they are good at,.",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem",
+            "max_width": "34ch"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e314",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e308",
+           "type": "heading",
+           "props": {
+            "text": "Explore",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e309",
+           "type": "link",
+           "props": {
+            "label": "About",
+            "href": {
+             "page": "about"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e310",
+           "type": "link",
+           "props": {
+            "label": "Programmes",
+            "href": {
+             "page": "services"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e311",
+           "type": "link",
+           "props": {
+            "label": "Campus Life",
+            "href": {
+             "page": "portfolio"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e312",
+           "type": "link",
+           "props": {
+            "label": "News",
+            "href": {
+             "page": "blog"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e313",
+           "type": "link",
+           "props": {
+            "label": "Contact",
+            "href": {
+             "page": "contact"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          }
+         ]
+        },
+        {
+         "id": "e318",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e315",
+           "type": "heading",
+           "props": {
+            "text": "Contact",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e316",
+           "type": "text",
+           "props": {
+            "text": "100 Example Road, Your City",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          },
+          {
+           "id": "e317",
+           "type": "text",
+           "props": {
+            "text": "hello@example.com",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e320",
+       "type": "divider",
+       "props": {},
+       "style": {
+        "margin_block": "40px 14px"
+       }
+      },
+      {
+       "id": "e321",
+       "type": "text",
+       "props": {
+        "text": "© Kingsway University. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Programmes",
+    "page": "services"
+   },
+   {
+    "label": "Campus Life",
+    "page": "portfolio"
+   },
+   {
+    "label": "News",
+    "page": "blog"
+   },
+   {
+    "label": "Contact",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e9",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "university-classic-1",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "linear-gradient(180deg,rgba(6,8,14,.45),rgba(6,8,14,.72))",
+       "alt": ""
+      }
+     },
+     "style": {
+      "min_height": "clamp(560px,86vh,860px)",
+      "display": "flex",
+      "align_items": "flex-end",
+      "padding_block": "150px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e8",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "justify_content": "flex-end",
+        "min_height": "inherit"
+       },
+       "children": [
+        {
+         "id": "e7",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "20px",
+          "max_width": "760px",
+          "color": "#ffffff"
+         },
+         "children": [
+          {
+           "id": "e1",
+           "type": "text",
+           "props": {
+            "text": "Applications open"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e2",
+           "type": "heading",
+           "props": {
+            "text": "A tradition of asking better questions",
+            "level": 1
+           },
+           "style": {
+            "font_size": "clamp(2.4rem,5.6vw,4.6rem)"
+           }
+          },
+          {
+           "id": "e3",
+           "type": "text",
+           "props": {
+            "text": "Over fifty years of teaching, research and public service, on one historic campus.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.16rem",
+            "max_width": "60ch"
+           }
+          },
+          {
+           "id": "e6",
+           "type": "row",
+           "props": {},
+           "style": {
+            "margin_top": "10px",
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e4",
+             "type": "button",
+             "props": {
+              "label": "Apply now",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {}
+            },
+            {
+             "id": "e5",
+             "type": "button",
+             "props": {
+              "label": "Explore courses",
+              "href": {
+               "page": "portfolio"
+              },
+              "variant": "secondary"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e24",
+     "type": "section",
+     "props": {
+      "role": "statistics",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "56px"
+     },
+     "children": [
+      {
+       "id": "e23",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e22",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 4
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e12",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e10",
+             "type": "heading",
+             "props": {
+              "text": "8,400",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e11",
+             "type": "text",
+             "props": {
+              "text": "Students",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e15",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e13",
+             "type": "heading",
+             "props": {
+              "text": "94%",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e14",
+             "type": "text",
+             "props": {
+              "text": "Employed in six months",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e18",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e16",
+             "type": "heading",
+             "props": {
+              "text": "120",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e17",
+             "type": "text",
+             "props": {
+              "text": "Courses",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e21",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e19",
+             "type": "heading",
+             "props": {
+              "text": "52",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e20",
+             "type": "text",
+             "props": {
+              "text": "Years teaching",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e42",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e41",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e39",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e37",
+           "type": "text",
+           "props": {
+            "text": "Programmes"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e38",
+           "type": "heading",
+           "props": {
+            "text": "Programmes for every stage",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e40",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e28",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e25",
+             "type": "icon",
+             "props": {
+              "name": "graduation-cap"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e26",
+             "type": "heading",
+             "props": {
+              "text": "Undergraduate degrees",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e27",
+             "type": "text",
+             "props": {
+              "text": "Three-year programmes with real-world placements.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e32",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e29",
+             "type": "icon",
+             "props": {
+              "name": "microscope"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e30",
+             "type": "heading",
+             "props": {
+              "text": "Postgraduate study",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e31",
+             "type": "text",
+             "props": {
+              "text": "Advanced study and research with leading academics.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e36",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e33",
+             "type": "icon",
+             "props": {
+              "name": "clock"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e34",
+             "type": "heading",
+             "props": {
+              "text": "Short courses",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e35",
+             "type": "text",
+             "props": {
+              "text": "Evening and weekend courses for working professionals.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e51",
+     "type": "section",
+     "props": {
+      "role": "about",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e50",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "68px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e43",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "university-classic-2",
+           "subject": "building",
+           "ratio": 1.1,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 1.1
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "e49",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e44",
+           "type": "text",
+           "props": {
+            "text": "About"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e45",
+           "type": "heading",
+           "props": {
+            "text": "An education that opens doors",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e46",
+           "type": "text",
+           "props": {
+            "text": "For over fifty years we have helped students of every background find what they are good at, and given them the confidence to go further.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e47",
+           "type": "text",
+           "props": {
+            "text": "Small classes, dedicated teachers and strong links with employers mean students are known, challenged and ready for what comes next.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e48",
+           "type": "link",
+           "props": {
+            "label": "Our story",
+            "href": {
+             "page": "about"
+            },
+            "arrow": true
+           },
+           "style": {
+            "margin_top": "6px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e81",
+     "type": "section",
+     "props": {
+      "role": "events"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e80",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e79",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e77",
+           "type": "text",
+           "props": {
+            "text": "Events"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e78",
+           "type": "heading",
+           "props": {
+            "text": "Dates for your diary",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e56",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 6fr 3fr auto"
+         },
+         "style": {
+          "padding_block": "20px",
+          "border_top": "1px solid $c-border",
+          "gap": "14px 22px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e52",
+           "type": "heading",
+           "props": {
+            "text": "15 Jan",
+            "level": 4
+           },
+           "style": {}
+          },
+          {
+           "id": "e53",
+           "type": "heading",
+           "props": {
+            "text": "Undergraduate open day",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.2rem,2.4vw,1.8rem)"
+           }
+          },
+          {
+           "id": "e54",
+           "type": "text",
+           "props": {
+            "text": "Main Campus",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e55",
+           "type": "button",
+           "props": {
+            "label": "Book",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "secondary"
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e61",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 6fr 3fr auto"
+         },
+         "style": {
+          "padding_block": "20px",
+          "border_top": "1px solid $c-border",
+          "gap": "14px 22px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e57",
+           "type": "heading",
+           "props": {
+            "text": "02 Feb",
+            "level": 4
+           },
+           "style": {}
+          },
+          {
+           "id": "e58",
+           "type": "heading",
+           "props": {
+            "text": "Scholarship information evening",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.2rem,2.4vw,1.8rem)"
+           }
+          },
+          {
+           "id": "e59",
+           "type": "text",
+           "props": {
+            "text": "Online",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e60",
+           "type": "button",
+           "props": {
+            "label": "Book",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "secondary"
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e66",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 6fr 3fr auto"
+         },
+         "style": {
+          "padding_block": "20px",
+          "border_top": "1px solid $c-border",
+          "gap": "14px 22px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e62",
+           "type": "heading",
+           "props": {
+            "text": "20 Feb",
+            "level": 4
+           },
+           "style": {}
+          },
+          {
+           "id": "e63",
+           "type": "heading",
+           "props": {
+            "text": "Science fair",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.2rem,2.4vw,1.8rem)"
+           }
+          },
+          {
+           "id": "e64",
+           "type": "text",
+           "props": {
+            "text": "Innovation Hall",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e65",
+           "type": "button",
+           "props": {
+            "label": "Book",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "secondary"
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e71",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 6fr 3fr auto"
+         },
+         "style": {
+          "padding_block": "20px",
+          "border_top": "1px solid $c-border",
+          "gap": "14px 22px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e67",
+           "type": "heading",
+           "props": {
+            "text": "14 Mar",
+            "level": 4
+           },
+           "style": {}
+          },
+          {
+           "id": "e68",
+           "type": "heading",
+           "props": {
+            "text": "Parents' evening",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.2rem,2.4vw,1.8rem)"
+           }
+          },
+          {
+           "id": "e69",
+           "type": "text",
+           "props": {
+            "text": "Great Hall",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e70",
+           "type": "button",
+           "props": {
+            "label": "Book",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "secondary"
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e76",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 6fr 3fr auto"
+         },
+         "style": {
+          "padding_block": "20px",
+          "border_top": "1px solid $c-border",
+          "gap": "14px 22px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e72",
+           "type": "heading",
+           "props": {
+            "text": "11 Apr",
+            "level": 4
+           },
+           "style": {}
+          },
+          {
+           "id": "e73",
+           "type": "heading",
+           "props": {
+            "text": "Applications close",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.2rem,2.4vw,1.8rem)"
+           }
+          },
+          {
+           "id": "e74",
+           "type": "text",
+           "props": {
+            "text": "Admissions",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e75",
+           "type": "button",
+           "props": {
+            "label": "Book",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "secondary"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e102",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e101",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e99",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e97",
+           "type": "text",
+           "props": {
+            "text": "News"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e98",
+           "type": "heading",
+           "props": {
+            "text": "News from campus",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e100",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "32px"
+         },
+         "children": [
+          {
+           "id": "e86",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e82",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "university-classic-3",
+               "subject": "portrait",
+               "ratio": 1.55,
+               "label": "How to choose the right degree"
+              },
+              "alt": "How to choose the right degree",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e83",
+             "type": "text",
+             "props": {
+              "text": "Advice, 6 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e84",
+             "type": "heading",
+             "props": {
+              "text": "How to choose the right degree",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e85",
+             "type": "text",
+             "props": {
+              "text": "Five questions to ask before applying.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e91",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e87",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "university-classic-4",
+               "subject": "portrait",
+               "ratio": 1.55,
+               "label": "Applying for a scholarship: a guide"
+              },
+              "alt": "Applying for a scholarship: a guide",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e88",
+             "type": "text",
+             "props": {
+              "text": "Advice, 5 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e89",
+             "type": "heading",
+             "props": {
+              "text": "Applying for a scholarship: a guide",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e90",
+             "type": "text",
+             "props": {
+              "text": "What selection panels look for.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e96",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e92",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "university-classic-5",
+               "subject": "portrait",
+               "ratio": 1.55,
+               "label": "Research team wins national award"
+              },
+              "alt": "Research team wins national award",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e93",
+             "type": "text",
+             "props": {
+              "text": "News, 3 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e94",
+             "type": "heading",
+             "props": {
+              "text": "Research team wins national award",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e95",
+             "type": "text",
+             "props": {
+              "text": "Solar lab recognised for student-led work.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e107",
+     "type": "section",
+     "props": {
+      "role": "call_to_action",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "64px"
+     },
+     "children": [
+      {
+       "id": "e106",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e105",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "gap": "28px"
+         },
+         "children": [
+          {
+           "id": "e103",
+           "type": "heading",
+           "props": {
+            "text": "Your next chapter starts here",
+            "level": 2
+           },
+           "style": {
+            "max_width": "20em",
+            "flex": "1 1 320px"
+           }
+          },
+          {
+           "id": "e104",
+           "type": "button",
+           "props": {
+            "label": "Apply now",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e154",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "university-classic-11",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e153",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e151",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e152",
+         "type": "text",
+         "props": {
+          "text": "Our history, values and people."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e116",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e115",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e110",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e108",
+           "type": "text",
+           "props": {
+            "text": "About"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e109",
+           "type": "heading",
+           "props": {
+            "text": "An education that opens doors",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e113",
+         "type": "columns",
+         "props": {
+          "columns": 2
+         },
+         "style": {
+          "gap": "48px"
+         },
+         "children": [
+          {
+           "id": "e111",
+           "type": "text",
+           "props": {
+            "text": "For over fifty years we have helped students of every background find what they are good at, and given them the confidence to go further.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem"
+           }
+          },
+          {
+           "id": "e112",
+           "type": "text",
+           "props": {
+            "text": "Small classes, dedicated teachers and strong links with employers mean students are known, challenged and ready for what comes next.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e114",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "university-classic-6",
+           "subject": "building",
+           "ratio": 2.6,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 2.6
+         },
+         "style": {
+          "margin_top": "48px",
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e138",
+     "type": "section",
+     "props": {
+      "role": "team",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e137",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e135",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e133",
+           "type": "text",
+           "props": {
+            "text": "Team"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e134",
+           "type": "heading",
+           "props": {
+            "text": "Meet our academics",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e136",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e120",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e117",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "university-classic-7",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Prof. Ruth Mwila"
+              },
+              "alt": "Prof. Ruth Mwila",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e118",
+             "type": "heading",
+             "props": {
+              "text": "Prof. Ruth Mwila",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e119",
+             "type": "text",
+             "props": {
+              "text": "Vice-Chancellor",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e124",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e121",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "university-classic-8",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Dr Alan Pierce"
+              },
+              "alt": "Dr Alan Pierce",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e122",
+             "type": "heading",
+             "props": {
+              "text": "Dr Alan Pierce",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e123",
+             "type": "text",
+             "props": {
+              "text": "Dean of Science",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e128",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e125",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "university-classic-9",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Dr Hope Zulu"
+              },
+              "alt": "Dr Hope Zulu",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e126",
+             "type": "heading",
+             "props": {
+              "text": "Dr Hope Zulu",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e127",
+             "type": "text",
+             "props": {
+              "text": "Dean of Arts",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e132",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e129",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "university-classic-10",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Ms Eva Daka"
+              },
+              "alt": "Ms Eva Daka",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e130",
+             "type": "heading",
+             "props": {
+              "text": "Ms Eva Daka",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e131",
+             "type": "text",
+             "props": {
+              "text": "Head of Admissions",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e150",
+     "type": "section",
+     "props": {
+      "role": "statistics"
+     },
+     "style": {
+      "padding_block": "64px"
+     },
+     "children": [
+      {
+       "id": "e149",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e148",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e141",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e139",
+             "type": "heading",
+             "props": {
+              "text": "8,400",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e140",
+             "type": "text",
+             "props": {
+              "text": "Students",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e144",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e142",
+             "type": "heading",
+             "props": {
+              "text": "94%",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e143",
+             "type": "text",
+             "props": {
+              "text": "Employed in six months",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e147",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e145",
+             "type": "heading",
+             "props": {
+              "text": "120",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e146",
+             "type": "text",
+             "props": {
+              "text": "Courses",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "programmes",
+   "title": "Programmes",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e224",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "university-classic-12",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e223",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e221",
+         "type": "heading",
+         "props": {
+          "text": "Programmes",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e222",
+         "type": "text",
+         "props": {
+          "text": "Degrees, short courses and online study."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e175",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e174",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e173",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e171",
+           "type": "text",
+           "props": {
+            "text": "Programmes"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e172",
+           "type": "heading",
+           "props": {
+            "text": "Programmes for every stage",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e158",
+         "type": "columns",
+         "props": {
+          "columns": "80px 4fr 6fr"
+         },
+         "style": {
+          "padding_block": "28px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "60px 1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e155",
+           "type": "text",
+           "props": {
+            "text": "01",
+            "muted": true
+           },
+           "style": {
+            "font_family": "$font-heading",
+            "font_size": "1.1rem"
+           }
+          },
+          {
+           "id": "e156",
+           "type": "heading",
+           "props": {
+            "text": "Undergraduate degrees",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e157",
+           "type": "text",
+           "props": {
+            "text": "Three-year programmes with real-world placements.",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e162",
+         "type": "columns",
+         "props": {
+          "columns": "80px 4fr 6fr"
+         },
+         "style": {
+          "padding_block": "28px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "60px 1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e159",
+           "type": "text",
+           "props": {
+            "text": "02",
+            "muted": true
+           },
+           "style": {
+            "font_family": "$font-heading",
+            "font_size": "1.1rem"
+           }
+          },
+          {
+           "id": "e160",
+           "type": "heading",
+           "props": {
+            "text": "Postgraduate study",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e161",
+           "type": "text",
+           "props": {
+            "text": "Advanced study and research with leading academics.",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e166",
+         "type": "columns",
+         "props": {
+          "columns": "80px 4fr 6fr"
+         },
+         "style": {
+          "padding_block": "28px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "60px 1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e163",
+           "type": "text",
+           "props": {
+            "text": "03",
+            "muted": true
+           },
+           "style": {
+            "font_family": "$font-heading",
+            "font_size": "1.1rem"
+           }
+          },
+          {
+           "id": "e164",
+           "type": "heading",
+           "props": {
+            "text": "Short courses",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e165",
+           "type": "text",
+           "props": {
+            "text": "Evening and weekend courses for working professionals.",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e170",
+         "type": "columns",
+         "props": {
+          "columns": "80px 4fr 6fr"
+         },
+         "style": {
+          "padding_block": "28px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "60px 1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e167",
+           "type": "text",
+           "props": {
+            "text": "04",
+            "muted": true
+           },
+           "style": {
+            "font_family": "$font-heading",
+            "font_size": "1.1rem"
+           }
+          },
+          {
+           "id": "e168",
+           "type": "heading",
+           "props": {
+            "text": "Online learning",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e169",
+           "type": "text",
+           "props": {
+            "text": "Flexible study from anywhere, with live tutor support.",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e211",
+     "type": "section",
+     "props": {
+      "role": "pricing",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e210",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e208",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e206",
+           "type": "text",
+           "props": {
+            "text": "Fees"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e207",
+           "type": "heading",
+           "props": {
+            "text": "Tuition and fees",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e209",
+         "type": "columns",
+         "props": {
+          "columns": 2
+         },
+         "style": {
+          "gap": "0 64px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e180",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e178",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e176",
+               "type": "heading",
+               "props": {
+                "text": "Foundation year",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e177",
+               "type": "heading",
+               "props": {
+                "text": "$2,400",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e179",
+             "type": "text",
+             "props": {
+              "text": "Per year. Prepare for degree study.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e185",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e183",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e181",
+               "type": "heading",
+               "props": {
+                "text": "Undergraduate",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e182",
+               "type": "heading",
+               "props": {
+                "text": "$4,200",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e184",
+             "type": "text",
+             "props": {
+              "text": "Per year. Three-year degree.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e190",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e188",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e186",
+               "type": "heading",
+               "props": {
+                "text": "Postgraduate",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e187",
+               "type": "heading",
+               "props": {
+                "text": "$5,800",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e189",
+             "type": "text",
+             "props": {
+              "text": "Per year. Taught or research.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e195",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e193",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e191",
+               "type": "heading",
+               "props": {
+                "text": "Short course",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e192",
+               "type": "heading",
+               "props": {
+                "text": "From $320",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e194",
+             "type": "text",
+             "props": {
+              "text": "Six to twelve weeks.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e200",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e198",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e196",
+               "type": "heading",
+               "props": {
+                "text": "Online certificate",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e197",
+               "type": "heading",
+               "props": {
+                "text": "$890",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e199",
+             "type": "text",
+             "props": {
+              "text": "Study at your own pace.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e205",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e203",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e201",
+               "type": "heading",
+               "props": {
+                "text": "Application fee",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e202",
+               "type": "heading",
+               "props": {
+                "text": "$25",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e204",
+             "type": "text",
+             "props": {
+              "text": "Waived for scholarship applicants.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e220",
+     "type": "section",
+     "props": {
+      "role": "faq"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e219",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e214",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e212",
+           "type": "text",
+           "props": {
+            "text": "FAQ"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e213",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e215",
+         "type": "faq_item",
+         "props": {
+          "question": "When do applications open?",
+          "answer": "In September for study starting the following year. Late applications are considered if places remain.",
+          "open": true
+         },
+         "style": {}
+        },
+        {
+         "id": "e216",
+         "type": "faq_item",
+         "props": {
+          "question": "What financial support is there?",
+          "answer": "Scholarships, bursaries and payment plans are available. Our fees team can advise you.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e217",
+         "type": "faq_item",
+         "props": {
+          "question": "Can I visit before applying?",
+          "answer": "Yes. Join an open day, or arrange a private campus tour.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e218",
+         "type": "faq_item",
+         "props": {
+          "question": "Do you accept international students?",
+          "answer": "Yes, from over forty countries, with dedicated visa support.",
+          "open": false
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "campus-life",
+   "title": "Campus Life",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e258",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "university-classic-19",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e257",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e255",
+         "type": "heading",
+         "props": {
+          "text": "Campus Life",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e256",
+         "type": "text",
+         "props": {
+          "text": "Student work, research and life on campus."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e254",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e253",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e227",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e225",
+           "type": "text",
+           "props": {
+            "text": "Campus"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e226",
+           "type": "heading",
+           "props": {
+            "text": "Student life and research",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e252",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "36px 26px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e231",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e228",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "university-classic-13",
+               "subject": "books",
+               "ratio": 1.25,
+               "label": "Solar Lab Project"
+              },
+              "alt": "Solar Lab Project",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e229",
+             "type": "heading",
+             "props": {
+              "text": "Solar Lab Project",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e230",
+             "type": "text",
+             "props": {
+              "text": "Engineering research",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e235",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e232",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "university-classic-14",
+               "subject": "books",
+               "ratio": 1.25,
+               "label": "Community Health Survey"
+              },
+              "alt": "Community Health Survey",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e233",
+             "type": "heading",
+             "props": {
+              "text": "Community Health Survey",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e234",
+             "type": "text",
+             "props": {
+              "text": "Public health",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e239",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e236",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "university-classic-15",
+               "subject": "books",
+               "ratio": 1.25,
+               "label": "Student Theatre Season"
+              },
+              "alt": "Student Theatre Season",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e237",
+             "type": "heading",
+             "props": {
+              "text": "Student Theatre Season",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e238",
+             "type": "text",
+             "props": {
+              "text": "Arts",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e243",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e240",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "university-classic-16",
+               "subject": "books",
+               "ratio": 1.25,
+               "label": "Robotics Team Finals"
+              },
+              "alt": "Robotics Team Finals",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e241",
+             "type": "heading",
+             "props": {
+              "text": "Robotics Team Finals",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e242",
+             "type": "text",
+             "props": {
+              "text": "Competition",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e247",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e244",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "university-classic-17",
+               "subject": "books",
+               "ratio": 1.25,
+               "label": "Heritage Language Archive"
+              },
+              "alt": "Heritage Language Archive",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e245",
+             "type": "heading",
+             "props": {
+              "text": "Heritage Language Archive",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e246",
+             "type": "text",
+             "props": {
+              "text": "Humanities",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e251",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e248",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "university-classic-18",
+               "subject": "books",
+               "ratio": 1.25,
+               "label": "Green Campus Plan"
+              },
+              "alt": "Green Campus Plan",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e249",
+             "type": "heading",
+             "props": {
+              "text": "Green Campus Plan",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e250",
+             "type": "text",
+             "props": {
+              "text": "Sustainability",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "news",
+   "title": "News",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e283",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "university-classic-23",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e282",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e280",
+         "type": "heading",
+         "props": {
+          "text": "News",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e281",
+         "type": "text",
+         "props": {
+          "text": "News and advice for students and families."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e279",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e278",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e276",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e274",
+           "type": "text",
+           "props": {
+            "text": "News"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e275",
+           "type": "heading",
+           "props": {
+            "text": "News from campus",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e277",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "32px"
+         },
+         "children": [
+          {
+           "id": "e263",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e259",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "university-classic-20",
+               "subject": "portrait",
+               "ratio": 1.55,
+               "label": "How to choose the right degree"
+              },
+              "alt": "How to choose the right degree",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e260",
+             "type": "text",
+             "props": {
+              "text": "Advice, 6 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e261",
+             "type": "heading",
+             "props": {
+              "text": "How to choose the right degree",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e262",
+             "type": "text",
+             "props": {
+              "text": "Five questions to ask before applying.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e268",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e264",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "university-classic-21",
+               "subject": "portrait",
+               "ratio": 1.55,
+               "label": "Applying for a scholarship: a guide"
+              },
+              "alt": "Applying for a scholarship: a guide",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e265",
+             "type": "text",
+             "props": {
+              "text": "Advice, 5 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e266",
+             "type": "heading",
+             "props": {
+              "text": "Applying for a scholarship: a guide",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e267",
+             "type": "text",
+             "props": {
+              "text": "What selection panels look for.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e273",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e269",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "university-classic-22",
+               "subject": "portrait",
+               "ratio": 1.55,
+               "label": "Research team wins national award"
+              },
+              "alt": "Research team wins national award",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e270",
+             "type": "text",
+             "props": {
+              "text": "News, 3 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e271",
+             "type": "heading",
+             "props": {
+              "text": "Research team wins national award",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e272",
+             "type": "text",
+             "props": {
+              "text": "Solar lab recognised for student-led work.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e303",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "university-classic-24",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e302",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e300",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e301",
+         "type": "text",
+         "props": {
+          "text": "Questions about applying or visiting."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e299",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e298",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 6fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "72px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e296",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e284",
+           "type": "text",
+           "props": {
+            "text": "Contact"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e285",
+           "type": "heading",
+           "props": {
+            "text": "Talk to admissions",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e286",
+           "type": "text",
+           "props": {
+            "text": "Applications are open. Come to an open day, or talk to our admissions team.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e289",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e287",
+             "type": "icon",
+             "props": {
+              "name": "map-pin"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e288",
+             "type": "text",
+             "props": {
+              "text": "100 Example Road, Your City"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e292",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e290",
+             "type": "icon",
+             "props": {
+              "name": "phone"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e291",
+             "type": "text",
+             "props": {
+              "text": "+000 000 000 000"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e295",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e293",
+             "type": "icon",
+             "props": {
+              "name": "mail"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e294",
+             "type": "text",
+             "props": {
+              "text": "hello@example.com"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e297",
+         "type": "contact_form",
+         "props": {
+          "fields": [
+           {
+            "label": "Your name",
+            "type": "text"
+           },
+           {
+            "label": "Email address",
+            "type": "email"
+           },
+           {
+            "label": "Message",
+            "type": "textarea"
+           }
+          ],
+          "submit": "Send enquiry"
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

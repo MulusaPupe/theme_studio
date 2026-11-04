@@ -1,0 +1,3755 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "real_estate/property-developer",
+  "template_name": "Property Developer",
+  "name": "The Meridian Residences",
+  "description": "Sleek navy and copper, selling one new development off-plan.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#c98a5a",
+   "on_primary": "#0e1726",
+   "secondary": "#2b3a52",
+   "accent": "#c98a5a",
+   "on_accent": "#0e1726",
+   "background": "#0e1726",
+   "surface": "#172236",
+   "text": "#f4efe7",
+   "muted": "#b4b3b1",
+   "border": "#333a45"
+  },
+  "fonts": {
+   "heading": "Outfit",
+   "body": "Manrope",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 500,
+   "heading_transform": "none",
+   "heading_tracking": "-0.02em",
+   "heading_line": 1.04,
+   "base": 17,
+   "ratio": 1.3
+  },
+  "shape": {
+   "radius": "4px",
+   "button_radius": "4px",
+   "button_style": "solid",
+   "button_transform": "uppercase",
+   "button_tracking": ".1em",
+   "button_size": ".78rem"
+  },
+  "spacing": {
+   "section": "112px",
+   "gap": "24px",
+   "width": "1260px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Property Developer",
+   "colors": {
+    "primary": "#c98a5a",
+    "on_primary": "#0e1726",
+    "secondary": "#2b3a52",
+    "accent": "#c98a5a",
+    "on_accent": "#0e1726",
+    "background": "#0e1726",
+    "surface": "#172236",
+    "text": "#f4efe7",
+    "muted": "#b4b3b1",
+    "border": "#333a45"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Outfit / Manrope",
+   "heading": "Outfit",
+   "body": "Manrope"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e261",
+   "type": "header",
+   "props": {
+    "layout": "classic",
+    "brand": "The Meridian Residences",
+    "nav_style": "caps",
+    "cta": {
+     "label": "Register interest",
+     "href": {
+      "page": "contact"
+     }
+    }
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e280",
+   "type": "footer",
+   "props": {
+    "tone": "surface"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e279",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e276",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 3fr 4fr"
+       },
+       "style": {
+        "gap": "40px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": "5fr 3fr 4fr"
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e264",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "10px"
+         },
+         "children": [
+          {
+           "id": "e262",
+           "type": "heading",
+           "props": {
+            "text": "The Meridian Residences",
+            "level": 3
+           },
+           "style": {
+            "font_size": "1.5rem"
+           }
+          },
+          {
+           "id": "e263",
+           "type": "text",
+           "props": {
+            "text": "For over twenty years we have helped families and investors buy, sell and let homes, with.",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem",
+            "max_width": "34ch"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e271",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e265",
+           "type": "heading",
+           "props": {
+            "text": "Explore",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e266",
+           "type": "link",
+           "props": {
+            "label": "About",
+            "href": {
+             "page": "about"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e267",
+           "type": "link",
+           "props": {
+            "label": "Services",
+            "href": {
+             "page": "services"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e268",
+           "type": "link",
+           "props": {
+            "label": "Properties",
+            "href": {
+             "page": "portfolio"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e269",
+           "type": "link",
+           "props": {
+            "label": "Advice",
+            "href": {
+             "page": "blog"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e270",
+           "type": "link",
+           "props": {
+            "label": "Contact",
+            "href": {
+             "page": "contact"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          }
+         ]
+        },
+        {
+         "id": "e275",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e272",
+           "type": "heading",
+           "props": {
+            "text": "Contact",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e273",
+           "type": "text",
+           "props": {
+            "text": "100 Example Road, Your City",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          },
+          {
+           "id": "e274",
+           "type": "text",
+           "props": {
+            "text": "hello@example.com",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e277",
+       "type": "divider",
+       "props": {},
+       "style": {
+        "margin_block": "40px 14px"
+       }
+      },
+      {
+       "id": "e278",
+       "type": "text",
+       "props": {
+        "text": "© The Meridian Residences. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Services",
+    "page": "services"
+   },
+   {
+    "label": "Properties",
+    "page": "portfolio"
+   },
+   {
+    "label": "Advice",
+    "page": "blog"
+   },
+   {
+    "label": "Contact",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e11",
+     "type": "section",
+     "props": {
+      "role": "hero"
+     },
+     "style": {
+      "padding_block": "0"
+     },
+     "children": [
+      {
+       "id": "e10",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "full"
+       },
+       "style": {
+        "gap": "0"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e8",
+         "type": "container",
+         "props": {},
+         "style": {
+          "padding": "clamp(36px,7vw,110px) clamp(22px,5vw,80px)",
+          "justify_content": "center"
+         },
+         "children": [
+          {
+           "id": "e7",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px"
+           },
+           "children": [
+            {
+             "id": "e1",
+             "type": "text",
+             "props": {
+              "text": "Now selling off-plan"
+             },
+             "style": {
+              "font_size": ".76rem",
+              "font_weight": 600,
+              "letter_spacing": ".16em",
+              "text_transform": "uppercase",
+              "color": "$c-accent",
+              "border_top": "2px solid currentColor",
+              "padding_top": "10px",
+              "align_self": "flex-start"
+             },
+             "name": "Eyebrow"
+            },
+            {
+             "id": "e2",
+             "type": "heading",
+             "props": {
+              "text": "Life on the 24th floor",
+              "level": 1
+             },
+             "style": {
+              "font_size": "clamp(2.7rem,7vw,5.6rem)"
+             }
+            },
+            {
+             "id": "e3",
+             "type": "text",
+             "props": {
+              "text": "Forty-eight new residences above the city, with sky gardens and a private club. Completing next year.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.16rem",
+              "max_width": "60ch"
+             }
+            },
+            {
+             "id": "e6",
+             "type": "row",
+             "props": {},
+             "style": {
+              "margin_top": "10px",
+              "gap": "14px"
+             },
+             "children": [
+              {
+               "id": "e4",
+               "type": "button",
+               "props": {
+                "label": "Register interest",
+                "href": {
+                 "page": "contact"
+                },
+                "variant": "primary"
+               },
+               "style": {}
+              },
+              {
+               "id": "e5",
+               "type": "button",
+               "props": {
+                "label": "Floor plans",
+                "href": {
+                 "page": "portfolio"
+                },
+                "variant": "secondary"
+               },
+               "style": {}
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e9",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "property-developer-1",
+           "subject": "building",
+           "ratio": 0.95,
+           "label": "Hero image"
+          },
+          "alt": "Hero image",
+          "ratio": 0.95
+         },
+         "style": {
+          "height": "100%"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e26",
+     "type": "section",
+     "props": {
+      "role": "statistics",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "56px"
+     },
+     "children": [
+      {
+       "id": "e25",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e24",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 4
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e14",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e12",
+             "type": "heading",
+             "props": {
+              "text": "1,800",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e13",
+             "type": "text",
+             "props": {
+              "text": "Homes sold",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e17",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e15",
+             "type": "heading",
+             "props": {
+              "text": "23",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e16",
+             "type": "text",
+             "props": {
+              "text": "Years local",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e20",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e18",
+             "type": "heading",
+             "props": {
+              "text": "98%",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e19",
+             "type": "text",
+             "props": {
+              "text": "Asking price achieved",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e23",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e21",
+             "type": "heading",
+             "props": {
+              "text": "21",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e22",
+             "type": "text",
+             "props": {
+              "text": "Days to sell, on average",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e49",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e48",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e47",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e45",
+           "type": "text",
+           "props": {
+            "text": "Services"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent",
+            "border_top": "2px solid currentColor",
+            "padding_top": "10px",
+            "align_self": "flex-start"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e46",
+           "type": "heading",
+           "props": {
+            "text": "Designed around the way you live",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e32",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "0",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e31",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "property-developer-2",
+             "subject": "building",
+             "ratio": 1.5,
+             "label": "Valuations"
+            },
+            "alt": "Valuations",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e30",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e27",
+             "type": "heading",
+             "props": {
+              "text": "Valuations",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e28",
+             "type": "text",
+             "props": {
+              "text": "Accurate, evidence-based reports.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e29",
+             "type": "link",
+             "props": {
+              "label": "Learn more",
+              "href": {
+               "page": "services"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e38",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "56px",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e36",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e33",
+             "type": "heading",
+             "props": {
+              "text": "Investment advice",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e34",
+             "type": "text",
+             "props": {
+              "text": "Find returns with data, not guesswork.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e35",
+             "type": "link",
+             "props": {
+              "label": "Learn more",
+              "href": {
+               "page": "services"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e37",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "property-developer-3",
+             "subject": "building",
+             "ratio": 1.5,
+             "label": "Investment advice"
+            },
+            "alt": "Investment advice",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e44",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "56px",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e43",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "property-developer-4",
+             "subject": "building",
+             "ratio": 1.5,
+             "label": "Buying"
+            },
+            "alt": "Buying",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e42",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e39",
+             "type": "heading",
+             "props": {
+              "text": "Buying",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e40",
+             "type": "text",
+             "props": {
+              "text": "Early access to homes, and advice you can trust.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e41",
+             "type": "link",
+             "props": {
+              "label": "Learn more",
+              "href": {
+               "page": "services"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e55",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {
+      "padding_bottom": "0"
+     },
+     "children": [
+      {
+       "id": "e54",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e53",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e51",
+           "type": "text",
+           "props": {
+            "text": "Track record"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent",
+            "border_top": "2px solid currentColor",
+            "padding_top": "10px",
+            "align_self": "flex-start"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e52",
+           "type": "heading",
+           "props": {
+            "text": "Recently sold",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e50",
+       "type": "gallery",
+       "props": {
+        "items": [
+         {
+          "kind": "placeholder",
+          "seed": "property-developer-g0",
+          "subject": "interior",
+          "ratio": 1,
+          "label": "Gallery image 1"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "property-developer-g1",
+          "subject": "interior",
+          "ratio": 1,
+          "label": "Gallery image 2"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "property-developer-g2",
+          "subject": "interior",
+          "ratio": 1,
+          "label": "Gallery image 3"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "property-developer-g3",
+          "subject": "interior",
+          "ratio": 1,
+          "label": "Gallery image 4"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "property-developer-g4",
+          "subject": "interior",
+          "ratio": 1,
+          "label": "Gallery image 5"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "property-developer-g5",
+          "subject": "interior",
+          "ratio": 1,
+          "label": "Gallery image 6"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "property-developer-g6",
+          "subject": "interior",
+          "ratio": 1,
+          "label": "Gallery image 7"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "property-developer-g7",
+          "subject": "interior",
+          "ratio": 1,
+          "label": "Gallery image 8"
+         }
+        ],
+        "columns": 4
+       },
+       "style": {
+        "gap": "6px"
+       },
+       "responsive": {
+        "mobile": {
+         "props": {
+          "columns": 2
+         }
+        }
+       }
+      }
+     ]
+    },
+    {
+     "id": "e82",
+     "type": "section",
+     "props": {
+      "role": "pricing",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e81",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e79",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e77",
+           "type": "text",
+           "props": {
+            "text": "Availability"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent",
+            "border_top": "2px solid currentColor",
+            "padding_top": "10px",
+            "align_self": "flex-start"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e78",
+           "type": "heading",
+           "props": {
+            "text": "Residences",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e80",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "20px",
+          "align_items": "stretch"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e61",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e56",
+             "type": "heading",
+             "props": {
+              "text": "Garden suite",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e57",
+             "type": "heading",
+             "props": {
+              "text": "From $290k",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e58",
+             "type": "text",
+             "props": {
+              "text": "88 m²",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e59",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e60",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e67",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius"
+           },
+           "children": [
+            {
+             "id": "e62",
+             "type": "heading",
+             "props": {
+              "text": "Sky villa",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e63",
+             "type": "heading",
+             "props": {
+              "text": "From $640k",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e64",
+             "type": "text",
+             "props": {
+              "text": "180 m²",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e65",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e66",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e76",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e71",
+             "type": "heading",
+             "props": {
+              "text": "One bedroom",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e72",
+             "type": "heading",
+             "props": {
+              "text": "From $210k",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e73",
+             "type": "text",
+             "props": {
+              "text": "62 to 78 m²",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e74",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e68",
+             "type": "text",
+             "props": {
+              "text": "✓  City views",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e69",
+             "type": "text",
+             "props": {
+              "text": "✓  Private balcony",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e70",
+             "type": "text",
+             "props": {
+              "text": "✓  One parking bay",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e75",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e88",
+     "type": "section",
+     "props": {
+      "role": "video"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e87",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e86",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e84",
+           "type": "text",
+           "props": {
+            "text": "Watch"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent",
+            "border_top": "2px solid currentColor",
+            "padding_top": "10px",
+            "align_self": "flex-start"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e85",
+           "type": "heading",
+           "props": {
+            "text": "See it in motion",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e83",
+         "type": "video",
+         "props": {
+          "poster": {
+           "kind": "placeholder",
+           "seed": "property-developer-v11",
+           "subject": "building",
+           "ratio": 1.78,
+           "label": "Video poster"
+          },
+          "ratio": 1.78,
+          "title": "Play video"
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e93",
+     "type": "section",
+     "props": {
+      "role": "call_to_action",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "property-developer-12",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.62)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "color": "#ffffff",
+      "padding_block": "120px"
+     },
+     "children": [
+      {
+       "id": "e92",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "align_items": "center",
+        "text_align": "center",
+        "gap": "16px"
+       },
+       "children": [
+        {
+         "id": "e89",
+         "type": "heading",
+         "props": {
+          "text": "Thinking of selling?",
+          "level": 2
+         },
+         "style": {}
+        },
+        {
+         "id": "e90",
+         "type": "text",
+         "props": {
+          "text": "Book a free, no-obligation valuation with a local agent this week."
+         },
+         "style": {
+          "font_size": "1.08rem",
+          "color": "#ffffff"
+         }
+        },
+        {
+         "id": "e91",
+         "type": "button",
+         "props": {
+          "label": "Register interest",
+          "href": {
+           "page": "contact"
+          },
+          "variant": "primary"
+         },
+         "style": {
+          "margin_top": "8px"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e139",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "property-developer-18",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e138",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e136",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e137",
+         "type": "text",
+         "props": {
+          "text": "Local knowledge and honest advice since 2003."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e101",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e100",
+       "type": "columns",
+       "props": {
+        "columns": "6fr 5fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "80px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e98",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e94",
+           "type": "text",
+           "props": {
+            "text": "About"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent",
+            "border_top": "2px solid currentColor",
+            "padding_top": "10px",
+            "align_self": "flex-start"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e95",
+           "type": "heading",
+           "props": {
+            "text": "We know this market, street by street",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e96",
+           "type": "text",
+           "props": {
+            "text": "For over twenty years we have helped families and investors buy, sell and let homes, with honest advice and careful attention to detail.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e97",
+           "type": "text",
+           "props": {
+            "text": "Our agents live in the neighbourhoods they cover. We tell you what your home is worth, not what you want to hear, and stay with you until the keys change hands.",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e99",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "property-developer-13",
+           "subject": "building",
+           "ratio": 0.86,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 0.86
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e113",
+     "type": "section",
+     "props": {
+      "role": "statistics",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "64px"
+     },
+     "children": [
+      {
+       "id": "e112",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e111",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e104",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e102",
+             "type": "heading",
+             "props": {
+              "text": "1,800",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e103",
+             "type": "text",
+             "props": {
+              "text": "Homes sold",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e107",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e105",
+             "type": "heading",
+             "props": {
+              "text": "23",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e106",
+             "type": "text",
+             "props": {
+              "text": "Years local",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e110",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e108",
+             "type": "heading",
+             "props": {
+              "text": "98%",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e109",
+             "type": "text",
+             "props": {
+              "text": "Asking price achieved",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e135",
+     "type": "section",
+     "props": {
+      "role": "team"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e134",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e132",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e130",
+           "type": "text",
+           "props": {
+            "text": "Team"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent",
+            "border_top": "2px solid currentColor",
+            "padding_top": "10px",
+            "align_self": "flex-start"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e131",
+           "type": "heading",
+           "props": {
+            "text": "Meet your local agents",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e133",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e117",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e114",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "property-developer-14",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Tiwonge Banda"
+              },
+              "alt": "Tiwonge Banda",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e115",
+             "type": "heading",
+             "props": {
+              "text": "Tiwonge Banda",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e116",
+             "type": "text",
+             "props": {
+              "text": "Client Care",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e121",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e118",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "property-developer-15",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Monde Siame"
+              },
+              "alt": "Monde Siame",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e119",
+             "type": "heading",
+             "props": {
+              "text": "Monde Siame",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e120",
+             "type": "text",
+             "props": {
+              "text": "Principal",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e125",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e122",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "property-developer-16",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Rachel Green"
+              },
+              "alt": "Rachel Green",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e123",
+             "type": "heading",
+             "props": {
+              "text": "Rachel Green",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e124",
+             "type": "text",
+             "props": {
+              "text": "Senior Agent",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e129",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e126",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "property-developer-17",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Chileshe Bwalya"
+              },
+              "alt": "Chileshe Bwalya",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e127",
+             "type": "heading",
+             "props": {
+              "text": "Chileshe Bwalya",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e128",
+             "type": "text",
+             "props": {
+              "text": "Lettings Lead",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "services",
+   "title": "Services",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e204",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "property-developer-22",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e203",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e201",
+         "type": "heading",
+         "props": {
+          "text": "Services",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e202",
+         "type": "text",
+         "props": {
+          "text": "Buying, selling, letting and management."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e162",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e161",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e160",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e158",
+           "type": "text",
+           "props": {
+            "text": "Services"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent",
+            "border_top": "2px solid currentColor",
+            "padding_top": "10px",
+            "align_self": "flex-start"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e159",
+           "type": "heading",
+           "props": {
+            "text": "Designed around the way you live",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e145",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "0",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e144",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "property-developer-19",
+             "subject": "building",
+             "ratio": 1.5,
+             "label": "Valuations"
+            },
+            "alt": "Valuations",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e143",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e140",
+             "type": "heading",
+             "props": {
+              "text": "Valuations",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e141",
+             "type": "text",
+             "props": {
+              "text": "Accurate, evidence-based reports.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e142",
+             "type": "link",
+             "props": {
+              "label": "Learn more",
+              "href": {
+               "page": "services"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e151",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "56px",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e149",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e146",
+             "type": "heading",
+             "props": {
+              "text": "Investment advice",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e147",
+             "type": "text",
+             "props": {
+              "text": "Find returns with data, not guesswork.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e148",
+             "type": "link",
+             "props": {
+              "label": "Learn more",
+              "href": {
+               "page": "services"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e150",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "property-developer-20",
+             "subject": "building",
+             "ratio": 1.5,
+             "label": "Investment advice"
+            },
+            "alt": "Investment advice",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e157",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "56px",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e156",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "property-developer-21",
+             "subject": "building",
+             "ratio": 1.5,
+             "label": "Buying"
+            },
+            "alt": "Buying",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e155",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e152",
+             "type": "heading",
+             "props": {
+              "text": "Buying",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e153",
+             "type": "text",
+             "props": {
+              "text": "Early access to homes, and advice you can trust.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e154",
+             "type": "link",
+             "props": {
+              "label": "Learn more",
+              "href": {
+               "page": "services"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e189",
+     "type": "section",
+     "props": {
+      "role": "pricing",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e188",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e186",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e184",
+           "type": "text",
+           "props": {
+            "text": "Availability"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent",
+            "border_top": "2px solid currentColor",
+            "padding_top": "10px",
+            "align_self": "flex-start"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e185",
+           "type": "heading",
+           "props": {
+            "text": "Residences",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e187",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "20px",
+          "align_items": "stretch"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e168",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e163",
+             "type": "heading",
+             "props": {
+              "text": "Garden suite",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e164",
+             "type": "heading",
+             "props": {
+              "text": "From $290k",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e165",
+             "type": "text",
+             "props": {
+              "text": "88 m²",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e166",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e167",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e174",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius"
+           },
+           "children": [
+            {
+             "id": "e169",
+             "type": "heading",
+             "props": {
+              "text": "Sky villa",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e170",
+             "type": "heading",
+             "props": {
+              "text": "From $640k",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e171",
+             "type": "text",
+             "props": {
+              "text": "180 m²",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e172",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e173",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e183",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e178",
+             "type": "heading",
+             "props": {
+              "text": "One bedroom",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e179",
+             "type": "heading",
+             "props": {
+              "text": "From $210k",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e180",
+             "type": "text",
+             "props": {
+              "text": "62 to 78 m²",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e181",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e175",
+             "type": "text",
+             "props": {
+              "text": "✓  City views",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e176",
+             "type": "text",
+             "props": {
+              "text": "✓  Private balcony",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e177",
+             "type": "text",
+             "props": {
+              "text": "✓  One parking bay",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e182",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e200",
+     "type": "section",
+     "props": {
+      "role": "faq"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e199",
+       "type": "columns",
+       "props": {
+        "columns": "4fr 7fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "60px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e193",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px"
+         },
+         "children": [
+          {
+           "id": "e190",
+           "type": "text",
+           "props": {
+            "text": "FAQ"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent",
+            "border_top": "2px solid currentColor",
+            "padding_top": "10px",
+            "align_self": "flex-start"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e191",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e192",
+           "type": "text",
+           "props": {
+            "text": "Book a free, no-obligation valuation with a local agent this week.",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e198",
+         "type": "container",
+         "props": {},
+         "style": {},
+         "children": [
+          {
+           "id": "e194",
+           "type": "faq_item",
+           "props": {
+            "question": "How much is your fee?",
+            "answer": "It depends on the service. It is agreed in writing before we start, with no hidden costs.",
+            "open": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e195",
+           "type": "faq_item",
+           "props": {
+            "question": "How long does selling usually take?",
+            "answer": "On average, three weeks to an offer and two months to complete.",
+            "open": false
+           },
+           "style": {}
+          },
+          {
+           "id": "e196",
+           "type": "faq_item",
+           "props": {
+            "question": "Do you handle rentals?",
+            "answer": "Yes. We can find tenants or manage the property fully.",
+            "open": false
+           },
+           "style": {}
+          },
+          {
+           "id": "e197",
+           "type": "faq_item",
+           "props": {
+            "question": "Is a valuation really free?",
+            "answer": "Yes, with no obligation at all.",
+            "open": false
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "properties",
+   "title": "Properties",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e214",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "property-developer-29",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e213",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e211",
+         "type": "heading",
+         "props": {
+          "text": "Properties",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e212",
+         "type": "text",
+         "props": {
+          "text": "Homes we have sold and let recently."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e210",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {
+      "padding_bottom": "0"
+     },
+     "children": [
+      {
+       "id": "e209",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e208",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e206",
+           "type": "text",
+           "props": {
+            "text": "Track record"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent",
+            "border_top": "2px solid currentColor",
+            "padding_top": "10px",
+            "align_self": "flex-start"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e207",
+           "type": "heading",
+           "props": {
+            "text": "Recently sold",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e205",
+       "type": "gallery",
+       "props": {
+        "items": [
+         {
+          "kind": "placeholder",
+          "seed": "property-developer-g0",
+          "subject": "interior",
+          "ratio": 1,
+          "label": "Gallery image 1"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "property-developer-g1",
+          "subject": "interior",
+          "ratio": 1,
+          "label": "Gallery image 2"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "property-developer-g2",
+          "subject": "interior",
+          "ratio": 1,
+          "label": "Gallery image 3"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "property-developer-g3",
+          "subject": "interior",
+          "ratio": 1,
+          "label": "Gallery image 4"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "property-developer-g4",
+          "subject": "interior",
+          "ratio": 1,
+          "label": "Gallery image 5"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "property-developer-g5",
+          "subject": "interior",
+          "ratio": 1,
+          "label": "Gallery image 6"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "property-developer-g6",
+          "subject": "interior",
+          "ratio": 1,
+          "label": "Gallery image 7"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "property-developer-g7",
+          "subject": "interior",
+          "ratio": 1,
+          "label": "Gallery image 8"
+         }
+        ],
+        "columns": 4
+       },
+       "style": {
+        "gap": "6px"
+       },
+       "responsive": {
+        "mobile": {
+         "props": {
+          "columns": 2
+         }
+        }
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "advice",
+   "title": "Advice",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e239",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "property-developer-33",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e238",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e236",
+         "type": "heading",
+         "props": {
+          "text": "Advice",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e237",
+         "type": "text",
+         "props": {
+          "text": "Market updates and practical guides."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e235",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e234",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e232",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e230",
+           "type": "text",
+           "props": {
+            "text": "Advice"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent",
+            "border_top": "2px solid currentColor",
+            "padding_top": "10px",
+            "align_self": "flex-start"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e231",
+           "type": "heading",
+           "props": {
+            "text": "Advice and market news",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e233",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "32px"
+         },
+         "children": [
+          {
+           "id": "e219",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e215",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "property-developer-30",
+               "subject": "building",
+               "ratio": 1.55,
+               "label": "Getting your home ready to sell"
+              },
+              "alt": "Getting your home ready to sell",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e216",
+             "type": "text",
+             "props": {
+              "text": "Selling, 4 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e217",
+             "type": "heading",
+             "props": {
+              "text": "Getting your home ready to sell",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e218",
+             "type": "text",
+             "props": {
+              "text": "Small changes that pay back.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e224",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e220",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "property-developer-31",
+               "subject": "building",
+               "ratio": 1.55,
+               "label": "What your home is really worth"
+              },
+              "alt": "What your home is really worth",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e221",
+             "type": "text",
+             "props": {
+              "text": "Selling, 6 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e222",
+             "type": "heading",
+             "props": {
+              "text": "What your home is really worth",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e223",
+             "type": "text",
+             "props": {
+              "text": "How valuations work, and what moves the price.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e229",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e225",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "property-developer-32",
+               "subject": "building",
+               "ratio": 1.55,
+               "label": "First-time buyer's checklist"
+              },
+              "alt": "First-time buyer's checklist",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e226",
+             "type": "text",
+             "props": {
+              "text": "Buying, 5 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e227",
+             "type": "heading",
+             "props": {
+              "text": "First-time buyer's checklist",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e228",
+             "type": "text",
+             "props": {
+              "text": "The steps, the costs and common traps.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e260",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "property-developer-35",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e259",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e257",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e258",
+         "type": "text",
+         "props": {
+          "text": "Book a valuation or a viewing."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e256",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e255",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "60px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e240",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "property-developer-34",
+           "subject": "building",
+           "ratio": 1,
+           "label": "Location image"
+          },
+          "alt": "Location image",
+          "ratio": 1
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "e254",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px"
+         },
+         "children": [
+          {
+           "id": "e241",
+           "type": "text",
+           "props": {
+            "text": "Contact"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent",
+            "border_top": "2px solid currentColor",
+            "padding_top": "10px",
+            "align_self": "flex-start"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e242",
+           "type": "heading",
+           "props": {
+            "text": "Talk to a local agent",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e245",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e243",
+             "type": "icon",
+             "props": {
+              "name": "map-pin"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e244",
+             "type": "text",
+             "props": {
+              "text": "100 Example Road, Your City"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e248",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e246",
+             "type": "icon",
+             "props": {
+              "name": "phone"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e247",
+             "type": "text",
+             "props": {
+              "text": "+000 000 000 000"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e251",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e249",
+             "type": "icon",
+             "props": {
+              "name": "mail"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e250",
+             "type": "text",
+             "props": {
+              "text": "hello@example.com"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e252",
+           "type": "divider",
+           "props": {},
+           "style": {
+            "margin_block": "8px"
+           }
+          },
+          {
+           "id": "e253",
+           "type": "contact_form",
+           "props": {
+            "fields": [
+             {
+              "label": "Your name",
+              "type": "text"
+             },
+             {
+              "label": "Email address",
+              "type": "email"
+             },
+             {
+              "label": "Message",
+              "type": "textarea"
+             }
+            ],
+            "submit": "Request a callback"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

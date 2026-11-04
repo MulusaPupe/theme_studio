@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mulusa-theme-studio"
+version = "0.1.0"
+description = "MULUSA THEME STUDIO - visual website and theme development environment"
+authors = [{ name = "Mulusa Innovations" }]
+requires-python = ">=3.12"
+dependencies = ["PySide6>=6.10", "Pillow>=11"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-qt>=4.4"]
+
+[project.scripts]
+mulusa-theme-studio = "mulusa_theme_studio.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mulusa_theme_studio = ["resources/**/*", "render/*.css", "render/*.js", "templates/**/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
+qt_api = "pyside6"

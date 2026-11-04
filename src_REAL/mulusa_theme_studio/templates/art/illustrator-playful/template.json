@@ -1,0 +1,3715 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "art/illustrator-playful",
+  "template_name": "Illustrator Playful",
+  "name": "Pilar Draws",
+  "description": "Bright colour-blocks, chunky type and a cheerful sketchbook feel.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#ff5d73",
+   "on_primary": "#21215a",
+   "secondary": "#ffc53a",
+   "accent": "#21215a",
+   "on_accent": "#fff7e0",
+   "background": "#fff7e0",
+   "surface": "#ffe9ad",
+   "text": "#21215a",
+   "muted": "#5f5d80",
+   "border": "#dbd5cb"
+  },
+  "fonts": {
+   "heading": "Bricolage Grotesque",
+   "body": "Figtree",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 800,
+   "heading_transform": "none",
+   "heading_tracking": "-0.03em",
+   "heading_line": 1,
+   "base": 17,
+   "ratio": 1.3
+  },
+  "shape": {
+   "radius": "26px",
+   "button_radius": "999px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "90px",
+   "gap": "22px",
+   "width": "1180px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Illustrator Playful",
+   "colors": {
+    "primary": "#ff5d73",
+    "on_primary": "#21215a",
+    "secondary": "#ffc53a",
+    "accent": "#21215a",
+    "on_accent": "#fff7e0",
+    "background": "#fff7e0",
+    "surface": "#ffe9ad",
+    "text": "#21215a",
+    "muted": "#5f5d80",
+    "border": "#dbd5cb"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Bricolage Grotesque / Figtree",
+   "heading": "Bricolage Grotesque",
+   "body": "Figtree"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e285",
+   "type": "header",
+   "props": {
+    "layout": "classic",
+    "brand": "Pilar Draws",
+    "tone": "surface",
+    "cta": {
+     "label": "Commission me",
+     "href": {
+      "page": "contact"
+     }
+    }
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e295",
+   "type": "footer",
+   "props": {
+    "tone": "primary"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e294",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e291",
+       "type": "row",
+       "props": {},
+       "style": {
+        "gap": "26px"
+       },
+       "children": [
+        {
+         "id": "e286",
+         "type": "link",
+         "props": {
+          "label": "About",
+          "href": {
+           "page": "about"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e287",
+         "type": "link",
+         "props": {
+          "label": "Commissions",
+          "href": {
+           "page": "services"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e288",
+         "type": "link",
+         "props": {
+          "label": "Work",
+          "href": {
+           "page": "portfolio"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e289",
+         "type": "link",
+         "props": {
+          "label": "Notes",
+          "href": {
+           "page": "blog"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e290",
+         "type": "link",
+         "props": {
+          "label": "Contact",
+          "href": {
+           "page": "contact"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        }
+       ]
+      },
+      {
+       "id": "e292",
+       "type": "heading",
+       "props": {
+        "text": "Pilar Draws",
+        "level": 2
+       },
+       "style": {
+        "font_size": "min(28.97vw,12rem)",
+        "line_height": "1",
+        "margin_block": "34px 20px"
+       }
+      },
+      {
+       "id": "e293",
+       "type": "text",
+       "props": {
+        "text": "© Pilar Draws. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Commissions",
+    "page": "services"
+   },
+   {
+    "label": "Work",
+    "page": "portfolio"
+   },
+   {
+    "label": "Notes",
+    "page": "blog"
+   },
+   {
+    "label": "Contact",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e13",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e12",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "64px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e11",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "20px"
+         },
+         "children": [
+          {
+           "id": "e5",
+           "type": "text",
+           "props": {
+            "text": "Hello there"
+           },
+           "style": {
+            "font_family": "$font-heading",
+            "font_style": "italic",
+            "font_size": "1.15rem",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e6",
+           "type": "heading",
+           "props": {
+            "text": "Pictures that make people smile",
+            "level": 1
+           },
+           "style": {
+            "font_size": "clamp(2.7rem,7vw,5.6rem)"
+           }
+          },
+          {
+           "id": "e7",
+           "type": "text",
+           "props": {
+            "text": "Editorial illustration, picture books and murals, for clients who want a little more joy.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.16rem",
+            "max_width": "60ch"
+           }
+          },
+          {
+           "id": "e10",
+           "type": "row",
+           "props": {},
+           "style": {
+            "margin_top": "10px",
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e8",
+             "type": "button",
+             "props": {
+              "label": "Commission me",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {}
+            },
+            {
+             "id": "e9",
+             "type": "button",
+             "props": {
+              "label": "See drawings",
+              "href": {
+               "page": "portfolio"
+              },
+              "variant": "secondary"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e4",
+         "type": "columns",
+         "props": {
+          "columns": 2
+         },
+         "style": {
+          "gap": "14px"
+         },
+         "responsive": {
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e1",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "illustrator-playful-1",
+             "subject": "abstract",
+             "ratio": 0.72,
+             "label": "Image one"
+            },
+            "alt": "Image one",
+            "ratio": 0.72
+           },
+           "style": {
+            "grid_row": "span 2",
+            "height": "100%",
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e2",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "illustrator-playful-2",
+             "subject": "abstract",
+             "ratio": 1.25,
+             "label": "Image two"
+            },
+            "alt": "Image two",
+            "ratio": 1.25
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e3",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "illustrator-playful-3",
+             "subject": "abstract",
+             "ratio": 1.25,
+             "label": "Image three"
+            },
+            "alt": "Image three",
+            "ratio": 1.25
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e43",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e42",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e16",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e14",
+           "type": "text",
+           "props": {
+            "text": "Work"
+           },
+           "style": {
+            "font_family": "$font-heading",
+            "font_style": "italic",
+            "font_size": "1.15rem",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e15",
+           "type": "heading",
+           "props": {
+            "text": "Selected works",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e41",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "36px 26px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e20",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e17",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-4",
+               "subject": "abstract",
+               "ratio": 1.25,
+               "label": "Weight of Water"
+              },
+              "alt": "Weight of Water",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e18",
+             "type": "heading",
+             "props": {
+              "text": "Weight of Water",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e19",
+             "type": "text",
+             "props": {
+              "text": "Installation, 2025",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e24",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e21",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-5",
+               "subject": "abstract",
+               "ratio": 1.25,
+               "label": "Ochre Studies"
+              },
+              "alt": "Ochre Studies",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e22",
+             "type": "heading",
+             "props": {
+              "text": "Ochre Studies",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e23",
+             "type": "text",
+             "props": {
+              "text": "Monoprint series, 2024",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e28",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e25",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-6",
+               "subject": "abstract",
+               "ratio": 1.25,
+               "label": "Rooms We Left"
+              },
+              "alt": "Rooms We Left",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e26",
+             "type": "heading",
+             "props": {
+              "text": "Rooms We Left",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e27",
+             "type": "text",
+             "props": {
+              "text": "Photography, 2023",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e32",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e29",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-7",
+               "subject": "abstract",
+               "ratio": 1.25,
+               "label": "Soft Geometry"
+              },
+              "alt": "Soft Geometry",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e30",
+             "type": "heading",
+             "props": {
+              "text": "Soft Geometry",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e31",
+             "type": "text",
+             "props": {
+              "text": "Acrylic on board, 2022",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e36",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e33",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-8",
+               "subject": "abstract",
+               "ratio": 1.25,
+               "label": "Red Earth"
+              },
+              "alt": "Red Earth",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e34",
+             "type": "heading",
+             "props": {
+              "text": "Red Earth",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e35",
+             "type": "text",
+             "props": {
+              "text": "Mixed media, 2021",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e40",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e37",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-9",
+               "subject": "abstract",
+               "ratio": 1.25,
+               "label": "Tidal Field"
+              },
+              "alt": "Tidal Field",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e38",
+             "type": "heading",
+             "props": {
+              "text": "Tidal Field",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e39",
+             "type": "text",
+             "props": {
+              "text": "Oil on linen, 2026",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e65",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e64",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e62",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e60",
+           "type": "text",
+           "props": {
+            "text": "Practice"
+           },
+           "style": {
+            "font_family": "$font-heading",
+            "font_style": "italic",
+            "font_size": "1.15rem",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e61",
+           "type": "heading",
+           "props": {
+            "text": "Ways to work together",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e63",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "18px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 3
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e47",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "14px",
+            "padding": "36px",
+            "border_radius": "$radius",
+            "grid_row": "span 2",
+            "min_height": "400px"
+           },
+           "responsive": {
+            "mobile": {
+             "style": {
+              "min_height": "280px",
+              "grid_row": "auto"
+             }
+            }
+           },
+           "children": [
+            {
+             "id": "e44",
+             "type": "icon",
+             "props": {
+              "name": "pen-tool"
+             },
+             "style": {
+              "font_size": "40px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e45",
+             "type": "heading",
+             "props": {
+              "text": "Art direction",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.6rem,3vw,2.4rem)",
+              "margin_top": "auto"
+             }
+            },
+            {
+             "id": "e46",
+             "type": "text",
+             "props": {
+              "text": "Visual identity and direction for books, brands and exhibitions.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e51",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e48",
+             "type": "icon",
+             "props": {
+              "name": "sparkles"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e49",
+             "type": "heading",
+             "props": {
+              "text": "Illustration",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.2rem"
+             }
+            },
+            {
+             "id": "e50",
+             "type": "text",
+             "props": {
+              "text": "Editorial and publishing illustration with a distinct hand.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e55",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e52",
+             "type": "icon",
+             "props": {
+              "name": "camera"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e53",
+             "type": "heading",
+             "props": {
+              "text": "Photography",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.2rem"
+             }
+            },
+            {
+             "id": "e54",
+             "type": "text",
+             "props": {
+              "text": "Portraits, spaces and documentation of artwork.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e59",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "grid_column": "span 2"
+           },
+           "children": [
+            {
+             "id": "e56",
+             "type": "icon",
+             "props": {
+              "name": "users-round"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e57",
+             "type": "heading",
+             "props": {
+              "text": "Workshops",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.2rem"
+             }
+            },
+            {
+             "id": "e58",
+             "type": "text",
+             "props": {
+              "text": "Small-group sessions in print, drawing and colour.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "grid_column": "auto"
+             }
+            }
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e86",
+     "type": "section",
+     "props": {
+      "role": "testimonials",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e85",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e83",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e81",
+           "type": "text",
+           "props": {
+            "text": "Testimonials"
+           },
+           "style": {
+            "font_family": "$font-heading",
+            "font_style": "italic",
+            "font_size": "1.15rem",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e82",
+           "type": "heading",
+           "props": {
+            "text": "What people say",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e84",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e70",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e66",
+             "type": "text",
+             "props": {
+              "text": "“A commission that exceeded what we could have asked for.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e69",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e67",
+               "type": "text",
+               "props": {
+                "text": "Michael Bwalya"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e68",
+               "type": "text",
+               "props": {
+                "text": "Collector",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e75",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e71",
+             "type": "text",
+             "props": {
+              "text": "“One of the most thoughtful young voices working today.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e74",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e72",
+               "type": "text",
+               "props": {
+                "text": "Adaeze Obi"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e73",
+               "type": "text",
+               "props": {
+                "text": "Art Quarterly",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e80",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e76",
+             "type": "text",
+             "props": {
+              "text": "“The work stays with you long after you have left the room.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e79",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e77",
+               "type": "text",
+               "props": {
+                "text": "Helena Marsh"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e78",
+               "type": "text",
+               "props": {
+                "text": "Curator, Riverside Gallery",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e116",
+     "type": "section",
+     "props": {
+      "role": "products"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e115",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e89",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e87",
+           "type": "text",
+           "props": {
+            "text": "Shop"
+           },
+           "style": {
+            "font_family": "$font-heading",
+            "font_style": "italic",
+            "font_size": "1.15rem",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e88",
+           "type": "heading",
+           "props": {
+            "text": "Available work",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e114",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {
+          "gap": "32px 22px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e95",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e90",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-10",
+               "subject": "abstract",
+               "ratio": 0.8,
+               "label": "Ochre Study No. 4"
+              },
+              "alt": "Ochre Study No. 4",
+              "ratio": 0.8
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e93",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e91",
+               "type": "heading",
+               "props": {
+                "text": "Ochre Study No. 4",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e92",
+               "type": "text",
+               "props": {
+                "text": "$640"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e94",
+             "type": "text",
+             "props": {
+              "text": "Monoprint",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e101",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e96",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-11",
+               "subject": "abstract",
+               "ratio": 0.8,
+               "label": "Studio Book"
+              },
+              "alt": "Studio Book",
+              "ratio": 0.8
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e99",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e97",
+               "type": "heading",
+               "props": {
+                "text": "Studio Book",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e98",
+               "type": "text",
+               "props": {
+                "text": "$45"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e100",
+             "type": "text",
+             "props": {
+              "text": "Hardback, 120 pages",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e107",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e102",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-12",
+               "subject": "abstract",
+               "ratio": 0.8,
+               "label": "Small Work No. 12"
+              },
+              "alt": "Small Work No. 12",
+              "ratio": 0.8
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e105",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e103",
+               "type": "heading",
+               "props": {
+                "text": "Small Work No. 12",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e104",
+               "type": "text",
+               "props": {
+                "text": "$520"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e106",
+             "type": "text",
+             "props": {
+              "text": "Oil on board",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e113",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e108",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-13",
+               "subject": "abstract",
+               "ratio": 0.8,
+               "label": "Red Earth Print"
+              },
+              "alt": "Red Earth Print",
+              "ratio": 0.8
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e111",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e109",
+               "type": "heading",
+               "props": {
+                "text": "Red Earth Print",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e110",
+               "type": "text",
+               "props": {
+                "text": "$150"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e112",
+             "type": "text",
+             "props": {
+              "text": "Edition of 75",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e122",
+     "type": "section",
+     "props": {
+      "role": "call_to_action"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e121",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e120",
+         "type": "container",
+         "props": {
+          "tone": "primary"
+         },
+         "style": {
+          "gap": "16px",
+          "padding": "clamp(32px,6vw,72px)",
+          "border_radius": "$radius"
+         },
+         "children": [
+          {
+           "id": "e117",
+           "type": "heading",
+           "props": {
+            "text": "Have a space in mind?",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e118",
+           "type": "text",
+           "props": {
+            "text": "Commissions open twice a year. Write to me about your idea and your timing.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem",
+            "max_width": "50ch"
+           }
+          },
+          {
+           "id": "e119",
+           "type": "button",
+           "props": {
+            "label": "Say hello",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {
+            "align_self": "flex-start",
+            "margin_top": "8px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e157",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e156",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e154",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e155",
+         "type": "text",
+         "props": {
+          "text": "Background, practice and exhibitions.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e131",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e130",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "68px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e123",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "illustrator-playful-14",
+           "subject": "abstract",
+           "ratio": 1.1,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 1.1
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "e129",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e124",
+           "type": "text",
+           "props": {
+            "text": "About"
+           },
+           "style": {
+            "font_family": "$font-heading",
+            "font_style": "italic",
+            "font_size": "1.15rem",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e125",
+           "type": "heading",
+           "props": {
+            "text": "A practice of looking closely",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e126",
+           "type": "text",
+           "props": {
+            "text": "I make work about memory, material and place, moving between painting, print and installation from a studio by the river.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e127",
+           "type": "text",
+           "props": {
+            "text": "My work has been shown in galleries across three continents and is held in private collections. Commissions open twice each year.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e128",
+           "type": "link",
+           "props": {
+            "label": "Our story",
+            "href": {
+             "page": "about"
+            },
+            "arrow": true
+           },
+           "style": {
+            "margin_top": "6px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e153",
+     "type": "section",
+     "props": {
+      "role": "team"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e152",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e150",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e148",
+           "type": "text",
+           "props": {
+            "text": "Team"
+           },
+           "style": {
+            "font_family": "$font-heading",
+            "font_style": "italic",
+            "font_size": "1.15rem",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e149",
+           "type": "heading",
+           "props": {
+            "text": "The studio",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e151",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e135",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e132",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-15",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Marc Lindqvist"
+              },
+              "alt": "Marc Lindqvist",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e133",
+             "type": "heading",
+             "props": {
+              "text": "Marc Lindqvist",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e134",
+             "type": "text",
+             "props": {
+              "text": "Studio Manager",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e139",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e136",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-16",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Pilar Vega"
+              },
+              "alt": "Pilar Vega",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e137",
+             "type": "heading",
+             "props": {
+              "text": "Pilar Vega",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e138",
+             "type": "text",
+             "props": {
+              "text": "Printer",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e143",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e140",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-17",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Tendai Moyo"
+              },
+              "alt": "Tendai Moyo",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e141",
+             "type": "heading",
+             "props": {
+              "text": "Tendai Moyo",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e142",
+             "type": "text",
+             "props": {
+              "text": "Assistant",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e147",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e144",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-18",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Zanele Khoza"
+              },
+              "alt": "Zanele Khoza",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e145",
+             "type": "heading",
+             "props": {
+              "text": "Zanele Khoza",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e146",
+             "type": "text",
+             "props": {
+              "text": "Artist",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "commissions",
+   "title": "Commissions",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e221",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e220",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e218",
+         "type": "heading",
+         "props": {
+          "text": "Commissions",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e219",
+         "type": "text",
+         "props": {
+          "text": "Commissions, editions and workshops.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e187",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e186",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e184",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e182",
+           "type": "text",
+           "props": {
+            "text": "Practice"
+           },
+           "style": {
+            "font_family": "$font-heading",
+            "font_style": "italic",
+            "font_size": "1.15rem",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e183",
+           "type": "heading",
+           "props": {
+            "text": "Ways to work together",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e185",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "46px 40px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e161",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e158",
+             "type": "icon",
+             "props": {
+              "name": "pen-tool"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e159",
+             "type": "heading",
+             "props": {
+              "text": "Art direction",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e160",
+             "type": "text",
+             "props": {
+              "text": "Visual identity and direction for books, brands and exhibitions.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e165",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e162",
+             "type": "icon",
+             "props": {
+              "name": "sparkles"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e163",
+             "type": "heading",
+             "props": {
+              "text": "Illustration",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e164",
+             "type": "text",
+             "props": {
+              "text": "Editorial and publishing illustration with a distinct hand.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e169",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e166",
+             "type": "icon",
+             "props": {
+              "name": "camera"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e167",
+             "type": "heading",
+             "props": {
+              "text": "Photography",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e168",
+             "type": "text",
+             "props": {
+              "text": "Portraits, spaces and documentation of artwork.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e173",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e170",
+             "type": "icon",
+             "props": {
+              "name": "users-round"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e171",
+             "type": "heading",
+             "props": {
+              "text": "Workshops",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e172",
+             "type": "text",
+             "props": {
+              "text": "Small-group sessions in print, drawing and colour.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e177",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e174",
+             "type": "icon",
+             "props": {
+              "name": "award"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e175",
+             "type": "heading",
+             "props": {
+              "text": "Limited editions",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e176",
+             "type": "text",
+             "props": {
+              "text": "Signed and numbered prints from the studio press.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e181",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e178",
+             "type": "icon",
+             "props": {
+              "name": "brush"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e179",
+             "type": "heading",
+             "props": {
+              "text": "Commissions",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e180",
+             "type": "text",
+             "props": {
+              "text": "Original work made for your home, office or public space.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e217",
+     "type": "section",
+     "props": {
+      "role": "pricing",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e216",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e214",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e212",
+           "type": "text",
+           "props": {
+            "text": "Rates"
+           },
+           "style": {
+            "font_family": "$font-heading",
+            "font_style": "italic",
+            "font_size": "1.15rem",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e213",
+           "type": "heading",
+           "props": {
+            "text": "Commissions",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e215",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "20px",
+          "align_items": "stretch"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e196",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e191",
+             "type": "heading",
+             "props": {
+              "text": "Medium work",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e192",
+             "type": "heading",
+             "props": {
+              "text": "From $1,400",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e193",
+             "type": "text",
+             "props": {
+              "text": "Up to 100 cm, ten weeks.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e194",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e188",
+             "type": "text",
+             "props": {
+              "text": "✓  Original piece",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e189",
+             "type": "text",
+             "props": {
+              "text": "✓  Studio visit",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e190",
+             "type": "text",
+             "props": {
+              "text": "✓  Certificate",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e195",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e205",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius"
+           },
+           "children": [
+            {
+             "id": "e200",
+             "type": "heading",
+             "props": {
+              "text": "Large work",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e201",
+             "type": "heading",
+             "props": {
+              "text": "From $3,800",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e202",
+             "type": "text",
+             "props": {
+              "text": "Over 100 cm, by arrangement.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e203",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e197",
+             "type": "text",
+             "props": {
+              "text": "✓  Site visit",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e198",
+             "type": "text",
+             "props": {
+              "text": "✓  Installation",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e199",
+             "type": "text",
+             "props": {
+              "text": "✓  Certificate",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e204",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e211",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e206",
+             "type": "heading",
+             "props": {
+              "text": "Print editions",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e207",
+             "type": "heading",
+             "props": {
+              "text": "From $120",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e208",
+             "type": "text",
+             "props": {
+              "text": "Signed and numbered.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e209",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e210",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "work",
+   "title": "Work",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e247",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e246",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e244",
+         "type": "heading",
+         "props": {
+          "text": "Work",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e245",
+         "type": "text",
+         "props": {
+          "text": "An archive of selected work.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e243",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e242",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e224",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e222",
+           "type": "text",
+           "props": {
+            "text": "Work"
+           },
+           "style": {
+            "font_family": "$font-heading",
+            "font_style": "italic",
+            "font_size": "1.15rem",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e223",
+           "type": "heading",
+           "props": {
+            "text": "Selected works",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e241",
+         "type": "columns",
+         "props": {
+          "columns": "7fr 5fr"
+         },
+         "style": {
+          "gap": "44px 28px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e228",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e225",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-19",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Weight of Water"
+              },
+              "alt": "Weight of Water",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e226",
+             "type": "heading",
+             "props": {
+              "text": "Weight of Water",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e227",
+             "type": "text",
+             "props": {
+              "text": "Installation, 2025",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e232",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e229",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-20",
+               "subject": "abstract",
+               "ratio": 0.95,
+               "label": "Ochre Studies"
+              },
+              "alt": "Ochre Studies",
+              "ratio": 0.95
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e230",
+             "type": "heading",
+             "props": {
+              "text": "Ochre Studies",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e231",
+             "type": "text",
+             "props": {
+              "text": "Monoprint series, 2024",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e236",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e233",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-21",
+               "subject": "abstract",
+               "ratio": 0.95,
+               "label": "Rooms We Left"
+              },
+              "alt": "Rooms We Left",
+              "ratio": 0.95
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e234",
+             "type": "heading",
+             "props": {
+              "text": "Rooms We Left",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e235",
+             "type": "text",
+             "props": {
+              "text": "Photography, 2023",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e240",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e237",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-22",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Soft Geometry"
+              },
+              "alt": "Soft Geometry",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e238",
+             "type": "heading",
+             "props": {
+              "text": "Soft Geometry",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e239",
+             "type": "text",
+             "props": {
+              "text": "Acrylic on board, 2022",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "notes",
+   "title": "Notes",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e272",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e271",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e269",
+         "type": "heading",
+         "props": {
+          "text": "Notes",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e270",
+         "type": "text",
+         "props": {
+          "text": "Notes from the studio and the print room.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e268",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e267",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e265",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e263",
+           "type": "text",
+           "props": {
+            "text": "Notes"
+           },
+           "style": {
+            "font_family": "$font-heading",
+            "font_style": "italic",
+            "font_size": "1.15rem",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e264",
+           "type": "heading",
+           "props": {
+            "text": "From the studio",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e266",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "32px"
+         },
+         "children": [
+          {
+           "id": "e252",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e248",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-23",
+               "subject": "abstract",
+               "ratio": 1.55,
+               "label": "Notes from the print room"
+              },
+              "alt": "Notes from the print room",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e249",
+             "type": "text",
+             "props": {
+              "text": "Process, 4 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e250",
+             "type": "heading",
+             "props": {
+              "text": "Notes from the print room",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e251",
+             "type": "text",
+             "props": {
+              "text": "A week of mistakes and one good print.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e257",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e253",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-24",
+               "subject": "abstract",
+               "ratio": 1.55,
+               "label": "How to commission an artist"
+              },
+              "alt": "How to commission an artist",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e254",
+             "type": "text",
+             "props": {
+              "text": "Guide, 6 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e255",
+             "type": "heading",
+             "props": {
+              "text": "How to commission an artist",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e256",
+             "type": "text",
+             "props": {
+              "text": "A plain guide for first-time collectors.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e262",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e258",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "illustrator-playful-25",
+               "subject": "abstract",
+               "ratio": 1.55,
+               "label": "Colour I keep returning to"
+              },
+              "alt": "Colour I keep returning to",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e259",
+             "type": "text",
+             "props": {
+              "text": "Process, 3 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e260",
+             "type": "heading",
+             "props": {
+              "text": "Colour I keep returning to",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e261",
+             "type": "text",
+             "props": {
+              "text": "Ochre, and why I cannot leave it alone.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e284",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e283",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e281",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e282",
+         "type": "text",
+         "props": {
+          "text": "Commissions, exhibitions and questions.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e280",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e279",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e278",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e275",
+           "type": "text",
+           "props": {
+            "text": "Contact"
+           },
+           "style": {
+            "font_family": "$font-heading",
+            "font_style": "italic",
+            "font_size": "1.15rem",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e276",
+           "type": "heading",
+           "props": {
+            "text": "Say hello",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e277",
+           "type": "text",
+           "props": {
+            "text": "Commissions open twice a year. Write to me about your idea and your timing.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e274",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px",
+          "background": "$c-card",
+          "border_radius": "$card-radius",
+          "padding": "clamp(24px,4vw,44px)"
+         },
+         "children": [
+          {
+           "id": "e273",
+           "type": "contact_form",
+           "props": {
+            "fields": [
+             {
+              "label": "Your name",
+              "type": "text"
+             },
+             {
+              "label": "Email address",
+              "type": "email"
+             },
+             {
+              "label": "Message",
+              "type": "textarea"
+             }
+            ],
+            "submit": "Send message"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "flat",
+  "assets": []
+ },
+ "reusable": []
+}

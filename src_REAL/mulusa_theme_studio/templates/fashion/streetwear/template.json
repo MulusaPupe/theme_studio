@@ -1,0 +1,3447 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "fashion/streetwear",
+  "template_name": "Streetwear",
+  "name": "BLOCK—09",
+  "description": "Loud condensed type, acid accent and hard edges on black.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#d7ff3e",
+   "on_primary": "#0a0a0a",
+   "secondary": "#3b3b3b",
+   "accent": "#d7ff3e",
+   "on_accent": "#0a0a0a",
+   "background": "#0a0a0a",
+   "surface": "#161616",
+   "text": "#f2f2ee",
+   "muted": "#b1b1ae",
+   "border": "#2f2f2e"
+  },
+  "fonts": {
+   "heading": "Anton",
+   "body": "Space Grotesk",
+   "extra": [
+    "JetBrains Mono"
+   ]
+  },
+  "type": {
+   "heading_weight": 400,
+   "heading_transform": "uppercase",
+   "heading_tracking": ".01em",
+   "heading_line": 0.98,
+   "base": 16,
+   "ratio": 1.36
+  },
+  "shape": {
+   "radius": "0",
+   "button_radius": "0",
+   "button_style": "solid",
+   "button_transform": "uppercase",
+   "button_tracking": ".06em",
+   "button_size": ".86rem"
+  },
+  "spacing": {
+   "section": "80px",
+   "gap": "12px",
+   "width": "1400px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Streetwear",
+   "colors": {
+    "primary": "#d7ff3e",
+    "on_primary": "#0a0a0a",
+    "secondary": "#3b3b3b",
+    "accent": "#d7ff3e",
+    "on_accent": "#0a0a0a",
+    "background": "#0a0a0a",
+    "surface": "#161616",
+    "text": "#f2f2ee",
+    "muted": "#b1b1ae",
+    "border": "#2f2f2e"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Anton / Space Grotesk",
+   "heading": "Anton",
+   "body": "Space Grotesk"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e261",
+   "type": "header",
+   "props": {
+    "layout": "classic",
+    "brand": "BLOCK—09",
+    "tone": "default",
+    "nav_style": "caps",
+    "cta": {
+     "label": "Shop drop",
+     "href": {
+      "page": "contact"
+     }
+    }
+   },
+   "style": {
+    "border_bottom": "1px solid $c-border"
+   },
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e271",
+   "type": "footer",
+   "props": {
+    "tone": "accent"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e270",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e267",
+       "type": "row",
+       "props": {},
+       "style": {
+        "gap": "26px"
+       },
+       "children": [
+        {
+         "id": "e262",
+         "type": "link",
+         "props": {
+          "label": "About",
+          "href": {
+           "page": "about"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e263",
+         "type": "link",
+         "props": {
+          "label": "Atelier",
+          "href": {
+           "page": "services"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e264",
+         "type": "link",
+         "props": {
+          "label": "Collections",
+          "href": {
+           "page": "portfolio"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e265",
+         "type": "link",
+         "props": {
+          "label": "Journal",
+          "href": {
+           "page": "blog"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e266",
+         "type": "link",
+         "props": {
+          "label": "Contact",
+          "href": {
+           "page": "contact"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        }
+       ]
+      },
+      {
+       "id": "e268",
+       "type": "heading",
+       "props": {
+        "text": "BLOCK—09",
+        "level": 2
+       },
+       "style": {
+        "font_size": "min(19.60vw,12rem)",
+        "line_height": "1",
+        "margin_block": "34px 20px"
+       }
+      },
+      {
+       "id": "e269",
+       "type": "text",
+       "props": {
+        "text": "© BLOCK—09. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Atelier",
+    "page": "services"
+   },
+   {
+    "label": "Collections",
+    "page": "portfolio"
+   },
+   {
+    "label": "Journal",
+    "page": "blog"
+   },
+   {
+    "label": "Contact",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e7",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "tone": "accent"
+     },
+     "style": {
+      "min_height": "clamp(560px,88vh,900px)",
+      "display": "flex",
+      "align_items": "flex-end",
+      "padding_block": "60px"
+     },
+     "children": [
+      {
+       "id": "e6",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "justify_content": "flex-end",
+        "gap": "30px"
+       },
+       "children": [
+        {
+         "id": "e1",
+         "type": "text",
+         "props": {
+          "text": "Limited run, no restocks"
+         },
+         "style": {
+          "font_weight": 600,
+          "letter_spacing": ".2em",
+          "text_transform": "uppercase",
+          "font_size": ".8rem"
+         }
+        },
+        {
+         "id": "e2",
+         "type": "heading",
+         "props": {
+          "text": "Drop 09 is live",
+          "level": 1
+         },
+         "style": {
+          "font_size": "clamp(4.4rem,19vw,17rem)",
+          "line_height": ".88"
+         }
+        },
+        {
+         "id": "e5",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "align_items": "flex-end",
+          "gap": "28px"
+         },
+         "children": [
+          {
+           "id": "e3",
+           "type": "text",
+           "props": {
+            "text": "Heavyweight basics and limited graphics. When it's gone, it's gone."
+           },
+           "style": {
+            "max_width": "46ch",
+            "font_size": "1.1rem"
+           }
+          },
+          {
+           "id": "e4",
+           "type": "button",
+           "props": {
+            "label": "Shop the drop",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e37",
+     "type": "section",
+     "props": {
+      "role": "products"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e36",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e10",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e8",
+           "type": "text",
+           "props": {
+            "text": "/ Shop"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e9",
+           "type": "heading",
+           "props": {
+            "text": "New this season",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e35",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {
+          "gap": "32px 22px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e16",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e11",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-1",
+               "subject": "garment",
+               "ratio": 0.8,
+               "label": "Pleated Trouser"
+              },
+              "alt": "Pleated Trouser",
+              "ratio": 0.8
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e14",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e12",
+               "type": "heading",
+               "props": {
+                "text": "Pleated Trouser",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e13",
+               "type": "text",
+               "props": {
+                "text": "$240"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e15",
+             "type": "text",
+             "props": {
+              "text": "Sand, navy",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e22",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e17",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-2",
+               "subject": "garment",
+               "ratio": 0.8,
+               "label": "Cotton Shirt"
+              },
+              "alt": "Cotton Shirt",
+              "ratio": 0.8
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e20",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e18",
+               "type": "heading",
+               "props": {
+                "text": "Cotton Shirt",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e19",
+               "type": "text",
+               "props": {
+                "text": "$150"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e21",
+             "type": "text",
+             "props": {
+              "text": "White, sky",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e28",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e23",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-3",
+               "subject": "garment",
+               "ratio": 0.8,
+               "label": "Leather Tote"
+              },
+              "alt": "Leather Tote",
+              "ratio": 0.8
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e26",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e24",
+               "type": "heading",
+               "props": {
+                "text": "Leather Tote",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e25",
+               "type": "text",
+               "props": {
+                "text": "$380"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e27",
+             "type": "text",
+             "props": {
+              "text": "Tan, black",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e34",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e29",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-4",
+               "subject": "garment",
+               "ratio": 0.8,
+               "label": "Cashmere Knit"
+              },
+              "alt": "Cashmere Knit",
+              "ratio": 0.8
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e32",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e30",
+               "type": "heading",
+               "props": {
+                "text": "Cashmere Knit",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e31",
+               "type": "text",
+               "props": {
+                "text": "$310"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e33",
+             "type": "text",
+             "props": {
+              "text": "Oat, slate",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e52",
+     "type": "section",
+     "props": {
+      "role": "statistics",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "56px"
+     },
+     "children": [
+      {
+       "id": "e51",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e50",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 4
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e40",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e38",
+             "type": "heading",
+             "props": {
+              "text": "9",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e39",
+             "type": "text",
+             "props": {
+              "text": "Partner ateliers",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e43",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e41",
+             "type": "heading",
+             "props": {
+              "text": "6",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e42",
+             "type": "text",
+             "props": {
+              "text": "Cities stocked",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e46",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e44",
+             "type": "heading",
+             "props": {
+              "text": "41",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e45",
+             "type": "text",
+             "props": {
+              "text": "Pieces this season",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e49",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e47",
+             "type": "heading",
+             "props": {
+              "text": "100%",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e48",
+             "type": "text",
+             "props": {
+              "text": "Natural fibres",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e58",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {
+      "padding_bottom": "0"
+     },
+     "children": [
+      {
+       "id": "e57",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e56",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e54",
+           "type": "text",
+           "props": {
+            "text": "/ Lookbook"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e55",
+           "type": "heading",
+           "props": {
+            "text": "The collections",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e53",
+       "type": "gallery",
+       "props": {
+        "items": [
+         {
+          "kind": "placeholder",
+          "seed": "streetwear-g0",
+          "subject": "garment",
+          "ratio": 1,
+          "label": "Gallery image 1"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "streetwear-g1",
+          "subject": "garment",
+          "ratio": 1,
+          "label": "Gallery image 2"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "streetwear-g2",
+          "subject": "garment",
+          "ratio": 1,
+          "label": "Gallery image 3"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "streetwear-g3",
+          "subject": "garment",
+          "ratio": 1,
+          "label": "Gallery image 4"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "streetwear-g4",
+          "subject": "garment",
+          "ratio": 1,
+          "label": "Gallery image 5"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "streetwear-g5",
+          "subject": "garment",
+          "ratio": 1,
+          "label": "Gallery image 6"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "streetwear-g6",
+          "subject": "garment",
+          "ratio": 1,
+          "label": "Gallery image 7"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "streetwear-g7",
+          "subject": "garment",
+          "ratio": 1,
+          "label": "Gallery image 8"
+         }
+        ],
+        "columns": 4
+       },
+       "style": {
+        "gap": "6px"
+       },
+       "responsive": {
+        "mobile": {
+         "props": {
+          "columns": 2
+         }
+        }
+       }
+      }
+     ]
+    },
+    {
+     "id": "e76",
+     "type": "section",
+     "props": {
+      "role": "events",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e75",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e73",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e71",
+           "type": "text",
+           "props": {
+            "text": "/ Dates"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e72",
+           "type": "heading",
+           "props": {
+            "text": "Next drops",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e74",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e62",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e59",
+             "type": "heading",
+             "props": {
+              "text": "09 Oct",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.5rem"
+             }
+            },
+            {
+             "id": "e60",
+             "type": "heading",
+             "props": {
+              "text": "Trunk show",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e61",
+             "type": "text",
+             "props": {
+              "text": "Gallery Nine",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".94rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e66",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e63",
+             "type": "heading",
+             "props": {
+              "text": "21 Nov",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.5rem"
+             }
+            },
+            {
+             "id": "e64",
+             "type": "heading",
+             "props": {
+              "text": "Sample sale",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e65",
+             "type": "text",
+             "props": {
+              "text": "The Warehouse",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".94rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e70",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e67",
+             "type": "heading",
+             "props": {
+              "text": "05 Dec",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.5rem"
+             }
+            },
+            {
+             "id": "e68",
+             "type": "heading",
+             "props": {
+              "text": "Winter open house",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e69",
+             "type": "text",
+             "props": {
+              "text": "The Studio",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".94rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e82",
+     "type": "section",
+     "props": {
+      "role": "call_to_action"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e81",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e77",
+         "type": "heading",
+         "props": {
+          "text": "See the new collection in person",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(2.8rem,9vw,8rem)",
+          "line_height": ".98"
+         }
+        },
+        {
+         "id": "e80",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "margin_top": "30px",
+          "gap": "24px"
+         },
+         "children": [
+          {
+           "id": "e78",
+           "type": "text",
+           "props": {
+            "text": "Book a private appointment at the studio, or ask us anything about fit and cloth.",
+            "muted": true
+           },
+           "style": {
+            "max_width": "44ch"
+           }
+          },
+          {
+           "id": "e79",
+           "type": "button",
+           "props": {
+            "label": "Start a conversation",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e113",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "56px 30px"
+     },
+     "children": [
+      {
+       "id": "e112",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e109",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {
+          "font_size": "min(31.35vw,10rem)",
+          "line_height": ".95"
+         }
+        },
+        {
+         "id": "e110",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_block": "26px 14px"
+         }
+        },
+        {
+         "id": "e111",
+         "type": "text",
+         "props": {
+          "text": "The people, cloth and ideas behind the label.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e86",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e85",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "22px"
+       },
+       "children": [
+        {
+         "id": "e83",
+         "type": "text",
+         "props": {
+          "text": "/ About"
+         },
+         "style": {
+          "font_size": ".8rem",
+          "font_family": "'JetBrains Mono',monospace",
+          "color": "$c-accent"
+         },
+         "name": "Eyebrow"
+        },
+        {
+         "id": "e84",
+         "type": "heading",
+         "props": {
+          "text": "Our studio designs small collections from carefully chosen cloth, made in limited runs by people we know by name.",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(1.8rem,3.8vw,3.2rem)",
+          "line_height": "1.22",
+          "max_width": "24em"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e108",
+     "type": "section",
+     "props": {
+      "role": "team"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e107",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e105",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e103",
+           "type": "text",
+           "props": {
+            "text": "/ Team"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e104",
+           "type": "heading",
+           "props": {
+            "text": "The people behind the work",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e106",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e90",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e87",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-11",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Yuki Tan"
+              },
+              "alt": "Yuki Tan",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e88",
+             "type": "heading",
+             "props": {
+              "text": "Yuki Tan",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e89",
+             "type": "text",
+             "props": {
+              "text": "Textile Lead",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e94",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e91",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-12",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Bwalya Mumba"
+              },
+              "alt": "Bwalya Mumba",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e92",
+             "type": "heading",
+             "props": {
+              "text": "Bwalya Mumba",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e93",
+             "type": "text",
+             "props": {
+              "text": "Studio Manager",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e98",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e95",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-13",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Ana Costa"
+              },
+              "alt": "Ana Costa",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e96",
+             "type": "heading",
+             "props": {
+              "text": "Ana Costa",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e97",
+             "type": "text",
+             "props": {
+              "text": "Stylist",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e102",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e99",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-14",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Mirriam Sakala"
+              },
+              "alt": "Mirriam Sakala",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e100",
+             "type": "heading",
+             "props": {
+              "text": "Mirriam Sakala",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e101",
+             "type": "text",
+             "props": {
+              "text": "Creative Director",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "atelier",
+   "title": "Atelier",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e172",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "56px 30px"
+     },
+     "children": [
+      {
+       "id": "e171",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e168",
+         "type": "heading",
+         "props": {
+          "text": "Atelier",
+          "level": 1
+         },
+         "style": {
+          "font_size": "min(22.40vw,10rem)",
+          "line_height": ".95"
+         }
+        },
+        {
+         "id": "e169",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_block": "26px 14px"
+         }
+        },
+        {
+         "id": "e170",
+         "type": "text",
+         "props": {
+          "text": "Fitting, styling and care from our studio.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e131",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e130",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e128",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e126",
+           "type": "text",
+           "props": {
+            "text": "/ The house"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e127",
+           "type": "heading",
+           "props": {
+            "text": "More than a collection",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e129",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e117",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e114",
+             "type": "icon",
+             "props": {
+              "name": "heart"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e115",
+             "type": "heading",
+             "props": {
+              "text": "Repairs for life",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e116",
+             "type": "text",
+             "props": {
+              "text": "Bring any piece back and we will mend it.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e121",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e118",
+             "type": "icon",
+             "props": {
+              "name": "layers"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e119",
+             "type": "heading",
+             "props": {
+              "text": "Fabric library",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e120",
+             "type": "text",
+             "props": {
+              "text": "Touch and compare every cloth we work with.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e125",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e122",
+             "type": "icon",
+             "props": {
+              "name": "gem"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e123",
+             "type": "heading",
+             "props": {
+              "text": "Private appointments",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e124",
+             "type": "text",
+             "props": {
+              "text": "The whole collection, shown just for you.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e167",
+     "type": "section",
+     "props": {
+      "role": "pricing"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e166",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e164",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e162",
+           "type": "text",
+           "props": {
+            "text": "/ Atelier"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e163",
+           "type": "heading",
+           "props": {
+            "text": "Studio services",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e165",
+         "type": "columns",
+         "props": {
+          "columns": 2
+         },
+         "style": {
+          "gap": "0 64px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e136",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e134",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e132",
+               "type": "heading",
+               "props": {
+                "text": "Made-to-measure shirt",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e133",
+               "type": "heading",
+               "props": {
+                "text": "$210",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e135",
+             "type": "text",
+             "props": {
+              "text": "Choice of forty cloths.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e141",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e139",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e137",
+               "type": "heading",
+               "props": {
+                "text": "Made-to-measure coat",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e138",
+               "type": "heading",
+               "props": {
+                "text": "$890",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e140",
+             "type": "text",
+             "props": {
+              "text": "Three fittings included.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e146",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e144",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e142",
+               "type": "heading",
+               "props": {
+                "text": "Alterations",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e143",
+               "type": "heading",
+               "props": {
+                "text": "From $25",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e145",
+             "type": "text",
+             "props": {
+              "text": "Free on our own garments.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e151",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e149",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e147",
+               "type": "heading",
+               "props": {
+                "text": "Wardrobe edit",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e148",
+               "type": "heading",
+               "props": {
+                "text": "$240",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e150",
+             "type": "text",
+             "props": {
+              "text": "A two-hour home visit.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e156",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e154",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e152",
+               "type": "heading",
+               "props": {
+                "text": "Fitting session",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e153",
+               "type": "heading",
+               "props": {
+                "text": "$60",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e155",
+             "type": "text",
+             "props": {
+              "text": "Redeemable against any order.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e161",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e159",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e157",
+               "type": "heading",
+               "props": {
+                "text": "Personal styling",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e158",
+               "type": "heading",
+               "props": {
+                "text": "$120",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e160",
+             "type": "text",
+             "props": {
+              "text": "One hour with a stylist.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "collections",
+   "title": "Collections",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e213",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "56px 30px"
+     },
+     "children": [
+      {
+       "id": "e212",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e209",
+         "type": "heading",
+         "props": {
+          "text": "Collections",
+          "level": 1
+         },
+         "style": {
+          "font_size": "min(14.25vw,10rem)",
+          "line_height": ".95"
+         }
+        },
+        {
+         "id": "e210",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_block": "26px 14px"
+         }
+        },
+        {
+         "id": "e211",
+         "type": "text",
+         "props": {
+          "text": "Every collection, season by season.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e178",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {
+      "padding_bottom": "0"
+     },
+     "children": [
+      {
+       "id": "e177",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e176",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e174",
+           "type": "text",
+           "props": {
+            "text": "/ Lookbook"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e175",
+           "type": "heading",
+           "props": {
+            "text": "The collections",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e173",
+       "type": "gallery",
+       "props": {
+        "items": [
+         {
+          "kind": "placeholder",
+          "seed": "streetwear-g0",
+          "subject": "garment",
+          "ratio": 1,
+          "label": "Gallery image 1"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "streetwear-g1",
+          "subject": "garment",
+          "ratio": 1,
+          "label": "Gallery image 2"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "streetwear-g2",
+          "subject": "garment",
+          "ratio": 1,
+          "label": "Gallery image 3"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "streetwear-g3",
+          "subject": "garment",
+          "ratio": 1,
+          "label": "Gallery image 4"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "streetwear-g4",
+          "subject": "garment",
+          "ratio": 1,
+          "label": "Gallery image 5"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "streetwear-g5",
+          "subject": "garment",
+          "ratio": 1,
+          "label": "Gallery image 6"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "streetwear-g6",
+          "subject": "garment",
+          "ratio": 1,
+          "label": "Gallery image 7"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "streetwear-g7",
+          "subject": "garment",
+          "ratio": 1,
+          "label": "Gallery image 8"
+         }
+        ],
+        "columns": 4
+       },
+       "style": {
+        "gap": "6px"
+       },
+       "responsive": {
+        "mobile": {
+         "props": {
+          "columns": 2
+         }
+        }
+       }
+      }
+     ]
+    },
+    {
+     "id": "e208",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e207",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e181",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e179",
+           "type": "text",
+           "props": {
+            "text": "/ Lookbook"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e180",
+           "type": "heading",
+           "props": {
+            "text": "The collections",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e206",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "36px 26px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e185",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e182",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-21",
+               "subject": "garment",
+               "ratio": 1.25,
+               "label": "Quiet Tailoring"
+              },
+              "alt": "Quiet Tailoring",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e183",
+             "type": "heading",
+             "props": {
+              "text": "Quiet Tailoring",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e184",
+             "type": "text",
+             "props": {
+              "text": "Collection 07",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e189",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e186",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-22",
+               "subject": "garment",
+               "ratio": 1.25,
+               "label": "Night Garden"
+              },
+              "alt": "Night Garden",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e187",
+             "type": "heading",
+             "props": {
+              "text": "Night Garden",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e188",
+             "type": "text",
+             "props": {
+              "text": "Collection 06",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e193",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e190",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-23",
+               "subject": "garment",
+               "ratio": 1.25,
+               "label": "Salt and Stone"
+              },
+              "alt": "Salt and Stone",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e191",
+             "type": "heading",
+             "props": {
+              "text": "Salt and Stone",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e192",
+             "type": "text",
+             "props": {
+              "text": "Collection 05",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e197",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e194",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-24",
+               "subject": "garment",
+               "ratio": 1.25,
+               "label": "First Light"
+              },
+              "alt": "First Light",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e195",
+             "type": "heading",
+             "props": {
+              "text": "First Light",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e196",
+             "type": "text",
+             "props": {
+              "text": "Collection 04",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e201",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e198",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-25",
+               "subject": "garment",
+               "ratio": 1.25,
+               "label": "Autumn Study"
+              },
+              "alt": "Autumn Study",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e199",
+             "type": "heading",
+             "props": {
+              "text": "Autumn Study",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e200",
+             "type": "text",
+             "props": {
+              "text": "Collection 09",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e205",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e202",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-26",
+               "subject": "garment",
+               "ratio": 1.25,
+               "label": "Linen Hours"
+              },
+              "alt": "Linen Hours",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e203",
+             "type": "heading",
+             "props": {
+              "text": "Linen Hours",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e204",
+             "type": "text",
+             "props": {
+              "text": "Collection 08",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "journal",
+   "title": "Journal",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e239",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "56px 30px"
+     },
+     "children": [
+      {
+       "id": "e238",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e235",
+         "type": "heading",
+         "props": {
+          "text": "Journal",
+          "level": 1
+         },
+         "style": {
+          "font_size": "min(22.40vw,10rem)",
+          "line_height": ".95"
+         }
+        },
+        {
+         "id": "e236",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_block": "26px 14px"
+         }
+        },
+        {
+         "id": "e237",
+         "type": "text",
+         "props": {
+          "text": "Notes on making, wearing and caring for clothes.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e234",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e233",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e231",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e229",
+           "type": "text",
+           "props": {
+            "text": "/ Journal"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e230",
+           "type": "heading",
+           "props": {
+            "text": "Notes and insights",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e232",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "32px"
+         },
+         "children": [
+          {
+           "id": "e218",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e214",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-27",
+               "subject": "portrait",
+               "ratio": 1.55,
+               "label": "Inside the weaving mill"
+              },
+              "alt": "Inside the weaving mill",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e215",
+             "type": "text",
+             "props": {
+              "text": "Makers, 7 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e216",
+             "type": "heading",
+             "props": {
+              "text": "Inside the weaving mill",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e217",
+             "type": "text",
+             "props": {
+              "text": "A day with the people behind our cloth.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e223",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e219",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-28",
+               "subject": "portrait",
+               "ratio": 1.55,
+               "label": "The perfect white shirt"
+              },
+              "alt": "The perfect white shirt",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e220",
+             "type": "text",
+             "props": {
+              "text": "Style, 5 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e221",
+             "type": "heading",
+             "props": {
+              "text": "The perfect white shirt",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e222",
+             "type": "text",
+             "props": {
+              "text": "Six details that make all the difference.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e228",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e224",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "streetwear-29",
+               "subject": "portrait",
+               "ratio": 1.55,
+               "label": "Dressing for the heat"
+              },
+              "alt": "Dressing for the heat",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e225",
+             "type": "text",
+             "props": {
+              "text": "Style, 4 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e226",
+             "type": "heading",
+             "props": {
+              "text": "Dressing for the heat",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e227",
+             "type": "text",
+             "props": {
+              "text": "Fabrics that actually breathe.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e260",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "56px 30px"
+     },
+     "children": [
+      {
+       "id": "e259",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e256",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {
+          "font_size": "min(22.40vw,10rem)",
+          "line_height": ".95"
+         }
+        },
+        {
+         "id": "e257",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_block": "26px 14px"
+         }
+        },
+        {
+         "id": "e258",
+         "type": "text",
+         "props": {
+          "text": "Book an appointment or send us a note.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e255",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e254",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 6fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "72px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e252",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e240",
+           "type": "text",
+           "props": {
+            "text": "/ Contact"
+           },
+           "style": {
+            "font_size": ".8rem",
+            "font_family": "'JetBrains Mono',monospace",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e241",
+           "type": "heading",
+           "props": {
+            "text": "Visit the studio",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e242",
+           "type": "text",
+           "props": {
+            "text": "Book a private appointment at the studio, or ask us anything about fit and cloth.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e245",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e243",
+             "type": "icon",
+             "props": {
+              "name": "map-pin"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e244",
+             "type": "text",
+             "props": {
+              "text": "100 Example Road, Your City"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e248",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e246",
+             "type": "icon",
+             "props": {
+              "name": "phone"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e247",
+             "type": "text",
+             "props": {
+              "text": "+000 000 000 000"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e251",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e249",
+             "type": "icon",
+             "props": {
+              "name": "mail"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e250",
+             "type": "text",
+             "props": {
+              "text": "hello@example.com"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e253",
+         "type": "contact_form",
+         "props": {
+          "fields": [
+           {
+            "label": "Your name",
+            "type": "text"
+           },
+           {
+            "label": "Email address",
+            "type": "email"
+           },
+           {
+            "label": "Message",
+            "type": "textarea"
+           }
+          ],
+          "submit": "Send message"
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "flat",
+  "assets": []
+ },
+ "reusable": []
+}

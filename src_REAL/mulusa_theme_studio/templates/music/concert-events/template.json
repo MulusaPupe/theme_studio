@@ -1,0 +1,2918 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "music/concert-events",
+  "template_name": "Concert and Events",
+  "name": "AFTERGLOW FEST",
+  "description": "High-energy poster type in hot orange, built around the next show.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#ff5a1f",
+   "on_primary": "#111014",
+   "secondary": "#3a2230",
+   "accent": "#ffd23e",
+   "on_accent": "#111014",
+   "background": "#111014",
+   "surface": "#1e1b22",
+   "text": "#fff6ea",
+   "muted": "#bcb6ae",
+   "border": "#373536"
+  },
+  "fonts": {
+   "heading": "Bebas Neue",
+   "body": "Figtree",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 400,
+   "heading_transform": "uppercase",
+   "heading_tracking": ".015em",
+   "heading_line": 0.96,
+   "base": 17,
+   "ratio": 1.42
+  },
+  "shape": {
+   "radius": "6px",
+   "button_radius": "6px",
+   "button_style": "solid",
+   "button_transform": "uppercase",
+   "button_tracking": ".06em",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "88px",
+   "gap": "16px",
+   "width": "1280px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Concert and Events",
+   "colors": {
+    "primary": "#ff5a1f",
+    "on_primary": "#111014",
+    "secondary": "#3a2230",
+    "accent": "#ffd23e",
+    "on_accent": "#111014",
+    "background": "#111014",
+    "surface": "#1e1b22",
+    "text": "#fff6ea",
+    "muted": "#bcb6ae",
+    "border": "#373536"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Bebas Neue / Figtree",
+   "heading": "Bebas Neue",
+   "body": "Figtree"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e213",
+   "type": "header",
+   "props": {
+    "layout": "classic",
+    "brand": "AFTERGLOW FEST",
+    "nav_style": "caps",
+    "sticky": true,
+    "cta": {
+     "label": "Tickets",
+     "href": {
+      "page": "contact"
+     }
+    }
+   },
+   "style": {
+    "border_bottom": "1px solid $c-border"
+   },
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e223",
+   "type": "footer",
+   "props": {
+    "tone": "primary"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e222",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e219",
+       "type": "row",
+       "props": {},
+       "style": {
+        "gap": "26px"
+       },
+       "children": [
+        {
+         "id": "e214",
+         "type": "link",
+         "props": {
+          "label": "About",
+          "href": {
+           "page": "about"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e215",
+         "type": "link",
+         "props": {
+          "label": "Services",
+          "href": {
+           "page": "services"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e216",
+         "type": "link",
+         "props": {
+          "label": "Releases",
+          "href": {
+           "page": "portfolio"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e217",
+         "type": "link",
+         "props": {
+          "label": "News",
+          "href": {
+           "page": "blog"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e218",
+         "type": "link",
+         "props": {
+          "label": "Contact",
+          "href": {
+           "page": "contact"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        }
+       ]
+      },
+      {
+       "id": "e220",
+       "type": "heading",
+       "props": {
+        "text": "AFTERGLOW FEST",
+        "level": 2
+       },
+       "style": {
+        "font_size": "min(19.49vw,12rem)",
+        "line_height": "1",
+        "margin_block": "34px 20px"
+       }
+      },
+      {
+       "id": "e221",
+       "type": "text",
+       "props": {
+        "text": "© AFTERGLOW FEST. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Services",
+    "page": "services"
+   },
+   {
+    "label": "Releases",
+    "page": "portfolio"
+   },
+   {
+    "label": "News",
+    "page": "blog"
+   },
+   {
+    "label": "Contact",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e7",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "tone": "primary"
+     },
+     "style": {
+      "min_height": "clamp(560px,88vh,900px)",
+      "display": "flex",
+      "align_items": "flex-end",
+      "padding_block": "60px"
+     },
+     "children": [
+      {
+       "id": "e6",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "justify_content": "flex-end",
+        "gap": "30px"
+       },
+       "children": [
+        {
+         "id": "e1",
+         "type": "text",
+         "props": {
+          "text": "14 to 16 August, Lake Grounds"
+         },
+         "style": {
+          "font_weight": 600,
+          "letter_spacing": ".2em",
+          "text_transform": "uppercase",
+          "font_size": ".8rem"
+         }
+        },
+        {
+         "id": "e2",
+         "type": "heading",
+         "props": {
+          "text": "Three days. Forty acts. One field.",
+          "level": 1
+         },
+         "style": {
+          "font_size": "clamp(4rem,14vw,13rem)",
+          "line_height": ".88"
+         }
+        },
+        {
+         "id": "e5",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "align_items": "flex-end",
+          "gap": "28px"
+         },
+         "children": [
+          {
+           "id": "e3",
+           "type": "text",
+           "props": {
+            "text": "Lineup out now. Early bird tickets on sale until the end of the month."
+           },
+           "style": {
+            "max_width": "46ch",
+            "font_size": "1.1rem"
+           }
+          },
+          {
+           "id": "e4",
+           "type": "button",
+           "props": {
+            "label": "Buy tickets",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e37",
+     "type": "section",
+     "props": {
+      "role": "events"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e36",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e35",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e33",
+           "type": "text",
+           "props": {
+            "text": "Live"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e34",
+           "type": "heading",
+           "props": {
+            "text": "On tour",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e12",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 6fr 3fr auto"
+         },
+         "style": {
+          "padding_block": "20px",
+          "border_top": "1px solid $c-border",
+          "gap": "14px 22px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e8",
+           "type": "heading",
+           "props": {
+            "text": "29 Nov",
+            "level": 4
+           },
+           "style": {}
+          },
+          {
+           "id": "e9",
+           "type": "heading",
+           "props": {
+            "text": "Cape Town, The Roxy",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.2rem,2.4vw,1.8rem)"
+           }
+          },
+          {
+           "id": "e10",
+           "type": "text",
+           "props": {
+            "text": "On sale",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e11",
+           "type": "button",
+           "props": {
+            "label": "Tickets",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "secondary"
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e17",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 6fr 3fr auto"
+         },
+         "style": {
+          "padding_block": "20px",
+          "border_top": "1px solid $c-border",
+          "gap": "14px 22px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e13",
+           "type": "heading",
+           "props": {
+            "text": "06 Dec",
+            "level": 4
+           },
+           "style": {}
+          },
+          {
+           "id": "e14",
+           "type": "heading",
+           "props": {
+            "text": "Nairobi, Alchemist",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.2rem,2.4vw,1.8rem)"
+           }
+          },
+          {
+           "id": "e15",
+           "type": "text",
+           "props": {
+            "text": "On sale",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e16",
+           "type": "button",
+           "props": {
+            "label": "Tickets",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "secondary"
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e22",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 6fr 3fr auto"
+         },
+         "style": {
+          "padding_block": "20px",
+          "border_top": "1px solid $c-border",
+          "gap": "14px 22px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e18",
+           "type": "heading",
+           "props": {
+            "text": "13 Dec",
+            "level": 4
+           },
+           "style": {}
+          },
+          {
+           "id": "e19",
+           "type": "heading",
+           "props": {
+            "text": "London, Village Underground",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.2rem,2.4vw,1.8rem)"
+           }
+          },
+          {
+           "id": "e20",
+           "type": "text",
+           "props": {
+            "text": "On sale",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e21",
+           "type": "button",
+           "props": {
+            "label": "Tickets",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "secondary"
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e27",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 6fr 3fr auto"
+         },
+         "style": {
+          "padding_block": "20px",
+          "border_top": "1px solid $c-border",
+          "gap": "14px 22px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e23",
+           "type": "heading",
+           "props": {
+            "text": "14 Nov",
+            "level": 4
+           },
+           "style": {}
+          },
+          {
+           "id": "e24",
+           "type": "heading",
+           "props": {
+            "text": "Lusaka, The Warehouse",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.2rem,2.4vw,1.8rem)"
+           }
+          },
+          {
+           "id": "e25",
+           "type": "text",
+           "props": {
+            "text": "Sold out",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e26",
+           "type": "button",
+           "props": {
+            "label": "Tickets",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "secondary"
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e32",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 6fr 3fr auto"
+         },
+         "style": {
+          "padding_block": "20px",
+          "border_top": "1px solid $c-border",
+          "gap": "14px 22px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e28",
+           "type": "heading",
+           "props": {
+            "text": "21 Nov",
+            "level": 4
+           },
+           "style": {}
+          },
+          {
+           "id": "e29",
+           "type": "heading",
+           "props": {
+            "text": "Johannesburg, Bassline",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.2rem,2.4vw,1.8rem)"
+           }
+          },
+          {
+           "id": "e30",
+           "type": "text",
+           "props": {
+            "text": "Few left",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e31",
+           "type": "button",
+           "props": {
+            "label": "Tickets",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "secondary"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e48",
+     "type": "section",
+     "props": {
+      "role": "statistics",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e47",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e40",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "align_items": "flex-end",
+          "padding_block": "20px",
+          "border_bottom": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "children": [
+          {
+           "id": "e38",
+           "type": "heading",
+           "props": {
+            "text": "28M",
+            "level": 2
+           },
+           "style": {
+            "font_size": "clamp(3.4rem,10vw,8rem)",
+            "line_height": "1"
+           }
+          },
+          {
+           "id": "e39",
+           "type": "text",
+           "props": {
+            "text": "Streams",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.1rem",
+            "max_width": "26ch"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e43",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "align_items": "flex-end",
+          "padding_block": "20px",
+          "border_bottom": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "children": [
+          {
+           "id": "e41",
+           "type": "heading",
+           "props": {
+            "text": "19",
+            "level": 2
+           },
+           "style": {
+            "font_size": "clamp(3.4rem,10vw,8rem)",
+            "line_height": "1"
+           }
+          },
+          {
+           "id": "e42",
+           "type": "text",
+           "props": {
+            "text": "Countries toured",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.1rem",
+            "max_width": "26ch"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e46",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "align_items": "flex-end",
+          "padding_block": "20px",
+          "border_bottom": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "children": [
+          {
+           "id": "e44",
+           "type": "heading",
+           "props": {
+            "text": "3",
+            "level": 2
+           },
+           "style": {
+            "font_size": "clamp(3.4rem,10vw,8rem)",
+            "line_height": "1"
+           }
+          },
+          {
+           "id": "e45",
+           "type": "text",
+           "props": {
+            "text": "Studio albums",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.1rem",
+            "max_width": "26ch"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e54",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {
+      "padding_bottom": "0"
+     },
+     "children": [
+      {
+       "id": "e53",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e52",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e50",
+           "type": "text",
+           "props": {
+            "text": "Releases"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e51",
+           "type": "heading",
+           "props": {
+            "text": "Discography",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e49",
+       "type": "gallery",
+       "props": {
+        "items": [
+         {
+          "kind": "placeholder",
+          "seed": "concert-events-g0",
+          "subject": "vinyl",
+          "ratio": 1,
+          "label": "Gallery image 1"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "concert-events-g1",
+          "subject": "vinyl",
+          "ratio": 1,
+          "label": "Gallery image 2"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "concert-events-g2",
+          "subject": "vinyl",
+          "ratio": 1,
+          "label": "Gallery image 3"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "concert-events-g3",
+          "subject": "vinyl",
+          "ratio": 1,
+          "label": "Gallery image 4"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "concert-events-g4",
+          "subject": "vinyl",
+          "ratio": 1,
+          "label": "Gallery image 5"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "concert-events-g5",
+          "subject": "vinyl",
+          "ratio": 1,
+          "label": "Gallery image 6"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "concert-events-g6",
+          "subject": "vinyl",
+          "ratio": 1,
+          "label": "Gallery image 7"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "concert-events-g7",
+          "subject": "vinyl",
+          "ratio": 1,
+          "label": "Gallery image 8"
+         }
+        ],
+        "columns": 4
+       },
+       "style": {
+        "gap": "6px"
+       },
+       "responsive": {
+        "mobile": {
+         "props": {
+          "columns": 2
+         }
+        }
+       }
+      }
+     ]
+    },
+    {
+     "id": "e81",
+     "type": "section",
+     "props": {
+      "role": "pricing"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e80",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e78",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e76",
+           "type": "text",
+           "props": {
+            "text": "Book time"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e77",
+           "type": "heading",
+           "props": {
+            "text": "Tickets",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e79",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "20px",
+          "align_items": "stretch"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e63",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e58",
+             "type": "heading",
+             "props": {
+              "text": "Album package",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e59",
+             "type": "heading",
+             "props": {
+              "text": "$6,800",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e60",
+             "type": "text",
+             "props": {
+              "text": "From first demo to final master.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e61",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e55",
+             "type": "text",
+             "props": {
+              "text": "✓  Twelve studio days",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e56",
+             "type": "text",
+             "props": {
+              "text": "✓  Producer included",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e57",
+             "type": "text",
+             "props": {
+              "text": "✓  Full distribution",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e62",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e69",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius"
+           },
+           "children": [
+            {
+             "id": "e64",
+             "type": "heading",
+             "props": {
+              "text": "Mix only",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e65",
+             "type": "heading",
+             "props": {
+              "text": "$280",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e66",
+             "type": "text",
+             "props": {
+              "text": "Per song, two revisions.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e67",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e68",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e75",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e70",
+             "type": "heading",
+             "props": {
+              "text": "Master only",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e71",
+             "type": "heading",
+             "props": {
+              "text": "$90",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e72",
+             "type": "text",
+             "props": {
+              "text": "Per song, one revision.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e73",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e74",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e92",
+     "type": "section",
+     "props": {
+      "role": "faq",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e91",
+       "type": "columns",
+       "props": {
+        "columns": "4fr 7fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "60px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e85",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px"
+         },
+         "children": [
+          {
+           "id": "e82",
+           "type": "text",
+           "props": {
+            "text": "FAQ"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e83",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e84",
+           "type": "text",
+           "props": {
+            "text": "Tickets for the tour are on sale now. For booking and press, send us a message.",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e90",
+         "type": "container",
+         "props": {},
+         "style": {},
+         "children": [
+          {
+           "id": "e86",
+           "type": "faq_item",
+           "props": {
+            "question": "Do you ship records worldwide?",
+            "answer": "Yes. Records are packed by hand and shipped within three working days.",
+            "open": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e87",
+           "type": "faq_item",
+           "props": {
+            "question": "Do you accept demos?",
+            "answer": "Yes. Send a private streaming link, not attachments.",
+            "open": false
+           },
+           "style": {}
+          },
+          {
+           "id": "e88",
+           "type": "faq_item",
+           "props": {
+            "question": "How do I book the band?",
+            "answer": "Send dates and venue details through the contact form. Our booking agent replies within a week.",
+            "open": false
+           },
+           "style": {}
+          },
+          {
+           "id": "e89",
+           "type": "faq_item",
+           "props": {
+            "question": "Can I license a track?",
+            "answer": "Yes. Most of our catalogue is available for sync. Tell us about your project.",
+            "open": false
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e97",
+     "type": "section",
+     "props": {
+      "role": "call_to_action",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "concert-events-7",
+        "subject": "vinyl",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.62)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "color": "#ffffff",
+      "padding_block": "120px"
+     },
+     "children": [
+      {
+       "id": "e96",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "align_items": "center",
+        "text_align": "center",
+        "gap": "16px"
+       },
+       "children": [
+        {
+         "id": "e93",
+         "type": "heading",
+         "props": {
+          "text": "Hear it live this winter",
+          "level": 2
+         },
+         "style": {}
+        },
+        {
+         "id": "e94",
+         "type": "text",
+         "props": {
+          "text": "Tickets for the tour are on sale now. For booking and press, send us a message."
+         },
+         "style": {
+          "font_size": "1.08rem",
+          "color": "#ffffff"
+         }
+        },
+        {
+         "id": "e95",
+         "type": "button",
+         "props": {
+          "label": "Buy tickets",
+          "href": {
+           "page": "contact"
+          },
+          "variant": "primary"
+         },
+         "style": {
+          "margin_top": "8px"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e117",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e116",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e114",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e115",
+         "type": "text",
+         "props": {
+          "text": "The story so far, and who is in the room.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e101",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e100",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "22px"
+       },
+       "children": [
+        {
+         "id": "e98",
+         "type": "text",
+         "props": {
+          "text": "About"
+         },
+         "style": {
+          "font_size": ".76rem",
+          "font_weight": 600,
+          "letter_spacing": ".16em",
+          "text_transform": "uppercase",
+          "color": "$c-accent"
+         },
+         "name": "Eyebrow"
+        },
+        {
+         "id": "e99",
+         "type": "heading",
+         "props": {
+          "text": "What began in a borrowed room has become a life on the road: three records, hundreds of shows and a sound that keeps changing.",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(1.8rem,3.8vw,3.2rem)",
+          "line_height": "1.22",
+          "max_width": "24em"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e113",
+     "type": "section",
+     "props": {
+      "role": "statistics",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "64px"
+     },
+     "children": [
+      {
+       "id": "e112",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e111",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e104",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e102",
+             "type": "heading",
+             "props": {
+              "text": "28M",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e103",
+             "type": "text",
+             "props": {
+              "text": "Streams",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e107",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e105",
+             "type": "heading",
+             "props": {
+              "text": "19",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e106",
+             "type": "text",
+             "props": {
+              "text": "Countries toured",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e110",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e108",
+             "type": "heading",
+             "props": {
+              "text": "3",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e109",
+             "type": "text",
+             "props": {
+              "text": "Studio albums",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "services",
+   "title": "Services",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e157",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e156",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e154",
+         "type": "heading",
+         "props": {
+          "text": "Services",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e155",
+         "type": "text",
+         "props": {
+          "text": "Recording, mixing and live production.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e144",
+     "type": "section",
+     "props": {
+      "role": "pricing"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e143",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e141",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e139",
+           "type": "text",
+           "props": {
+            "text": "Book time"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e140",
+           "type": "heading",
+           "props": {
+            "text": "Tickets",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e142",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "20px",
+          "align_items": "stretch"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e126",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e121",
+             "type": "heading",
+             "props": {
+              "text": "Album package",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e122",
+             "type": "heading",
+             "props": {
+              "text": "$6,800",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e123",
+             "type": "text",
+             "props": {
+              "text": "From first demo to final master.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e124",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e118",
+             "type": "text",
+             "props": {
+              "text": "✓  Twelve studio days",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e119",
+             "type": "text",
+             "props": {
+              "text": "✓  Producer included",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e120",
+             "type": "text",
+             "props": {
+              "text": "✓  Full distribution",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e125",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e132",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius"
+           },
+           "children": [
+            {
+             "id": "e127",
+             "type": "heading",
+             "props": {
+              "text": "Mix only",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e128",
+             "type": "heading",
+             "props": {
+              "text": "$280",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e129",
+             "type": "text",
+             "props": {
+              "text": "Per song, two revisions.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e130",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e131",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e138",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e133",
+             "type": "heading",
+             "props": {
+              "text": "Master only",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e134",
+             "type": "heading",
+             "props": {
+              "text": "$90",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e135",
+             "type": "text",
+             "props": {
+              "text": "Per song, one revision.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e136",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e137",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e153",
+     "type": "section",
+     "props": {
+      "role": "faq",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e152",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e147",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e145",
+           "type": "text",
+           "props": {
+            "text": "FAQ"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e146",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e148",
+         "type": "faq_item",
+         "props": {
+          "question": "Do you ship records worldwide?",
+          "answer": "Yes. Records are packed by hand and shipped within three working days.",
+          "open": true
+         },
+         "style": {}
+        },
+        {
+         "id": "e149",
+         "type": "faq_item",
+         "props": {
+          "question": "Do you accept demos?",
+          "answer": "Yes. Send a private streaming link, not attachments.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e150",
+         "type": "faq_item",
+         "props": {
+          "question": "How do I book the band?",
+          "answer": "Send dates and venue details through the contact form. Our booking agent replies within a week.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e151",
+         "type": "faq_item",
+         "props": {
+          "question": "Can I license a track?",
+          "answer": "Yes. Most of our catalogue is available for sync. Tell us about your project.",
+          "open": false
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "releases",
+   "title": "Releases",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e167",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e166",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e164",
+         "type": "heading",
+         "props": {
+          "text": "Releases",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e165",
+         "type": "text",
+         "props": {
+          "text": "Every release, newest first.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e163",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {
+      "padding_bottom": "0"
+     },
+     "children": [
+      {
+       "id": "e162",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e161",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e159",
+           "type": "text",
+           "props": {
+            "text": "Releases"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e160",
+           "type": "heading",
+           "props": {
+            "text": "Discography",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e158",
+       "type": "gallery",
+       "props": {
+        "items": [
+         {
+          "kind": "placeholder",
+          "seed": "concert-events-g0",
+          "subject": "vinyl",
+          "ratio": 1,
+          "label": "Gallery image 1"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "concert-events-g1",
+          "subject": "vinyl",
+          "ratio": 1,
+          "label": "Gallery image 2"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "concert-events-g2",
+          "subject": "vinyl",
+          "ratio": 1,
+          "label": "Gallery image 3"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "concert-events-g3",
+          "subject": "vinyl",
+          "ratio": 1,
+          "label": "Gallery image 4"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "concert-events-g4",
+          "subject": "vinyl",
+          "ratio": 1,
+          "label": "Gallery image 5"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "concert-events-g5",
+          "subject": "vinyl",
+          "ratio": 1,
+          "label": "Gallery image 6"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "concert-events-g6",
+          "subject": "vinyl",
+          "ratio": 1,
+          "label": "Gallery image 7"
+         },
+         {
+          "kind": "placeholder",
+          "seed": "concert-events-g7",
+          "subject": "vinyl",
+          "ratio": 1,
+          "label": "Gallery image 8"
+         }
+        ],
+        "columns": 4
+       },
+       "style": {
+        "gap": "6px"
+       },
+       "responsive": {
+        "mobile": {
+         "props": {
+          "columns": 2
+         }
+        }
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "news",
+   "title": "News",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e192",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e191",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e189",
+         "type": "heading",
+         "props": {
+          "text": "News",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e190",
+         "type": "text",
+         "props": {
+          "text": "News, diaries and notes from the road.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e188",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e187",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e185",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e183",
+           "type": "text",
+           "props": {
+            "text": "Journal"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e184",
+           "type": "heading",
+           "props": {
+            "text": "Notes and insights",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e186",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "32px"
+         },
+         "children": [
+          {
+           "id": "e172",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e168",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "concert-events-14",
+               "subject": "portrait",
+               "ratio": 1.55,
+               "label": "The gear we actually use"
+              },
+              "alt": "The gear we actually use",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e169",
+             "type": "text",
+             "props": {
+              "text": "Gear, 5 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e170",
+             "type": "heading",
+             "props": {
+              "text": "The gear we actually use",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e171",
+             "type": "text",
+             "props": {
+              "text": "Less than you might think.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e177",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e173",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "concert-events-15",
+               "subject": "portrait",
+               "ratio": 1.55,
+               "label": "New single out Friday"
+              },
+              "alt": "New single out Friday",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e174",
+             "type": "text",
+             "props": {
+              "text": "News, 2 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e175",
+             "type": "heading",
+             "props": {
+              "text": "New single out Friday",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e176",
+             "type": "text",
+             "props": {
+              "text": "First listen, and what it means.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e182",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e178",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "concert-events-16",
+               "subject": "portrait",
+               "ratio": 1.55,
+               "label": "Why vinyl still matters to us"
+              },
+              "alt": "Why vinyl still matters to us",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e179",
+             "type": "text",
+             "props": {
+              "text": "Records, 4 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e180",
+             "type": "heading",
+             "props": {
+              "text": "Why vinyl still matters to us",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e181",
+             "type": "text",
+             "props": {
+              "text": "On pressing plants and patience.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e212",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e211",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e209",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e210",
+         "type": "text",
+         "props": {
+          "text": "Booking, press and everything else.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e208",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e207",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 6fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "72px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e205",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e193",
+           "type": "text",
+           "props": {
+            "text": "Contact"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-accent"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e194",
+           "type": "heading",
+           "props": {
+            "text": "Booking and press",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e195",
+           "type": "text",
+           "props": {
+            "text": "Tickets for the tour are on sale now. For booking and press, send us a message.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e198",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e196",
+             "type": "icon",
+             "props": {
+              "name": "map-pin"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e197",
+             "type": "text",
+             "props": {
+              "text": "100 Example Road, Your City"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e201",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e199",
+             "type": "icon",
+             "props": {
+              "name": "phone"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e200",
+             "type": "text",
+             "props": {
+              "text": "+000 000 000 000"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e204",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e202",
+             "type": "icon",
+             "props": {
+              "name": "mail"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e203",
+             "type": "text",
+             "props": {
+              "text": "hello@example.com"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e206",
+         "type": "contact_form",
+         "props": {
+          "fields": [
+           {
+            "label": "Your name",
+            "type": "text"
+           },
+           {
+            "label": "Email address",
+            "type": "email"
+           },
+           {
+            "label": "Message",
+            "type": "textarea"
+           }
+          ],
+          "submit": "Send message"
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}
