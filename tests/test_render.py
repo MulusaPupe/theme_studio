@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import copy
 
+import pytest
+
 from mulusa_theme_studio.core.document import media_refs
 from mulusa_theme_studio.render.css import declarations, style_value, tokens_css
 from mulusa_theme_studio.render.html import RenderContext, render_node, sanitize_rich_text
@@ -135,3 +137,83 @@ def test_uploaded_assets_are_copied_and_paths_cannot_escape(tmp_path, template_d
     assert (tmp_path / "site" / "assets" / "media" / "logo.png").read_bytes() == b"png"
     assert not (tmp_path / "site" / "assets" / "media" / "secret.txt").exists()
     assert "../" not in out.pages["home"].read_text(encoding="utf-8")
+
+
+# Reusing unchanged pages must never change the output ------------------------------
+def _site_files(doc, folder):
+    from mulusa_theme_studio.render.site import write_site
+
+    site = write_site(doc, folder, editor=True)
+    files = {path.name: path.read_text(encoding="utf-8") for path in site.pages.values()}
+    files["style.css"] = (site.root / "assets" / "style.css").read_text(encoding="utf-8")
+    return files
+
+
+def _fresh_files(doc, folder):
+    from mulusa_theme_studio.render import site
+
+    site._page_cache.clear()
+    return _site_files(doc, folder)
+
+
+def _edits():
+    from mulusa_theme_studio.core import design
+    from mulusa_theme_studio.core.document import walk_nodes
+
+    def first(doc, kind):
+        return next(n for page in doc["pages"] for n in walk_nodes(page["nodes"]) if n["type"] == kind)
+
+    def heading_size(doc):
+        first(doc, "heading")["style"]["font_size"] = "41px"
+
+    def later_page_text(doc):
+        next(n for n in walk_nodes(doc["pages"][-1]["nodes"]) if n["type"] == "heading")["props"]["text"] = "Changed"
+
+    def page_title(doc):
+        doc["pages"][-1]["title"] = "Renamed page"
+
+    def page_slug(doc):
+        doc["pages"][-1]["slug"] = "renamed-page"
+
+    def header_brand(doc):
+        doc["site"]["header"]["props"]["brand"] = "New brand"
+
+    def colour(doc):
+        design.set_color(doc, "primary", "#123456")
+
+    def art(doc):
+        doc["media"]["art"] = "pattern" if doc["media"].get("art") != "pattern" else "gradient"
+
+    def asset(doc):
+        doc["media"]["assets"].append({"id": "a1", "file": "a.png", "name": "a"})
+        first(doc, "image")["props"]["media"] = {"kind": "asset", "id": "a1"}
+
+    return [heading_size, later_page_text, page_title, page_slug, header_brand, colour, art, asset]
+
+
+@pytest.mark.parametrize("edit", _edits(), ids=lambda e: e.__name__)
+def test_reused_pages_match_a_fresh_render(template_doc, tmp_path, edit):
+    _site_files(template_doc, tmp_path / "warm")  # Fills the cache with the state before the edit.
+    edit(template_doc)
+    reused = _site_files(template_doc, tmp_path / "warm")
+    assert reused == _fresh_files(template_doc, tmp_path / "fresh")
+
+
+def test_unchanged_pages_are_not_rendered_again(template_doc, tmp_path, monkeypatch):
+    from mulusa_theme_studio.render import site
+
+    _fresh_files(template_doc, tmp_path)
+    calls = []
+    real = site.render_node
+    monkeypatch.setattr(site, "render_node", lambda node, ctx: calls.append(ctx.current_page) or real(node, ctx))
+    template_doc["pages"][0]["nodes"][0]["name"] = "Edited"
+    site.write_site(template_doc, tmp_path, editor=True)
+    assert set(calls) == {template_doc["pages"][0]["id"]}
+
+
+def test_a_plain_render_never_reuses_an_editor_render(template_doc, tmp_path):
+    from mulusa_theme_studio.render.site import write_site
+
+    write_site(template_doc, tmp_path / "e", editor=True)
+    plain = write_site(template_doc, tmp_path / "p")
+    assert not any("data-mts-id" in body for body in plain.bodies.values())

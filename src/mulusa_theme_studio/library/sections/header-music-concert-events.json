@@ -1,0 +1,1 @@
+{"schema": "mulusa.section/1", "nodes": [{"id": "e202", "type": "header", "props": {"layout": "classic", "brand": "AFTERGLOW FEST", "nav_style": "caps", "sticky": true, "cta": {"label": "Tickets", "href": {"page": "contact"}}}, "style": {"border_bottom": "1px solid $c-border"}, "name": "Site header"}], "source_template": "music/concert-events"}

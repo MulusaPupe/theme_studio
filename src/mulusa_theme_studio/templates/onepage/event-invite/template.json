@@ -1,0 +1,347 @@
+{
+ "schema": "mulusa.theme/2",
+ "meta": {
+  "id": "onepage/event-invite",
+  "template_name": "Event: Invitation",
+  "name": "Copperbelt Business Summit",
+  "description": "An event invitation: a ticking calendar, the date and venue, a countdown and tickets.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#10b981",
+   "on_primary": "#0c1d17",
+   "secondary": "#123326",
+   "accent": "#fbbf24",
+   "on_accent": "#0c1d17",
+   "background": "#0c1d17",
+   "surface": "#10281f",
+   "text": "#f0fdf6",
+   "muted": "#b0beb8",
+   "border": "#30413b"
+  },
+  "fonts": {
+   "heading": "Fraunces",
+   "body": "Figtree",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 600,
+   "heading_transform": "none",
+   "heading_tracking": "-0.02em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.28
+  },
+  "shape": {
+   "radius": "10px",
+   "button_radius": "999px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "96px",
+   "gap": "24px",
+   "width": "1120px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Event: Invitation",
+   "colors": {
+    "primary": "#10b981",
+    "on_primary": "#0c1d17",
+    "secondary": "#123326",
+    "accent": "#fbbf24",
+    "on_accent": "#0c1d17",
+    "background": "#0c1d17",
+    "surface": "#10281f",
+    "text": "#f0fdf6",
+    "muted": "#b0beb8",
+    "border": "#30413b"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Fraunces / Figtree",
+   "heading": "Fraunces",
+   "body": "Figtree"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "eve22",
+   "type": "header",
+   "props": {
+    "layout": "minimal",
+    "brand": "Copperbelt Business Summit"
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "eve21",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "40px"
+   },
+   "name": "Site footer"
+  }
+ },
+ "navigation": {
+  "primary": []
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "landing",
+   "nodes": [
+    {
+     "id": "eve18",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "ambient": "aurora"
+     },
+     "style": {
+      "min_height": "100vh",
+      "display": "flex",
+      "align_items": "center",
+      "padding_block": "64px"
+     },
+     "name": "Hero",
+     "children": [
+      {
+       "id": "eve17",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "align_items": "center"
+       },
+       "children": [
+        {
+         "id": "eve16",
+         "type": "container",
+         "props": {},
+         "style": {
+          "width": "100%",
+          "max_width": "680px",
+          "margin_inline": "auto",
+          "gap": "22px",
+          "align_items": "center"
+         },
+         "children": [
+          {
+           "id": "eve14",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "center",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "eve13",
+             "type": "text",
+             "props": {
+              "text": "CBS 2027"
+             },
+             "style": {
+              "font_weight": "700",
+              "letter_spacing": "0.14em",
+              "text_transform": "uppercase",
+              "font_size": ".82rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "eve12",
+           "type": "container",
+           "props": {},
+           "style": {
+            "background": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.16)",
+            "backdrop_filter": "blur(16px) saturate(140%)",
+            "box_shadow": "0 30px 80px rgba(0,0,0,0.4)",
+            "border_radius": "24px",
+            "padding": "46px 38px",
+            "gap": "18px",
+            "align_items": "center",
+            "text_align": "center",
+            "width": "100%"
+           },
+           "name": "Glass card",
+           "children": [
+            {
+             "id": "eve5",
+             "type": "illustration",
+             "props": {
+              "name": "calendar",
+              "animate": true
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "220px"
+             }
+            },
+            {
+             "id": "eve6",
+             "type": "heading",
+             "props": {
+              "text": "Copperbelt Business Summit",
+              "level": 1
+             },
+             "style": {
+              "font_size": "clamp(2.1rem,5vw,3.3rem)"
+             }
+            },
+            {
+             "id": "eve7",
+             "type": "text",
+             "props": {
+              "text": "Two days of talks, deals and dinners with the people building the region's next decade.",
+              "muted": true
+             },
+             "style": {
+              "max_width": "46ch"
+             }
+            },
+            {
+             "id": "eve4",
+             "type": "row",
+             "props": {},
+             "style": {
+              "gap": "10px",
+              "justify_content": "center"
+             },
+             "children": [
+              {
+               "id": "eve1",
+               "type": "text",
+               "props": {
+                "text": "12–13 May 2027"
+               },
+               "style": {
+                "font_weight": "600"
+               }
+              },
+              {
+               "id": "eve2",
+               "type": "text",
+               "props": {
+                "text": "·"
+               },
+               "style": {}
+              },
+              {
+               "id": "eve3",
+               "type": "text",
+               "props": {
+                "text": "Ndola, Zambia"
+               },
+               "style": {
+                "font_weight": "600"
+               }
+              }
+             ]
+            },
+            {
+             "id": "eve8",
+             "type": "countdown",
+             "props": {
+              "target": "2027-05-12T08:30",
+              "utc_offset": "+02:00",
+              "show_seconds": true,
+              "done_text": "The summit has started."
+             },
+             "style": {
+              "margin_block": "4px"
+             }
+            },
+            {
+             "id": "eve11",
+             "type": "row",
+             "props": {},
+             "style": {
+              "gap": "12px",
+              "justify_content": "center"
+             },
+             "children": [
+              {
+               "id": "eve9",
+               "type": "button",
+               "props": {
+                "label": "Get tickets",
+                "href": "#",
+                "variant": "primary"
+               },
+               "style": {}
+              },
+              {
+               "id": "eve10",
+               "type": "button",
+               "props": {
+                "label": "Become a sponsor",
+                "href": "#",
+                "variant": "secondary"
+               },
+               "style": {}
+              }
+             ]
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "padding": "34px 20px"
+             }
+            }
+           }
+          },
+          {
+           "id": "eve15",
+           "type": "text",
+           "props": {
+            "text": "Early-bird tickets end 1 March",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".8rem",
+            "text_align": "center"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "responsive": {
+      "mobile": {
+       "style": {
+        "padding_block": "40px"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

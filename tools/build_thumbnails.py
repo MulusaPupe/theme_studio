@@ -125,7 +125,7 @@ def main() -> int:
                 view.resize(1440, 1080)
                 load(view, out.pages["home"])
                 run_js(view, "document.fonts.ready.then(function(){document.title='ready'});1")
-                wait(450)
+                wait(1500)  # let the hero entrance finish so the thumbnail shows the whole design
                 image = view.grab().toImage()
                 buffer = QBuffer()
                 buffer.open(QBuffer.OpenModeFlag.WriteOnly)

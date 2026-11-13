@@ -1,0 +1,3537 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "construction/industrial-steel",
+  "template_name": "Industrial Steel",
+  "name": "Foundry Steel Works",
+  "description": "Dark steel, safety orange and a sharp, angular industrial feel.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#ff6b1a",
+   "on_primary": "#14171a",
+   "secondary": "#3a4047",
+   "accent": "#ff6b1a",
+   "on_accent": "#14171a",
+   "background": "#14171a",
+   "surface": "#1e2226",
+   "text": "#f1f3f4",
+   "muted": "#b3b5b7",
+   "border": "#373a3d"
+  },
+  "fonts": {
+   "heading": "Archivo",
+   "body": "Inter",
+   "extra": [
+    "JetBrains Mono"
+   ]
+  },
+  "type": {
+   "heading_weight": 800,
+   "heading_transform": "uppercase",
+   "heading_tracking": "-0.01em",
+   "heading_line": 1,
+   "base": 16,
+   "ratio": 1.34
+  },
+  "shape": {
+   "radius": "0",
+   "button_radius": "0",
+   "button_style": "solid",
+   "button_transform": "uppercase",
+   "button_tracking": ".08em",
+   "button_size": ".82rem"
+  },
+  "spacing": {
+   "section": "88px",
+   "gap": "14px",
+   "width": "1320px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Industrial Steel",
+   "colors": {
+    "primary": "#ff6b1a",
+    "on_primary": "#14171a",
+    "secondary": "#3a4047",
+    "accent": "#ff6b1a",
+    "on_accent": "#14171a",
+    "background": "#14171a",
+    "surface": "#1e2226",
+    "text": "#f1f3f4",
+    "muted": "#b3b5b7",
+    "border": "#373a3d"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Archivo / Inter",
+   "heading": "Archivo",
+   "body": "Inter"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e268",
+   "type": "header",
+   "props": {
+    "layout": "classic",
+    "brand": "Foundry Steel Works",
+    "nav_style": "caps",
+    "cta": {
+     "label": "Get a price",
+     "href": {
+      "page": "contact"
+     }
+    }
+   },
+   "style": {
+    "border_bottom": "1px solid $c-border"
+   },
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e278",
+   "type": "footer",
+   "props": {
+    "tone": "primary"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e277",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e274",
+       "type": "row",
+       "props": {},
+       "style": {
+        "gap": "26px"
+       },
+       "children": [
+        {
+         "id": "e269",
+         "type": "link",
+         "props": {
+          "label": "About",
+          "href": {
+           "page": "about"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e270",
+         "type": "link",
+         "props": {
+          "label": "Services",
+          "href": {
+           "page": "services"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e271",
+         "type": "link",
+         "props": {
+          "label": "Projects",
+          "href": {
+           "page": "portfolio"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e272",
+         "type": "link",
+         "props": {
+          "label": "News",
+          "href": {
+           "page": "blog"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e273",
+         "type": "link",
+         "props": {
+          "label": "Contact",
+          "href": {
+           "page": "contact"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        }
+       ]
+      },
+      {
+       "id": "e275",
+       "type": "heading",
+       "props": {
+        "text": "Foundry Steel Works",
+        "level": 2
+       },
+       "style": {
+        "font_size": "min(15.48vw,12rem)",
+        "line_height": "1",
+        "margin_block": "34px 20px"
+       }
+      },
+      {
+       "id": "e276",
+       "type": "text",
+       "props": {
+        "text": "© Foundry Steel Works. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Services",
+    "page": "services"
+   },
+   {
+    "label": "Projects",
+    "page": "portfolio"
+   },
+   {
+    "label": "News",
+    "page": "blog"
+   },
+   {
+    "label": "Contact",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e9",
+     "type": "section",
+     "props": {
+      "role": "hero"
+     },
+     "style": {
+      "padding_block": "64px 80px"
+     },
+     "children": [
+      {
+       "id": "e8",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e6",
+         "type": "heading",
+         "props": {
+          "text": "Steel, fabricated and erected",
+          "level": 1
+         },
+         "style": {
+          "font_size": "clamp(3rem,10.5vw,10rem)",
+          "line_height": ".94"
+         }
+        },
+        {
+         "id": "e7",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_top": "36px"
+         }
+        },
+        {
+         "id": "e5",
+         "type": "columns",
+         "props": {
+          "columns": "4fr 8fr"
+         },
+         "style": {
+          "margin_top": "44px",
+          "gap": "48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e3",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px"
+           },
+           "children": [
+            {
+             "id": "e1",
+             "type": "text",
+             "props": {
+              "text": "From shop drawings to site erection: structural steel for warehouses, plants and towers.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e2",
+             "type": "link",
+             "props": {
+              "label": "View fabrication work",
+              "href": {
+               "page": "portfolio"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e4",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "industrial-steel-1",
+             "subject": "crane",
+             "ratio": 2,
+             "label": "Hero image"
+            },
+            "alt": "Hero image",
+            "ratio": 2
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e20",
+     "type": "section",
+     "props": {
+      "role": "statistics"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e19",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e12",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "align_items": "flex-end",
+          "padding_block": "20px",
+          "border_bottom": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "children": [
+          {
+           "id": "e10",
+           "type": "heading",
+           "props": {
+            "text": "320",
+            "level": 2
+           },
+           "style": {
+            "font_size": "clamp(3.4rem,10vw,8rem)",
+            "line_height": "1"
+           }
+          },
+          {
+           "id": "e11",
+           "type": "text",
+           "props": {
+            "text": "Projects delivered",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.1rem",
+            "max_width": "26ch"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e15",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "align_items": "flex-end",
+          "padding_block": "20px",
+          "border_bottom": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "children": [
+          {
+           "id": "e13",
+           "type": "heading",
+           "props": {
+            "text": "31",
+            "level": 2
+           },
+           "style": {
+            "font_size": "clamp(3.4rem,10vw,8rem)",
+            "line_height": "1"
+           }
+          },
+          {
+           "id": "e14",
+           "type": "text",
+           "props": {
+            "text": "Years building",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.1rem",
+            "max_width": "26ch"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e18",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "align_items": "flex-end",
+          "padding_block": "20px",
+          "border_bottom": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "children": [
+          {
+           "id": "e16",
+           "type": "heading",
+           "props": {
+            "text": "850",
+            "level": 2
+           },
+           "style": {
+            "font_size": "clamp(3.4rem,10vw,8rem)",
+            "line_height": "1"
+           }
+          },
+          {
+           "id": "e17",
+           "type": "text",
+           "props": {
+            "text": "People on site",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.1rem",
+            "max_width": "26ch"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e41",
+     "type": "section",
+     "props": {
+      "role": "portfolio",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e40",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e22",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e21",
+           "type": "heading",
+           "props": {
+            "text": "Projects we are proud of",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e39",
+         "type": "columns",
+         "props": {
+          "columns": "7fr 5fr"
+         },
+         "style": {
+          "gap": "44px 28px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e26",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e23",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-2",
+               "subject": "building",
+               "ratio": 1.3,
+               "label": "Ndola Office Tower"
+              },
+              "alt": "Ndola Office Tower",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e24",
+             "type": "heading",
+             "props": {
+              "text": "Ndola Office Tower",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e25",
+             "type": "text",
+             "props": {
+              "text": "Commercial, 18 storeys",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e30",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e27",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-3",
+               "subject": "building",
+               "ratio": 0.95,
+               "label": "Solwezi Water Works"
+              },
+              "alt": "Solwezi Water Works",
+              "ratio": 0.95
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e28",
+             "type": "heading",
+             "props": {
+              "text": "Solwezi Water Works",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e29",
+             "type": "text",
+             "props": {
+              "text": "Infrastructure, 40 ML/day",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e34",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e31",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-4",
+               "subject": "building",
+               "ratio": 1.6,
+               "label": "Kafue River Bridge"
+              },
+              "alt": "Kafue River Bridge",
+              "ratio": 1.6
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e32",
+             "type": "heading",
+             "props": {
+              "text": "Kafue River Bridge",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e33",
+             "type": "text",
+             "props": {
+              "text": "Civil, 240 m span",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e38",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e35",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-5",
+               "subject": "building",
+               "ratio": 1.15,
+               "label": "Northgate Logistics Park"
+              },
+              "alt": "Northgate Logistics Park",
+              "ratio": 1.15
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e36",
+             "type": "heading",
+             "props": {
+              "text": "Northgate Logistics Park",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e37",
+             "type": "text",
+             "props": {
+              "text": "Industrial, 48,000 m²",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e57",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e56",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e55",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e54",
+           "type": "heading",
+           "props": {
+            "text": "From first drawing to final handover",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e44",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e42",
+           "type": "heading",
+           "props": {
+            "text": "Plant and equipment",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e43",
+           "type": "text",
+           "props": {
+            "text": "A modern, maintained fleet with skilled operators.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e47",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e45",
+           "type": "heading",
+           "props": {
+            "text": "Health and safety",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e46",
+           "type": "text",
+           "props": {
+            "text": "Rigorous site procedures, audited independently.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e50",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e48",
+           "type": "heading",
+           "props": {
+            "text": "Commercial construction",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e49",
+           "type": "text",
+           "props": {
+            "text": "Offices, warehouses and retail, built to programme.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e53",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e51",
+           "type": "heading",
+           "props": {
+            "text": "Civil engineering",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e52",
+           "type": "text",
+           "props": {
+            "text": "Roads, drainage, bridges and earthworks.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e98",
+     "type": "section",
+     "props": {
+      "role": "products",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e97",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e59",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e58",
+           "type": "heading",
+           "props": {
+            "text": "Plant available for hire",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e96",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "38px 26px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e65",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e60",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-6",
+               "subject": "crane",
+               "ratio": 1.3,
+               "label": "Motor Grader"
+              },
+              "alt": "Motor Grader",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e63",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e61",
+               "type": "heading",
+               "props": {
+                "text": "Motor Grader",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e62",
+               "type": "text",
+               "props": {
+                "text": "$390/day"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e64",
+             "type": "text",
+             "props": {
+              "text": "With operator",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e71",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e66",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-7",
+               "subject": "crane",
+               "ratio": 1.3,
+               "label": "Generator Set"
+              },
+              "alt": "Generator Set",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e69",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e67",
+               "type": "heading",
+               "props": {
+                "text": "Generator Set",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e68",
+               "type": "text",
+               "props": {
+                "text": "$95/day"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e70",
+             "type": "text",
+             "props": {
+              "text": "100 kVA",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e77",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e72",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-8",
+               "subject": "crane",
+               "ratio": 1.3,
+               "label": "Excavator, 22 t"
+              },
+              "alt": "Excavator, 22 t",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e75",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e73",
+               "type": "heading",
+               "props": {
+                "text": "Excavator, 22 t",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e74",
+               "type": "text",
+               "props": {
+                "text": "$420/day"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e76",
+             "type": "text",
+             "props": {
+              "text": "With operator",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e83",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e78",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-9",
+               "subject": "crane",
+               "ratio": 1.3,
+               "label": "Tower Crane"
+              },
+              "alt": "Tower Crane",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e81",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e79",
+               "type": "heading",
+               "props": {
+                "text": "Tower Crane",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e80",
+               "type": "text",
+               "props": {
+                "text": "$780/day"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e82",
+             "type": "text",
+             "props": {
+              "text": "Erection included",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e89",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e84",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-10",
+               "subject": "crane",
+               "ratio": 1.3,
+               "label": "Tipper Truck"
+              },
+              "alt": "Tipper Truck",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e87",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e85",
+               "type": "heading",
+               "props": {
+                "text": "Tipper Truck",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e86",
+               "type": "text",
+               "props": {
+                "text": "$260/day"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e88",
+             "type": "text",
+             "props": {
+              "text": "With driver",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e95",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e90",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-11",
+               "subject": "crane",
+               "ratio": 1.3,
+               "label": "Concrete Pump"
+              },
+              "alt": "Concrete Pump",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e93",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e91",
+               "type": "heading",
+               "props": {
+                "text": "Concrete Pump",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e92",
+               "type": "text",
+               "props": {
+                "text": "$510/day"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e94",
+             "type": "text",
+             "props": {
+              "text": "With crew",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e104",
+     "type": "section",
+     "props": {
+      "role": "call_to_action"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e103",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e99",
+         "type": "heading",
+         "props": {
+          "text": "Have a project to price?",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(2.8rem,9vw,8rem)",
+          "line_height": ".98"
+         }
+        },
+        {
+         "id": "e102",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "margin_top": "30px",
+          "gap": "24px"
+         },
+         "children": [
+          {
+           "id": "e100",
+           "type": "text",
+           "props": {
+            "text": "Send us your drawings or brief. An estimator will be in touch within three working days.",
+            "muted": true
+           },
+           "style": {
+            "max_width": "44ch"
+           }
+          },
+          {
+           "id": "e101",
+           "type": "button",
+           "props": {
+            "label": "Get a price",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e134",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "56px 30px"
+     },
+     "children": [
+      {
+       "id": "e133",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e130",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {
+          "font_size": "min(21.67vw,10rem)",
+          "line_height": ".95"
+         }
+        },
+        {
+         "id": "e131",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_block": "26px 14px"
+         }
+        },
+        {
+         "id": "e132",
+         "type": "text",
+         "props": {
+          "text": "Three decades of building, and how we work on site.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e112",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e111",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "68px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e105",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "industrial-steel-12",
+           "subject": "crane",
+           "ratio": 1.1,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 1.1
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "e110",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e106",
+           "type": "heading",
+           "props": {
+            "text": "Built right, handed over on time",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e107",
+           "type": "text",
+           "props": {
+            "text": "We deliver commercial, civil and residential projects with our own crews, our own plant and one accountable project manager on every site.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e108",
+           "type": "text",
+           "props": {
+            "text": "Safety and quality come first on every project. Our engineers are involved from early design, so problems get solved on paper rather than on site.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e109",
+           "type": "link",
+           "props": {
+            "label": "Our story",
+            "href": {
+             "page": "about"
+            },
+            "arrow": true
+           },
+           "style": {
+            "margin_top": "6px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e129",
+     "type": "section",
+     "props": {
+      "role": "team",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e128",
+       "type": "columns",
+       "props": {
+        "columns": "4fr 8fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "48px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e126",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px"
+         },
+         "children": [
+          {
+           "id": "e125",
+           "type": "heading",
+           "props": {
+            "text": "The people who run our sites",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e127",
+         "type": "container",
+         "props": {},
+         "style": {},
+         "children": [
+          {
+           "id": "e115",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e113",
+             "type": "heading",
+             "props": {
+              "text": "Felix Sichone",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e114",
+             "type": "text",
+             "props": {
+              "text": "Senior QS",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e118",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e116",
+             "type": "heading",
+             "props": {
+              "text": "Kelvin Chisanga",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e117",
+             "type": "text",
+             "props": {
+              "text": "Managing Director",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e121",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e119",
+             "type": "heading",
+             "props": {
+              "text": "Agnes Lungu",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e120",
+             "type": "text",
+             "props": {
+              "text": "Chief Engineer",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e124",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e122",
+             "type": "heading",
+             "props": {
+              "text": "Mark van Wyk",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e123",
+             "type": "text",
+             "props": {
+              "text": "Operations Director",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "services",
+   "title": "Services",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e196",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "56px 30px"
+     },
+     "children": [
+      {
+       "id": "e195",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e192",
+         "type": "heading",
+         "props": {
+          "text": "Services",
+          "level": 1
+         },
+         "style": {
+          "font_size": "min(13.54vw,10rem)",
+          "line_height": ".95"
+         }
+        },
+        {
+         "id": "e193",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_block": "26px 14px"
+         }
+        },
+        {
+         "id": "e194",
+         "type": "text",
+         "props": {
+          "text": "Construction, civil works and engineering design.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e150",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e149",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e148",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e147",
+           "type": "heading",
+           "props": {
+            "text": "From first drawing to final handover",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e137",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e135",
+           "type": "heading",
+           "props": {
+            "text": "Plant and equipment",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e136",
+           "type": "text",
+           "props": {
+            "text": "A modern, maintained fleet with skilled operators.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e140",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e138",
+           "type": "heading",
+           "props": {
+            "text": "Health and safety",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e139",
+           "type": "text",
+           "props": {
+            "text": "Rigorous site procedures, audited independently.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e143",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e141",
+           "type": "heading",
+           "props": {
+            "text": "Commercial construction",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e142",
+           "type": "text",
+           "props": {
+            "text": "Offices, warehouses and retail, built to programme.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e146",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e144",
+           "type": "heading",
+           "props": {
+            "text": "Civil engineering",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e145",
+           "type": "text",
+           "props": {
+            "text": "Roads, drainage, bridges and earthworks.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e191",
+     "type": "section",
+     "props": {
+      "role": "products",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e190",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e152",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e151",
+           "type": "heading",
+           "props": {
+            "text": "Plant available for hire",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e189",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "38px 26px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e158",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e153",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-13",
+               "subject": "crane",
+               "ratio": 1.3,
+               "label": "Motor Grader"
+              },
+              "alt": "Motor Grader",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e156",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e154",
+               "type": "heading",
+               "props": {
+                "text": "Motor Grader",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e155",
+               "type": "text",
+               "props": {
+                "text": "$390/day"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e157",
+             "type": "text",
+             "props": {
+              "text": "With operator",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e164",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e159",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-14",
+               "subject": "crane",
+               "ratio": 1.3,
+               "label": "Generator Set"
+              },
+              "alt": "Generator Set",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e162",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e160",
+               "type": "heading",
+               "props": {
+                "text": "Generator Set",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e161",
+               "type": "text",
+               "props": {
+                "text": "$95/day"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e163",
+             "type": "text",
+             "props": {
+              "text": "100 kVA",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e170",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e165",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-15",
+               "subject": "crane",
+               "ratio": 1.3,
+               "label": "Excavator, 22 t"
+              },
+              "alt": "Excavator, 22 t",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e168",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e166",
+               "type": "heading",
+               "props": {
+                "text": "Excavator, 22 t",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e167",
+               "type": "text",
+               "props": {
+                "text": "$420/day"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e169",
+             "type": "text",
+             "props": {
+              "text": "With operator",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e176",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e171",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-16",
+               "subject": "crane",
+               "ratio": 1.3,
+               "label": "Tower Crane"
+              },
+              "alt": "Tower Crane",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e174",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e172",
+               "type": "heading",
+               "props": {
+                "text": "Tower Crane",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e173",
+               "type": "text",
+               "props": {
+                "text": "$780/day"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e175",
+             "type": "text",
+             "props": {
+              "text": "Erection included",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e182",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e177",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-17",
+               "subject": "crane",
+               "ratio": 1.3,
+               "label": "Tipper Truck"
+              },
+              "alt": "Tipper Truck",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e180",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e178",
+               "type": "heading",
+               "props": {
+                "text": "Tipper Truck",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e179",
+               "type": "text",
+               "props": {
+                "text": "$260/day"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e181",
+             "type": "text",
+             "props": {
+              "text": "With driver",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e188",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e183",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-18",
+               "subject": "crane",
+               "ratio": 1.3,
+               "label": "Concrete Pump"
+              },
+              "alt": "Concrete Pump",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e186",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e184",
+               "type": "heading",
+               "props": {
+                "text": "Concrete Pump",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e185",
+               "type": "text",
+               "props": {
+                "text": "$510/day"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e187",
+             "type": "text",
+             "props": {
+              "text": "With crew",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "projects",
+   "title": "Projects",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e222",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "56px 30px"
+     },
+     "children": [
+      {
+       "id": "e221",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e218",
+         "type": "heading",
+         "props": {
+          "text": "Projects",
+          "level": 1
+         },
+         "style": {
+          "font_size": "min(13.54vw,10rem)",
+          "line_height": ".95"
+         }
+        },
+        {
+         "id": "e219",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_block": "26px 14px"
+         }
+        },
+        {
+         "id": "e220",
+         "type": "text",
+         "props": {
+          "text": "Recent projects, by sector.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e217",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e216",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e198",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e197",
+           "type": "heading",
+           "props": {
+            "text": "Projects we are proud of",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e215",
+         "type": "columns",
+         "props": {
+          "columns": "7fr 5fr"
+         },
+         "style": {
+          "gap": "44px 28px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e202",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e199",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-19",
+               "subject": "building",
+               "ratio": 1.3,
+               "label": "Ndola Office Tower"
+              },
+              "alt": "Ndola Office Tower",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e200",
+             "type": "heading",
+             "props": {
+              "text": "Ndola Office Tower",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e201",
+             "type": "text",
+             "props": {
+              "text": "Commercial, 18 storeys",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e206",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e203",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-20",
+               "subject": "building",
+               "ratio": 0.95,
+               "label": "Solwezi Water Works"
+              },
+              "alt": "Solwezi Water Works",
+              "ratio": 0.95
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e204",
+             "type": "heading",
+             "props": {
+              "text": "Solwezi Water Works",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e205",
+             "type": "text",
+             "props": {
+              "text": "Infrastructure, 40 ML/day",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e210",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e207",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-21",
+               "subject": "building",
+               "ratio": 1.6,
+               "label": "Kafue River Bridge"
+              },
+              "alt": "Kafue River Bridge",
+              "ratio": 1.6
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e208",
+             "type": "heading",
+             "props": {
+              "text": "Kafue River Bridge",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e209",
+             "type": "text",
+             "props": {
+              "text": "Civil, 240 m span",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e214",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e211",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-22",
+               "subject": "building",
+               "ratio": 1.15,
+               "label": "Northgate Logistics Park"
+              },
+              "alt": "Northgate Logistics Park",
+              "ratio": 1.15
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e212",
+             "type": "heading",
+             "props": {
+              "text": "Northgate Logistics Park",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e213",
+             "type": "text",
+             "props": {
+              "text": "Industrial, 48,000 m²",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "news",
+   "title": "News",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e247",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "56px 30px"
+     },
+     "children": [
+      {
+       "id": "e246",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e243",
+         "type": "heading",
+         "props": {
+          "text": "News",
+          "level": 1
+         },
+         "style": {
+          "font_size": "min(27.09vw,10rem)",
+          "line_height": ".95"
+         }
+        },
+        {
+         "id": "e244",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_block": "26px 14px"
+         }
+        },
+        {
+         "id": "e245",
+         "type": "text",
+         "props": {
+          "text": "News from our sites and advice for clients.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e242",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e241",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e239",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e238",
+           "type": "heading",
+           "props": {
+            "text": "News and insight",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e240",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "32px"
+         },
+         "children": [
+          {
+           "id": "e227",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e223",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-23",
+               "subject": "crane",
+               "ratio": 1.55,
+               "label": "Choosing the right contract form"
+              },
+              "alt": "Choosing the right contract form",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e224",
+             "type": "text",
+             "props": {
+              "text": "Guide, 7 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e225",
+             "type": "heading",
+             "props": {
+              "text": "Choosing the right contract form",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e226",
+             "type": "text",
+             "props": {
+              "text": "A plain comparison for developers.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e232",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e228",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-24",
+               "subject": "crane",
+               "ratio": 1.55,
+               "label": "How early contractor involvement saves money"
+              },
+              "alt": "How early contractor involvement saves money",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e229",
+             "type": "text",
+             "props": {
+              "text": "Insight, 5 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e230",
+             "type": "heading",
+             "props": {
+              "text": "How early contractor involvement saves money",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e231",
+             "type": "text",
+             "props": {
+              "text": "Where the savings really come from.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e237",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e233",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "industrial-steel-25",
+               "subject": "crane",
+               "ratio": 1.55,
+               "label": "Lessons from a 62 km road upgrade"
+              },
+              "alt": "Lessons from a 62 km road upgrade",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e234",
+             "type": "text",
+             "props": {
+              "text": "Projects, 8 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e235",
+             "type": "heading",
+             "props": {
+              "text": "Lessons from a 62 km road upgrade",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e236",
+             "type": "text",
+             "props": {
+              "text": "Keeping traffic moving while building.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e267",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "56px 30px"
+     },
+     "children": [
+      {
+       "id": "e266",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e263",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {
+          "font_size": "min(15.48vw,10rem)",
+          "line_height": ".95"
+         }
+        },
+        {
+         "id": "e264",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_block": "26px 14px"
+         }
+        },
+        {
+         "id": "e265",
+         "type": "text",
+         "props": {
+          "text": "Tell us about your project.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e262",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e261",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 6fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "72px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e259",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e248",
+           "type": "heading",
+           "props": {
+            "text": "Talk to an estimator",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e249",
+           "type": "text",
+           "props": {
+            "text": "Send us your drawings or brief. An estimator will be in touch within three working days.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e252",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e250",
+             "type": "icon",
+             "props": {
+              "name": "map-pin"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e251",
+             "type": "text",
+             "props": {
+              "text": "100 Example Road, Your City"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e255",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e253",
+             "type": "icon",
+             "props": {
+              "name": "phone"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e254",
+             "type": "text",
+             "props": {
+              "text": "+000 000 000 000"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e258",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e256",
+             "type": "icon",
+             "props": {
+              "name": "mail"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e257",
+             "type": "text",
+             "props": {
+              "text": "hello@example.com"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e260",
+         "type": "contact_form",
+         "props": {
+          "fields": [
+           {
+            "label": "Your name",
+            "type": "text"
+           },
+           {
+            "label": "Email address",
+            "type": "email"
+           },
+           {
+            "label": "Message",
+            "type": "textarea"
+           }
+          ],
+          "submit": "Request a quote"
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "flat",
+  "assets": []
+ },
+ "reusable": []
+}

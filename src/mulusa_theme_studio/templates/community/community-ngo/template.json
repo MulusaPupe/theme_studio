@@ -1,0 +1,4240 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "community/community-ngo",
+  "template_name": "Community NGO",
+  "name": "Tiyende Trust",
+  "description": "Earthy greens and sunrise orange, photo-led, with impact numbers and ways to give.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#2f6b3a",
+   "on_primary": "#fbf8f1",
+   "secondary": "#295430",
+   "accent": "#e8812f",
+   "on_accent": "#1f2a1c",
+   "background": "#fbf8f1",
+   "surface": "#f1ece0",
+   "text": "#1f2a1c",
+   "muted": "#5d6458",
+   "border": "#d8d7cf"
+  },
+  "fonts": {
+   "heading": "DM Serif Display",
+   "body": "DM Sans",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 400,
+   "heading_transform": "none",
+   "heading_tracking": "-0.01em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.3
+  },
+  "shape": {
+   "radius": "10px",
+   "button_radius": "10px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "100px",
+   "gap": "26px",
+   "width": "1180px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Community NGO",
+   "colors": {
+    "primary": "#2f6b3a",
+    "on_primary": "#fbf8f1",
+    "secondary": "#295430",
+    "accent": "#e8812f",
+    "on_accent": "#1f2a1c",
+    "background": "#fbf8f1",
+    "surface": "#f1ece0",
+    "text": "#1f2a1c",
+    "muted": "#5d6458",
+    "border": "#d8d7cf"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "DM Serif Display / DM Sans",
+   "heading": "DM Serif Display",
+   "body": "DM Sans"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e320",
+   "type": "header",
+   "props": {
+    "layout": "classic",
+    "brand": "Tiyende Trust",
+    "overlay": true,
+    "cta": {
+     "label": "Donate",
+     "href": {
+      "page": "contact"
+     }
+    }
+   },
+   "style": {
+    "color": "#ffffff"
+   },
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e339",
+   "type": "footer",
+   "props": {
+    "tone": "surface"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e338",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e335",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 3fr 4fr"
+       },
+       "style": {
+        "gap": "40px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": "5fr 3fr 4fr"
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e323",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "10px"
+         },
+         "children": [
+          {
+           "id": "e321",
+           "type": "heading",
+           "props": {
+            "text": "Tiyende Trust",
+            "level": 3
+           },
+           "style": {
+            "font_size": "1.5rem"
+           }
+          },
+          {
+           "id": "e322",
+           "type": "text",
+           "props": {
+            "text": "We are a community organisation run by local volunteers, working on clean water, school meals.",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem",
+            "max_width": "34ch"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e330",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e324",
+           "type": "heading",
+           "props": {
+            "text": "Explore",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e325",
+           "type": "link",
+           "props": {
+            "label": "About",
+            "href": {
+             "page": "about"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e326",
+           "type": "link",
+           "props": {
+            "label": "Programmes",
+            "href": {
+             "page": "services"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e327",
+           "type": "link",
+           "props": {
+            "label": "Impact",
+            "href": {
+             "page": "portfolio"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e328",
+           "type": "link",
+           "props": {
+            "label": "News",
+            "href": {
+             "page": "blog"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e329",
+           "type": "link",
+           "props": {
+            "label": "Get Involved",
+            "href": {
+             "page": "contact"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          }
+         ]
+        },
+        {
+         "id": "e334",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e331",
+           "type": "heading",
+           "props": {
+            "text": "Contact",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e332",
+           "type": "text",
+           "props": {
+            "text": "100 Example Road, Your City",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          },
+          {
+           "id": "e333",
+           "type": "text",
+           "props": {
+            "text": "hello@example.com",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e336",
+       "type": "divider",
+       "props": {},
+       "style": {
+        "margin_block": "40px 14px"
+       }
+      },
+      {
+       "id": "e337",
+       "type": "text",
+       "props": {
+        "text": "© Tiyende Trust. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Programmes",
+    "page": "services"
+   },
+   {
+    "label": "Impact",
+    "page": "portfolio"
+   },
+   {
+    "label": "News",
+    "page": "blog"
+   },
+   {
+    "label": "Get Involved",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e8",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "community-ngo-1",
+        "subject": "landscape",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "linear-gradient(180deg,rgba(6,8,14,.45),rgba(6,8,14,.72))",
+       "alt": ""
+      }
+     },
+     "style": {
+      "min_height": "clamp(560px,86vh,860px)",
+      "display": "flex",
+      "align_items": "flex-end",
+      "padding_block": "150px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e7",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "justify_content": "flex-end",
+        "min_height": "inherit"
+       },
+       "children": [
+        {
+         "id": "e6",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "20px",
+          "max_width": "760px",
+          "color": "#ffffff"
+         },
+         "children": [
+          {
+           "id": "e1",
+           "type": "heading",
+           "props": {
+            "text": "Clean water, school meals and skills for twelve villages",
+            "level": 1
+           },
+           "style": {
+            "font_size": "clamp(2.7rem,7vw,5.6rem)"
+           }
+          },
+          {
+           "id": "e2",
+           "type": "text",
+           "props": {
+            "text": "A local organisation run with the communities it serves. See where every gift goes.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.16rem",
+            "max_width": "60ch"
+           }
+          },
+          {
+           "id": "e5",
+           "type": "row",
+           "props": {},
+           "style": {
+            "margin_top": "10px",
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e3",
+             "type": "button",
+             "props": {
+              "label": "Donate now",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {}
+            },
+            {
+             "id": "e4",
+             "type": "button",
+             "props": {
+              "label": "Our programmes",
+              "href": {
+               "page": "portfolio"
+              },
+              "variant": "secondary"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e19",
+     "type": "section",
+     "props": {
+      "role": "statistics"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e18",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e11",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "align_items": "flex-end",
+          "padding_block": "20px",
+          "border_bottom": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "children": [
+          {
+           "id": "e9",
+           "type": "heading",
+           "props": {
+            "text": "48",
+            "level": 2
+           },
+           "style": {
+            "font_size": "clamp(3.4rem,10vw,8rem)",
+            "line_height": "1"
+           }
+          },
+          {
+           "id": "e10",
+           "type": "text",
+           "props": {
+            "text": "Boreholes",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.1rem",
+            "max_width": "26ch"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e14",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "align_items": "flex-end",
+          "padding_block": "20px",
+          "border_bottom": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "children": [
+          {
+           "id": "e12",
+           "type": "heading",
+           "props": {
+            "text": "3,100",
+            "level": 2
+           },
+           "style": {
+            "font_size": "clamp(3.4rem,10vw,8rem)",
+            "line_height": "1"
+           }
+          },
+          {
+           "id": "e13",
+           "type": "text",
+           "props": {
+            "text": "Meals a day",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.1rem",
+            "max_width": "26ch"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e17",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "align_items": "flex-end",
+          "padding_block": "20px",
+          "border_bottom": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "children": [
+          {
+           "id": "e15",
+           "type": "heading",
+           "props": {
+            "text": "640",
+            "level": 2
+           },
+           "style": {
+            "font_size": "clamp(3.4rem,10vw,8rem)",
+            "line_height": "1"
+           }
+          },
+          {
+           "id": "e16",
+           "type": "text",
+           "props": {
+            "text": "Volunteers",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.1rem",
+            "max_width": "26ch"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e26",
+     "type": "section",
+     "props": {
+      "role": "about",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e25",
+       "type": "columns",
+       "props": {
+        "columns": "6fr 5fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "80px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e23",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e20",
+           "type": "heading",
+           "props": {
+            "text": "Neighbours helping neighbours since 2009",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e21",
+           "type": "text",
+           "props": {
+            "text": "We are a community organisation run by local volunteers, working on clean water, school meals and skills training in twelve villages.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e22",
+           "type": "text",
+           "props": {
+            "text": "Every project is chosen and run with the people it serves. We publish our accounts every year and welcome visitors to see the work.",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e24",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "community-ngo-2",
+           "subject": "landscape",
+           "ratio": 0.86,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 0.86
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e43",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e42",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e40",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e39",
+           "type": "heading",
+           "props": {
+            "text": "What we do",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e41",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e30",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e27",
+             "type": "illustration",
+             "props": {
+              "name": "pan",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "150px",
+              "margin_left": "0",
+              "margin_bottom": "6px"
+             }
+            },
+            {
+             "id": "e28",
+             "type": "heading",
+             "props": {
+              "text": "School meals",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e29",
+             "type": "text",
+             "props": {
+              "text": "A hot lunch for every child, every school day.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e34",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e31",
+             "type": "illustration",
+             "props": {
+              "name": "graduation",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "150px",
+              "margin_left": "0",
+              "margin_bottom": "6px"
+             }
+            },
+            {
+             "id": "e32",
+             "type": "heading",
+             "props": {
+              "text": "Skills training",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e33",
+             "type": "text",
+             "props": {
+              "text": "Tailoring, farming and bookkeeping courses.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e38",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e35",
+             "type": "illustration",
+             "props": {
+              "name": "heartbeat",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "150px",
+              "margin_left": "0",
+              "margin_bottom": "6px"
+             }
+            },
+            {
+             "id": "e36",
+             "type": "heading",
+             "props": {
+              "text": "Health outreach",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e37",
+             "type": "text",
+             "props": {
+              "text": "Mobile clinics with local nurses.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e72",
+     "type": "section",
+     "props": {
+      "role": "events",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e71",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e70",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e69",
+           "type": "heading",
+           "props": {
+            "text": "Upcoming events",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e48",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 6fr 3fr auto"
+         },
+         "style": {
+          "padding_block": "20px",
+          "border_top": "1px solid $c-border",
+          "gap": "14px 22px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e44",
+           "type": "heading",
+           "props": {
+            "text": "12 Apr",
+            "level": 4
+           },
+           "style": {}
+          },
+          {
+           "id": "e45",
+           "type": "heading",
+           "props": {
+            "text": "Charity football match",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.2rem,2.4vw,1.8rem)"
+           }
+          },
+          {
+           "id": "e46",
+           "type": "text",
+           "props": {
+            "text": "Town stadium",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e47",
+           "type": "button",
+           "props": {
+            "label": "Join us",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "secondary"
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e53",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 6fr 3fr auto"
+         },
+         "style": {
+          "padding_block": "20px",
+          "border_top": "1px solid $c-border",
+          "gap": "14px 22px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e49",
+           "type": "heading",
+           "props": {
+            "text": "10 May",
+            "level": 4
+           },
+           "style": {}
+          },
+          {
+           "id": "e50",
+           "type": "heading",
+           "props": {
+            "text": "Volunteer training",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.2rem,2.4vw,1.8rem)"
+           }
+          },
+          {
+           "id": "e51",
+           "type": "text",
+           "props": {
+            "text": "Community hall",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e52",
+           "type": "button",
+           "props": {
+            "label": "Join us",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "secondary"
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e58",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 6fr 3fr auto"
+         },
+         "style": {
+          "padding_block": "20px",
+          "border_top": "1px solid $c-border",
+          "gap": "14px 22px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e54",
+           "type": "heading",
+           "props": {
+            "text": "21 Jun",
+            "level": 4
+           },
+           "style": {}
+          },
+          {
+           "id": "e55",
+           "type": "heading",
+           "props": {
+            "text": "Fundraising dinner",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.2rem,2.4vw,1.8rem)"
+           }
+          },
+          {
+           "id": "e56",
+           "type": "text",
+           "props": {
+            "text": "Lodge hotel",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e57",
+           "type": "button",
+           "props": {
+            "label": "Join us",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "secondary"
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e63",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 6fr 3fr auto"
+         },
+         "style": {
+          "padding_block": "20px",
+          "border_top": "1px solid $c-border",
+          "gap": "14px 22px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e59",
+           "type": "heading",
+           "props": {
+            "text": "20 Sep",
+            "level": 4
+           },
+           "style": {}
+          },
+          {
+           "id": "e60",
+           "type": "heading",
+           "props": {
+            "text": "Open day",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.2rem,2.4vw,1.8rem)"
+           }
+          },
+          {
+           "id": "e61",
+           "type": "text",
+           "props": {
+            "text": "Head office",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e62",
+           "type": "button",
+           "props": {
+            "label": "Join us",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "secondary"
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e68",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 6fr 3fr auto"
+         },
+         "style": {
+          "padding_block": "20px",
+          "border_top": "1px solid $c-border",
+          "gap": "14px 22px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e64",
+           "type": "heading",
+           "props": {
+            "text": "15 Mar",
+            "level": 4
+           },
+           "style": {}
+          },
+          {
+           "id": "e65",
+           "type": "heading",
+           "props": {
+            "text": "Community clean-up",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.2rem,2.4vw,1.8rem)"
+           }
+          },
+          {
+           "id": "e66",
+           "type": "text",
+           "props": {
+            "text": "Market square",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e67",
+           "type": "button",
+           "props": {
+            "label": "Join us",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "secondary"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e92",
+     "type": "section",
+     "props": {
+      "role": "testimonials"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e91",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e89",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e88",
+           "type": "heading",
+           "props": {
+            "text": "What people say",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e90",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e77",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e73",
+             "type": "text",
+             "props": {
+              "text": "“I learned bookkeeping and now run my own shop.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e76",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e74",
+               "type": "text",
+               "props": {
+                "text": "Daniel Chola"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e75",
+               "type": "text",
+               "props": {
+                "text": "Course graduate",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e82",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e78",
+             "type": "text",
+             "props": {
+              "text": "“Transparent, local and effective.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e81",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e79",
+               "type": "text",
+               "props": {
+                "text": "Ruth Lungu"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e80",
+               "type": "text",
+               "props": {
+                "text": "Donor",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e87",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e83",
+             "type": "text",
+             "props": {
+              "text": "“The borehole changed everything. Our girls are back in school.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e86",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e84",
+               "type": "text",
+               "props": {
+                "text": "Esther Mwansa"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e85",
+               "type": "text",
+               "props": {
+                "text": "Village committee",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e119",
+     "type": "section",
+     "props": {
+      "role": "pricing",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e118",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e116",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e115",
+           "type": "heading",
+           "props": {
+            "text": "Ways to give",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e117",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "20px",
+          "align_items": "stretch"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e100",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e95",
+             "type": "heading",
+             "props": {
+              "text": "Supporter",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e96",
+             "type": "heading",
+             "props": {
+              "text": "$25",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e97",
+             "type": "text",
+             "props": {
+              "text": "A month.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e98",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e93",
+             "type": "text",
+             "props": {
+              "text": "✓  Training for one person",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e94",
+             "type": "text",
+             "props": {
+              "text": "✓  Annual report",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e99",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e108",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius"
+           },
+           "children": [
+            {
+             "id": "e103",
+             "type": "heading",
+             "props": {
+              "text": "Champion",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e104",
+             "type": "heading",
+             "props": {
+              "text": "$60",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e105",
+             "type": "text",
+             "props": {
+              "text": "A month.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e106",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e101",
+             "type": "text",
+             "props": {
+              "text": "✓  A borehole repair",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e102",
+             "type": "text",
+             "props": {
+              "text": "✓  Site visit invitation",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e107",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e114",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e109",
+             "type": "heading",
+             "props": {
+              "text": "One-off gift",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e110",
+             "type": "heading",
+             "props": {
+              "text": "Any amount",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e111",
+             "type": "text",
+             "props": {
+              "text": "Every gift helps.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e112",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e113",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e125",
+     "type": "section",
+     "props": {
+      "role": "call_to_action"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e124",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e123",
+         "type": "container",
+         "props": {
+          "tone": "primary"
+         },
+         "style": {
+          "gap": "16px",
+          "padding": "clamp(32px,6vw,72px)",
+          "border_radius": "$radius"
+         },
+         "children": [
+          {
+           "id": "e120",
+           "type": "heading",
+           "props": {
+            "text": "Join the work",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e121",
+           "type": "text",
+           "props": {
+            "text": "Give, volunteer or partner with us. Every hand makes a difference.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem",
+            "max_width": "50ch"
+           }
+          },
+          {
+           "id": "e122",
+           "type": "button",
+           "props": {
+            "label": "Donate now",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {
+            "align_self": "flex-start",
+            "margin_top": "8px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e170",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "community-ngo-8",
+        "subject": "landscape",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e169",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e167",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e168",
+         "type": "text",
+         "props": {
+          "text": "Who we are and why we do this."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e133",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e132",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "68px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e126",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "community-ngo-3",
+           "subject": "landscape",
+           "ratio": 1.1,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 1.1
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "e131",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e127",
+           "type": "heading",
+           "props": {
+            "text": "Neighbours helping neighbours since 2009",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e128",
+           "type": "text",
+           "props": {
+            "text": "We are a community organisation run by local volunteers, working on clean water, school meals and skills training in twelve villages.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e129",
+           "type": "text",
+           "props": {
+            "text": "Every project is chosen and run with the people it serves. We publish our accounts every year and welcome visitors to see the work.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e130",
+           "type": "link",
+           "props": {
+            "label": "Our story",
+            "href": {
+             "page": "about"
+            },
+            "arrow": true
+           },
+           "style": {
+            "margin_top": "6px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e145",
+     "type": "section",
+     "props": {
+      "role": "values",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e144",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e143",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "40px 56px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e136",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e134",
+             "type": "heading",
+             "props": {
+              "text": "Our values",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e135",
+             "type": "text",
+             "props": {
+              "text": "Every project is chosen and run with the people it serves. We publish our accounts every year and welcome visitors to see the work."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e139",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e137",
+             "type": "heading",
+             "props": {
+              "text": "Our mission",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e138",
+             "type": "text",
+             "props": {
+              "text": "We are a community organisation run by local volunteers, working on clean water, school meals and skills training in twelve villages."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e142",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e140",
+             "type": "heading",
+             "props": {
+              "text": "Our vision",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e141",
+             "type": "text",
+             "props": {
+              "text": "Give, volunteer or partner with us. Every hand makes a difference."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e166",
+     "type": "section",
+     "props": {
+      "role": "team"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e165",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e163",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e162",
+           "type": "heading",
+           "props": {
+            "text": "Our team",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e164",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e149",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e146",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "community-ngo-4",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Joseph Phiri"
+              },
+              "alt": "Joseph Phiri",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e147",
+             "type": "heading",
+             "props": {
+              "text": "Joseph Phiri",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e148",
+             "type": "text",
+             "props": {
+              "text": "Programmes Lead",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e153",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e150",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "community-ngo-5",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Mercy Banda"
+              },
+              "alt": "Mercy Banda",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e151",
+             "type": "heading",
+             "props": {
+              "text": "Mercy Banda",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e152",
+             "type": "text",
+             "props": {
+              "text": "Volunteer Coordinator",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e157",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e154",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "community-ngo-6",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Peter Zulu"
+              },
+              "alt": "Peter Zulu",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e155",
+             "type": "heading",
+             "props": {
+              "text": "Peter Zulu",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e156",
+             "type": "text",
+             "props": {
+              "text": "Finance",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e161",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e158",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "community-ngo-7",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Agnes Mumba"
+              },
+              "alt": "Agnes Mumba",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e159",
+             "type": "heading",
+             "props": {
+              "text": "Agnes Mumba",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e160",
+             "type": "text",
+             "props": {
+              "text": "Health Lead",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "programmes",
+   "title": "Programmes",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e231",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "community-ngo-12",
+        "subject": "landscape",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e230",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e228",
+         "type": "heading",
+         "props": {
+          "text": "Programmes",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e229",
+         "type": "text",
+         "props": {
+          "text": "Our programmes in the community."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e192",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e191",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e190",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e189",
+           "type": "heading",
+           "props": {
+            "text": "What we do",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e176",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "0",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e175",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "community-ngo-9",
+             "subject": "landscape",
+             "ratio": 1.5,
+             "label": "School meals"
+            },
+            "alt": "School meals",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e174",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e171",
+             "type": "heading",
+             "props": {
+              "text": "School meals",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e172",
+             "type": "text",
+             "props": {
+              "text": "A hot lunch for every child, every school day.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e173",
+             "type": "link",
+             "props": {
+              "label": "Learn more",
+              "href": {
+               "page": "services"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e182",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "56px",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e180",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e177",
+             "type": "heading",
+             "props": {
+              "text": "Skills training",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e178",
+             "type": "text",
+             "props": {
+              "text": "Tailoring, farming and bookkeeping courses.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e179",
+             "type": "link",
+             "props": {
+              "label": "Learn more",
+              "href": {
+               "page": "services"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e181",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "community-ngo-10",
+             "subject": "landscape",
+             "ratio": 1.5,
+             "label": "Skills training"
+            },
+            "alt": "Skills training",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e188",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "56px",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e187",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "community-ngo-11",
+             "subject": "landscape",
+             "ratio": 1.5,
+             "label": "Health outreach"
+            },
+            "alt": "Health outreach",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e186",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e183",
+             "type": "heading",
+             "props": {
+              "text": "Health outreach",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e184",
+             "type": "text",
+             "props": {
+              "text": "Mobile clinics with local nurses.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e185",
+             "type": "link",
+             "props": {
+              "label": "Learn more",
+              "href": {
+               "page": "services"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e219",
+     "type": "section",
+     "props": {
+      "role": "pricing",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e218",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e216",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e215",
+           "type": "heading",
+           "props": {
+            "text": "Ways to give",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e217",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "20px",
+          "align_items": "stretch"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e200",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e195",
+             "type": "heading",
+             "props": {
+              "text": "Supporter",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e196",
+             "type": "heading",
+             "props": {
+              "text": "$25",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e197",
+             "type": "text",
+             "props": {
+              "text": "A month.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e198",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e193",
+             "type": "text",
+             "props": {
+              "text": "✓  Training for one person",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e194",
+             "type": "text",
+             "props": {
+              "text": "✓  Annual report",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e199",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e208",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius"
+           },
+           "children": [
+            {
+             "id": "e203",
+             "type": "heading",
+             "props": {
+              "text": "Champion",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e204",
+             "type": "heading",
+             "props": {
+              "text": "$60",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e205",
+             "type": "text",
+             "props": {
+              "text": "A month.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e206",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e201",
+             "type": "text",
+             "props": {
+              "text": "✓  A borehole repair",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e202",
+             "type": "text",
+             "props": {
+              "text": "✓  Site visit invitation",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e207",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e214",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e209",
+             "type": "heading",
+             "props": {
+              "text": "One-off gift",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e210",
+             "type": "heading",
+             "props": {
+              "text": "Any amount",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e211",
+             "type": "text",
+             "props": {
+              "text": "Every gift helps.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e212",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e213",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e227",
+     "type": "section",
+     "props": {
+      "role": "faq"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e226",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e221",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e220",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e222",
+         "type": "faq_item",
+         "props": {
+          "question": "Can I volunteer?",
+          "answer": "Yes. We train new volunteers every month.",
+          "open": true
+         },
+         "style": {}
+        },
+        {
+         "id": "e223",
+         "type": "faq_item",
+         "props": {
+          "question": "Can I visit a project?",
+          "answer": "Supporters are welcome on our quarterly site visits.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e224",
+         "type": "faq_item",
+         "props": {
+          "question": "Are you registered?",
+          "answer": "Yes, we are a registered non-profit organisation.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e225",
+         "type": "faq_item",
+         "props": {
+          "question": "How is my donation used?",
+          "answer": "Ninety percent goes directly to programmes. Our audited accounts are published every year.",
+          "open": false
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "impact",
+   "title": "Impact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e284",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "community-ngo-19",
+        "subject": "landscape",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e283",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e281",
+         "type": "heading",
+         "props": {
+          "text": "Impact",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e282",
+         "type": "text",
+         "props": {
+          "text": "Stories and photographs from our projects."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e260",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e259",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e233",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e232",
+           "type": "heading",
+           "props": {
+            "text": "Stories from the field",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e258",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "36px 26px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e237",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e234",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "community-ngo-13",
+               "subject": "portrait",
+               "ratio": 1.25,
+               "label": "Lunch at Mwanza school"
+              },
+              "alt": "Lunch at Mwanza school",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e235",
+             "type": "heading",
+             "props": {
+              "text": "Lunch at Mwanza school",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e236",
+             "type": "text",
+             "props": {
+              "text": "Meals, 2025",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e241",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e238",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "community-ngo-14",
+               "subject": "portrait",
+               "ratio": 1.25,
+               "label": "Tailoring class graduates"
+              },
+              "alt": "Tailoring class graduates",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e239",
+             "type": "heading",
+             "props": {
+              "text": "Tailoring class graduates",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e240",
+             "type": "text",
+             "props": {
+              "text": "Skills, 2024",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e245",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e242",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "community-ngo-15",
+               "subject": "portrait",
+               "ratio": 1.25,
+               "label": "Mobile clinic day"
+              },
+              "alt": "Mobile clinic day",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e243",
+             "type": "heading",
+             "props": {
+              "text": "Mobile clinic day",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e244",
+             "type": "text",
+             "props": {
+              "text": "Health, 2024",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e249",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e246",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "community-ngo-16",
+               "subject": "portrait",
+               "ratio": 1.25,
+               "label": "Youth league final"
+              },
+              "alt": "Youth league final",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e247",
+             "type": "heading",
+             "props": {
+              "text": "Youth league final",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e248",
+             "type": "text",
+             "props": {
+              "text": "Sport, 2024",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e253",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e250",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "community-ngo-17",
+               "subject": "portrait",
+               "ratio": 1.25,
+               "label": "Savings group anniversary"
+              },
+              "alt": "Savings group anniversary",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e251",
+             "type": "heading",
+             "props": {
+              "text": "Savings group anniversary",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e252",
+             "type": "text",
+             "props": {
+              "text": "Savings, 2023",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e257",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e254",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "community-ngo-18",
+               "subject": "portrait",
+               "ratio": 1.25,
+               "label": "A borehole for Chibombo"
+              },
+              "alt": "A borehole for Chibombo",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e255",
+             "type": "heading",
+             "props": {
+              "text": "A borehole for Chibombo",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e256",
+             "type": "text",
+             "props": {
+              "text": "Water, 2025",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e280",
+     "type": "section",
+     "props": {
+      "role": "testimonials",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e279",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e277",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e276",
+           "type": "heading",
+           "props": {
+            "text": "What people say",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e278",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e265",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e261",
+             "type": "text",
+             "props": {
+              "text": "“I learned bookkeeping and now run my own shop.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e264",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e262",
+               "type": "text",
+               "props": {
+                "text": "Daniel Chola"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e263",
+               "type": "text",
+               "props": {
+                "text": "Course graduate",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e270",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e266",
+             "type": "text",
+             "props": {
+              "text": "“Transparent, local and effective.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e269",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e267",
+               "type": "text",
+               "props": {
+                "text": "Ruth Lungu"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e268",
+               "type": "text",
+               "props": {
+                "text": "Donor",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e275",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e271",
+             "type": "text",
+             "props": {
+              "text": "“The borehole changed everything. Our girls are back in school.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e274",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e272",
+               "type": "text",
+               "props": {
+                "text": "Esther Mwansa"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e273",
+               "type": "text",
+               "props": {
+                "text": "Village committee",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "news",
+   "title": "News",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e308",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "community-ngo-23",
+        "subject": "landscape",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e307",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e305",
+         "type": "heading",
+         "props": {
+          "text": "News",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e306",
+         "type": "text",
+         "props": {
+          "text": "News and reports."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e304",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e303",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e301",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e300",
+           "type": "heading",
+           "props": {
+            "text": "News",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e302",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "32px"
+         },
+         "children": [
+          {
+           "id": "e289",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e285",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "community-ngo-20",
+               "subject": "landscape",
+               "ratio": 1.55,
+               "label": "Meet our new volunteers"
+              },
+              "alt": "Meet our new volunteers",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e286",
+             "type": "text",
+             "props": {
+              "text": "People, 4 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e287",
+             "type": "heading",
+             "props": {
+              "text": "Meet our new volunteers",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e288",
+             "type": "text",
+             "props": {
+              "text": "Forty new faces this year.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e294",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e290",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "community-ngo-21",
+               "subject": "landscape",
+               "ratio": 1.55,
+               "label": "Why we fix boreholes, not just build them"
+              },
+              "alt": "Why we fix boreholes, not just build them",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e291",
+             "type": "text",
+             "props": {
+              "text": "Water, 6 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e292",
+             "type": "heading",
+             "props": {
+              "text": "Why we fix boreholes, not just build them",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e293",
+             "type": "text",
+             "props": {
+              "text": "Maintenance is the real work.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e299",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e295",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "community-ngo-22",
+               "subject": "landscape",
+               "ratio": 1.55,
+               "label": "A day with the mobile clinic"
+              },
+              "alt": "A day with the mobile clinic",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e296",
+             "type": "text",
+             "props": {
+              "text": "Health, 5 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e297",
+             "type": "heading",
+             "props": {
+              "text": "A day with the mobile clinic",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e298",
+             "type": "text",
+             "props": {
+              "text": "Photographs and stories.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "get-involved",
+   "title": "Get Involved",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e319",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "community-ngo-24",
+        "subject": "landscape",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e318",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e316",
+         "type": "heading",
+         "props": {
+          "text": "Get Involved",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e317",
+         "type": "text",
+         "props": {
+          "text": "Volunteer, partner or ask a question."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e315",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e314",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e313",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e311",
+           "type": "heading",
+           "props": {
+            "text": "Get in touch",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e312",
+           "type": "text",
+           "props": {
+            "text": "Give, volunteer or partner with us. Every hand makes a difference.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e310",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px",
+          "border": "1px solid $c-border",
+          "border_radius": "$card-radius",
+          "padding": "clamp(24px,4vw,44px)"
+         },
+         "children": [
+          {
+           "id": "e309",
+           "type": "contact_form",
+           "props": {
+            "fields": [
+             {
+              "label": "Your name",
+              "type": "text"
+             },
+             {
+              "label": "Email address",
+              "type": "email"
+             },
+             {
+              "label": "Message",
+              "type": "textarea"
+             }
+            ],
+            "submit": "Send"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

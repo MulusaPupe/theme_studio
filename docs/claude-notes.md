@@ -31,4 +31,14 @@ Short memory for sessions. The full record is PROJECT_CONTEXT.md and DEVELOPMENT
 Stage 02 done, awaiting approval. Stage 03 must not start without the owner's go-ahead. Still to confirm by hand: a real mouse drag from the library.
 
 ## Status 2026-11-04
-Stage 03 done, awaiting approval. Last run: 677 passed, 15 warnings in 247.22s (0:04:07). Open: live edit median 163 ms (unprofiled); real mouse drag from library unconfirmed. See DEVELOPMENT_LOG.md.
+Stage 03 done, awaiting approval. Last run: 687 passed. Live edit median 125 ms after per-page render reuse (worst seen 296 ms, cause unknown). Open: real mouse drag from library unconfirmed. See DEVELOPMENT_LOG.md.
+
+## Stages 04-06 status (2026-11-04)
+- Done: schema v2, core/pages.py, query/post_field nodes, exporters/wordpress/{blocks,translate,files,content_plugin,check,__init__,adapter.css}.
+- Real WP env: tests/wordpress/wp_env.sh (Podman, WP 7.1.4, PHP 8.3.36), wp_browser.py, check_gutenberg.py. corporate-classic: 0 invalid blocks, negative control detected.
+- Next: UI (pages, nav, responsive, query, export dialog), prototype, dynamic posts test, edit in Gutenberg, tests, docs.
+
+## Status 2026-11-12
+Stages 04-06 built, awaiting approval. Added: exporters/static (+ dialog option), tests/test_static_export.py, tools/site_screenshots.py, tools/build_vicreations.py, tests/wordpress/check_exports.sh, docs/vicreations-walkthrough.md. pytest-xdist: suite under 2 min.
+- site_screenshots.py needs absolute paths (it resolves them); tall grabs can come back blank below the fold, it retries.
+- Static export: query sections dropped, forms need handler or email, check_site verifies links/files.

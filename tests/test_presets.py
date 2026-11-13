@@ -16,6 +16,7 @@ BRIEF = {
     "Structure": {"Section", "Container", "Two columns", "Three columns", "Divider"},
     "Content": {"Heading", "Paragraph", "Image", "Button", "Icon", "Spacer"},
     "Prebuilt sections": {"Hero", "About", "Services", "Features", "Testimonials", "Team", "Pricing", "Statistics", "Portfolio", "Call to action", "Contact", "FAQ"},
+    "Motion and graphics": {"Animated illustration", "Countdown", "Progress bar", "Glass card", "Coming soon page", "Maintenance page"},
 }
 
 

@@ -1,0 +1,3787 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "personal/personal-portfolio",
+  "template_name": "Personal Portfolio",
+  "name": "Lina Mwale",
+  "description": "A warm, typographic one-person site: giant name, selected work and writing.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#1d1a16",
+   "on_primary": "#f4efe6",
+   "secondary": "#1d1a16",
+   "accent": "#c2532d",
+   "on_accent": "#ffffff",
+   "background": "#f4efe6",
+   "surface": "#ebe3d6",
+   "text": "#1d1a16",
+   "muted": "#595650",
+   "border": "#d2cdc5"
+  },
+  "fonts": {
+   "heading": "Fraunces",
+   "body": "Figtree",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 500,
+   "heading_transform": "none",
+   "heading_tracking": "-0.03em",
+   "heading_line": 1.0,
+   "base": 17,
+   "ratio": 1.3
+  },
+  "shape": {
+   "radius": "4px",
+   "button_radius": "999px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "112px",
+   "gap": "28px",
+   "width": "1160px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Personal Portfolio",
+   "colors": {
+    "primary": "#1d1a16",
+    "on_primary": "#f4efe6",
+    "secondary": "#1d1a16",
+    "accent": "#c2532d",
+    "on_accent": "#ffffff",
+    "background": "#f4efe6",
+    "surface": "#ebe3d6",
+    "text": "#1d1a16",
+    "muted": "#595650",
+    "border": "#d2cdc5"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Fraunces / Figtree",
+   "heading": "Fraunces",
+   "body": "Figtree"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e285",
+   "type": "header",
+   "props": {
+    "layout": "minimal",
+    "brand": "Lina Mwale",
+    "cta": {
+     "label": "Start a project",
+     "href": {
+      "page": "contact"
+     }
+    }
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e295",
+   "type": "footer",
+   "props": {
+    "tone": "primary"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e294",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e291",
+       "type": "row",
+       "props": {},
+       "style": {
+        "gap": "26px"
+       },
+       "children": [
+        {
+         "id": "e286",
+         "type": "link",
+         "props": {
+          "label": "About",
+          "href": {
+           "page": "about"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e287",
+         "type": "link",
+         "props": {
+          "label": "Services",
+          "href": {
+           "page": "services"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e288",
+         "type": "link",
+         "props": {
+          "label": "Work",
+          "href": {
+           "page": "portfolio"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e289",
+         "type": "link",
+         "props": {
+          "label": "Writing",
+          "href": {
+           "page": "blog"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e290",
+         "type": "link",
+         "props": {
+          "label": "Contact",
+          "href": {
+           "page": "contact"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        }
+       ]
+      },
+      {
+       "id": "e292",
+       "type": "heading",
+       "props": {
+        "text": "Lina Mwale",
+        "level": 2
+       },
+       "style": {
+        "font_size": "min(28.97vw,12rem)",
+        "line_height": "1",
+        "margin_block": "34px 20px"
+       }
+      },
+      {
+       "id": "e293",
+       "type": "text",
+       "props": {
+        "text": "© Lina Mwale. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Services",
+    "page": "services"
+   },
+   {
+    "label": "Work",
+    "page": "portfolio"
+   },
+   {
+    "label": "Writing",
+    "page": "blog"
+   },
+   {
+    "label": "Contact",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e9",
+     "type": "section",
+     "props": {
+      "role": "hero"
+     },
+     "style": {
+      "padding_block": "64px 80px"
+     },
+     "children": [
+      {
+       "id": "e8",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e6",
+         "type": "heading",
+         "props": {
+          "text": "Lina Mwale designs brands that feel lived in",
+          "level": 1
+         },
+         "style": {
+          "font_size": "clamp(3.2rem,12vw,11rem)",
+          "line_height": ".94"
+         }
+        },
+        {
+         "id": "e7",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_top": "36px"
+         }
+        },
+        {
+         "id": "e5",
+         "type": "columns",
+         "props": {
+          "columns": "4fr 8fr"
+         },
+         "style": {
+          "margin_top": "44px",
+          "gap": "48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e3",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px"
+           },
+           "children": [
+            {
+             "id": "e1",
+             "type": "text",
+             "props": {
+              "text": "Identity, websites and art direction for independent businesses. Based in Lusaka, working everywhere.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e2",
+             "type": "link",
+             "props": {
+              "label": "See the work",
+              "href": {
+               "page": "portfolio"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e4",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "personal-portfolio-1",
+             "subject": "portrait",
+             "ratio": 2,
+             "label": "Hero image"
+            },
+            "alt": "Hero image",
+            "ratio": 2
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e12",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e11",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "22px"
+       },
+       "children": [
+        {
+         "id": "e10",
+         "type": "heading",
+         "props": {
+          "text": "I design identities and websites for independent businesses, and I have spent twelve years learning what makes a small brand feel big.",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(1.8rem,3.8vw,3.2rem)",
+          "line_height": "1.22",
+          "max_width": "24em"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e28",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e27",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e26",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e25",
+           "type": "heading",
+           "props": {
+            "text": "What I can do for you",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e15",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e13",
+           "type": "heading",
+           "props": {
+            "text": "Art direction",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e14",
+           "type": "text",
+           "props": {
+            "text": "Photography and campaigns with one clear idea.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e18",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e16",
+           "type": "heading",
+           "props": {
+            "text": "Writing",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e17",
+           "type": "text",
+           "props": {
+            "text": "Words for sites, decks and packaging.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e21",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e19",
+           "type": "heading",
+           "props": {
+            "text": "Workshops",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e20",
+           "type": "text",
+           "props": {
+            "text": "Brand and design sessions for small teams.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e24",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e22",
+           "type": "heading",
+           "props": {
+            "text": "Mentoring",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e23",
+           "type": "text",
+           "props": {
+            "text": "One-to-one sessions for junior designers.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e69",
+     "type": "section",
+     "props": {
+      "role": "portfolio",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e68",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e30",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e29",
+           "type": "heading",
+           "props": {
+            "text": "Selected work",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e67",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "36px 22px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e34",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e31",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-2",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Casa Verde packaging"
+              },
+              "alt": "Casa Verde packaging",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e32",
+             "type": "heading",
+             "props": {
+              "text": "Casa Verde packaging",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e33",
+             "type": "text",
+             "props": {
+              "text": "Packaging, 2024",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e38",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e35",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-3",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Lumen Festival campaign"
+              },
+              "alt": "Lumen Festival campaign",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e36",
+             "type": "heading",
+             "props": {
+              "text": "Lumen Festival campaign",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e37",
+             "type": "text",
+             "props": {
+              "text": "Art direction, 2024",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e42",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e39",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-4",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Sable Books covers"
+              },
+              "alt": "Sable Books covers",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e40",
+             "type": "heading",
+             "props": {
+              "text": "Sable Books covers",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e41",
+             "type": "text",
+             "props": {
+              "text": "Editorial, 2023",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e46",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e43",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-5",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Field Notes app"
+              },
+              "alt": "Field Notes app",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e44",
+             "type": "heading",
+             "props": {
+              "text": "Field Notes app",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e45",
+             "type": "text",
+             "props": {
+              "text": "Product, 2023",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e50",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e47",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-6",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Kalulu Coffee identity"
+              },
+              "alt": "Kalulu Coffee identity",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e48",
+             "type": "heading",
+             "props": {
+              "text": "Kalulu Coffee identity",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e49",
+             "type": "text",
+             "props": {
+              "text": "Branding, 2025",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e54",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e51",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-7",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Northfield Press website"
+              },
+              "alt": "Northfield Press website",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e52",
+             "type": "heading",
+             "props": {
+              "text": "Northfield Press website",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e53",
+             "type": "text",
+             "props": {
+              "text": "Web, 2025",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e58",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e55",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-8",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Casa Verde packaging"
+              },
+              "alt": "Casa Verde packaging",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e56",
+             "type": "heading",
+             "props": {
+              "text": "Casa Verde packaging",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e57",
+             "type": "text",
+             "props": {
+              "text": "Packaging, 2024",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e62",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e59",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-9",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Lumen Festival campaign"
+              },
+              "alt": "Lumen Festival campaign",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e60",
+             "type": "heading",
+             "props": {
+              "text": "Lumen Festival campaign",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e61",
+             "type": "text",
+             "props": {
+              "text": "Art direction, 2024",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e66",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e63",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-10",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Sable Books covers"
+              },
+              "alt": "Sable Books covers",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e64",
+             "type": "heading",
+             "props": {
+              "text": "Sable Books covers",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e65",
+             "type": "text",
+             "props": {
+              "text": "Editorial, 2023",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e76",
+     "type": "section",
+     "props": {
+      "role": "clients"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e75",
+       "type": "columns",
+       "props": {
+        "columns": "4fr 8fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "24px 48px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e73",
+         "type": "heading",
+         "props": {
+          "text": "Who we work for",
+          "level": 2
+         },
+         "style": {
+          "font_size": "1.3rem"
+         }
+        },
+        {
+         "id": "e74",
+         "type": "container",
+         "props": {},
+         "style": {
+          "border_top": "1px solid $c-border"
+         },
+         "children": [
+          {
+           "id": "e70",
+           "type": "heading",
+           "props": {
+            "text": "Casa Verde",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.6rem,4vw,3.4rem)",
+            "line_height": "1.1",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           }
+          },
+          {
+           "id": "e71",
+           "type": "heading",
+           "props": {
+            "text": "Kalulu Coffee",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.6rem,4vw,3.4rem)",
+            "line_height": "1.1",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           }
+          },
+          {
+           "id": "e72",
+           "type": "heading",
+           "props": {
+            "text": "Northfield Press",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.6rem,4vw,3.4rem)",
+            "line_height": "1.1",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e80",
+     "type": "section",
+     "props": {
+      "role": "testimonials"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e79",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "gap": "24px"
+       },
+       "children": [
+        {
+         "id": "e77",
+         "type": "heading",
+         "props": {
+          "text": "“Working with one person who cares made all the difference.”",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(1.6rem,3.4vw,2.8rem)",
+          "line_height": "1.25",
+          "font_weight": "inherit"
+         }
+        },
+        {
+         "id": "e78",
+         "type": "text",
+         "props": {
+          "text": "Ana Ruiz, Owner, Casa Verde",
+          "muted": true
+         },
+         "style": {
+          "font_size": ".95rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e86",
+     "type": "section",
+     "props": {
+      "role": "call_to_action",
+      "tone": "primary"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e85",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e81",
+         "type": "heading",
+         "props": {
+          "text": "Have a project in mind?",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(2.8rem,9vw,8rem)",
+          "line_height": ".98"
+         }
+        },
+        {
+         "id": "e84",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "margin_top": "30px",
+          "gap": "24px"
+         },
+         "children": [
+          {
+           "id": "e82",
+           "type": "text",
+           "props": {
+            "text": "Tell me about it. I reply to every message within two days.",
+            "muted": true
+           },
+           "style": {
+            "max_width": "44ch"
+           }
+          },
+          {
+           "id": "e83",
+           "type": "button",
+           "props": {
+            "label": "Start a project",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e125",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e124",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e122",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e123",
+         "type": "text",
+         "props": {
+          "text": "A little about me and how I work.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e94",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e93",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "68px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e87",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "personal-portfolio-11",
+           "subject": "portrait",
+           "ratio": 1.1,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 1.1
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "e92",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e88",
+           "type": "heading",
+           "props": {
+            "text": "Designer, writer and occasional teacher",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e89",
+           "type": "text",
+           "props": {
+            "text": "I design identities and websites for independent businesses, and I have spent twelve years learning what makes a small brand feel big.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e90",
+           "type": "text",
+           "props": {
+            "text": "I work alone, on a few projects at a time, from first sketch to launch. You talk to the person doing the work, every time.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e91",
+           "type": "link",
+           "props": {
+            "label": "Our story",
+            "href": {
+             "page": "about"
+            },
+            "arrow": true
+           },
+           "style": {
+            "margin_top": "6px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e106",
+     "type": "section",
+     "props": {
+      "role": "values",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e105",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e104",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "40px 56px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e97",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e95",
+             "type": "heading",
+             "props": {
+              "text": "Our values",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e96",
+             "type": "text",
+             "props": {
+              "text": "I work alone, on a few projects at a time, from first sketch to launch. You talk to the person doing the work, every time."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e100",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e98",
+             "type": "heading",
+             "props": {
+              "text": "Our mission",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e99",
+             "type": "text",
+             "props": {
+              "text": "I design identities and websites for independent businesses, and I have spent twelve years learning what makes a small brand feel big."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e103",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e101",
+             "type": "heading",
+             "props": {
+              "text": "Our vision",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e102",
+             "type": "text",
+             "props": {
+              "text": "Tell me about it. I reply to every message within two days."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e121",
+     "type": "section",
+     "props": {
+      "role": "statistics"
+     },
+     "style": {
+      "padding_block": "56px"
+     },
+     "children": [
+      {
+       "id": "e120",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e119",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 4
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e109",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e107",
+             "type": "heading",
+             "props": {
+              "text": "9",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e108",
+             "type": "text",
+             "props": {
+              "text": "Awards",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e112",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e110",
+             "type": "heading",
+             "props": {
+              "text": "30",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e111",
+             "type": "text",
+             "props": {
+              "text": "Students mentored",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e115",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e113",
+             "type": "heading",
+             "props": {
+              "text": "12",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e114",
+             "type": "text",
+             "props": {
+              "text": "Years in practice",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e118",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e116",
+             "type": "heading",
+             "props": {
+              "text": "140+",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e117",
+             "type": "text",
+             "props": {
+              "text": "Projects shipped",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "services",
+   "title": "Services",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e188",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e187",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e185",
+         "type": "heading",
+         "props": {
+          "text": "Services",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e186",
+         "type": "text",
+         "props": {
+          "text": "Design, writing and teaching.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e141",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e140",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e139",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e138",
+           "type": "heading",
+           "props": {
+            "text": "What I can do for you",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e128",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e126",
+           "type": "heading",
+           "props": {
+            "text": "Art direction",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e127",
+           "type": "text",
+           "props": {
+            "text": "Photography and campaigns with one clear idea.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e131",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e129",
+           "type": "heading",
+           "props": {
+            "text": "Writing",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e130",
+           "type": "text",
+           "props": {
+            "text": "Words for sites, decks and packaging.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e134",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e132",
+           "type": "heading",
+           "props": {
+            "text": "Workshops",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e133",
+           "type": "text",
+           "props": {
+            "text": "Brand and design sessions for small teams.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e137",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e135",
+           "type": "heading",
+           "props": {
+            "text": "Mentoring",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e136",
+           "type": "text",
+           "props": {
+            "text": "One-to-one sessions for junior designers.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e176",
+     "type": "section",
+     "props": {
+      "role": "pricing",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e175",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e173",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e172",
+           "type": "heading",
+           "props": {
+            "text": "Ways to work together",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e174",
+         "type": "columns",
+         "props": {
+          "columns": 2
+         },
+         "style": {
+          "gap": "0 64px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e146",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e144",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e142",
+               "type": "heading",
+               "props": {
+                "text": "Complete",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e143",
+               "type": "heading",
+               "props": {
+                "text": "$540",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e145",
+             "type": "text",
+             "props": {
+              "text": "Everything included.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e151",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e149",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e147",
+               "type": "heading",
+               "props": {
+                "text": "Day rate",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e148",
+               "type": "heading",
+               "props": {
+                "text": "$400",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e150",
+             "type": "text",
+             "props": {
+              "text": "For focused project days.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e156",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e154",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e152",
+               "type": "heading",
+               "props": {
+                "text": "Retainer",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e153",
+               "type": "heading",
+               "props": {
+                "text": "$900",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e155",
+             "type": "text",
+             "props": {
+              "text": "A fixed monthly fee.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e161",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e159",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e157",
+               "type": "heading",
+               "props": {
+                "text": "Workshop",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e158",
+               "type": "heading",
+               "props": {
+                "text": "$650",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e160",
+             "type": "text",
+             "props": {
+              "text": "Half a day, on site.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e166",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e164",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e162",
+               "type": "heading",
+               "props": {
+                "text": "Basic",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e163",
+               "type": "heading",
+               "props": {
+                "text": "$120",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e165",
+             "type": "text",
+             "props": {
+              "text": "For a first visit.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e171",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e169",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e167",
+               "type": "heading",
+               "props": {
+                "text": "Standard",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e168",
+               "type": "heading",
+               "props": {
+                "text": "$290",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e170",
+             "type": "text",
+             "props": {
+              "text": "Our most chosen option.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e184",
+     "type": "section",
+     "props": {
+      "role": "faq"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e183",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e178",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e177",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e179",
+         "type": "faq_item",
+         "props": {
+          "question": "What does a project cost?",
+          "answer": "Most identity projects start at $2,400. I send a fixed quote before we begin.",
+          "open": true
+         },
+         "style": {}
+        },
+        {
+         "id": "e180",
+         "type": "faq_item",
+         "props": {
+          "question": "Can you work with my developer?",
+          "answer": "Of course, and I hand over clean, documented files.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e181",
+         "type": "faq_item",
+         "props": {
+          "question": "How soon can you start?",
+          "answer": "Usually within three weeks. Smaller projects can sometimes start sooner.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e182",
+         "type": "faq_item",
+         "props": {
+          "question": "Do you work with clients abroad?",
+          "answer": "Yes, most projects run remotely with video calls.",
+          "open": false
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "work",
+   "title": "Work",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e233",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e232",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e230",
+         "type": "heading",
+         "props": {
+          "text": "Work",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e231",
+         "type": "text",
+         "props": {
+          "text": "Projects from the last few years.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e229",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e228",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e190",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e189",
+           "type": "heading",
+           "props": {
+            "text": "Selected work",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e227",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "36px 22px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e194",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e191",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-12",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Casa Verde packaging"
+              },
+              "alt": "Casa Verde packaging",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e192",
+             "type": "heading",
+             "props": {
+              "text": "Casa Verde packaging",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e193",
+             "type": "text",
+             "props": {
+              "text": "Packaging, 2024",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e198",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e195",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-13",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Lumen Festival campaign"
+              },
+              "alt": "Lumen Festival campaign",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e196",
+             "type": "heading",
+             "props": {
+              "text": "Lumen Festival campaign",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e197",
+             "type": "text",
+             "props": {
+              "text": "Art direction, 2024",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e202",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e199",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-14",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Sable Books covers"
+              },
+              "alt": "Sable Books covers",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e200",
+             "type": "heading",
+             "props": {
+              "text": "Sable Books covers",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e201",
+             "type": "text",
+             "props": {
+              "text": "Editorial, 2023",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e206",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e203",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-15",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Field Notes app"
+              },
+              "alt": "Field Notes app",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e204",
+             "type": "heading",
+             "props": {
+              "text": "Field Notes app",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e205",
+             "type": "text",
+             "props": {
+              "text": "Product, 2023",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e210",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e207",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-16",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Kalulu Coffee identity"
+              },
+              "alt": "Kalulu Coffee identity",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e208",
+             "type": "heading",
+             "props": {
+              "text": "Kalulu Coffee identity",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e209",
+             "type": "text",
+             "props": {
+              "text": "Branding, 2025",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e214",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e211",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-17",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Northfield Press website"
+              },
+              "alt": "Northfield Press website",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e212",
+             "type": "heading",
+             "props": {
+              "text": "Northfield Press website",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e213",
+             "type": "text",
+             "props": {
+              "text": "Web, 2025",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e218",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e215",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-18",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Casa Verde packaging"
+              },
+              "alt": "Casa Verde packaging",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e216",
+             "type": "heading",
+             "props": {
+              "text": "Casa Verde packaging",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e217",
+             "type": "text",
+             "props": {
+              "text": "Packaging, 2024",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e222",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e219",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-19",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Lumen Festival campaign"
+              },
+              "alt": "Lumen Festival campaign",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e220",
+             "type": "heading",
+             "props": {
+              "text": "Lumen Festival campaign",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e221",
+             "type": "text",
+             "props": {
+              "text": "Art direction, 2024",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e226",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e223",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "personal-portfolio-20",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Sable Books covers"
+              },
+              "alt": "Sable Books covers",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e224",
+             "type": "heading",
+             "props": {
+              "text": "Sable Books covers",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e225",
+             "type": "text",
+             "props": {
+              "text": "Editorial, 2023",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "writing",
+   "title": "Writing",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e265",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e264",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e262",
+         "type": "heading",
+         "props": {
+          "text": "Writing",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e263",
+         "type": "text",
+         "props": {
+          "text": "Essays and notes.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e261",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e260",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e259",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e258",
+           "type": "heading",
+           "props": {
+            "text": "Writing",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e239",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e234",
+           "type": "text",
+           "props": {
+            "text": "Business, 5 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e237",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e235",
+             "type": "heading",
+             "props": {
+              "text": "Pricing creative work honestly",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e236",
+             "type": "text",
+             "props": {
+              "text": "What I learned the hard way.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e238",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e245",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e240",
+           "type": "text",
+           "props": {
+            "text": "Tools, 4 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e243",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e241",
+             "type": "heading",
+             "props": {
+              "text": "Tools I use every day",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e242",
+             "type": "text",
+             "props": {
+              "text": "A short list.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e244",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e251",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e246",
+           "type": "text",
+           "props": {
+            "text": "Teaching, 7 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e249",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e247",
+             "type": "heading",
+             "props": {
+              "text": "A year of teaching design",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e248",
+             "type": "text",
+             "props": {
+              "text": "What students taught me.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e250",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e257",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e252",
+           "type": "text",
+           "props": {
+            "text": "Essay, 6 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e255",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e253",
+             "type": "heading",
+             "props": {
+              "text": "Why small brands should say less",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e254",
+             "type": "text",
+             "props": {
+              "text": "Notes on restraint.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e256",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e284",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e283",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e281",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e282",
+         "type": "text",
+         "props": {
+          "text": "Tell me what you are working on.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e280",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e279",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 6fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "72px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e277",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e266",
+           "type": "heading",
+           "props": {
+            "text": "Say hello",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e267",
+           "type": "text",
+           "props": {
+            "text": "Tell me about it. I reply to every message within two days.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e270",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e268",
+             "type": "icon",
+             "props": {
+              "name": "map-pin"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e269",
+             "type": "text",
+             "props": {
+              "text": "100 Example Road, Your City"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e273",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e271",
+             "type": "icon",
+             "props": {
+              "name": "phone"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e272",
+             "type": "text",
+             "props": {
+              "text": "+000 000 000 000"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e276",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e274",
+             "type": "icon",
+             "props": {
+              "name": "mail"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e275",
+             "type": "text",
+             "props": {
+              "text": "hello@example.com"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e278",
+         "type": "contact_form",
+         "props": {
+          "fields": [
+           {
+            "label": "Your name",
+            "type": "text"
+           },
+           {
+            "label": "Email address",
+            "type": "email"
+           },
+           {
+            "label": "Message",
+            "type": "textarea"
+           }
+          ],
+          "submit": "Send message"
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

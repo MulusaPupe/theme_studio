@@ -1,0 +1,284 @@
+{
+ "schema": "mulusa.theme/2",
+ "meta": {
+  "id": "onepage/fashion-drop",
+  "template_name": "Fashion: Collection drop",
+  "name": "Maison Zuri",
+  "description": "A fashion drop page: a swinging garment, twinkling stars, a countdown and first access.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#fafaf9",
+   "on_primary": "#0a0a0a",
+   "secondary": "#1a1a1a",
+   "accent": "#d4a373",
+   "on_accent": "#0a0a0a",
+   "background": "#0a0a0a",
+   "surface": "#141414",
+   "text": "#fafaf9",
+   "muted": "#b7b7b6",
+   "border": "#303030"
+  },
+  "fonts": {
+   "heading": "Bodoni Moda",
+   "body": "Jost",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 500,
+   "heading_transform": "none",
+   "heading_tracking": "-0.02em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.28
+  },
+  "shape": {
+   "radius": "2px",
+   "button_radius": "2px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "96px",
+   "gap": "24px",
+   "width": "1120px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Fashion: Collection drop",
+   "colors": {
+    "primary": "#fafaf9",
+    "on_primary": "#0a0a0a",
+    "secondary": "#1a1a1a",
+    "accent": "#d4a373",
+    "on_accent": "#0a0a0a",
+    "background": "#0a0a0a",
+    "surface": "#141414",
+    "text": "#fafaf9",
+    "muted": "#b7b7b6",
+    "border": "#303030"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Bodoni Moda / Jost",
+   "heading": "Bodoni Moda",
+   "body": "Jost"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "fas15",
+   "type": "header",
+   "props": {
+    "layout": "minimal",
+    "brand": "Maison Zuri"
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "fas14",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "40px"
+   },
+   "name": "Site footer"
+  }
+ },
+ "navigation": {
+  "primary": []
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "landing",
+   "nodes": [
+    {
+     "id": "fas11",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "ambient": "stars"
+     },
+     "style": {
+      "min_height": "100vh",
+      "display": "flex",
+      "align_items": "center",
+      "padding_block": "64px"
+     },
+     "name": "Hero",
+     "children": [
+      {
+       "id": "fas10",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "align_items": "center"
+       },
+       "children": [
+        {
+         "id": "fas9",
+         "type": "container",
+         "props": {},
+         "style": {
+          "width": "100%",
+          "max_width": "680px",
+          "margin_inline": "auto",
+          "gap": "22px",
+          "align_items": "center"
+         },
+         "children": [
+          {
+           "id": "fas7",
+           "type": "container",
+           "props": {},
+           "style": {
+            "background": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.16)",
+            "backdrop_filter": "blur(16px) saturate(140%)",
+            "box_shadow": "0 30px 80px rgba(0,0,0,0.4)",
+            "border_radius": "2px",
+            "padding": "46px 38px",
+            "gap": "18px",
+            "align_items": "center",
+            "text_align": "center",
+            "width": "100%"
+           },
+           "name": "Glass card",
+           "children": [
+            {
+             "id": "fas1",
+             "type": "illustration",
+             "props": {
+              "name": "hanger",
+              "animate": true
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "200px"
+             }
+            },
+            {
+             "id": "fas2",
+             "type": "text",
+             "props": {
+              "text": "Drop 04"
+             },
+             "style": {
+              "letter_spacing": "0.24em",
+              "text_transform": "uppercase",
+              "font_size": ".8rem"
+             }
+            },
+            {
+             "id": "fas3",
+             "type": "heading",
+             "props": {
+              "text": "Maison Zuri",
+              "level": 1
+             },
+             "style": {
+              "font_size": "clamp(2.6rem,7vw,4.6rem)",
+              "font_style": "italic"
+             }
+            },
+            {
+             "id": "fas4",
+             "type": "text",
+             "props": {
+              "text": "Hand-finished linen and chitenge silk. Fourteen pieces, made once.",
+              "muted": true
+             },
+             "style": {
+              "max_width": "40ch"
+             }
+            },
+            {
+             "id": "fas5",
+             "type": "countdown",
+             "props": {
+              "target": "2027-03-05T19:00",
+              "utc_offset": "+02:00",
+              "show_seconds": true,
+              "done_text": "The drop is live."
+             },
+             "style": {
+              "margin_block": "4px"
+             }
+            },
+            {
+             "id": "fas6",
+             "type": "contact_form",
+             "props": {
+              "fields": [
+               {
+                "label": "Email for first access",
+                "type": "email"
+               }
+              ],
+              "submit": "Get first access"
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "420px",
+              "margin_inline": "auto"
+             }
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "padding": "34px 20px"
+             }
+            }
+           }
+          },
+          {
+           "id": "fas8",
+           "type": "text",
+           "props": {
+            "text": "Lusaka · Paris",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".8rem",
+            "text_align": "center"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "responsive": {
+      "mobile": {
+       "style": {
+        "padding_block": "40px"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

@@ -1,0 +1,66 @@
+[
+ {
+  "id": "corporate",
+  "name": "Corporate"
+ },
+ {
+  "id": "fashion",
+  "name": "Fashion"
+ },
+ {
+  "id": "music",
+  "name": "Music"
+ },
+ {
+  "id": "art",
+  "name": "Art & Creative Portfolios"
+ },
+ {
+  "id": "news",
+  "name": "News & Media"
+ },
+ {
+  "id": "construction",
+  "name": "Construction & Engineering"
+ },
+ {
+  "id": "education",
+  "name": "Education"
+ },
+ {
+  "id": "hospitality",
+  "name": "Restaurants & Hospitality"
+ },
+ {
+  "id": "technology",
+  "name": "Technology"
+ },
+ {
+  "id": "real_estate",
+  "name": "Real Estate"
+ },
+ {
+  "id": "personal",
+  "name": "Personal & CV"
+ },
+ {
+  "id": "healthcare",
+  "name": "Healthcare"
+ },
+ {
+  "id": "community",
+  "name": "NGOs & Community"
+ },
+ {
+  "id": "automotive",
+  "name": "Automotive"
+ },
+ {
+  "id": "shop",
+  "name": "E-commerce"
+ },
+ {
+  "id": "onepage",
+  "name": "Launch & One-page"
+ }
+]

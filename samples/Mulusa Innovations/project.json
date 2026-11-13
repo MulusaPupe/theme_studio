@@ -1,0 +1,2558 @@
+{
+ "schema": "mulusa.theme/2",
+ "meta": {
+  "name": "Mulusa Innovations",
+  "description": "Trusted navy and serif headings, with a traditional split hero.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0",
+  "created": "2026-11-04T11:22:54Z",
+  "modified": "2026-11-04T11:22:55Z",
+  "source_template": "corporate/corporate-classic"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#14325c",
+   "on_primary": "#ffffff",
+   "secondary": "#142d50",
+   "accent": "#b08a3e",
+   "on_accent": "#14233b",
+   "background": "#ffffff",
+   "surface": "#f4f6f9",
+   "text": "#14233b",
+   "muted": "#566172",
+   "border": "#d9dce0"
+  },
+  "fonts": {
+   "heading": "Source Serif 4",
+   "body": "Inter",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 600,
+   "heading_transform": "none",
+   "heading_tracking": "-0.01em",
+   "heading_line": 1.1,
+   "base": 17,
+   "ratio": 1.3
+  },
+  "shape": {
+   "radius": "3px",
+   "button_radius": "3px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "96px",
+   "gap": "28px",
+   "width": "1180px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Corporate Classic",
+   "colors": {
+    "primary": "#14325c",
+    "on_primary": "#ffffff",
+    "secondary": "#142d50",
+    "accent": "#b08a3e",
+    "on_accent": "#14233b",
+    "background": "#ffffff",
+    "surface": "#f4f6f9",
+    "text": "#14233b",
+    "muted": "#566172",
+    "border": "#d9dce0"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Source Serif 4 / Inter",
+   "heading": "Source Serif 4",
+   "body": "Inter"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e308",
+   "type": "header",
+   "props": {
+    "layout": "classic",
+    "brand": "Mulusa Innovations",
+    "cta": {
+     "label": "Contact us",
+     "href": {
+      "page": "contact"
+     }
+    },
+    "logo": {
+     "kind": "asset",
+     "id": "an27a70aa26d"
+    },
+    "sticky": true
+   },
+   "style": {
+    "border_bottom": "1px solid $c-border"
+   },
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e327",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e326",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e323",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 3fr 4fr"
+       },
+       "style": {
+        "gap": "40px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": "5fr 3fr 4fr"
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e311",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "10px"
+         },
+         "children": [
+          {
+           "id": "e309",
+           "type": "heading",
+           "props": {
+            "text": "Mulusa Innovations",
+            "level": 3
+           },
+           "style": {
+            "font_size": "1.5rem"
+           }
+          },
+          {
+           "id": "e310",
+           "type": "text",
+           "props": {
+            "text": "Sample site. Replace this text before publishing.",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem",
+            "max_width": "34ch"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e318",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e312",
+           "type": "heading",
+           "props": {
+            "text": "Explore",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e313",
+           "type": "link",
+           "props": {
+            "label": "About",
+            "href": {
+             "page": "about"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e314",
+           "type": "link",
+           "props": {
+            "label": "Services",
+            "href": {
+             "page": "services"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e315",
+           "type": "link",
+           "props": {
+            "label": "Projects",
+            "href": {
+             "page": "portfolio"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e317",
+           "type": "link",
+           "props": {
+            "label": "Contact",
+            "href": {
+             "page": "contact"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          }
+         ]
+        },
+        {
+         "id": "e322",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e319",
+           "type": "heading",
+           "props": {
+            "text": "Contact",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e320",
+           "type": "text",
+           "props": {
+            "text": "100 Example Road, Your City",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          },
+          {
+           "id": "e321",
+           "type": "text",
+           "props": {
+            "text": "hello@example.com",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e324",
+       "type": "divider",
+       "props": {},
+       "style": {
+        "margin_block": "40px 14px"
+       }
+      },
+      {
+       "id": "e325",
+       "type": "text",
+       "props": {
+        "text": "© Mulusa Innovations. Sample content.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "id": "n078c81dd4a",
+    "label": "Home",
+    "page": "home"
+   },
+   {
+    "label": "About",
+    "page": "about",
+    "id": "n0f28d4564d"
+   },
+   {
+    "label": "Services",
+    "page": "services",
+    "id": "n688581ec06"
+   },
+   {
+    "label": "Projects",
+    "page": "portfolio",
+    "id": "n1a2732f995"
+   },
+   {
+    "label": "Contact",
+    "page": "contact",
+    "id": "n52829cfab5"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e10",
+     "type": "section",
+     "props": {
+      "role": "hero"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e9",
+       "type": "columns",
+       "props": {
+        "columns": "6fr 5fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "64px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e7",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "20px"
+         },
+         "children": [
+          {
+           "id": "e1",
+           "type": "text",
+           "props": {
+            "text": "Sample content: replace before publishing"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e2",
+           "type": "heading",
+           "props": {
+            "text": "Practical digital tools for real work",
+            "level": 1
+           },
+           "style": {
+            "font_size": "clamp(2.7rem,7vw,5.6rem)"
+           },
+           "responsive": {
+            "tablet": {
+             "style": {
+              "font_size": "3rem"
+             }
+            },
+            "mobile": {
+             "style": {
+              "font_size": "2.25rem",
+              "text_align": "center"
+             }
+            }
+           }
+          },
+          {
+           "id": "e3",
+           "type": "text",
+           "props": {
+            "text": "This is sample copy for Mulusa Innovations. It shows how a homepage reads, and makes no claim about clients or results.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.16rem",
+            "max_width": "60ch"
+           }
+          },
+          {
+           "id": "e6",
+           "type": "row",
+           "props": {},
+           "style": {
+            "margin_top": "10px",
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e4",
+             "type": "button",
+             "props": {
+              "label": "See our projects",
+              "href": {
+               "page": "portfolio"
+              },
+              "variant": "primary"
+             },
+             "style": {}
+            },
+            {
+             "id": "e5",
+             "type": "button",
+             "props": {
+              "label": "Our services",
+              "href": {
+               "page": "services"
+              },
+              "variant": "secondary"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e8",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "asset",
+           "id": "an1cc85c7d92"
+          },
+          "alt": "Hero image",
+          "ratio": 0.92
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e43",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e42",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e40",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e38",
+           "type": "text",
+           "props": {
+            "text": "What we do"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e39",
+           "type": "heading",
+           "props": {
+            "text": "Three kinds of work",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e41",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e29",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e26",
+             "type": "icon",
+             "props": {
+              "name": "compass"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e27",
+             "type": "heading",
+             "props": {
+              "text": "Planning",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e28",
+             "type": "text",
+             "props": {
+              "text": "Sample text describing how a project is planned.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e33",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e30",
+             "type": "icon",
+             "props": {
+              "name": "shield-check"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e31",
+             "type": "heading",
+             "props": {
+              "text": "Building",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e32",
+             "type": "text",
+             "props": {
+              "text": "Sample text describing how software is built.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e37",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e34",
+             "type": "icon",
+             "props": {
+              "name": "trending-up"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e35",
+             "type": "heading",
+             "props": {
+              "text": "Support",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e36",
+             "type": "text",
+             "props": {
+              "text": "Sample text describing how work is looked after.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ],
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 3
+           }
+          }
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e51",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e50",
+       "type": "columns",
+       "props": {
+        "columns": "6fr 5fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "80px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e48",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e44",
+           "type": "text",
+           "props": {
+            "text": "About"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e45",
+           "type": "heading",
+           "props": {
+            "text": "A short introduction",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e46",
+           "type": "text",
+           "props": {
+            "text": "Sample paragraph. Replace it with a real introduction to the company and what it does.",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e49",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "asset",
+           "id": "an5d114157fc"
+          },
+          "alt": "About image",
+          "ratio": 0.86
+         },
+         "style": {
+          "border_radius": "$radius"
+         },
+         "responsive": {
+          "mobile": {
+           "hidden": true
+          }
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "n836af80a6a",
+     "type": "section",
+     "props": {
+      "role": "posts"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "ne1c77976ea",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "n17196e8c21",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px",
+          "margin_bottom": "44px",
+          "max_width": "720px"
+         },
+         "name": "Section heading",
+         "children": [
+          {
+           "id": "nc31b4b5e55",
+           "type": "heading",
+           "props": {
+            "text": "Latest projects",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "n734c72ee21",
+         "type": "query",
+         "props": {
+          "source": {
+           "kind": "posts",
+           "count": 3,
+           "order_by": "date",
+           "order": "desc",
+           "categories": [
+            "projects"
+           ]
+          },
+          "layout": "grid",
+          "columns": 3,
+          "image_position": "top",
+          "pagination": false,
+          "empty_text": "No posts yet.",
+          "hide": [
+           "author",
+           "categories"
+          ]
+         },
+         "style": {},
+         "name": "Posts list",
+         "children": [
+          {
+           "id": "na5538f82a4",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "name": "Post card",
+           "children": [
+            {
+             "id": "nf2f4cc743e",
+             "type": "post_field",
+             "props": {
+              "field": "featured_image",
+              "ratio": 1.5,
+              "link": true
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "n7ce63203c6",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "10px"
+             },
+             "children": [
+              {
+               "id": "nf1d79f8d89",
+               "type": "post_field",
+               "props": {
+                "field": "categories"
+               },
+               "style": {
+                "font_size": ".82rem"
+               }
+              },
+              {
+               "id": "n1c589fe552",
+               "type": "post_field",
+               "props": {
+                "field": "title",
+                "level": 3,
+                "link": true
+               },
+               "style": {
+                "font_size": "1.25rem"
+               }
+              },
+              {
+               "id": "n0ffc3272ce",
+               "type": "post_field",
+               "props": {
+                "field": "excerpt",
+                "words": 24
+               },
+               "style": {
+                "font_size": ".97rem"
+               }
+              },
+              {
+               "id": "n4de6951337",
+               "type": "row",
+               "props": {},
+               "style": {
+                "gap": "10px"
+               },
+               "children": [
+                {
+                 "id": "n1854932ac9",
+                 "type": "post_field",
+                 "props": {
+                  "field": "date"
+                 },
+                 "style": {
+                  "font_size": ".82rem"
+                 }
+                },
+                {
+                 "id": "nc8af776065",
+                 "type": "post_field",
+                 "props": {
+                  "field": "author"
+                 },
+                 "style": {
+                  "font_size": ".82rem"
+                 }
+                }
+               ]
+              },
+              {
+               "id": "n1280299e2c",
+               "type": "post_field",
+               "props": {
+                "field": "read_more",
+                "label": "Read more"
+               },
+               "style": {}
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e81",
+     "type": "section",
+     "props": {
+      "role": "call_to_action",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "64px"
+     },
+     "children": [
+      {
+       "id": "e80",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e79",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "gap": "28px"
+         },
+         "children": [
+          {
+           "id": "e77",
+           "type": "heading",
+           "props": {
+            "text": "Have something to build?",
+            "level": 2
+           },
+           "style": {
+            "max_width": "20em",
+            "flex": "1 1 320px"
+           }
+          },
+          {
+           "id": "e78",
+           "type": "button",
+           "props": {
+            "label": "Get in touch",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "description": "Sample site for Mulusa Innovations, built with Mulusa Theme Studio."
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e132",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e131",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e129",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e130",
+         "type": "text",
+         "props": {
+          "text": "Sample content: replace before publishing",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e90",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e89",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "68px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e82",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "asset",
+           "id": "an5d114157fc"
+          },
+          "alt": "About image",
+          "ratio": 1.1
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "e88",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e83",
+           "type": "text",
+           "props": {
+            "text": "About"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e84",
+           "type": "heading",
+           "props": {
+            "text": "Who we are",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e85",
+           "type": "text",
+           "props": {
+            "text": "Sample paragraph. Replace it with the company's own story.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e86",
+           "type": "text",
+           "props": {
+            "text": "Sample paragraph. Replace it with the company's own story.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e87",
+           "type": "link",
+           "props": {
+            "label": "See our projects",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "margin_top": "6px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "services",
+   "title": "Services",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e206",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e205",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e203",
+         "type": "heading",
+         "props": {
+          "text": "Services",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e204",
+         "type": "text",
+         "props": {
+          "text": "Sample content: replace before publishing",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e155",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e154",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e153",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e151",
+           "type": "text",
+           "props": {
+            "text": "What we do"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e152",
+           "type": "heading",
+           "props": {
+            "text": "Three kinds of work",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e138",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "0",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e137",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "asset",
+             "id": "an7e6f3f314c"
+            },
+            "alt": "Abstract sample picture: strategy",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e136",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e133",
+             "type": "heading",
+             "props": {
+              "text": "Planning",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e134",
+             "type": "text",
+             "props": {
+              "text": "Sample text describing how a project is planned.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e135",
+             "type": "link",
+             "props": {
+              "label": "Ask about this",
+              "href": {
+               "page": "contact"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e144",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "56px",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e142",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e139",
+             "type": "heading",
+             "props": {
+              "text": "Building",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e140",
+             "type": "text",
+             "props": {
+              "text": "Sample text describing how software is built.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e141",
+             "type": "link",
+             "props": {
+              "label": "Ask about this",
+              "href": {
+               "page": "contact"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e143",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "asset",
+             "id": "ane15200304f"
+            },
+            "alt": "Abstract sample picture: systems",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e150",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "56px",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e149",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "asset",
+             "id": "ana78e6b31af"
+            },
+            "alt": "Abstract sample picture: support",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e148",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e145",
+             "type": "heading",
+             "props": {
+              "text": "Support",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e146",
+             "type": "text",
+             "props": {
+              "text": "Sample text describing how work is looked after.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e147",
+             "type": "link",
+             "props": {
+              "label": "Ask about this",
+              "href": {
+               "page": "contact"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e197",
+     "type": "section",
+     "props": {
+      "role": "faq"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e196",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e191",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e189",
+           "type": "text",
+           "props": {
+            "text": "FAQ"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e190",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e192",
+         "type": "faq_item",
+         "props": {
+          "question": "Sample question 1",
+          "answer": "Sample answer. Replace it with a real one.",
+          "open": true
+         },
+         "style": {}
+        },
+        {
+         "id": "e193",
+         "type": "faq_item",
+         "props": {
+          "question": "Sample question 2",
+          "answer": "Sample answer. Replace it with a real one.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e194",
+         "type": "faq_item",
+         "props": {
+          "question": "Sample question 3",
+          "answer": "Sample answer. Replace it with a real one.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e195",
+         "type": "faq_item",
+         "props": {
+          "question": "Sample question 4",
+          "answer": "Sample answer. Replace it with a real one.",
+          "open": false
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e202",
+     "type": "section",
+     "props": {
+      "role": "call_to_action",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "64px"
+     },
+     "children": [
+      {
+       "id": "e201",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e200",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "gap": "28px"
+         },
+         "children": [
+          {
+           "id": "e198",
+           "type": "heading",
+           "props": {
+            "text": "Have something to build?",
+            "level": 2
+           },
+           "style": {
+            "max_width": "20em",
+            "flex": "1 1 320px"
+           }
+          },
+          {
+           "id": "e199",
+           "type": "button",
+           "props": {
+            "label": "Get in touch",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "projects",
+   "title": "Projects",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e245",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e244",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e242",
+         "type": "heading",
+         "props": {
+          "text": "Projects",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e243",
+         "type": "text",
+         "props": {
+          "text": "Sample content: replace before publishing",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "n0694ee0aa4",
+     "type": "section",
+     "props": {
+      "role": "posts"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "ned9e12a2d4",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "n287e37ea79",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px",
+          "margin_bottom": "44px",
+          "max_width": "720px"
+         },
+         "name": "Section heading",
+         "children": [
+          {
+           "id": "nb4f1ea5b63",
+           "type": "heading",
+           "props": {
+            "text": "All projects",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "ndeb2c991ec",
+         "type": "query",
+         "props": {
+          "source": {
+           "kind": "posts",
+           "count": 6,
+           "order_by": "date",
+           "order": "desc",
+           "categories": [
+            "projects"
+           ]
+          },
+          "layout": "grid",
+          "columns": 2,
+          "image_position": "top",
+          "pagination": true,
+          "empty_text": "No posts yet.",
+          "hide": [
+           "author"
+          ]
+         },
+         "style": {},
+         "name": "Posts list",
+         "children": [
+          {
+           "id": "n2e87e2c5b5",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "name": "Post card",
+           "children": [
+            {
+             "id": "n98c1867edb",
+             "type": "post_field",
+             "props": {
+              "field": "featured_image",
+              "ratio": 1.5,
+              "link": true
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "n45d2ee38bd",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "10px"
+             },
+             "children": [
+              {
+               "id": "n75b8020bf2",
+               "type": "post_field",
+               "props": {
+                "field": "categories"
+               },
+               "style": {
+                "font_size": ".82rem"
+               }
+              },
+              {
+               "id": "n25bcac998b",
+               "type": "post_field",
+               "props": {
+                "field": "title",
+                "level": 3,
+                "link": true
+               },
+               "style": {
+                "font_size": "1.25rem"
+               }
+              },
+              {
+               "id": "nb6e79d04f7",
+               "type": "post_field",
+               "props": {
+                "field": "excerpt",
+                "words": 24
+               },
+               "style": {
+                "font_size": ".97rem"
+               }
+              },
+              {
+               "id": "ncf28091f13",
+               "type": "row",
+               "props": {},
+               "style": {
+                "gap": "10px"
+               },
+               "children": [
+                {
+                 "id": "n3d2fcb0e42",
+                 "type": "post_field",
+                 "props": {
+                  "field": "date"
+                 },
+                 "style": {
+                  "font_size": ".82rem"
+                 }
+                },
+                {
+                 "id": "n3e72ffdb4c",
+                 "type": "post_field",
+                 "props": {
+                  "field": "author"
+                 },
+                 "style": {
+                  "font_size": ".82rem"
+                 }
+                }
+               ]
+              },
+              {
+               "id": "ne302b076f4",
+               "type": "post_field",
+               "props": {
+                "field": "read_more",
+                "label": "Read more"
+               },
+               "style": {}
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e241",
+     "type": "section",
+     "props": {
+      "role": "call_to_action",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "64px"
+     },
+     "children": [
+      {
+       "id": "e240",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e239",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "gap": "28px"
+         },
+         "children": [
+          {
+           "id": "e237",
+           "type": "heading",
+           "props": {
+            "text": "Have something to build?",
+            "level": 2
+           },
+           "style": {
+            "max_width": "20em",
+            "flex": "1 1 320px"
+           }
+          },
+          {
+           "id": "e238",
+           "type": "button",
+           "props": {
+            "label": "Get in touch",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "description": "Sample project stories, published as WordPress posts."
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e307",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e306",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e304",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e305",
+         "type": "text",
+         "props": {
+          "text": "Sample content: replace before publishing",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e294",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e293",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 6fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "72px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e291",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e279",
+           "type": "text",
+           "props": {
+            "text": "Contact"
+           },
+           "style": {
+            "font_size": ".76rem",
+            "font_weight": 600,
+            "letter_spacing": ".16em",
+            "text_transform": "uppercase",
+            "color": "$c-muted"
+           },
+           "name": "Eyebrow"
+          },
+          {
+           "id": "e280",
+           "type": "heading",
+           "props": {
+            "text": "Get in touch",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e281",
+           "type": "text",
+           "props": {
+            "text": "Sample text. The details below are examples, not real contact information.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e284",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e282",
+             "type": "icon",
+             "props": {
+              "name": "map-pin"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e283",
+             "type": "text",
+             "props": {
+              "text": "100 Example Road, Your City"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e287",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e285",
+             "type": "icon",
+             "props": {
+              "name": "phone"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e286",
+             "type": "text",
+             "props": {
+              "text": "+000 000 000 000"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e290",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e288",
+             "type": "icon",
+             "props": {
+              "name": "mail"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e289",
+             "type": "text",
+             "props": {
+              "text": "hello@example.com"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e292",
+         "type": "contact_form",
+         "props": {
+          "fields": [
+           {
+            "label": "Your name",
+            "type": "text"
+           },
+           {
+            "label": "Email address",
+            "type": "email"
+           },
+           {
+            "label": "Message",
+            "type": "textarea"
+           }
+          ],
+          "submit": "Send message"
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n427765ab52",
+   "slug": "single-post",
+   "title": "Single post",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "n126410fa1e",
+     "type": "section",
+     "props": {
+      "role": "post"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "ne9c22df4e0",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "gap": "18px"
+       },
+       "children": [
+        {
+         "id": "nc527a8fb2d",
+         "type": "row",
+         "props": {},
+         "style": {
+          "gap": "14px"
+         },
+         "children": [
+          {
+           "id": "ne166cc8b02",
+           "type": "post_field",
+           "props": {
+            "field": "date"
+           },
+           "style": {
+            "font_size": ".9rem"
+           }
+          },
+          {
+           "id": "n4289f00617",
+           "type": "post_field",
+           "props": {
+            "field": "author"
+           },
+           "style": {
+            "font_size": ".9rem"
+           }
+          },
+          {
+           "id": "n8bbe3b7db7",
+           "type": "post_field",
+           "props": {
+            "field": "categories"
+           },
+           "style": {
+            "font_size": ".9rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "n43014d38e0",
+         "type": "post_field",
+         "props": {
+          "field": "title",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "n4222e745dd",
+         "type": "post_field",
+         "props": {
+          "field": "featured_image",
+          "ratio": 1.8
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "nb646f56104",
+         "type": "post_field",
+         "props": {
+          "field": "content"
+         },
+         "style": {
+          "margin_top": "12px"
+         }
+        },
+        {
+         "id": "n3973d4502c",
+         "type": "post_field",
+         "props": {
+          "field": "tags"
+         },
+         "style": {
+          "font_size": ".9rem"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "role": "single"
+  },
+  {
+   "id": "n8ed737750f",
+   "slug": "post-archive",
+   "title": "Post archive",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "n00c36098f2",
+     "type": "section",
+     "props": {
+      "role": "posts"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "neca08ec078",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "nbafa8b41e9",
+         "type": "query",
+         "props": {
+          "source": {
+           "kind": "posts",
+           "follow_page": true
+          },
+          "layout": "grid",
+          "columns": 3,
+          "image_position": "top",
+          "pagination": true,
+          "empty_text": "No posts yet.",
+          "hide": []
+         },
+         "style": {},
+         "name": "Posts list",
+         "children": [
+          {
+           "id": "nf025d8b401",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "name": "Post card",
+           "children": [
+            {
+             "id": "nf98d3351af",
+             "type": "post_field",
+             "props": {
+              "field": "featured_image",
+              "ratio": 1.5,
+              "link": true
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "n526bf5e51a",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "10px"
+             },
+             "children": [
+              {
+               "id": "nc9e479ded4",
+               "type": "post_field",
+               "props": {
+                "field": "categories"
+               },
+               "style": {
+                "font_size": ".82rem"
+               }
+              },
+              {
+               "id": "ndef76f9f01",
+               "type": "post_field",
+               "props": {
+                "field": "title",
+                "level": 3,
+                "link": true
+               },
+               "style": {
+                "font_size": "1.25rem"
+               }
+              },
+              {
+               "id": "n0e2d6c91eb",
+               "type": "post_field",
+               "props": {
+                "field": "excerpt",
+                "words": 24
+               },
+               "style": {
+                "font_size": ".97rem"
+               }
+              },
+              {
+               "id": "n5ac6ffd11b",
+               "type": "row",
+               "props": {},
+               "style": {
+                "gap": "10px"
+               },
+               "children": [
+                {
+                 "id": "n8c272c07a4",
+                 "type": "post_field",
+                 "props": {
+                  "field": "date"
+                 },
+                 "style": {
+                  "font_size": ".82rem"
+                 }
+                },
+                {
+                 "id": "ndd41d69341",
+                 "type": "post_field",
+                 "props": {
+                  "field": "author"
+                 },
+                 "style": {
+                  "font_size": ".82rem"
+                 }
+                }
+               ]
+              },
+              {
+               "id": "ncccff004a5",
+               "type": "post_field",
+               "props": {
+                "field": "read_more",
+                "label": "Read more"
+               },
+               "style": {}
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "role": "archive"
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": [
+   {
+    "id": "an1cc85c7d92",
+    "kind": "image",
+    "file": "hero.jpg",
+    "name": "hero",
+    "sha256": "44fae043735f419f98d8860e0f8aa35e6bd8e9d6db88f15c966fbac2e4e1634f",
+    "width": 1600,
+    "height": 1100,
+    "format": "JPEG",
+    "bytes": 119140
+   },
+   {
+    "id": "an5d114157fc",
+    "kind": "image",
+    "file": "about.jpg",
+    "name": "about",
+    "sha256": "3f40835b6ad52d326058b80fba41b8fb1f92bc713ab691ad60f2dd829494b740",
+    "width": 1600,
+    "height": 1100,
+    "format": "JPEG",
+    "bytes": 106952
+   },
+   {
+    "id": "an7e6f3f314c",
+    "kind": "image",
+    "file": "strategy.jpg",
+    "name": "strategy",
+    "sha256": "82c3c5d90a5ee54e209d37a208d283afb7a0eabd7511f40b38e9c5bc14a2ded4",
+    "width": 1600,
+    "height": 1100,
+    "format": "JPEG",
+    "bytes": 115063
+   },
+   {
+    "id": "ane15200304f",
+    "kind": "image",
+    "file": "systems.jpg",
+    "name": "systems",
+    "sha256": "d7de580fda5eeb2390accfe0eb943d90096a0de8271dc4c3c015eda15d21c148",
+    "width": 1600,
+    "height": 1100,
+    "format": "JPEG",
+    "bytes": 116523
+   },
+   {
+    "id": "ana78e6b31af",
+    "kind": "image",
+    "file": "support.jpg",
+    "name": "support",
+    "sha256": "240402f958ba35c880da70a1278f78075df807b769669ec92b84dceb9482488d",
+    "width": 1600,
+    "height": 1100,
+    "format": "JPEG",
+    "bytes": 125279
+   },
+   {
+    "id": "an27a70aa26d",
+    "kind": "image",
+    "file": "mulusa-logo.png",
+    "name": "mulusa-logo",
+    "sha256": "304a4a199a7364d07a2e22c1fac4cc81c97c82fb8f35e6afb1b52d67c81ebe7b",
+    "width": 160,
+    "height": 160,
+    "format": "PNG",
+    "bytes": 1181
+   }
+  ]
+ },
+ "reusable": []
+}

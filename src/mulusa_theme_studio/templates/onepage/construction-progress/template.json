@@ -1,0 +1,320 @@
+{
+ "schema": "mulusa.theme/2",
+ "meta": {
+  "id": "onepage/construction-progress",
+  "template_name": "Construction: In progress",
+  "name": "Ironbridge Construction",
+  "description": "A construction holding page: a working crane, real progress and a quote request.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#f59e0b",
+   "on_primary": "#1c1917",
+   "secondary": "#292524",
+   "accent": "#facc15",
+   "on_accent": "#1c1917",
+   "background": "#1c1917",
+   "surface": "#26221f",
+   "text": "#fafaf9",
+   "muted": "#bcbbba",
+   "border": "#403d3b"
+  },
+  "fonts": {
+   "heading": "Oswald",
+   "body": "Work Sans",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 600,
+   "heading_transform": "none",
+   "heading_tracking": "-0.02em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.28
+  },
+  "shape": {
+   "radius": "4px",
+   "button_radius": "4px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "96px",
+   "gap": "24px",
+   "width": "1120px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Construction: In progress",
+   "colors": {
+    "primary": "#f59e0b",
+    "on_primary": "#1c1917",
+    "secondary": "#292524",
+    "accent": "#facc15",
+    "on_accent": "#1c1917",
+    "background": "#1c1917",
+    "surface": "#26221f",
+    "text": "#fafaf9",
+    "muted": "#bcbbba",
+    "border": "#403d3b"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Oswald / Work Sans",
+   "heading": "Oswald",
+   "body": "Work Sans"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "con18",
+   "type": "header",
+   "props": {
+    "layout": "minimal",
+    "brand": "Ironbridge Construction"
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "con17",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "40px"
+   },
+   "name": "Site footer"
+  }
+ },
+ "navigation": {
+  "primary": []
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "landing",
+   "nodes": [
+    {
+     "id": "con14",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "construction-progress-bg",
+        "subject": "crane",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "linear-gradient(180deg,rgba(20,16,12,.7),rgba(20,16,12,.9))",
+       "alt": ""
+      }
+     },
+     "style": {
+      "min_height": "100vh",
+      "display": "flex",
+      "align_items": "center",
+      "padding_block": "64px"
+     },
+     "name": "Hero",
+     "children": [
+      {
+       "id": "con13",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "align_items": "center"
+       },
+       "children": [
+        {
+         "id": "con12",
+         "type": "container",
+         "props": {},
+         "style": {
+          "width": "100%",
+          "max_width": "680px",
+          "margin_inline": "auto",
+          "gap": "22px",
+          "align_items": "center"
+         },
+         "children": [
+          {
+           "id": "con10",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "center",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "con9",
+             "type": "text",
+             "props": {
+              "text": "Ironbridge"
+             },
+             "style": {
+              "font_weight": "700",
+              "letter_spacing": "0.14em",
+              "text_transform": "uppercase",
+              "font_size": ".82rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "con8",
+           "type": "container",
+           "props": {},
+           "style": {
+            "background": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.16)",
+            "backdrop_filter": "blur(16px) saturate(140%)",
+            "box_shadow": "0 30px 80px rgba(0,0,0,0.4)",
+            "border_radius": "24px",
+            "padding": "46px 38px",
+            "gap": "18px",
+            "align_items": "center",
+            "text_align": "center",
+            "width": "100%"
+           },
+           "name": "Glass card",
+           "children": [
+            {
+             "id": "con1",
+             "type": "illustration",
+             "props": {
+              "name": "crane",
+              "animate": true
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "260px"
+             }
+            },
+            {
+             "id": "con2",
+             "type": "heading",
+             "props": {
+              "text": "Our new site is under construction.",
+              "level": 1
+             },
+             "style": {
+              "font_size": "clamp(2rem,5vw,3rem)"
+             }
+            },
+            {
+             "id": "con3",
+             "type": "text",
+             "props": {
+              "text": "Ironbridge builds roads, bridges and industrial sites. While we finish our website, here is how far along we are.",
+              "muted": true
+             },
+             "style": {
+              "max_width": "46ch"
+             }
+            },
+            {
+             "id": "con4",
+             "type": "progress",
+             "props": {
+              "mode": "value",
+              "value": 72,
+              "show_value": true,
+              "label": "Website build"
+             },
+             "style": {
+              "max_width": "380px",
+              "margin_inline": "auto"
+             }
+            },
+            {
+             "id": "con7",
+             "type": "row",
+             "props": {},
+             "style": {
+              "gap": "12px",
+              "justify_content": "center"
+             },
+             "children": [
+              {
+               "id": "con5",
+               "type": "button",
+               "props": {
+                "label": "Request a quote",
+                "href": "mailto:projects@ironbridge.example",
+                "variant": "primary"
+               },
+               "style": {}
+              },
+              {
+               "id": "con6",
+               "type": "button",
+               "props": {
+                "label": "Call us",
+                "href": "tel:+000000000000",
+                "variant": "secondary"
+               },
+               "style": {}
+              }
+             ]
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "padding": "34px 20px"
+             }
+            }
+           }
+          },
+          {
+           "id": "con11",
+           "type": "text",
+           "props": {
+            "text": "Civil · Structural · Industrial",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".8rem",
+            "text_align": "center"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "responsive": {
+      "mobile": {
+       "style": {
+        "padding_block": "40px"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

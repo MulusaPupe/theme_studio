@@ -1,0 +1,3867 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "shop/online-store",
+  "template_name": "Online Store",
+  "name": "FIELD & LOOM",
+  "description": "A clean storefront: big product photography, bestsellers and clear delivery promises.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#141414",
+   "on_primary": "#ffffff",
+   "secondary": "#141414",
+   "accent": "#b0683a",
+   "on_accent": "#0b0b0d",
+   "background": "#ffffff",
+   "surface": "#f5f3ef",
+   "text": "#141414",
+   "muted": "#565656",
+   "border": "#d9d9d9"
+  },
+  "fonts": {
+   "heading": "Jost",
+   "body": "Inter",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 500,
+   "heading_transform": "none",
+   "heading_tracking": "-0.01em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.3
+  },
+  "shape": {
+   "radius": "0px",
+   "button_radius": "0px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "88px",
+   "gap": "22px",
+   "width": "1260px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Online Store",
+   "colors": {
+    "primary": "#141414",
+    "on_primary": "#ffffff",
+    "secondary": "#141414",
+    "accent": "#b0683a",
+    "on_accent": "#0b0b0d",
+    "background": "#ffffff",
+    "surface": "#f5f3ef",
+    "text": "#141414",
+    "muted": "#565656",
+    "border": "#d9d9d9"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Jost / Inter",
+   "heading": "Jost",
+   "body": "Inter"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e297",
+   "type": "header",
+   "props": {
+    "layout": "centered",
+    "brand": "FIELD & LOOM",
+    "cta": {
+     "label": "Shop now",
+     "href": {
+      "page": "contact"
+     }
+    }
+   },
+   "style": {
+    "border_bottom": "1px solid $c-border"
+   },
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e316",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e315",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e312",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 3fr 4fr"
+       },
+       "style": {
+        "gap": "40px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": "5fr 3fr 4fr"
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e300",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "10px"
+         },
+         "children": [
+          {
+           "id": "e298",
+           "type": "heading",
+           "props": {
+            "text": "FIELD & LOOM",
+            "level": 3
+           },
+           "style": {
+            "font_size": "1.5rem"
+           }
+          },
+          {
+           "id": "e299",
+           "type": "text",
+           "props": {
+            "text": "We make a small range of clothing and homeware in natural materials, produced in small batches.",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem",
+            "max_width": "34ch"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e307",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e301",
+           "type": "heading",
+           "props": {
+            "text": "Explore",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e302",
+           "type": "link",
+           "props": {
+            "label": "About",
+            "href": {
+             "page": "about"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e303",
+           "type": "link",
+           "props": {
+            "label": "Help",
+            "href": {
+             "page": "services"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e304",
+           "type": "link",
+           "props": {
+            "label": "Collections",
+            "href": {
+             "page": "portfolio"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e305",
+           "type": "link",
+           "props": {
+            "label": "Journal",
+            "href": {
+             "page": "blog"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e306",
+           "type": "link",
+           "props": {
+            "label": "Contact",
+            "href": {
+             "page": "contact"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          }
+         ]
+        },
+        {
+         "id": "e311",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e308",
+           "type": "heading",
+           "props": {
+            "text": "Contact",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e309",
+           "type": "text",
+           "props": {
+            "text": "100 Example Road, Your City",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          },
+          {
+           "id": "e310",
+           "type": "text",
+           "props": {
+            "text": "hello@example.com",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e313",
+       "type": "divider",
+       "props": {},
+       "style": {
+        "margin_block": "40px 14px"
+       }
+      },
+      {
+       "id": "e314",
+       "type": "text",
+       "props": {
+        "text": "© FIELD & LOOM. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Help",
+    "page": "services"
+   },
+   {
+    "label": "Collections",
+    "page": "portfolio"
+   },
+   {
+    "label": "Journal",
+    "page": "blog"
+   },
+   {
+    "label": "Contact",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e9",
+     "type": "section",
+     "props": {
+      "role": "hero"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e8",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e6",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "20px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "840px",
+          "margin_inline": "auto",
+          "margin_bottom": "56px"
+         },
+         "children": [
+          {
+           "id": "e1",
+           "type": "heading",
+           "props": {
+            "text": "Everyday goods, made to last",
+            "level": 1
+           },
+           "style": {
+            "font_size": "clamp(2.7rem,7vw,5.6rem)"
+           }
+          },
+          {
+           "id": "e2",
+           "type": "text",
+           "props": {
+            "text": "Linen, wool and ceramics in small batches. Free delivery over $80 and repairs for life.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.16rem",
+            "max_width": "60ch"
+           }
+          },
+          {
+           "id": "e5",
+           "type": "row",
+           "props": {},
+           "style": {
+            "margin_top": "10px",
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e3",
+             "type": "button",
+             "props": {
+              "label": "Shop now",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {}
+            },
+            {
+             "id": "e4",
+             "type": "button",
+             "props": {
+              "label": "Collections",
+              "href": {
+               "page": "portfolio"
+              },
+              "variant": "secondary"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e7",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "online-store-1",
+           "subject": "garment",
+           "ratio": 2.2,
+           "label": "Hero image"
+          },
+          "alt": "Hero image",
+          "ratio": 2.2
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e38",
+     "type": "section",
+     "props": {
+      "role": "products"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e37",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e11",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e10",
+           "type": "heading",
+           "props": {
+            "text": "Bestsellers",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e36",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {
+          "gap": "32px 22px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e17",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e12",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-2",
+               "subject": "garment",
+               "ratio": 0.8,
+               "label": "Linen shirt"
+              },
+              "alt": "Linen shirt",
+              "ratio": 0.8
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e15",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e13",
+               "type": "heading",
+               "props": {
+                "text": "Linen shirt",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e14",
+               "type": "text",
+               "props": {
+                "text": "$68"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e16",
+             "type": "text",
+             "props": {
+              "text": "Natural, oat, navy",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e23",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e18",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-3",
+               "subject": "garment",
+               "ratio": 0.8,
+               "label": "Wool cardigan"
+              },
+              "alt": "Wool cardigan",
+              "ratio": 0.8
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e21",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e19",
+               "type": "heading",
+               "props": {
+                "text": "Wool cardigan",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e20",
+               "type": "text",
+               "props": {
+                "text": "$110"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e22",
+             "type": "text",
+             "props": {
+              "text": "Three colours",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e29",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e24",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-4",
+               "subject": "garment",
+               "ratio": 0.8,
+               "label": "Canvas tote"
+              },
+              "alt": "Canvas tote",
+              "ratio": 0.8
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e27",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e25",
+               "type": "heading",
+               "props": {
+                "text": "Canvas tote",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e26",
+               "type": "text",
+               "props": {
+                "text": "$34"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e28",
+             "type": "text",
+             "props": {
+              "text": "Waxed cotton",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e35",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e30",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-5",
+               "subject": "garment",
+               "ratio": 0.8,
+               "label": "Ceramic mug"
+              },
+              "alt": "Ceramic mug",
+              "ratio": 0.8
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e33",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e31",
+               "type": "heading",
+               "props": {
+                "text": "Ceramic mug",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e32",
+               "type": "text",
+               "props": {
+                "text": "$22"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e34",
+             "type": "text",
+             "props": {
+              "text": "Hand glazed",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e59",
+     "type": "section",
+     "props": {
+      "role": "features",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e58",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "72px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e56",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px"
+         },
+         "children": [
+          {
+           "id": "e54",
+           "type": "heading",
+           "props": {
+            "text": "The standard we hold ourselves to",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e55",
+           "type": "text",
+           "props": {
+            "text": "Free delivery on orders over $80, easy returns within thirty days, and a repair service for anything we sell.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e41",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e39",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e40",
+             "type": "text",
+             "props": {
+              "text": "Free delivery"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e44",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e42",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e43",
+             "type": "text",
+             "props": {
+              "text": "Easy returns"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e47",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e45",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e46",
+             "type": "text",
+             "props": {
+              "text": "Repairs for life"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e50",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e48",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e49",
+             "type": "text",
+             "props": {
+              "text": "Natural materials"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e53",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e51",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e52",
+             "type": "text",
+             "props": {
+              "text": "Small batches"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e57",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "online-store-6",
+           "subject": "garment",
+           "ratio": 0.95,
+           "label": "Feature image"
+          },
+          "alt": "Feature image",
+          "ratio": 0.95
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e82",
+     "type": "section",
+     "props": {
+      "role": "products"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e81",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e61",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e60",
+           "type": "heading",
+           "props": {
+            "text": "Bestsellers",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e80",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 1fr 1fr"
+         },
+         "style": {
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e67",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e62",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-7",
+               "subject": "garment",
+               "ratio": 1.25,
+               "label": "Linen shirt"
+              },
+              "alt": "Linen shirt",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e65",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e63",
+               "type": "heading",
+               "props": {
+                "text": "Linen shirt",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e64",
+               "type": "text",
+               "props": {
+                "text": "$68"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e66",
+             "type": "text",
+             "props": {
+              "text": "Natural, oat, navy",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e73",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e68",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-8",
+               "subject": "garment",
+               "ratio": 0.68,
+               "label": "Wool cardigan"
+              },
+              "alt": "Wool cardigan",
+              "ratio": 0.68
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e71",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e69",
+               "type": "heading",
+               "props": {
+                "text": "Wool cardigan",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e70",
+               "type": "text",
+               "props": {
+                "text": "$110"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e72",
+             "type": "text",
+             "props": {
+              "text": "Three colours",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e79",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e74",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-9",
+               "subject": "garment",
+               "ratio": 0.68,
+               "label": "Canvas tote"
+              },
+              "alt": "Canvas tote",
+              "ratio": 0.68
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e77",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e75",
+               "type": "heading",
+               "props": {
+                "text": "Canvas tote",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e76",
+               "type": "text",
+               "props": {
+                "text": "$34"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e78",
+             "type": "text",
+             "props": {
+              "text": "Waxed cotton",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e102",
+     "type": "section",
+     "props": {
+      "role": "testimonials",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e101",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e99",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e98",
+           "type": "heading",
+           "props": {
+            "text": "What people say",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e100",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e87",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px"
+           },
+           "children": [
+            {
+             "id": "e83",
+             "type": "text",
+             "props": {
+              "text": "“The best linen shirt I own. Two years and still perfect.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e86",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e84",
+               "type": "text",
+               "props": {
+                "text": "Thandi M."
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e85",
+               "type": "text",
+               "props": {
+                "text": "Verified buyer",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e92",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px"
+           },
+           "children": [
+            {
+             "id": "e88",
+             "type": "text",
+             "props": {
+              "text": "“Fast delivery and beautiful packaging.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e91",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e89",
+               "type": "text",
+               "props": {
+                "text": "Mark K."
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e90",
+               "type": "text",
+               "props": {
+                "text": "Verified buyer",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e97",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px"
+           },
+           "children": [
+            {
+             "id": "e93",
+             "type": "text",
+             "props": {
+              "text": "“They repaired my jacket for free. Who does that?”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e96",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e94",
+               "type": "text",
+               "props": {
+                "text": "Lerato P."
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e95",
+               "type": "text",
+               "props": {
+                "text": "Verified buyer",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e110",
+     "type": "section",
+     "props": {
+      "role": "faq"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e109",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e104",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e103",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e105",
+         "type": "faq_item",
+         "props": {
+          "question": "How long does delivery take?",
+          "answer": "Two to four working days in the city, up to a week elsewhere.",
+          "open": true
+         },
+         "style": {}
+        },
+        {
+         "id": "e106",
+         "type": "faq_item",
+         "props": {
+          "question": "Can I return an item?",
+          "answer": "Yes, within thirty days, unworn and with its tags.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e107",
+         "type": "faq_item",
+         "props": {
+          "question": "How do repairs work?",
+          "answer": "Send it back with a note. We repair it and post it home free of charge.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e108",
+         "type": "faq_item",
+         "props": {
+          "question": "Which payment methods do you accept?",
+          "answer": "Cards, mobile money and bank transfer.",
+          "open": false
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e115",
+     "type": "section",
+     "props": {
+      "role": "call_to_action"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e114",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "align_items": "center",
+        "text_align": "center",
+        "gap": "18px"
+       },
+       "children": [
+        {
+         "id": "e111",
+         "type": "heading",
+         "props": {
+          "text": "New season, now in",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(2.2rem,5.6vw,4.6rem)"
+         }
+        },
+        {
+         "id": "e112",
+         "type": "text",
+         "props": {
+          "text": "Natural materials, small batches, made to last. Free delivery over $80.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        },
+        {
+         "id": "e113",
+         "type": "button",
+         "props": {
+          "label": "Shop now",
+          "href": {
+           "page": "contact"
+          },
+          "variant": "primary"
+         },
+         "style": {
+          "margin_top": "8px"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e156",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "96px"
+     },
+     "children": [
+      {
+       "id": "e155",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "align_items": "center",
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e153",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e154",
+         "type": "text",
+         "props": {
+          "text": "Our story and the people who make our goods.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e123",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e122",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "68px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e116",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "online-store-10",
+           "subject": "garment",
+           "ratio": 1.1,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 1.1
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "e121",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e117",
+           "type": "heading",
+           "props": {
+            "text": "Everyday goods, made to last",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e118",
+           "type": "text",
+           "props": {
+            "text": "We make a small range of clothing and homeware in natural materials, produced in small batches by workshops we know by name.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e119",
+           "type": "text",
+           "props": {
+            "text": "Free delivery on orders over $80, easy returns within thirty days, and a repair service for anything we sell.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e120",
+           "type": "link",
+           "props": {
+            "label": "Our story",
+            "href": {
+             "page": "about"
+            },
+            "arrow": true
+           },
+           "style": {
+            "margin_top": "6px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e135",
+     "type": "section",
+     "props": {
+      "role": "values",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e134",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e133",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "40px 56px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e126",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e124",
+             "type": "heading",
+             "props": {
+              "text": "Our values",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e125",
+             "type": "text",
+             "props": {
+              "text": "Free delivery on orders over $80, easy returns within thirty days, and a repair service for anything we sell."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e129",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e127",
+             "type": "heading",
+             "props": {
+              "text": "Our mission",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e128",
+             "type": "text",
+             "props": {
+              "text": "We make a small range of clothing and homeware in natural materials, produced in small batches by workshops we know by name."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e132",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e130",
+             "type": "heading",
+             "props": {
+              "text": "Our vision",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e131",
+             "type": "text",
+             "props": {
+              "text": "Natural materials, small batches, made to last. Free delivery over $80."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e152",
+     "type": "section",
+     "props": {
+      "role": "team"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e151",
+       "type": "columns",
+       "props": {
+        "columns": "4fr 8fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "48px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e149",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px"
+         },
+         "children": [
+          {
+           "id": "e148",
+           "type": "heading",
+           "props": {
+            "text": "The people behind the shop",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e150",
+         "type": "container",
+         "props": {},
+         "style": {},
+         "children": [
+          {
+           "id": "e138",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e136",
+             "type": "heading",
+             "props": {
+              "text": "Naomi Banda",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e137",
+             "type": "text",
+             "props": {
+              "text": "Founder",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e141",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e139",
+             "type": "heading",
+             "props": {
+              "text": "Tariq Ali",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e140",
+             "type": "text",
+             "props": {
+              "text": "Production",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e144",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e142",
+             "type": "heading",
+             "props": {
+              "text": "Joy Mutale",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e143",
+             "type": "text",
+             "props": {
+              "text": "Customer care",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e147",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e145",
+             "type": "heading",
+             "props": {
+              "text": "Leo Chanda",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e146",
+             "type": "text",
+             "props": {
+              "text": "Photography",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "help",
+   "title": "Help",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e187",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "96px"
+     },
+     "children": [
+      {
+       "id": "e186",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "align_items": "center",
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e184",
+         "type": "heading",
+         "props": {
+          "text": "Help",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e185",
+         "type": "text",
+         "props": {
+          "text": "Delivery, returns and repairs.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e173",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e172",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e170",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e169",
+           "type": "heading",
+           "props": {
+            "text": "Why shop with us",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e171",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e160",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e157",
+             "type": "icon",
+             "props": {
+              "name": "truck"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e158",
+             "type": "heading",
+             "props": {
+              "text": "Free delivery",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e159",
+             "type": "text",
+             "props": {
+              "text": "On every order over $80.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e164",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e161",
+             "type": "icon",
+             "props": {
+              "name": "refresh-cw"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e162",
+             "type": "heading",
+             "props": {
+              "text": "Easy returns",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e163",
+             "type": "text",
+             "props": {
+              "text": "Thirty days, no questions.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e168",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e165",
+             "type": "icon",
+             "props": {
+              "name": "scissors"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e166",
+             "type": "heading",
+             "props": {
+              "text": "Repairs for life",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e167",
+             "type": "text",
+             "props": {
+              "text": "We mend what we make.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e183",
+     "type": "section",
+     "props": {
+      "role": "faq",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e182",
+       "type": "columns",
+       "props": {
+        "columns": "4fr 7fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "60px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e176",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px"
+         },
+         "children": [
+          {
+           "id": "e174",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e175",
+           "type": "text",
+           "props": {
+            "text": "Natural materials, small batches, made to last. Free delivery over $80.",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e181",
+         "type": "container",
+         "props": {},
+         "style": {},
+         "children": [
+          {
+           "id": "e177",
+           "type": "faq_item",
+           "props": {
+            "question": "How long does delivery take?",
+            "answer": "Two to four working days in the city, up to a week elsewhere.",
+            "open": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e178",
+           "type": "faq_item",
+           "props": {
+            "question": "Can I return an item?",
+            "answer": "Yes, within thirty days, unworn and with its tags.",
+            "open": false
+           },
+           "style": {}
+          },
+          {
+           "id": "e179",
+           "type": "faq_item",
+           "props": {
+            "question": "How do repairs work?",
+            "answer": "Send it back with a note. We repair it and post it home free of charge.",
+            "open": false
+           },
+           "style": {}
+          },
+          {
+           "id": "e180",
+           "type": "faq_item",
+           "props": {
+            "question": "Which payment methods do you accept?",
+            "answer": "Cards, mobile money and bank transfer.",
+            "open": false
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "collections",
+   "title": "Collections",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e261",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "96px"
+     },
+     "children": [
+      {
+       "id": "e260",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "align_items": "center",
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e258",
+         "type": "heading",
+         "props": {
+          "text": "Collections",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e259",
+         "type": "text",
+         "props": {
+          "text": "Browse every collection.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e228",
+     "type": "section",
+     "props": {
+      "role": "products"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e227",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e189",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e188",
+           "type": "heading",
+           "props": {
+            "text": "Bestsellers",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e226",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "38px 26px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e195",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e190",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-11",
+               "subject": "garment",
+               "ratio": 1.3,
+               "label": "Linen shirt"
+              },
+              "alt": "Linen shirt",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e193",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e191",
+               "type": "heading",
+               "props": {
+                "text": "Linen shirt",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e192",
+               "type": "text",
+               "props": {
+                "text": "$68"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e194",
+             "type": "text",
+             "props": {
+              "text": "Natural, oat, navy",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e201",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e196",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-12",
+               "subject": "garment",
+               "ratio": 1.3,
+               "label": "Wool cardigan"
+              },
+              "alt": "Wool cardigan",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e199",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e197",
+               "type": "heading",
+               "props": {
+                "text": "Wool cardigan",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e198",
+               "type": "text",
+               "props": {
+                "text": "$110"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e200",
+             "type": "text",
+             "props": {
+              "text": "Three colours",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e207",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e202",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-13",
+               "subject": "garment",
+               "ratio": 1.3,
+               "label": "Canvas tote"
+              },
+              "alt": "Canvas tote",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e205",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e203",
+               "type": "heading",
+               "props": {
+                "text": "Canvas tote",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e204",
+               "type": "text",
+               "props": {
+                "text": "$34"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e206",
+             "type": "text",
+             "props": {
+              "text": "Waxed cotton",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e213",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e208",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-14",
+               "subject": "garment",
+               "ratio": 1.3,
+               "label": "Ceramic mug"
+              },
+              "alt": "Ceramic mug",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e211",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e209",
+               "type": "heading",
+               "props": {
+                "text": "Ceramic mug",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e210",
+               "type": "text",
+               "props": {
+                "text": "$22"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e212",
+             "type": "text",
+             "props": {
+              "text": "Hand glazed",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e219",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e214",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-15",
+               "subject": "garment",
+               "ratio": 1.3,
+               "label": "Linen bedding set"
+              },
+              "alt": "Linen bedding set",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e217",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e215",
+               "type": "heading",
+               "props": {
+                "text": "Linen bedding set",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e216",
+               "type": "text",
+               "props": {
+                "text": "$140"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e218",
+             "type": "text",
+             "props": {
+              "text": "Double and king",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e225",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e220",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-16",
+               "subject": "garment",
+               "ratio": 1.3,
+               "label": "Leather belt"
+              },
+              "alt": "Leather belt",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e223",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e221",
+               "type": "heading",
+               "props": {
+                "text": "Leather belt",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e222",
+               "type": "text",
+               "props": {
+                "text": "$45"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e224",
+             "type": "text",
+             "props": {
+              "text": "Vegetable tanned",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e257",
+     "type": "section",
+     "props": {
+      "role": "portfolio",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e256",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e230",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e229",
+           "type": "heading",
+           "props": {
+            "text": "Shop by collection",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e255",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "36px 26px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e234",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e231",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-17",
+               "subject": "garment",
+               "ratio": 1.25,
+               "label": "Linen essentials"
+              },
+              "alt": "Linen essentials",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e232",
+             "type": "heading",
+             "props": {
+              "text": "Linen essentials",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e233",
+             "type": "text",
+             "props": {
+              "text": "Clothing",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e238",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e235",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-18",
+               "subject": "garment",
+               "ratio": 1.25,
+               "label": "Wool knitwear"
+              },
+              "alt": "Wool knitwear",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e236",
+             "type": "heading",
+             "props": {
+              "text": "Wool knitwear",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e237",
+             "type": "text",
+             "props": {
+              "text": "Clothing",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e242",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e239",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-19",
+               "subject": "garment",
+               "ratio": 1.25,
+               "label": "Kitchen"
+              },
+              "alt": "Kitchen",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e240",
+             "type": "heading",
+             "props": {
+              "text": "Kitchen",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e241",
+             "type": "text",
+             "props": {
+              "text": "Homeware",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e246",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e243",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-20",
+               "subject": "garment",
+               "ratio": 1.25,
+               "label": "Bedroom"
+              },
+              "alt": "Bedroom",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e244",
+             "type": "heading",
+             "props": {
+              "text": "Bedroom",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e245",
+             "type": "text",
+             "props": {
+              "text": "Homeware",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e250",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e247",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-21",
+               "subject": "garment",
+               "ratio": 1.25,
+               "label": "Accessories"
+              },
+              "alt": "Accessories",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e248",
+             "type": "heading",
+             "props": {
+              "text": "Accessories",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e249",
+             "type": "text",
+             "props": {
+              "text": "Bags and belts",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e254",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e251",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-22",
+               "subject": "garment",
+               "ratio": 1.25,
+               "label": "Gift sets"
+              },
+              "alt": "Gift sets",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e252",
+             "type": "heading",
+             "props": {
+              "text": "Gift sets",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e253",
+             "type": "text",
+             "props": {
+              "text": "Gifts",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "journal",
+   "title": "Journal",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e285",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "96px"
+     },
+     "children": [
+      {
+       "id": "e284",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "align_items": "center",
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e282",
+         "type": "heading",
+         "props": {
+          "text": "Journal",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e283",
+         "type": "text",
+         "props": {
+          "text": "Care guides, makers and news.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e281",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e280",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e278",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e277",
+           "type": "heading",
+           "props": {
+            "text": "Journal",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e279",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "32px"
+         },
+         "children": [
+          {
+           "id": "e266",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e262",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-23",
+               "subject": "garment",
+               "ratio": 1.55,
+               "label": "How to care for linen"
+              },
+              "alt": "How to care for linen",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e263",
+             "type": "text",
+             "props": {
+              "text": "Care, 3 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e264",
+             "type": "heading",
+             "props": {
+              "text": "How to care for linen",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e265",
+             "type": "text",
+             "props": {
+              "text": "Wash less, enjoy more.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e271",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e267",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-24",
+               "subject": "garment",
+               "ratio": 1.55,
+               "label": "Meet our weaving workshop"
+              },
+              "alt": "Meet our weaving workshop",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e268",
+             "type": "text",
+             "props": {
+              "text": "Makers, 6 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e269",
+             "type": "heading",
+             "props": {
+              "text": "Meet our weaving workshop",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e270",
+             "type": "text",
+             "props": {
+              "text": "A visit to the loom.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e276",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e272",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "online-store-25",
+               "subject": "garment",
+               "ratio": 1.55,
+               "label": "The new autumn collection"
+              },
+              "alt": "The new autumn collection",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e273",
+             "type": "text",
+             "props": {
+              "text": "News, 2 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e274",
+             "type": "heading",
+             "props": {
+              "text": "The new autumn collection",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e275",
+             "type": "text",
+             "props": {
+              "text": "Warm colours, soft wool.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e296",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "96px"
+     },
+     "children": [
+      {
+       "id": "e295",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "align_items": "center",
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e293",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e294",
+         "type": "text",
+         "props": {
+          "text": "Questions about an order? We are here to help.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e292",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e291",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e290",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e288",
+           "type": "heading",
+           "props": {
+            "text": "Customer care",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e289",
+           "type": "text",
+           "props": {
+            "text": "Natural materials, small batches, made to last. Free delivery over $80.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e287",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px",
+          "padding": "clamp(24px,4vw,44px)"
+         },
+         "children": [
+          {
+           "id": "e286",
+           "type": "contact_form",
+           "props": {
+            "fields": [
+             {
+              "label": "Your name",
+              "type": "text"
+             },
+             {
+              "label": "Email address",
+              "type": "email"
+             },
+             {
+              "label": "Message",
+              "type": "textarea"
+             }
+            ],
+            "submit": "Send message"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

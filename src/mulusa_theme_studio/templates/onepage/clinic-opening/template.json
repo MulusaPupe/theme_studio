@@ -1,0 +1,308 @@
+{
+ "schema": "mulusa.theme/2",
+ "meta": {
+  "id": "onepage/clinic-opening",
+  "template_name": "Healthcare: Opening",
+  "name": "Riverside Family Clinic",
+  "description": "A bright clinic opening page: a live heartbeat, a countdown and registration by phone.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#0e7490",
+   "on_primary": "#f3f8fb",
+   "secondary": "#0e5a73",
+   "accent": "#ef4444",
+   "on_accent": "#0b0b0d",
+   "background": "#f3f8fb",
+   "surface": "#e6f1f6",
+   "text": "#0f2a3d",
+   "muted": "#4f6472",
+   "border": "#cfd7dd"
+  },
+  "fonts": {
+   "heading": "Plus Jakarta Sans",
+   "body": "Inter",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 700,
+   "heading_transform": "none",
+   "heading_tracking": "-0.02em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.28
+  },
+  "shape": {
+   "radius": "16px",
+   "button_radius": "999px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "96px",
+   "gap": "24px",
+   "width": "1120px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Healthcare: Opening",
+   "colors": {
+    "primary": "#0e7490",
+    "on_primary": "#f3f8fb",
+    "secondary": "#0e5a73",
+    "accent": "#ef4444",
+    "on_accent": "#0b0b0d",
+    "background": "#f3f8fb",
+    "surface": "#e6f1f6",
+    "text": "#0f2a3d",
+    "muted": "#4f6472",
+    "border": "#cfd7dd"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Plus Jakarta Sans / Inter",
+   "heading": "Plus Jakarta Sans",
+   "body": "Inter"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "cli18",
+   "type": "header",
+   "props": {
+    "layout": "minimal",
+    "brand": "Riverside Family Clinic"
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "cli17",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "40px"
+   },
+   "name": "Site footer"
+  }
+ },
+ "navigation": {
+  "primary": []
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "landing",
+   "nodes": [
+    {
+     "id": "cli14",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "ambient": "waves"
+     },
+     "style": {
+      "min_height": "100vh",
+      "display": "flex",
+      "align_items": "center",
+      "padding_block": "64px"
+     },
+     "name": "Hero",
+     "children": [
+      {
+       "id": "cli13",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "align_items": "center"
+       },
+       "children": [
+        {
+         "id": "cli12",
+         "type": "container",
+         "props": {},
+         "style": {
+          "width": "100%",
+          "max_width": "680px",
+          "margin_inline": "auto",
+          "gap": "22px",
+          "align_items": "center"
+         },
+         "children": [
+          {
+           "id": "cli10",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "center",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "cli9",
+             "type": "text",
+             "props": {
+              "text": "Riverside Family Clinic"
+             },
+             "style": {
+              "font_weight": "700",
+              "letter_spacing": "0.14em",
+              "text_transform": "uppercase",
+              "font_size": ".82rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "cli8",
+           "type": "container",
+           "props": {},
+           "style": {
+            "background": "rgba(255,255,255,0.72)",
+            "border": "1px solid rgba(255,255,255,0.9)",
+            "backdrop_filter": "blur(14px) saturate(150%)",
+            "box_shadow": "0 24px 60px rgba(20,30,50,0.14)",
+            "border_radius": "24px",
+            "padding": "46px 38px",
+            "gap": "18px",
+            "align_items": "center",
+            "text_align": "center",
+            "width": "100%"
+           },
+           "name": "Glass card",
+           "children": [
+            {
+             "id": "cli1",
+             "type": "illustration",
+             "props": {
+              "name": "heartbeat",
+              "animate": true
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "240px"
+             }
+            },
+            {
+             "id": "cli2",
+             "type": "heading",
+             "props": {
+              "text": "Riverside Family Clinic opens its doors.",
+              "level": 1
+             },
+             "style": {
+              "font_size": "clamp(2rem,4.6vw,2.9rem)"
+             }
+            },
+            {
+             "id": "cli3",
+             "type": "text",
+             "props": {
+              "text": "Family doctors, a pharmacy and a laboratory under one roof. Register now and your first visit is free.",
+              "muted": true
+             },
+             "style": {
+              "max_width": "46ch"
+             }
+            },
+            {
+             "id": "cli4",
+             "type": "countdown",
+             "props": {
+              "target": "2027-03-15T07:30",
+              "utc_offset": "+02:00",
+              "show_seconds": true,
+              "done_text": "We are open. Walk-ins welcome."
+             },
+             "style": {
+              "margin_block": "4px"
+             }
+            },
+            {
+             "id": "cli7",
+             "type": "row",
+             "props": {},
+             "style": {
+              "gap": "12px",
+              "justify_content": "center"
+             },
+             "children": [
+              {
+               "id": "cli5",
+               "type": "button",
+               "props": {
+                "label": "Call to register",
+                "href": "tel:+000000000000",
+                "variant": "primary"
+               },
+               "style": {}
+              },
+              {
+               "id": "cli6",
+               "type": "button",
+               "props": {
+                "label": "Find us",
+                "href": "#",
+                "variant": "secondary"
+               },
+               "style": {}
+              }
+             ]
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "padding": "34px 20px"
+             }
+            }
+           }
+          },
+          {
+           "id": "cli11",
+           "type": "text",
+           "props": {
+            "text": "Open every day, 07:30 to 20:00",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".8rem",
+            "text_align": "center"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "responsive": {
+      "mobile": {
+       "style": {
+        "padding_block": "40px"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

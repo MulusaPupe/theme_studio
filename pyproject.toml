@@ -11,7 +11,7 @@ requires-python = ">=3.12"
 dependencies = ["PySide6>=6.10", "Pillow>=11"]
 
 [project.optional-dependencies]
-dev = ["pytest>=8", "pytest-qt>=4.4"]
+dev = ["pytest>=8", "pytest-qt>=4.4", "pytest-xdist>=3.6"]
 
 [project.scripts]
 mulusa-theme-studio = "mulusa_theme_studio.app:main"
@@ -20,10 +20,10 @@ mulusa-theme-studio = "mulusa_theme_studio.app:main"
 where = ["src"]
 
 [tool.setuptools.package-data]
-mulusa_theme_studio = ["resources/**/*", "render/*.css", "render/*.js", "templates/**/*"]
+mulusa_theme_studio = ["resources/**/*", "render/*.css", "render/*.js", "templates/**/*", "exporters/wordpress/*.css", "library/sections/**/*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
-addopts = "-ra"
+addopts = "-ra -n 6 --dist load"
 qt_api = "pyside6"

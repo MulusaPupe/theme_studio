@@ -99,6 +99,23 @@ def fit_text(text: str, family: str, max_rem: float, upper: bool = False, room: 
     return f"min({room / (longest * width):.2f}vw,{max_rem}rem)"
 
 
+
+# What a service icon stands for, as one of the studio's animated drawings (render/illustrations.py).
+# Only honest matches; an icon missing here keeps its grid on icons.
+ICON_ART = {
+    "compass": "target", "target": "target", "shield-check": "shield", "trending-up": "growth", "chart-column": "growth",
+    "settings": "gears", "zap": "gears", "users-round": "community", "handshake": "network", "lock": "lock",
+    "code-xml": "code", "cloud": "cloud", "sparkles": "lightbulb", "camera": "camera", "brush": "palette",
+    "building-2": "building", "drafting-compass": "crane", "list-checks": "calendar", "graduation-cap": "graduation",
+    "microscope": "search", "clock": "calendar", "utensils": "pan", "house": "pin",
+}
+ICON_ART_BY_CATEGORY = {
+    "community": {"heart": "heartbeat", "handshake": "community", "users-round": "network"},
+    "healthcare": {"heart": "heartbeat"},
+    "education": {"globe": "network"},
+    "fashion": {"scissors": "hanger", "globe": "plane"},
+}
+
 class Kit:
     def __init__(self, spec: dict, pack: dict) -> None:
         self.s = spec
@@ -180,6 +197,23 @@ class Kit:
     def link(self, label: str, page: str = "portfolio", **style) -> dict:
         return self.node("link", {"label": label, "href": {"page": page}, "arrow": True}, style)
 
+    def drawings_for(self, icons: list[str]) -> list[str]:
+        """Animated drawings for a row of service cards, chosen from what each card's icon stands for.
+        All or nothing: a grid with one card the drawings cannot honestly show keeps its icons."""
+        if not self.s.get("drawings"):
+            return []
+        table = {**ICON_ART, **ICON_ART_BY_CATEGORY.get(self.s["category"], {})}
+        names = [table.get(i) for i in icons]
+        return names if all(names) and len(set(names)) == len(names) else []
+
+    def mark(self, art: list[str], index: int, name: str, **style) -> dict:
+        """A service card's mark: its animated drawing when the grid has them, else the icon."""
+        width = style.pop("art_width", "150px")
+        if art:
+            return self.node("illustration", {"name": art[index], "animate": True, "aria_label": ""},
+                             {"width": "100%", "max_width": width, "margin_left": "0", "margin_bottom": "6px"})
+        return self.icon(name, **style)
+
     def icon(self, name: str, **style) -> dict:
         style.setdefault("font_size", "28px")
         style.setdefault("color", "$c-accent" if self._accent_ok() else "currentColor")
@@ -200,7 +234,8 @@ class Kit:
         return contrast(self.colors["accent"], self.colors["background"]) >= 4.5 and contrast(self.colors["accent"], self.colors["surface"]) >= 4.5
 
     def eyebrow(self, text: str) -> dict | None:
-        kind = self.eyebrow_kind
+        """Small labels above headings are not used: the heading carries its own weight (design pass, 2026-11-13)."""
+        kind = "none"
         if kind == "none" or not text:
             return None
         color = "$c-accent" if self._accent_ok() else "$c-muted"
@@ -337,7 +372,6 @@ class Kit:
     def hero_poster(self, tone=None):
         s = self.s
         return self.sec("hero", [self.w(
-            self.t(s.get("kicker", ""), False, font_weight=600, letter_spacing=".2em", text_transform="uppercase", font_size=".8rem"),
             self.h1(s["headline"], font_size=s.get("giant", "clamp(3.6rem,15vw,14rem)"), line_height=".88"),
             self.row(self.t(s["sub"], False, max_width="46ch", font_size="1.1rem"), self.btn(s.get("action", "Get in touch")), justify_content="space-between", align_items="flex-end", gap="28px"),
             gap="30px", style={"justify_content": "flex-end"})], tone,
@@ -383,6 +417,107 @@ class Kit:
         top = self.cols("8fr 4fr", self.h1(s["headline"]), self.stack(self.t(s["sub"]), self.btn(s.get("action", "Get in touch"), align_self="flex-start"), gap="18px"), gap="48px", align="end", tablet=1, style={"margin_bottom": "48px"})
         return self.sec("hero", [self.w(top, strip)], tone, {"padding_block": "64px 80px"})
 
+    # Design pass sections (2026-11-13) --------------------------------------
+    def hero_cinematic(self, tone=None):
+        """A full-height photograph in planes: the picture, a shade that deepens towards the type, then the
+        headline across the lower left with the supporting line and actions beside it."""
+        s = self.s
+        side = self.stack(self.t(s["sub"], False, font_size="1.12rem", max_width="42ch", color=WHITE),
+                          self.actions(self.btn(s.get("action", "Get in touch")), self.btn(s.get("action2", "See our work"), "portfolio", "secondary")), gap="22px")
+        bottom = self.cols("7fr 5fr", self.h1(s["headline"], font_size="clamp(2.6rem,6.2vw,6rem)", max_width="13ch"), side, gap="28px 64px", align="end", tablet=1)
+        return self.sec("hero", [self.w(bottom, style={"justify_content": "flex-end", "min_height": "inherit"})], tone,
+                        {"min_height": "clamp(620px,96vh,1000px)", "display": "flex", "align_items": "flex-end", "padding_block": "160px 72px", "color": WHITE},
+                        self.bg_image(overlay="linear-gradient(180deg,rgba(6,8,14,.34) 0%,rgba(6,8,14,.18) 38%,rgba(6,8,14,.86) 100%)"))
+
+    def services_index(self, tone=None):
+        """An editorial index: the heading holds its place on the left while the services pass on the right."""
+        p = self.p
+        head = self.stack(self.h(p["services_title"]), self.t(p.get("services_sub") or p["about2"], font_size="1.06rem", max_width="40ch"),
+                          self.link("All services", "services"), gap="18px", position="sticky", top="110px", align_self="flex-start",
+                          responsive=R(mobile={"position": "static"}, tablet={"position": "static"}))
+        rows = [self.cols("44px 1fr", self.icon(i, font_size="26px", margin_top="4px"),
+                          self.stack(self.h(t, 3, font_size="clamp(1.3rem,2.2vw,1.8rem)"), self.t(x, font_size="1.02rem", max_width="52ch"), gap="10px"),
+                          gap="20px", mobile="36px 1fr", style={"padding_block": "30px", "border_top": "1px solid $c-border"})
+                for t, x, i in self.items("services", 4)]
+        return self.sec("services", [self.cols("5fr 7fr", head, self.box(*rows, style={"border_bottom": "1px solid $c-border"}),
+                                               gap="40px 88px", width="content", tablet=1)], tone)
+
+    def photo_band(self, tone=None):
+        """One statement over a full-width photograph that drifts as the page passes: the page's scroll moment."""
+        statement = self.s.get("statement") or self.p["about"]
+        return self.sec("statement", [self.w(self.h(statement, 2, font_size="clamp(2rem,4.8vw,4.2rem)", line_height="1.06", max_width="17em"))], tone,
+                        {"min_height": "clamp(440px,78vh,820px)", "display": "flex", "align_items": "flex-end", "padding_block": "120px 84px", "color": WHITE},
+                        self.bg_image(overlay="linear-gradient(180deg,rgba(6,8,14,.2) 0%,rgba(6,8,14,.72) 100%)"))
+
+    # Richer company sections (2026-11-13, second pass) -------------------------
+    _CREDENTIALS = [("Registered supplier", "On the public procurement register"), ("Tax compliant", "Clearance renewed every year"),
+                    ("Pension compliant", "Contributions up to date"), ("Insured workforce", "Compensation cover for every worker"),
+                    ("Locally owned", "Owned and run in the region")]
+    _PROCESS = [("Consult", "We listen first and agree what success looks like."), ("Design", "Drawings, estimates and a programme you can hold us to."),
+                ("Deliver", "Our own team on the work, checked at every stage."), ("Report", "You hear from us at every stage, on time and on budget.")]
+
+    def _items_for(self, text: str) -> list[str]:
+        parts = [p.strip(" .") for p in re.split(r",| and ", text) if p.strip(" .")]
+        return [p[0].upper() + p[1:] for p in parts]
+
+    def services_panels(self, tone=None):
+        """Two services told at full width, each with a photograph that runs to the page edge."""
+        rows = []
+        for index, (t, x, _) in enumerate(self.items("services", 2)):
+            copy = self.box(self.h(t, 3, font_size="clamp(1.8rem,3.4vw,3rem)", line_height="1.05"), self.t(x, font_size="1.08rem", max_width="46ch"),
+                            self.t(" · ".join(self._items_for(x)) or t, font_size=".95rem", max_width="52ch", line_height="1.8"),
+                            self.link("Ask about this", "contact"),
+                            style={"gap": "18px", "justify_content": "center", "padding": "clamp(40px,7vw,104px) clamp(22px,6vw,96px)"})
+            image = self.img(ratio=1.15, label=t, radius=False, height="100%", min_height="420px")
+            pair = (copy, image) if index % 2 else (image, copy)
+            rows.append(self.cols("1fr 1fr", *pair, gap="0", width="full", tablet=1))
+        return self.sec("services", rows, tone, {"padding_block": "0"})
+
+    def catalogue(self, tone=None):
+        """Everything on offer, as a type-led index in four columns: breadth shown, not claimed."""
+        p = self.p
+        columns = []
+        for t, x, _ in self.items("services", 4):
+            items = (self._items_for(x) + [t])[:10]
+            items += [""] * (10 - len(items))
+            columns.append(self.stack(self.h(t, 4, padding_bottom="12px", border_bottom="1px solid $c-border"),
+                                      *[self.t(i, False, font_size=".98rem") for i in items], gap="9px"))
+        head = self.cols("6fr 5fr", self.h(p.get("catalogue_title", "Everything we offer"), 2), self.t(p["about2"], font_size="1.05rem"),
+                         gap="20px 64px", align="end", tablet=1, style={"margin_bottom": "56px"})
+        return self.sec("catalogue", [self.w(head, self.cols(4, *columns, gap="44px 32px", tablet=2, mobile=1))], tone)
+
+    def credentials(self, tone=None):
+        """The documents a buyer checks before a tender, in one band."""
+        cells = [self.stack(self.h(t, 4, font_size="1.15rem"), self.t(x, font_size=".9rem"), gap="6px", padding="22px 22px 22px 0", border_top="2px solid currentColor")
+                 for t, x in self.p.get("credentials", self._CREDENTIALS)]
+        return self.sec("credentials", [self.w(self.h(self.p.get("credentials_title", "Registered, compliant and ready to tender"), 2, font_size="clamp(1.6rem,3vw,2.4rem)", margin_bottom="36px", max_width="22em"),
+                                               self.cols(5, *cells, gap="0 24px", tablet=3, mobile=1))], tone)
+
+    def process_steps(self, tone=None):
+        """How a project runs. The numbers are the order, so they stay."""
+        steps = [self.stack(self.h(f"{i}", 2, font_size="clamp(3rem,6vw,5rem)", line_height="1", color="$c-accent" if self._accent_ok() else "currentColor"),
+                            self.h(t, 3, font_size="1.35rem"), self.t(x, font_size=".98rem"), gap="12px")
+                 for i, (t, x) in enumerate(self.p.get("process", self._PROCESS), 1)]
+        return self.sec("process", [self.w(self.h(self.p.get("process_title", "How a project runs"), 2, margin_bottom="52px"), self.cols(4, *steps, gap="40px", tablet=2, mobile=1))], tone)
+
+    def values_trio(self, tone=None):
+        p = self.p
+        trio = p.get("trio", [("Our values", p["about2"]), ("Our mission", p["about"]), ("Our vision", p["cta_sub"])])
+        cells = [self.stack(self.h(t, 3, font_size="1.1rem", text_transform="uppercase", letter_spacing=".08em"), self.t(x, False, font_size="clamp(1.15rem,1.8vw,1.45rem)", line_height="1.45"), gap="16px", border_top="1px solid currentColor", padding_top="22px")
+                 for t, x in trio]
+        return self.sec("values", [self.w(self.cols(3, *cells, gap="40px 56px", tablet=1))], tone)
+
+    def clients_type(self, tone=None):
+        """Who the work is for, set large: a type moment."""
+        names = self.p.get("clients", [w for w, _, _ in self.items("quotes", 3)] and [r.split(",")[-1].strip() for _, _, r in self.items("quotes", 3)])
+        lines = [self.h(n, 3, font_size="clamp(1.6rem,4vw,3.4rem)", line_height="1.1", padding_block="18px", border_bottom="1px solid $c-border") for n in names]
+        return self.sec("clients", [self.cols("4fr 8fr", self.h(self.p.get("clients_title", "Who we work for"), 2, font_size="1.3rem"), self.box(*lines, style={"border_top": "1px solid $c-border"}),
+                                              gap="24px 48px", width="content", tablet=1)], tone)
+
+    def portfolio_wall(self, tone=None):
+        """Nine pieces of work in three columns."""
+        return self.sec("portfolio", [self.w(self._work_head(), self.cols(3, *[self._work_item(t, m, 1.3) for t, m in self.items("projects", 9)], tablet=2, mobile=1, gap="36px 22px"))], tone)
+
     # About --------------------------------------------------------------------
     def about_split(self, tone=None):
         p = self.p
@@ -409,18 +544,22 @@ class Kit:
         return self.head(self.p.get("services_eyebrow", "What we do"), self.p["services_title"], self.p.get("services_sub", ""))
 
     def services_cards(self, tone=None):
-        cards = [self.card(self.icon(i), self.h(t, 3, font_size="1.3rem"), self.t(x)) for t, x, i in self.items("services", 3)]
+        items = self.items("services", 3)
+        art = self.drawings_for([i for _, _, i in items])
+        cards = [self.card(self.mark(art, n, i), self.h(t, 3, font_size="1.3rem"), self.t(x)) for n, (t, x, i) in enumerate(items)]
         return self.sec("services", [self.w(self._svc_head(), self.cols(3, *cards))], tone)
 
     def services_cards4(self, tone=None):
-        cards = [self.card(self.icon(i), self.h(t, 3, font_size="1.15rem"), self.t(x, font_size=".95rem")) for t, x, i in self.items("services", 4)]
+        items = self.items("services", 4)
+        art = self.drawings_for([i for _, _, i in items])
+        cards = [self.card(self.mark(art, n, i, art_width="132px"), self.h(t, 3, font_size="1.15rem"), self.t(x, font_size=".95rem")) for n, (t, x, i) in enumerate(items)]
         return self.sec("services", [self.w(self._svc_head(), self.cols(4, *cards, tablet=2))], tone)
 
     def services_rows(self, tone=None):
         rows = []
         for index, (t, x, _) in enumerate(self.items("services", 4), 1):
-            rows.append(self.cols("80px 4fr 6fr", self.t(f"{index:02d}", font_family="$font-heading", font_size="1.1rem"), self.h(t, 3, font_size="clamp(1.3rem,2.4vw,2rem)"), self.t(x), gap="24px",
-                                  tablet="60px 1fr 1fr", mobile=1, style={"padding_block": "28px", "border_top": "1px solid $c-border"}))
+            rows.append(self.cols("5fr 6fr", self.h(t, 3, font_size="clamp(1.3rem,2.4vw,2rem)"), self.t(x, font_size="1.05rem"), gap="24px 48px",
+                                  tablet="1fr 1fr", mobile=1, style={"padding_block": "30px", "border_top": "1px solid $c-border"}))
         return self.sec("services", [self.w(self._svc_head(), *rows)], tone)
 
     def services_alt(self, tone=None):
@@ -437,11 +576,12 @@ class Kit:
 
     def services_bento(self, tone=None):
         s = self.items("services", 4)
-        big = self.box(self.icon(s[0][2], font_size="40px"), self.h(s[0][0], 3, font_size="clamp(1.6rem,3vw,2.4rem)", margin_top="auto"), self.t(s[0][1]), tone="primary",
+        art = self.drawings_for([i for _, _, i in s])
+        big = self.box(self.mark(art, 0, s[0][2], font_size="40px", art_width="170px"), self.h(s[0][0], 3, font_size="clamp(1.6rem,3vw,2.4rem)", margin_top="auto"), self.t(s[0][1]), tone="primary",
                        style={"gap": "14px", "padding": "36px", "border_radius": "$radius", "grid_row": "span 2", "min_height": "400px"},
                        responsive=R(mobile={"min_height": "280px", "grid_row": "auto"}))
-        rest = [self.card(self.icon(i), self.h(t, 3, font_size="1.2rem"), self.t(x, font_size=".95rem")) for t, x, i in s[1:3]]
-        wide = self.card(self.icon(s[3][2]), self.h(s[3][0], 3, font_size="1.2rem"), self.t(s[3][1], font_size=".95rem"), grid_column="span 2")
+        rest = [self.card(self.mark(art, n, i), self.h(t, 3, font_size="1.2rem"), self.t(x, font_size=".95rem")) for n, (t, x, i) in enumerate(s[1:3], 1)]
+        wide = self.card(self.mark(art, 3, s[3][2]), self.h(s[3][0], 3, font_size="1.2rem"), self.t(s[3][1], font_size=".95rem"), grid_column="span 2")
         wide["responsive"] = R(mobile={"grid_column": "auto"})
         return self.sec("services", [self.w(self._svc_head(), self.cols(3, big, *rest, wide, gap="18px", tablet=3))], tone)
 
@@ -452,7 +592,7 @@ class Kit:
 
     # Stats --------------------------------------------------------------------
     def stats_strip(self, tone=None):
-        figures = [self.stack(self.h(n, 2, font_size="clamp(2.2rem,4vw,3.2rem)"), self.t(l, font_size=".93rem"), gap="4px") for n, l in self.items("stats", 4)]
+        figures = [self.stack(self.h(n, 2, font_size="clamp(2.2rem,4vw,3.2rem)"), self.t(l, font_size=".93rem"), gap="6px", border_top="1px solid $c-border", padding_top="18px") for n, l in self.items("stats", 4)]
         return self.sec("statistics", [self.w(self.cols(4, *figures, tablet=4, mobile=2))], tone, {"padding_block": "56px"})
 
     def stats_big(self, tone=None):
@@ -526,7 +666,7 @@ class Kit:
 
     def portfolio_mosaic(self, tone=None):
         it = self.items("projects", 5)
-        return self.sec("portfolio", [self.w(self._work_head(), self.cols("7fr 5fr", self._work_item(*it[0], 1.3), self._work_item(*it[1], .95), self._work_item(*it[2], .95), self._work_item(*it[3], 1.3), gap="44px 28px", tablet="1fr 1fr"))], tone)
+        return self.sec("portfolio", [self.w(self._work_head(), self.cols("7fr 5fr", self._work_item(*it[0], 1.3), self._work_item(*it[1], .95), self._work_item(*it[2], 1.6), self._work_item(*it[3], 1.15), gap="44px 28px", tablet="1fr 1fr"))], tone)
 
     def portfolio_rows(self, tone=None):
         rows = []

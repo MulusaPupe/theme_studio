@@ -1,0 +1,295 @@
+{
+ "schema": "mulusa.theme/2",
+ "meta": {
+  "id": "onepage/ict-coming-soon",
+  "template_name": "ICT: Coming soon",
+  "name": "NETSPAN Systems",
+  "description": "A coming-soon page for an ICT company: blinking server racks, a live countdown and sign-up.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#14b8c4",
+   "on_primary": "#04161c",
+   "secondary": "#082a33",
+   "accent": "#3ddc97",
+   "on_accent": "#04161c",
+   "background": "#04161c",
+   "surface": "#0a2229",
+   "text": "#e6f6f8",
+   "muted": "#a7b7ba",
+   "border": "#283a3f"
+  },
+  "fonts": {
+   "heading": "Space Grotesk",
+   "body": "Inter",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 700,
+   "heading_transform": "none",
+   "heading_tracking": "-0.02em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.28
+  },
+  "shape": {
+   "radius": "6px",
+   "button_radius": "6px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "96px",
+   "gap": "24px",
+   "width": "1120px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "ICT: Coming soon",
+   "colors": {
+    "primary": "#14b8c4",
+    "on_primary": "#04161c",
+    "secondary": "#082a33",
+    "accent": "#3ddc97",
+    "on_accent": "#04161c",
+    "background": "#04161c",
+    "surface": "#0a2229",
+    "text": "#e6f6f8",
+    "muted": "#a7b7ba",
+    "border": "#283a3f"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Space Grotesk / Inter",
+   "heading": "Space Grotesk",
+   "body": "Inter"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "ict16",
+   "type": "header",
+   "props": {
+    "layout": "minimal",
+    "brand": "NETSPAN Systems"
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "ict15",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "40px"
+   },
+   "name": "Site footer"
+  }
+ },
+ "navigation": {
+  "primary": []
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "landing",
+   "nodes": [
+    {
+     "id": "ict12",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "ambient": "grid"
+     },
+     "style": {
+      "min_height": "100vh",
+      "display": "flex",
+      "align_items": "center",
+      "padding_block": "64px"
+     },
+     "name": "Hero",
+     "children": [
+      {
+       "id": "ict11",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "align_items": "center"
+       },
+       "children": [
+        {
+         "id": "ict10",
+         "type": "container",
+         "props": {},
+         "style": {
+          "width": "100%",
+          "max_width": "680px",
+          "margin_inline": "auto",
+          "gap": "22px",
+          "align_items": "center"
+         },
+         "children": [
+          {
+           "id": "ict8",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "center",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "ict7",
+             "type": "text",
+             "props": {
+              "text": "NETSPAN Systems"
+             },
+             "style": {
+              "font_weight": "700",
+              "letter_spacing": "0.14em",
+              "text_transform": "uppercase",
+              "font_size": ".82rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "ict6",
+           "type": "container",
+           "props": {},
+           "style": {
+            "background": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.16)",
+            "backdrop_filter": "blur(16px) saturate(140%)",
+            "box_shadow": "0 30px 80px rgba(0,0,0,0.4)",
+            "border_radius": "24px",
+            "padding": "46px 38px",
+            "gap": "18px",
+            "align_items": "center",
+            "text_align": "center",
+            "width": "100%"
+           },
+           "name": "Glass card",
+           "children": [
+            {
+             "id": "ict1",
+             "type": "illustration",
+             "props": {
+              "name": "server",
+              "animate": true
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "250px"
+             }
+            },
+            {
+             "id": "ict2",
+             "type": "heading",
+             "props": {
+              "text": "Faster networks are on their way.",
+              "level": 1
+             },
+             "style": {
+              "font_size": "clamp(2rem,5vw,3rem)"
+             }
+            },
+            {
+             "id": "ict3",
+             "type": "text",
+             "props": {
+              "text": "NETSPAN is moving to new infrastructure. Our new site opens with managed connectivity, cloud hosting and 24/7 support.",
+              "muted": true
+             },
+             "style": {
+              "max_width": "48ch"
+             }
+            },
+            {
+             "id": "ict4",
+             "type": "countdown",
+             "props": {
+              "target": "2027-03-01T08:00",
+              "utc_offset": "+02:00",
+              "show_seconds": true,
+              "done_text": "We are live."
+             },
+             "style": {
+              "margin_block": "4px"
+             }
+            },
+            {
+             "id": "ict5",
+             "type": "contact_form",
+             "props": {
+              "fields": [
+               {
+                "label": "Work email",
+                "type": "email"
+               }
+              ],
+              "submit": "Tell me when"
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "420px",
+              "margin_inline": "auto"
+             }
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "padding": "34px 20px"
+             }
+            }
+           }
+          },
+          {
+           "id": "ict9",
+           "type": "text",
+           "props": {
+            "text": "Managed networks · Cloud · Support",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".8rem",
+            "text_align": "center"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "responsive": {
+      "mobile": {
+       "style": {
+        "padding_block": "40px"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

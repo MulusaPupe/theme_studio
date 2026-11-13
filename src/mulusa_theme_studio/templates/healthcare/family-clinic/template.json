@@ -1,0 +1,3917 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "healthcare/family-clinic",
+  "template_name": "Family Clinic",
+  "name": "Riverside Clinic",
+  "description": "Calm teal and white, rounded and reassuring, with booking up front.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#0d7f86",
+   "on_primary": "#ffffff",
+   "secondary": "#0e6269",
+   "accent": "#f2994a",
+   "on_accent": "#0f2b33",
+   "background": "#ffffff",
+   "surface": "#eef7f7",
+   "text": "#0f2b33",
+   "muted": "#52666c",
+   "border": "#d9ddde"
+  },
+  "fonts": {
+   "heading": "Figtree",
+   "body": "Figtree",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 700,
+   "heading_transform": "none",
+   "heading_tracking": "-0.02em",
+   "heading_line": 1.1,
+   "base": 17,
+   "ratio": 1.3
+  },
+  "shape": {
+   "radius": "16px",
+   "button_radius": "999px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "92px",
+   "gap": "24px",
+   "width": "1180px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Family Clinic",
+   "colors": {
+    "primary": "#0d7f86",
+    "on_primary": "#ffffff",
+    "secondary": "#0e6269",
+    "accent": "#f2994a",
+    "on_accent": "#0f2b33",
+    "background": "#ffffff",
+    "surface": "#eef7f7",
+    "text": "#0f2b33",
+    "muted": "#52666c",
+    "border": "#d9ddde"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Figtree / Figtree",
+   "heading": "Figtree",
+   "body": "Figtree"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e295",
+   "type": "header",
+   "props": {
+    "layout": "classic",
+    "brand": "Riverside Clinic",
+    "sticky": true,
+    "cta": {
+     "label": "Book an appointment",
+     "href": {
+      "page": "contact"
+     }
+    }
+   },
+   "style": {
+    "border_bottom": "1px solid $c-border"
+   },
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e314",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e313",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e310",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 3fr 4fr"
+       },
+       "style": {
+        "gap": "40px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": "5fr 3fr 4fr"
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e298",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "10px"
+         },
+         "children": [
+          {
+           "id": "e296",
+           "type": "heading",
+           "props": {
+            "text": "Riverside Clinic",
+            "level": 3
+           },
+           "style": {
+            "font_size": "1.5rem"
+           }
+          },
+          {
+           "id": "e297",
+           "type": "text",
+           "props": {
+            "text": "We are a team of doctors, nurses and therapists who have looked after families in this.",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem",
+            "max_width": "34ch"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e305",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e299",
+           "type": "heading",
+           "props": {
+            "text": "Explore",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e300",
+           "type": "link",
+           "props": {
+            "label": "About",
+            "href": {
+             "page": "about"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e301",
+           "type": "link",
+           "props": {
+            "label": "Services",
+            "href": {
+             "page": "services"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e302",
+           "type": "link",
+           "props": {
+            "label": "Our Clinic",
+            "href": {
+             "page": "portfolio"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e303",
+           "type": "link",
+           "props": {
+            "label": "Advice",
+            "href": {
+             "page": "blog"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e304",
+           "type": "link",
+           "props": {
+            "label": "Book",
+            "href": {
+             "page": "contact"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          }
+         ]
+        },
+        {
+         "id": "e309",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e306",
+           "type": "heading",
+           "props": {
+            "text": "Contact",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e307",
+           "type": "text",
+           "props": {
+            "text": "100 Example Road, Your City",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          },
+          {
+           "id": "e308",
+           "type": "text",
+           "props": {
+            "text": "hello@example.com",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e311",
+       "type": "divider",
+       "props": {},
+       "style": {
+        "margin_block": "40px 14px"
+       }
+      },
+      {
+       "id": "e312",
+       "type": "text",
+       "props": {
+        "text": "© Riverside Clinic. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Services",
+    "page": "services"
+   },
+   {
+    "label": "Our Clinic",
+    "page": "portfolio"
+   },
+   {
+    "label": "Advice",
+    "page": "blog"
+   },
+   {
+    "label": "Book",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e9",
+     "type": "section",
+     "props": {
+      "role": "hero"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e8",
+       "type": "columns",
+       "props": {
+        "columns": "6fr 5fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "64px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e6",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "20px"
+         },
+         "children": [
+          {
+           "id": "e1",
+           "type": "heading",
+           "props": {
+            "text": "Family healthcare, close to home",
+            "level": 1
+           },
+           "style": {
+            "font_size": "clamp(2.7rem,7vw,5.6rem)"
+           }
+          },
+          {
+           "id": "e2",
+           "type": "text",
+           "props": {
+            "text": "Doctors, nurses and therapists who know your family, with same-day appointments for urgent care.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.16rem",
+            "max_width": "60ch"
+           }
+          },
+          {
+           "id": "e5",
+           "type": "row",
+           "props": {},
+           "style": {
+            "margin_top": "10px",
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e3",
+             "type": "button",
+             "props": {
+              "label": "Book an appointment",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {}
+            },
+            {
+             "id": "e4",
+             "type": "button",
+             "props": {
+              "label": "Our services",
+              "href": {
+               "page": "portfolio"
+              },
+              "variant": "secondary"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e7",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "family-clinic-1",
+           "subject": "interior",
+           "ratio": 0.92,
+           "label": "Hero image"
+          },
+          "alt": "Hero image",
+          "ratio": 0.92
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e38",
+     "type": "section",
+     "props": {
+      "role": "services",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e37",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e35",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e34",
+           "type": "heading",
+           "props": {
+            "text": "Our services",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e36",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "46px 40px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e13",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e10",
+             "type": "icon",
+             "props": {
+              "name": "microscope"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e11",
+             "type": "heading",
+             "props": {
+              "text": "Laboratory",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e12",
+             "type": "text",
+             "props": {
+              "text": "Blood tests with same-day results.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e17",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e14",
+             "type": "icon",
+             "props": {
+              "name": "hand"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e15",
+             "type": "heading",
+             "props": {
+              "text": "Physiotherapy",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e16",
+             "type": "text",
+             "props": {
+              "text": "Recovery and pain management programmes.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e21",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e18",
+             "type": "icon",
+             "props": {
+              "name": "package"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e19",
+             "type": "heading",
+             "props": {
+              "text": "Pharmacy",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e20",
+             "type": "text",
+             "props": {
+              "text": "Prescriptions filled on site.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e25",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e22",
+             "type": "icon",
+             "props": {
+              "name": "heart"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e23",
+             "type": "heading",
+             "props": {
+              "text": "Family medicine",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e24",
+             "type": "text",
+             "props": {
+              "text": "Check-ups, chronic care and everyday illness.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e29",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e26",
+             "type": "icon",
+             "props": {
+              "name": "users-round"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e27",
+             "type": "heading",
+             "props": {
+              "text": "Children's health",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e28",
+             "type": "text",
+             "props": {
+              "text": "Growth checks, vaccinations and advice.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e33",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e30",
+             "type": "icon",
+             "props": {
+              "name": "user-round"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e31",
+             "type": "heading",
+             "props": {
+              "text": "Women's health",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e32",
+             "type": "text",
+             "props": {
+              "text": "Screening, pregnancy care and family planning.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e53",
+     "type": "section",
+     "props": {
+      "role": "statistics"
+     },
+     "style": {
+      "padding_block": "56px"
+     },
+     "children": [
+      {
+       "id": "e52",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e51",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 4
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e41",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e39",
+             "type": "heading",
+             "props": {
+              "text": "7",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e40",
+             "type": "text",
+             "props": {
+              "text": "Days a week",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e44",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e42",
+             "type": "heading",
+             "props": {
+              "text": "22",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e43",
+             "type": "text",
+             "props": {
+              "text": "Years caring",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e47",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e45",
+             "type": "heading",
+             "props": {
+              "text": "18",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e46",
+             "type": "text",
+             "props": {
+              "text": "Clinicians",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e50",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e48",
+             "type": "heading",
+             "props": {
+              "text": "40k",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e49",
+             "type": "text",
+             "props": {
+              "text": "Patients seen a year",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e61",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e60",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "68px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e54",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "family-clinic-2",
+           "subject": "interior",
+           "ratio": 1.1,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 1.1
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "e59",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e55",
+           "type": "heading",
+           "props": {
+            "text": "Care for every stage of family life",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e56",
+           "type": "text",
+           "props": {
+            "text": "We are a team of doctors, nurses and therapists who have looked after families in this community for over twenty years.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e57",
+           "type": "text",
+           "props": {
+            "text": "Appointments run on time, results are explained in plain language, and you can always reach a nurse by phone.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e58",
+           "type": "link",
+           "props": {
+            "label": "Our story",
+            "href": {
+             "page": "about"
+            },
+            "arrow": true
+           },
+           "style": {
+            "margin_top": "6px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e82",
+     "type": "section",
+     "props": {
+      "role": "team",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e81",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e79",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e78",
+           "type": "heading",
+           "props": {
+            "text": "Our clinicians",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e80",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e65",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e62",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-3",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Samuel Zulu"
+              },
+              "alt": "Samuel Zulu",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e63",
+             "type": "heading",
+             "props": {
+              "text": "Samuel Zulu",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e64",
+             "type": "text",
+             "props": {
+              "text": "Physiotherapist",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e69",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e66",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-4",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Dr. Amina Yusuf"
+              },
+              "alt": "Dr. Amina Yusuf",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e67",
+             "type": "heading",
+             "props": {
+              "text": "Dr. Amina Yusuf",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e68",
+             "type": "text",
+             "props": {
+              "text": "General Practitioner",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e73",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e70",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-5",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Dr. Natasha Phiri"
+              },
+              "alt": "Dr. Natasha Phiri",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e71",
+             "type": "heading",
+             "props": {
+              "text": "Dr. Natasha Phiri",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e72",
+             "type": "text",
+             "props": {
+              "text": "Medical Director",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e77",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e74",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-6",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Dr. Peter Mwale"
+              },
+              "alt": "Dr. Peter Mwale",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e75",
+             "type": "heading",
+             "props": {
+              "text": "Dr. Peter Mwale",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e76",
+             "type": "text",
+             "props": {
+              "text": "Paediatrician",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e92",
+     "type": "section",
+     "props": {
+      "role": "faq"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e91",
+       "type": "columns",
+       "props": {
+        "columns": "4fr 7fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "60px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e85",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px"
+         },
+         "children": [
+          {
+           "id": "e83",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e84",
+           "type": "text",
+           "props": {
+            "text": "Choose a time online or call us. Urgent cases are seen the same day.",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e90",
+         "type": "container",
+         "props": {},
+         "style": {},
+         "children": [
+          {
+           "id": "e86",
+           "type": "faq_item",
+           "props": {
+            "question": "Can I get my results by phone?",
+            "answer": "Yes. A nurse will call you and explain them.",
+            "open": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e87",
+           "type": "faq_item",
+           "props": {
+            "question": "Do I need an appointment?",
+            "answer": "Appointments are best, but we see urgent cases the same day.",
+            "open": false
+           },
+           "style": {}
+          },
+          {
+           "id": "e88",
+           "type": "faq_item",
+           "props": {
+            "question": "Which insurance do you accept?",
+            "answer": "All major medical aid schemes, and we explain fees before treatment.",
+            "open": false
+           },
+           "style": {}
+          },
+          {
+           "id": "e89",
+           "type": "faq_item",
+           "props": {
+            "question": "Are you open at weekends?",
+            "answer": "Yes, every day from 7 am. Sundays until 1 pm.",
+            "open": false
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e97",
+     "type": "section",
+     "props": {
+      "role": "call_to_action",
+      "tone": "primary",
+      "ambient": "aurora"
+     },
+     "style": {
+      "padding_block": "64px"
+     },
+     "children": [
+      {
+       "id": "e96",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e95",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "gap": "28px"
+         },
+         "children": [
+          {
+           "id": "e93",
+           "type": "heading",
+           "props": {
+            "text": "Book an appointment",
+            "level": 2
+           },
+           "style": {
+            "max_width": "20em",
+            "flex": "1 1 320px"
+           }
+          },
+          {
+           "id": "e94",
+           "type": "button",
+           "props": {
+            "label": "Book an appointment",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e141",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e140",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e138",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e139",
+         "type": "text",
+         "props": {
+          "text": "Who we are and how we care for you.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e104",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e103",
+       "type": "columns",
+       "props": {
+        "columns": "6fr 5fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "80px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e101",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e98",
+           "type": "heading",
+           "props": {
+            "text": "Care for every stage of family life",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e99",
+           "type": "text",
+           "props": {
+            "text": "We are a team of doctors, nurses and therapists who have looked after families in this community for over twenty years.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e100",
+           "type": "text",
+           "props": {
+            "text": "Appointments run on time, results are explained in plain language, and you can always reach a nurse by phone.",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e102",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "family-clinic-7",
+           "subject": "interior",
+           "ratio": 0.86,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 0.86
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e116",
+     "type": "section",
+     "props": {
+      "role": "values",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e115",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e114",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "40px 56px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e107",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e105",
+             "type": "heading",
+             "props": {
+              "text": "Our values",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e106",
+             "type": "text",
+             "props": {
+              "text": "Appointments run on time, results are explained in plain language, and you can always reach a nurse by phone."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e110",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e108",
+             "type": "heading",
+             "props": {
+              "text": "Our mission",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e109",
+             "type": "text",
+             "props": {
+              "text": "We are a team of doctors, nurses and therapists who have looked after families in this community for over twenty years."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e113",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e111",
+             "type": "heading",
+             "props": {
+              "text": "Our vision",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e112",
+             "type": "text",
+             "props": {
+              "text": "Choose a time online or call us. Urgent cases are seen the same day."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e137",
+     "type": "section",
+     "props": {
+      "role": "team"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e136",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e134",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e133",
+           "type": "heading",
+           "props": {
+            "text": "Our clinicians",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e135",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e120",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e117",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-8",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Samuel Zulu"
+              },
+              "alt": "Samuel Zulu",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e118",
+             "type": "heading",
+             "props": {
+              "text": "Samuel Zulu",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e119",
+             "type": "text",
+             "props": {
+              "text": "Physiotherapist",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e124",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e121",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-9",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Dr. Amina Yusuf"
+              },
+              "alt": "Dr. Amina Yusuf",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e122",
+             "type": "heading",
+             "props": {
+              "text": "Dr. Amina Yusuf",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e123",
+             "type": "text",
+             "props": {
+              "text": "General Practitioner",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e128",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e125",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-10",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Dr. Natasha Phiri"
+              },
+              "alt": "Dr. Natasha Phiri",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e126",
+             "type": "heading",
+             "props": {
+              "text": "Dr. Natasha Phiri",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e127",
+             "type": "text",
+             "props": {
+              "text": "Medical Director",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e132",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e129",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-11",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Dr. Peter Mwale"
+              },
+              "alt": "Dr. Peter Mwale",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e130",
+             "type": "heading",
+             "props": {
+              "text": "Dr. Peter Mwale",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e131",
+             "type": "text",
+             "props": {
+              "text": "Paediatrician",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "services",
+   "title": "Services",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e218",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e217",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e215",
+         "type": "heading",
+         "props": {
+          "text": "Services",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e216",
+         "type": "text",
+         "props": {
+          "text": "Everything we offer under one roof.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e163",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e162",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e161",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e160",
+           "type": "heading",
+           "props": {
+            "text": "Our services",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e147",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "0",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e146",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "family-clinic-12",
+             "subject": "interior",
+             "ratio": 1.5,
+             "label": "Laboratory"
+            },
+            "alt": "Laboratory",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e145",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e142",
+             "type": "heading",
+             "props": {
+              "text": "Laboratory",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e143",
+             "type": "text",
+             "props": {
+              "text": "Blood tests with same-day results.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e144",
+             "type": "link",
+             "props": {
+              "label": "Learn more",
+              "href": {
+               "page": "services"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e153",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "56px",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e151",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e148",
+             "type": "heading",
+             "props": {
+              "text": "Physiotherapy",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e149",
+             "type": "text",
+             "props": {
+              "text": "Recovery and pain management programmes.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e150",
+             "type": "link",
+             "props": {
+              "label": "Learn more",
+              "href": {
+               "page": "services"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e152",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "family-clinic-13",
+             "subject": "interior",
+             "ratio": 1.5,
+             "label": "Physiotherapy"
+            },
+            "alt": "Physiotherapy",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e159",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "56px",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e158",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "family-clinic-14",
+             "subject": "interior",
+             "ratio": 1.5,
+             "label": "Pharmacy"
+            },
+            "alt": "Pharmacy",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e157",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e154",
+             "type": "heading",
+             "props": {
+              "text": "Pharmacy",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e155",
+             "type": "text",
+             "props": {
+              "text": "Prescriptions filled on site.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e156",
+             "type": "link",
+             "props": {
+              "label": "Learn more",
+              "href": {
+               "page": "services"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e204",
+     "type": "section",
+     "props": {
+      "role": "products",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e203",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e165",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e164",
+           "type": "heading",
+           "props": {
+            "text": "Services and fees",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e202",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "38px 26px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e171",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e166",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-15",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Physio session"
+              },
+              "alt": "Physio session",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e169",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e167",
+               "type": "heading",
+               "props": {
+                "text": "Physio session",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e168",
+               "type": "text",
+               "props": {
+                "text": "$40"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e170",
+             "type": "text",
+             "props": {
+              "text": "45 minutes",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e177",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e172",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-16",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Travel clinic"
+              },
+              "alt": "Travel clinic",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e175",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e173",
+               "type": "heading",
+               "props": {
+                "text": "Travel clinic",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e174",
+               "type": "text",
+               "props": {
+                "text": "$50"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e176",
+             "type": "text",
+             "props": {
+              "text": "Vaccines and advice",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e183",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e178",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-17",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Antenatal visit"
+              },
+              "alt": "Antenatal visit",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e181",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e179",
+               "type": "heading",
+               "props": {
+                "text": "Antenatal visit",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e180",
+               "type": "text",
+               "props": {
+                "text": "$38"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e182",
+             "type": "text",
+             "props": {
+              "text": "Per visit",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e189",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e184",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-18",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Health check"
+              },
+              "alt": "Health check",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e187",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e185",
+               "type": "heading",
+               "props": {
+                "text": "Health check",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e186",
+               "type": "text",
+               "props": {
+                "text": "$45"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e188",
+             "type": "text",
+             "props": {
+              "text": "Full assessment",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e195",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e190",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-19",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Child check-up"
+              },
+              "alt": "Child check-up",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e193",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e191",
+               "type": "heading",
+               "props": {
+                "text": "Child check-up",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e192",
+               "type": "text",
+               "props": {
+                "text": "$30"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e194",
+             "type": "text",
+             "props": {
+              "text": "Growth and development",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e201",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px"
+           },
+           "children": [
+            {
+             "id": "e196",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-20",
+               "subject": "abstract",
+               "ratio": 1.3,
+               "label": "Blood panel"
+              },
+              "alt": "Blood panel",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e199",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "margin_top": "6px",
+              "gap": "12px"
+             },
+             "children": [
+              {
+               "id": "e197",
+               "type": "heading",
+               "props": {
+                "text": "Blood panel",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e198",
+               "type": "text",
+               "props": {
+                "text": "$35"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              }
+             ]
+            },
+            {
+             "id": "e200",
+             "type": "text",
+             "props": {
+              "text": "Same-day results",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e214",
+     "type": "section",
+     "props": {
+      "role": "faq"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e213",
+       "type": "columns",
+       "props": {
+        "columns": "4fr 7fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "60px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e207",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px"
+         },
+         "children": [
+          {
+           "id": "e205",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e206",
+           "type": "text",
+           "props": {
+            "text": "Choose a time online or call us. Urgent cases are seen the same day.",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e212",
+         "type": "container",
+         "props": {},
+         "style": {},
+         "children": [
+          {
+           "id": "e208",
+           "type": "faq_item",
+           "props": {
+            "question": "Can I get my results by phone?",
+            "answer": "Yes. A nurse will call you and explain them.",
+            "open": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e209",
+           "type": "faq_item",
+           "props": {
+            "question": "Do I need an appointment?",
+            "answer": "Appointments are best, but we see urgent cases the same day.",
+            "open": false
+           },
+           "style": {}
+          },
+          {
+           "id": "e210",
+           "type": "faq_item",
+           "props": {
+            "question": "Which insurance do you accept?",
+            "answer": "All major medical aid schemes, and we explain fees before treatment.",
+            "open": false
+           },
+           "style": {}
+          },
+          {
+           "id": "e211",
+           "type": "faq_item",
+           "props": {
+            "question": "Are you open at weekends?",
+            "answer": "Yes, every day from 7 am. Sundays until 1 pm.",
+            "open": false
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "our-clinic",
+   "title": "Our Clinic",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e251",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e250",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e248",
+         "type": "heading",
+         "props": {
+          "text": "Our Clinic",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e249",
+         "type": "text",
+         "props": {
+          "text": "Our clinic and facilities.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e247",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e246",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e220",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e219",
+           "type": "heading",
+           "props": {
+            "text": "Inside the clinic",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e245",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "36px 26px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e224",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e221",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-21",
+               "subject": "interior",
+               "ratio": 1.25,
+               "label": "Pharmacy"
+              },
+              "alt": "Pharmacy",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e222",
+             "type": "heading",
+             "props": {
+              "text": "Pharmacy",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e223",
+             "type": "text",
+             "props": {
+              "text": "On site",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e228",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e225",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-22",
+               "subject": "interior",
+               "ratio": 1.25,
+               "label": "Waiting area"
+              },
+              "alt": "Waiting area",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e226",
+             "type": "heading",
+             "props": {
+              "text": "Waiting area",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e227",
+             "type": "text",
+             "props": {
+              "text": "Reception",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e232",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e229",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-23",
+               "subject": "interior",
+               "ratio": 1.25,
+               "label": "Consulting rooms"
+              },
+              "alt": "Consulting rooms",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e230",
+             "type": "heading",
+             "props": {
+              "text": "Consulting rooms",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e231",
+             "type": "text",
+             "props": {
+              "text": "General practice",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e236",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e233",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-24",
+               "subject": "interior",
+               "ratio": 1.25,
+               "label": "Children's ward"
+              },
+              "alt": "Children's ward",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e234",
+             "type": "heading",
+             "props": {
+              "text": "Children's ward",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e235",
+             "type": "text",
+             "props": {
+              "text": "Paediatrics",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e240",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e237",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-25",
+               "subject": "interior",
+               "ratio": 1.25,
+               "label": "Laboratory"
+              },
+              "alt": "Laboratory",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e238",
+             "type": "heading",
+             "props": {
+              "text": "Laboratory",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e239",
+             "type": "text",
+             "props": {
+              "text": "Diagnostics",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e244",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e241",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-26",
+               "subject": "interior",
+               "ratio": 1.25,
+               "label": "Physiotherapy suite"
+              },
+              "alt": "Physiotherapy suite",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e242",
+             "type": "heading",
+             "props": {
+              "text": "Physiotherapy suite",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e243",
+             "type": "text",
+             "props": {
+              "text": "Rehabilitation",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "advice",
+   "title": "Advice",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e275",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e274",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e272",
+         "type": "heading",
+         "props": {
+          "text": "Advice",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e273",
+         "type": "text",
+         "props": {
+          "text": "Practical health advice from our team.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e271",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e270",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e268",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e267",
+           "type": "heading",
+           "props": {
+            "text": "Health advice",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e269",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "32px"
+         },
+         "children": [
+          {
+           "id": "e256",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e252",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-27",
+               "subject": "abstract",
+               "ratio": 1.55,
+               "label": "Back pain at work"
+              },
+              "alt": "Back pain at work",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e253",
+             "type": "text",
+             "props": {
+              "text": "Physiotherapy, 5 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e254",
+             "type": "heading",
+             "props": {
+              "text": "Back pain at work",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e255",
+             "type": "text",
+             "props": {
+              "text": "Exercises you can do at your desk.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e261",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e257",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-28",
+               "subject": "abstract",
+               "ratio": 1.55,
+               "label": "Understanding your blood test"
+              },
+              "alt": "Understanding your blood test",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e258",
+             "type": "text",
+             "props": {
+              "text": "Laboratory, 5 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e259",
+             "type": "heading",
+             "props": {
+              "text": "Understanding your blood test",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e260",
+             "type": "text",
+             "props": {
+              "text": "What the numbers mean.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e266",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e262",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "family-clinic-29",
+               "subject": "abstract",
+               "ratio": 1.55,
+               "label": "When to see a doctor about a fever"
+              },
+              "alt": "When to see a doctor about a fever",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e263",
+             "type": "text",
+             "props": {
+              "text": "Children, 4 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e264",
+             "type": "heading",
+             "props": {
+              "text": "When to see a doctor about a fever",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e265",
+             "type": "text",
+             "props": {
+              "text": "A simple guide for parents.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "book",
+   "title": "Book",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e294",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "primary"
+     },
+     "style": {
+      "padding_block": "90px"
+     },
+     "children": [
+      {
+       "id": "e293",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e291",
+         "type": "heading",
+         "props": {
+          "text": "Book",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e292",
+         "type": "text",
+         "props": {
+          "text": "Opening hours, directions and booking.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e290",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e289",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 6fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "72px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e287",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e276",
+           "type": "heading",
+           "props": {
+            "text": "Visit or call us",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e277",
+           "type": "text",
+           "props": {
+            "text": "Choose a time online or call us. Urgent cases are seen the same day.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e280",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e278",
+             "type": "icon",
+             "props": {
+              "name": "map-pin"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e279",
+             "type": "text",
+             "props": {
+              "text": "100 Example Road, Your City"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e283",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e281",
+             "type": "icon",
+             "props": {
+              "name": "phone"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e282",
+             "type": "text",
+             "props": {
+              "text": "+000 000 000 000"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e286",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e284",
+             "type": "icon",
+             "props": {
+              "name": "mail"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e285",
+             "type": "text",
+             "props": {
+              "text": "hello@example.com"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e288",
+         "type": "contact_form",
+         "props": {
+          "fields": [
+           {
+            "label": "Your name",
+            "type": "text"
+           },
+           {
+            "label": "Email address",
+            "type": "email"
+           },
+           {
+            "label": "Message",
+            "type": "textarea"
+           }
+          ],
+          "submit": "Request appointment"
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

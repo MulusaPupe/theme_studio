@@ -20,6 +20,7 @@ TEMPLATE_ID = "corporate/corporate-classic"
 def isolated_config(tmp_path, monkeypatch):
     """Tests never touch the real preferences."""
     monkeypatch.setenv("MTS_CONFIG_DIR", str(tmp_path / "config"))
+    monkeypatch.setenv("MTS_DATA_DIR", str(tmp_path / "data"))
 
 
 @pytest.fixture(scope="session")

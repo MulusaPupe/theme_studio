@@ -1,0 +1,3345 @@
+{
+ "schema": "mulusa.theme/2",
+ "meta": {
+  "name": "CHITNAS",
+  "description": "CHITNAS Enterprises Ltd, Ndola: ICT managed services, cyber security, business intelligence, security systems, renewable energy and mining parts.",
+  "author": "CHITNAS Enterprises Ltd",
+  "version": "1.0.0",
+  "created": "2026-11-13T08:52:59Z",
+  "modified": "2026-11-13T08:53:02Z",
+  "source_template": "corporate/modern-consulting"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#0b5f8c",
+   "on_primary": "#ffffff",
+   "secondary": "#073f5e",
+   "accent": "#d8333d",
+   "on_accent": "#ffffff",
+   "background": "#f6f9fb",
+   "surface": "#e8f1f7",
+   "text": "#0c2233",
+   "muted": "#46596a",
+   "border": "#d0dce6"
+  },
+  "fonts": {
+   "heading": "Bricolage Grotesque",
+   "body": "DM Sans",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 700,
+   "heading_transform": "none",
+   "heading_tracking": "-0.025em",
+   "heading_line": 1.02,
+   "base": 17,
+   "ratio": 1.3
+  },
+  "shape": {
+   "radius": "18px",
+   "button_radius": "999px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "104px",
+   "gap": "24px",
+   "width": "1240px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Modern Consulting",
+   "colors": {
+    "primary": "#0b6e69",
+    "on_primary": "#f6f8f6",
+    "secondary": "#0c5653",
+    "accent": "#f2a33a",
+    "on_accent": "#0e2a2a",
+    "background": "#f6f8f6",
+    "surface": "#e9f0ec",
+    "text": "#0e2a2a",
+    "muted": "#4f6463",
+    "border": "#d1d7d5"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Bricolage Grotesque / DM Sans",
+   "heading": "Bricolage Grotesque",
+   "body": "DM Sans"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e382",
+   "type": "header",
+   "props": {
+    "layout": "classic",
+    "brand": "CHITNAS",
+    "cta": {
+     "label": "Request a quote",
+     "href": {
+      "page": "contact"
+     }
+    }
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e392",
+   "type": "footer",
+   "props": {
+    "tone": "primary"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e391",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e388",
+       "type": "row",
+       "props": {},
+       "style": {
+        "gap": "26px"
+       },
+       "children": [
+        {
+         "id": "e383",
+         "type": "link",
+         "props": {
+          "label": "About",
+          "href": {
+           "page": "about"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e384",
+         "type": "link",
+         "props": {
+          "label": "Services",
+          "href": {
+           "page": "services"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e387",
+         "type": "link",
+         "props": {
+          "label": "Contact",
+          "href": {
+           "page": "contact"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        }
+       ]
+      },
+      {
+       "id": "e389",
+       "type": "heading",
+       "props": {
+        "text": "CHITNAS",
+        "level": 2
+       },
+       "style": {
+        "line_height": "1",
+        "margin_block": "34px 20px",
+        "font_size": "min(20.69vw,12rem)"
+       }
+      },
+      {
+       "id": "e390",
+       "type": "text",
+       "props": {
+        "text": "© CHITNAS Enterprises Ltd  ·  Plot 46, Kariba Road, Kansenshi, Ndola, Zambia  ·  info@chitnas.com",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about",
+    "id": "nbb4d038809"
+   },
+   {
+    "label": "Services",
+    "page": "services",
+    "id": "n103ac43335"
+   },
+   {
+    "label": "Contact",
+    "page": "contact",
+    "id": "nad208e2f3c"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e8",
+     "type": "section",
+     "props": {
+      "role": "hero"
+     },
+     "style": {
+      "padding_block": "32px 80px"
+     },
+     "children": [
+      {
+       "id": "e7",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e6",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "asset",
+           "id": "anef2c7a43c2"
+          },
+          "alt": "CCTV cameras installed on a building",
+          "ratio": 2.05
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "e5",
+         "type": "container",
+         "props": {
+          "tone": "default"
+         },
+         "style": {
+          "gap": "16px",
+          "padding": "clamp(26px,4vw,52px)",
+          "max_width": "680px",
+          "margin_top": "-180px",
+          "margin_left": "clamp(0px,5vw,64px)",
+          "border_radius": "$radius",
+          "z_index": "2",
+          "box_shadow": "0 24px 60px rgba(10,14,28,.16)"
+         },
+         "responsive": {
+          "mobile": {
+           "style": {
+            "margin_top": "-48px",
+            "margin_left": "0"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e1",
+           "type": "heading",
+           "props": {
+            "text": "Technology, security and energy for Zambian business",
+            "level": 1
+           },
+           "style": {
+            "font_size": "clamp(2.2rem,4.2vw,3.7rem)"
+           }
+          },
+          {
+           "id": "e2",
+           "type": "text",
+           "props": {
+            "text": "IT managed services, cyber security, business intelligence, security systems, renewable energy and mining parts, from one Ndola team.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e4",
+           "type": "row",
+           "props": {},
+           "style": {
+            "margin_top": "10px",
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e3",
+             "type": "button",
+             "props": {
+              "label": "Request a quote",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e29",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e28",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e26",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e25",
+           "type": "heading",
+           "props": {
+            "text": "Six divisions, one accountable team",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e27",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "18px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 3
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e12",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "14px",
+            "padding": "36px",
+            "border_radius": "$radius",
+            "grid_row": "span 2",
+            "min_height": "400px"
+           },
+           "responsive": {
+            "mobile": {
+             "style": {
+              "min_height": "280px",
+              "grid_row": "auto"
+             }
+            }
+           },
+           "children": [
+            {
+             "id": "n397e137a9f",
+             "type": "illustration",
+             "props": {
+              "name": "server",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "140px",
+              "margin_left": "0",
+              "margin_bottom": "8px"
+             }
+            },
+            {
+             "id": "e10",
+             "type": "heading",
+             "props": {
+              "text": "ICT managed services",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.6rem,3vw,2.4rem)",
+              "margin_top": "auto"
+             }
+            },
+            {
+             "id": "e11",
+             "type": "text",
+             "props": {
+              "text": "Shift the burden of day-to-day IT infrastructure maintenance to our professionals. We manage applications, desktops, servers, enterprise systems, data storage, networks, security and cloud systems on a remote basis.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e16",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "n3a8f0f4285",
+             "type": "illustration",
+             "props": {
+              "name": "shield",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "140px",
+              "margin_left": "0",
+              "margin_bottom": "8px"
+             }
+            },
+            {
+             "id": "e14",
+             "type": "heading",
+             "props": {
+              "text": "Cyber security",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.2rem"
+             }
+            },
+            {
+             "id": "e15",
+             "type": "text",
+             "props": {
+              "text": "Threat detection, security monitoring, incident analysis, firewalls and penetration testing.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e20",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "n63eb646cda",
+             "type": "illustration",
+             "props": {
+              "name": "growth",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "140px",
+              "margin_left": "0",
+              "margin_bottom": "8px"
+             }
+            },
+            {
+             "id": "e18",
+             "type": "heading",
+             "props": {
+              "text": "Business intelligence",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.2rem"
+             }
+            },
+            {
+             "id": "e19",
+             "type": "text",
+             "props": {
+              "text": "Data mining, data analysis, go-to-market strategy, product launch and customer value management.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "n870da4baf3",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "n8f69af79d2",
+             "type": "illustration",
+             "props": {
+              "name": "cctv",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "140px",
+              "margin_left": "0",
+              "margin_bottom": "8px"
+             }
+            },
+            {
+             "id": "n69958a9022",
+             "type": "heading",
+             "props": {
+              "text": "Integrated security systems",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.2rem"
+             }
+            },
+            {
+             "id": "n18e056afef",
+             "type": "text",
+             "props": {
+              "text": "CCTV, access control, X-ray baggage and parcel scanners, hydraulic bollards and road block barriers.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "n3d99601eab",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "nc8577852c8",
+             "type": "illustration",
+             "props": {
+              "name": "solar",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "140px",
+              "margin_left": "0",
+              "margin_bottom": "8px"
+             }
+            },
+            {
+             "id": "nad3e9bda0e",
+             "type": "heading",
+             "props": {
+              "text": "Renewable energy",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.2rem"
+             }
+            },
+            {
+             "id": "n56d3af5b1b",
+             "type": "text",
+             "props": {
+              "text": "Solar, wind and LPG gas, with our partner Esavior Green Energy.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e24",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "grid_column": "span 3"
+           },
+           "children": [
+            {
+             "id": "n83571b688f",
+             "type": "illustration",
+             "props": {
+              "name": "gears",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "140px",
+              "margin_left": "0",
+              "margin_bottom": "8px"
+             }
+            },
+            {
+             "id": "e22",
+             "type": "heading",
+             "props": {
+              "text": "Mechanical and mining parts",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.2rem"
+             }
+            },
+            {
+             "id": "e23",
+             "type": "text",
+             "props": {
+              "text": "Mining equipment parts, air compressor parts, valves and fittings, and thermal insulation.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "grid_column": "auto"
+             }
+            }
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e48",
+     "type": "section",
+     "props": {
+      "role": "credentials",
+      "tone": "primary",
+      "ambient": "grid"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e47",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e45",
+         "type": "heading",
+         "props": {
+          "text": "When something goes wrong: computer forensics and audit",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(1.6rem,3vw,2.4rem)",
+          "margin_bottom": "36px",
+          "max_width": "22em"
+         }
+        },
+        {
+         "id": "e46",
+         "type": "columns",
+         "props": {
+          "columns": 5
+         },
+         "style": {
+          "gap": "0 24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 3
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e32",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "padding": "22px 22px 22px 0",
+            "border_top": "2px solid currentColor"
+           },
+           "children": [
+            {
+             "id": "e30",
+             "type": "heading",
+             "props": {
+              "text": "Cyber crime investigation",
+              "level": 4
+             },
+             "style": {
+              "font_size": "1.15rem"
+             }
+            },
+            {
+             "id": "e31",
+             "type": "text",
+             "props": {
+              "text": "We examine physical and digital evidence to uncover what did or did not happen.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e35",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "padding": "22px 22px 22px 0",
+            "border_top": "2px solid currentColor"
+           },
+           "children": [
+            {
+             "id": "e33",
+             "type": "heading",
+             "props": {
+              "text": "Data preservation",
+              "level": 4
+             },
+             "style": {
+              "font_size": "1.15rem"
+             }
+            },
+            {
+             "id": "e34",
+             "type": "text",
+             "props": {
+              "text": "Defensible methods to identify and preserve electronic data for an investigation or litigation.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e38",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "padding": "22px 22px 22px 0",
+            "border_top": "2px solid currentColor"
+           },
+           "children": [
+            {
+             "id": "e36",
+             "type": "heading",
+             "props": {
+              "text": "Data collection",
+              "level": 4
+             },
+             "style": {
+              "font_size": "1.15rem"
+             }
+            },
+            {
+             "id": "e37",
+             "type": "text",
+             "props": {
+              "text": "Forensically sound collection of your data, whatever its volume, for analysis or discovery.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e41",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "padding": "22px 22px 22px 0",
+            "border_top": "2px solid currentColor"
+           },
+           "children": [
+            {
+             "id": "e39",
+             "type": "heading",
+             "props": {
+              "text": "Data recovery",
+              "level": 4
+             },
+             "style": {
+              "font_size": "1.15rem"
+             }
+            },
+            {
+             "id": "e40",
+             "type": "text",
+             "props": {
+              "text": "Whether data was deleted or changed on purpose or by accident, we recover what was left behind.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e44",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "padding": "22px 22px 22px 0",
+            "border_top": "2px solid currentColor"
+           },
+           "children": [
+            {
+             "id": "e42",
+             "type": "heading",
+             "props": {
+              "text": "Awareness training",
+              "level": 4
+             },
+             "style": {
+              "font_size": "1.15rem"
+             }
+            },
+            {
+             "id": "e43",
+             "type": "text",
+             "props": {
+              "text": "Information security awareness training, so your staff stop attacks before they start.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e63",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {
+      "padding_block": "0"
+     },
+     "children": [
+      {
+       "id": "e55",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "full"
+       },
+       "style": {
+        "gap": "0"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e54",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "asset",
+           "id": "an49c370d57b"
+          },
+          "alt": "Solar panels",
+          "ratio": 1.15
+         },
+         "style": {
+          "height": "100%",
+          "min_height": "420px"
+         }
+        },
+        {
+         "id": "e53",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "18px",
+          "justify_content": "center",
+          "padding": "clamp(40px,7vw,104px) clamp(22px,6vw,96px)"
+         },
+         "children": [
+          {
+           "id": "e49",
+           "type": "heading",
+           "props": {
+            "text": "Renewable energy",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.8rem,3.4vw,3rem)",
+            "line_height": "1.05"
+           }
+          },
+          {
+           "id": "e50",
+           "type": "text",
+           "props": {
+            "text": "Solar, wind and LPG gas solutions, made possible by our cooperating partner Esavior (Guangzhou) Green Energy Co., Ltd.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem",
+            "max_width": "46ch"
+           }
+          },
+          {
+           "id": "e51",
+           "type": "text",
+           "props": {
+            "text": "Solar  ·  Wind  ·  LPG gas",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem",
+            "max_width": "52ch",
+            "line_height": "1.8"
+           }
+          },
+          {
+           "id": "e52",
+           "type": "link",
+           "props": {
+            "label": "Ask about this",
+            "href": {
+             "page": "contact"
+            },
+            "arrow": true
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e62",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "full"
+       },
+       "style": {
+        "gap": "0"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e60",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "18px",
+          "justify_content": "center",
+          "padding": "clamp(40px,7vw,104px) clamp(22px,6vw,96px)"
+         },
+         "children": [
+          {
+           "id": "e56",
+           "type": "heading",
+           "props": {
+            "text": "Mechanical and mining equipment",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.8rem,3.4vw,3rem)",
+            "line_height": "1.05"
+           }
+          },
+          {
+           "id": "e57",
+           "type": "text",
+           "props": {
+            "text": "Parts and supplies that keep mines and plants running, with a principal consultant for mining on our team.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem",
+            "max_width": "46ch"
+           }
+          },
+          {
+           "id": "e58",
+           "type": "text",
+           "props": {
+            "text": "Mining equipment parts  ·  Air compressor parts  ·  Valves and fittings  ·  Thermal insulation",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem",
+            "max_width": "52ch",
+            "line_height": "1.8"
+           }
+          },
+          {
+           "id": "e59",
+           "type": "link",
+           "props": {
+            "label": "Ask about this",
+            "href": {
+             "page": "contact"
+            },
+            "arrow": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e61",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "asset",
+           "id": "ane96d9cafb1"
+          },
+          "alt": "An open-pit copper mine",
+          "ratio": 1.15
+         },
+         "style": {
+          "height": "100%",
+          "min_height": "420px"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e66",
+     "type": "section",
+     "props": {
+      "role": "statement",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "asset",
+        "id": "an90cb82bcb2"
+       },
+       "overlay": "linear-gradient(180deg,rgba(6,8,14,.2) 0%,rgba(6,8,14,.72) 100%)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "min_height": "clamp(440px,78vh,820px)",
+      "display": "flex",
+      "align_items": "flex-end",
+      "padding_block": "120px 84px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e65",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e64",
+         "type": "heading",
+         "props": {
+          "text": "Shift the burden of day-to-day IT maintenance to us, and get back to running your business.",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(2rem,4.8vw,4.2rem)",
+          "line_height": "1.06",
+          "max_width": "17em"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e107",
+     "type": "section",
+     "props": {
+      "role": "process",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e106",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e104",
+         "type": "heading",
+         "props": {
+          "text": "How we follow a product in the market",
+          "level": 2
+         },
+         "style": {
+          "margin_bottom": "52px"
+         }
+        },
+        {
+         "id": "e105",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {
+          "gap": "40px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e91",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e88",
+             "type": "heading",
+             "props": {
+              "text": "1",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(3rem,6vw,5rem)",
+              "line_height": "1",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e89",
+             "type": "heading",
+             "props": {
+              "text": "Introduction",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.35rem"
+             }
+            },
+            {
+             "id": "e90",
+             "type": "text",
+             "props": {
+              "text": "We measure how the market adopts a product from launch.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e95",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e92",
+             "type": "heading",
+             "props": {
+              "text": "2",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(3rem,6vw,5rem)",
+              "line_height": "1",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e93",
+             "type": "heading",
+             "props": {
+              "text": "Growth",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.35rem"
+             }
+            },
+            {
+             "id": "e94",
+             "type": "text",
+             "props": {
+              "text": "We track how fast it is taken up, and by whom.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e99",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e96",
+             "type": "heading",
+             "props": {
+              "text": "3",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(3rem,6vw,5rem)",
+              "line_height": "1",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e97",
+             "type": "heading",
+             "props": {
+              "text": "Maturity",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.35rem"
+             }
+            },
+            {
+             "id": "e98",
+             "type": "text",
+             "props": {
+              "text": "We look for the customers and value still to be won.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e103",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e100",
+             "type": "heading",
+             "props": {
+              "text": "4",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(3rem,6vw,5rem)",
+              "line_height": "1",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e101",
+             "type": "heading",
+             "props": {
+              "text": "Decline",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.35rem"
+             }
+            },
+            {
+             "id": "e102",
+             "type": "text",
+             "props": {
+              "text": "We recommend whether to renew, reposition or retire it.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e117",
+     "type": "section",
+     "props": {
+      "role": "faq"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e116",
+       "type": "columns",
+       "props": {
+        "columns": "4fr 7fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "60px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e110",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px"
+         },
+         "children": [
+          {
+           "id": "e108",
+           "type": "heading",
+           "props": {
+            "text": "Questions we are asked",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e109",
+           "type": "text",
+           "props": {
+            "text": "Can't see your question? Call or email us and a consultant will answer.",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e115",
+         "type": "container",
+         "props": {},
+         "style": {},
+         "children": [
+          {
+           "id": "e111",
+           "type": "faq_item",
+           "props": {
+            "question": "Can you manage our IT without being on site?",
+            "answer": "Yes. We look after applications, desktops, servers, storage, networks, security and cloud systems remotely.",
+            "open": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e112",
+           "type": "faq_item",
+           "props": {
+            "question": "Whose security equipment do you install?",
+            "answer": "SECUERA's. Shenzhen SECUERA Technology designs and manufactures it, and we supply and install it in Zambia.",
+            "open": false
+           },
+           "style": {}
+          },
+          {
+           "id": "e113",
+           "type": "faq_item",
+           "props": {
+            "question": "Who is behind your renewable energy solutions?",
+            "answer": "Our cooperating partner, Esavior (Guangzhou) Green Energy Co., Ltd.",
+            "open": false
+           },
+           "style": {}
+          },
+          {
+           "id": "e114",
+           "type": "faq_item",
+           "props": {
+            "question": "Where are you based?",
+            "answer": "At Plot 46, Kariba Road, Kansenshi, in Ndola.",
+            "open": false
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e123",
+     "type": "section",
+     "props": {
+      "role": "call_to_action",
+      "ambient": "aurora"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e122",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e121",
+         "type": "container",
+         "props": {
+          "tone": "primary"
+         },
+         "style": {
+          "gap": "16px",
+          "padding": "clamp(32px,6vw,72px)",
+          "border_radius": "$radius"
+         },
+         "children": [
+          {
+           "id": "e118",
+           "type": "heading",
+           "props": {
+            "text": "Tell us what you need",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e119",
+           "type": "text",
+           "props": {
+            "text": "A system to secure, a network to run, data to understand or parts to source.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem",
+            "max_width": "50ch"
+           }
+          },
+          {
+           "id": "e120",
+           "type": "button",
+           "props": {
+            "label": "Request a quote",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {
+            "align_self": "flex-start",
+            "margin_top": "8px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e175",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e174",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e172",
+         "type": "heading",
+         "props": {
+          "text": "About CHITNAS",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e173",
+         "type": "text",
+         "props": {
+          "text": "A Ndola company working across technology, security, energy and mining.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e126",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e125",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "22px"
+       },
+       "children": [
+        {
+         "id": "e124",
+         "type": "heading",
+         "props": {
+          "text": "We help organisations run their technology, protect their people and property, understand their data and market their products.",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(1.8rem,3.8vw,3.2rem)",
+          "line_height": "1.22",
+          "max_width": "24em"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e138",
+     "type": "section",
+     "props": {
+      "role": "values",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e137",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e136",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "40px 56px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e129",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e127",
+             "type": "heading",
+             "props": {
+              "text": "Our security partner",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e128",
+             "type": "text",
+             "props": {
+              "text": "Shenzhen SECUERA Technology Co., Ltd researches, develops and manufactures security equipment and designs security systems. CHITNAS supplies and installs its products in Zambia."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e132",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e130",
+             "type": "heading",
+             "props": {
+              "text": "Our energy partner",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e131",
+             "type": "text",
+             "props": {
+              "text": "Our renewable energy partner, Esavior (Guangzhou) Green Energy Co., Ltd, stands behind our solar, wind and LPG gas solutions."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e135",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e133",
+             "type": "heading",
+             "props": {
+              "text": "Our view of marketing",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e134",
+             "type": "text",
+             "props": {
+              "text": "Every product and service needs a marketing strategy. Once a product is launched we follow its adoption from introduction through growth, maturity and decline, and recommend strategies for each stage."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e159",
+     "type": "section",
+     "props": {
+      "role": "team"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e158",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e156",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e155",
+           "type": "heading",
+           "props": {
+            "text": "Principal consultants",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e157",
+         "type": "columns",
+         "props": {
+          "columns": 2
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e142",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e140",
+             "type": "heading",
+             "props": {
+              "text": "Sam Chanda",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e141",
+             "type": "text",
+             "props": {
+              "text": "Principal Consultant, Business Intelligence and Marketing",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e146",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e144",
+             "type": "heading",
+             "props": {
+              "text": "Anthony Chanda",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e145",
+             "type": "text",
+             "props": {
+              "text": "Principal Consultant, Mining",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "services",
+   "title": "Services",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e302",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "ambient": "grid"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e301",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e299",
+         "type": "heading",
+         "props": {
+          "text": "Services",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e300",
+         "type": "text",
+         "props": {
+          "text": "Six divisions, from the server room to the mine.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e191",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e190",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e189",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e188",
+           "type": "heading",
+           "props": {
+            "text": "What each division does",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e178",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e176",
+           "type": "heading",
+           "props": {
+            "text": "ICT managed services",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e177",
+           "type": "text",
+           "props": {
+            "text": "Shift the burden of day-to-day IT infrastructure maintenance to our professionals. We manage applications, desktops, servers, enterprise systems, data storage, networks, security and cloud systems on a remote basis.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e181",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e179",
+           "type": "heading",
+           "props": {
+            "text": "Cyber security and forensics",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e180",
+           "type": "text",
+           "props": {
+            "text": "Threat detection, security monitoring, incident analysis, firewalls and penetration testing, with computer forensics and audit when something has gone wrong.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e184",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e182",
+           "type": "heading",
+           "props": {
+            "text": "Business intelligence and marketing",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e183",
+           "type": "text",
+           "props": {
+            "text": "Business intelligence that supports the critical choices made by the people running your company, built into your existing workflow so the right information reaches the right people at the right time. We use advanced analytical techniques to analyse data and create valuable insights, for enterprises that want more from their data and a better connection with each of their customers.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e187",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e185",
+           "type": "heading",
+           "props": {
+            "text": "Integrated security systems",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e186",
+           "type": "text",
+           "props": {
+            "text": "Video surveillance (CCTV), access control, intrusion alarms, fire detection, X-ray baggage scanners, metal detectors, hydraulic gate barriers, and narcotics and explosive detection systems, powered by SECUERA.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "nd15fc9ba17",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "n2d529532e5",
+           "type": "heading",
+           "props": {
+            "text": "Renewable energy",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "nf73da51dbe",
+           "type": "text",
+           "props": {
+            "text": "Solar, wind and LPG gas solutions, made possible by our cooperating partner Esavior (Guangzhou) Green Energy Co., Ltd.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "nb6b73ede68",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "n64ba890949",
+           "type": "heading",
+           "props": {
+            "text": "Mechanical and mining parts",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "n263a2a2e28",
+           "type": "text",
+           "props": {
+            "text": "Mining equipment parts, air compressor parts, valves and fittings, and thermal insulation.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e245",
+     "type": "section",
+     "props": {
+      "role": "catalogue",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e244",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e242",
+         "type": "columns",
+         "props": {
+          "columns": "6fr 5fr"
+         },
+         "style": {
+          "margin_bottom": "56px",
+          "gap": "20px 64px",
+          "align_items": "end"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e240",
+           "type": "heading",
+           "props": {
+            "text": "Everything we offer",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e241",
+           "type": "text",
+           "props": {
+            "text": "The full list across our six divisions. Ask us about anything you do not see.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e243",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {
+          "gap": "44px 32px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e203",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "9px"
+           },
+           "children": [
+            {
+             "id": "e192",
+             "type": "heading",
+             "props": {
+              "text": "ICT managed services",
+              "level": 4
+             },
+             "style": {
+              "padding_bottom": "12px",
+              "border_bottom": "1px solid $c-border"
+             }
+            },
+            {
+             "id": "e193",
+             "type": "text",
+             "props": {
+              "text": "Desktop support"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e194",
+             "type": "text",
+             "props": {
+              "text": "Applications"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e195",
+             "type": "text",
+             "props": {
+              "text": "Web development"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e196",
+             "type": "text",
+             "props": {
+              "text": "Servers"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e197",
+             "type": "text",
+             "props": {
+              "text": "Enterprise systems"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e198",
+             "type": "text",
+             "props": {
+              "text": "Data storage"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e199",
+             "type": "text",
+             "props": {
+              "text": "Networks"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e200",
+             "type": "text",
+             "props": {
+              "text": "Cloud systems"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e215",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "9px"
+           },
+           "children": [
+            {
+             "id": "e204",
+             "type": "heading",
+             "props": {
+              "text": "Cyber security",
+              "level": 4
+             },
+             "style": {
+              "padding_bottom": "12px",
+              "border_bottom": "1px solid $c-border"
+             }
+            },
+            {
+             "id": "e205",
+             "type": "text",
+             "props": {
+              "text": "Threat detection"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e206",
+             "type": "text",
+             "props": {
+              "text": "Security monitoring"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e207",
+             "type": "text",
+             "props": {
+              "text": "Incident analysis"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e208",
+             "type": "text",
+             "props": {
+              "text": "Firewalls"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e209",
+             "type": "text",
+             "props": {
+              "text": "Penetration testing"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e210",
+             "type": "text",
+             "props": {
+              "text": "Computer forensics and audit"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e211",
+             "type": "text",
+             "props": {
+              "text": "Cyber crime investigation"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e212",
+             "type": "text",
+             "props": {
+              "text": "Data recovery"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e213",
+             "type": "text",
+             "props": {
+              "text": "Security awareness training"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e227",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "9px"
+           },
+           "children": [
+            {
+             "id": "e216",
+             "type": "heading",
+             "props": {
+              "text": "Data and business intelligence",
+              "level": 4
+             },
+             "style": {
+              "padding_bottom": "12px",
+              "border_bottom": "1px solid $c-border"
+             }
+            },
+            {
+             "id": "e217",
+             "type": "text",
+             "props": {
+              "text": "Data mining"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e218",
+             "type": "text",
+             "props": {
+              "text": "Data modelling"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e219",
+             "type": "text",
+             "props": {
+              "text": "Data warehouse consulting"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e220",
+             "type": "text",
+             "props": {
+              "text": "Data migration"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e221",
+             "type": "text",
+             "props": {
+              "text": "Data analysis and discovery"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e222",
+             "type": "text",
+             "props": {
+              "text": "Data visualisation"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e223",
+             "type": "text",
+             "props": {
+              "text": "Cloud migration"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e224",
+             "type": "text",
+             "props": {
+              "text": "Digital strategy"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e225",
+             "type": "text",
+             "props": {
+              "text": "Go-to-market and product launch"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e226",
+             "type": "text",
+             "props": {
+              "text": "Customer value management"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e239",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "9px"
+           },
+           "children": [
+            {
+             "id": "e228",
+             "type": "heading",
+             "props": {
+              "text": "Security, energy and mining",
+              "level": 4
+             },
+             "style": {
+              "padding_bottom": "12px",
+              "border_bottom": "1px solid $c-border"
+             }
+            },
+            {
+             "id": "e229",
+             "type": "text",
+             "props": {
+              "text": "CCTV"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e230",
+             "type": "text",
+             "props": {
+              "text": "Access control"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e231",
+             "type": "text",
+             "props": {
+              "text": "Intrusion alarms"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e232",
+             "type": "text",
+             "props": {
+              "text": "Fire detection"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e233",
+             "type": "text",
+             "props": {
+              "text": "X-ray baggage scanners"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e234",
+             "type": "text",
+             "props": {
+              "text": "Hydraulic bollards and barriers"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e235",
+             "type": "text",
+             "props": {
+              "text": "Solar, wind and LPG gas"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e236",
+             "type": "text",
+             "props": {
+              "text": "Mining equipment parts"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e237",
+             "type": "text",
+             "props": {
+              "text": "Air compressor parts"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e238",
+             "type": "text",
+             "props": {
+              "text": "Valves, fittings and insulation"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e266",
+     "type": "section",
+     "props": {
+      "role": "features"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e265",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "72px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e263",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px"
+         },
+         "children": [
+          {
+           "id": "e261",
+           "type": "heading",
+           "props": {
+            "text": "Data mining",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e262",
+           "type": "text",
+           "props": {
+            "text": "We collect information from the web, social media, databases, documents and images, and prepare it for analysis.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e248",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e246",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e247",
+             "type": "text",
+             "props": {
+              "text": "Web data mining"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e251",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e249",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e250",
+             "type": "text",
+             "props": {
+              "text": "Social media data mining"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e254",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e252",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e253",
+             "type": "text",
+             "props": {
+              "text": "SQL data mining"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e257",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e255",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e256",
+             "type": "text",
+             "props": {
+              "text": "Image data mining"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e260",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e258",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e259",
+             "type": "text",
+             "props": {
+              "text": "Excel, Word and PDF data mining"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e264",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "asset",
+           "id": "an67f37b8dff"
+          },
+          "alt": "Charts on a tablet",
+          "ratio": 0.95
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e381",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e380",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e378",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e379",
+         "type": "text",
+         "props": {
+          "text": "Plot 46, Kariba Road, Kansenshi, Ndola, Zambia  ·  +260 955 557 879  |  +260 977 250 848",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e377",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e376",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e375",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e373",
+           "type": "heading",
+           "props": {
+            "text": "Speak with a consultant",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e374",
+           "type": "text",
+           "props": {
+            "text": "Email info@chitnas.com or send a message below.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e372",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px",
+          "background": "$c-card",
+          "border_radius": "$card-radius",
+          "padding": "clamp(24px,4vw,44px)"
+         },
+         "children": [
+          {
+           "id": "e371",
+           "type": "contact_form",
+           "props": {
+            "fields": [
+             {
+              "label": "Your name",
+              "type": "text"
+             },
+             {
+              "label": "Email address",
+              "type": "email"
+             },
+             {
+              "label": "Message",
+              "type": "textarea"
+             }
+            ],
+            "submit": "Send message"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": [
+   {
+    "id": "anef2c7a43c2",
+    "kind": "image",
+    "file": "chitnas-cctv.jpg",
+    "name": "chitnas-cctv",
+    "sha256": "0ae0a29f6f5249d1ae0b380df1c9574cb7155908ed4fbe93e55a4e0fdf87af8e",
+    "width": 1200,
+    "height": 630,
+    "format": "JPEG",
+    "bytes": 68777
+   },
+   {
+    "id": "an49c370d57b",
+    "kind": "image",
+    "file": "chitnas-solar.jpg",
+    "name": "chitnas-solar",
+    "sha256": "95cd04c9594137061369aa6118e89affbdbec48ecdee765d4f8c362cd2794273",
+    "width": 800,
+    "height": 449,
+    "format": "JPEG",
+    "bytes": 118848
+   },
+   {
+    "id": "ane96d9cafb1",
+    "kind": "image",
+    "file": "chitnas-mine.jpg",
+    "name": "chitnas-mine",
+    "sha256": "4c7eb9fee878e4a650296cd7a265e577b0a404695e279d7ac0377a3dfc4744e2",
+    "width": 900,
+    "height": 594,
+    "format": "JPEG",
+    "bytes": 124274
+   },
+   {
+    "id": "an90cb82bcb2",
+    "kind": "image",
+    "file": "chitnas-server.jpg",
+    "name": "chitnas-server",
+    "sha256": "fc6733d89da11ce9dccedf1b81c7bfabdbadaefba44e04f2f87180aee863c44f",
+    "width": 672,
+    "height": 372,
+    "format": "JPEG",
+    "bytes": 54064
+   },
+   {
+    "id": "an67f37b8dff",
+    "kind": "image",
+    "file": "chitnas-analytics.jpg",
+    "name": "chitnas-analytics",
+    "sha256": "4bc39f0b6bdac3c569c7af95ef5a42e25504602ca1c2e5326044070a9b419efe",
+    "width": 1200,
+    "height": 800,
+    "format": "JPEG",
+    "bytes": 89643
+   }
+  ]
+ },
+ "reusable": []
+}

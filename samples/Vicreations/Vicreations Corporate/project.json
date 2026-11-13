@@ -1,0 +1,4188 @@
+{
+ "schema": "mulusa.theme/2",
+ "meta": {
+  "name": "Vicreations Corporate",
+  "description": "Vicreations Investment Limited: engineering, construction, branding, print and supplies.",
+  "author": "Vicreations Investment Limited",
+  "version": "1.0.0",
+  "created": "2026-11-13T09:00:11Z",
+  "modified": "2026-11-13T09:00:17Z",
+  "source_template": "corporate/modern-consulting"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#2b3990",
+   "on_primary": "#ffffff",
+   "secondary": "#1d2766",
+   "accent": "#f26522",
+   "on_accent": "#111318",
+   "background": "#f6f8f6",
+   "surface": "#eef1f8",
+   "text": "#151a33",
+   "muted": "#4f6463",
+   "border": "#d1d7d5"
+  },
+  "fonts": {
+   "heading": "Bricolage Grotesque",
+   "body": "DM Sans",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 700,
+   "heading_transform": "none",
+   "heading_tracking": "-0.025em",
+   "heading_line": 1.02,
+   "base": 17,
+   "ratio": 1.3
+  },
+  "shape": {
+   "radius": "18px",
+   "button_radius": "999px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "104px",
+   "gap": "24px",
+   "width": "1240px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Modern Consulting",
+   "colors": {
+    "primary": "#0b6e69",
+    "on_primary": "#f6f8f6",
+    "secondary": "#0c5653",
+    "accent": "#f2a33a",
+    "on_accent": "#0e2a2a",
+    "background": "#f6f8f6",
+    "surface": "#e9f0ec",
+    "text": "#0e2a2a",
+    "muted": "#4f6463",
+    "border": "#d1d7d5"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Bricolage Grotesque / DM Sans",
+   "heading": "Bricolage Grotesque",
+   "body": "DM Sans"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e382",
+   "type": "header",
+   "props": {
+    "layout": "classic",
+    "brand": "VICREATIONS",
+    "cta": {
+     "label": "Contact us",
+     "href": {
+      "page": "contact"
+     }
+    }
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e392",
+   "type": "footer",
+   "props": {
+    "tone": "primary"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e391",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e388",
+       "type": "row",
+       "props": {},
+       "style": {
+        "gap": "26px"
+       },
+       "children": [
+        {
+         "id": "e383",
+         "type": "link",
+         "props": {
+          "label": "About",
+          "href": {
+           "page": "about"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e384",
+         "type": "link",
+         "props": {
+          "label": "Services",
+          "href": {
+           "page": "services"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e385",
+         "type": "link",
+         "props": {
+          "label": "Our work",
+          "href": {
+           "page": "portfolio"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e387",
+         "type": "link",
+         "props": {
+          "label": "Contact",
+          "href": {
+           "page": "contact"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        }
+       ]
+      },
+      {
+       "id": "e389",
+       "type": "heading",
+       "props": {
+        "text": "VICREATIONS",
+        "level": 2
+       },
+       "style": {
+        "line_height": "1",
+        "margin_block": "34px 20px",
+        "font_size": "min(13.17vw,12rem)"
+       }
+      },
+      {
+       "id": "e390",
+       "type": "text",
+       "props": {
+        "text": "© Vicreations Investment Limited. Simply Versatile.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about",
+    "id": "nea71638c53"
+   },
+   {
+    "label": "Services",
+    "page": "services",
+    "id": "ne738d97046"
+   },
+   {
+    "label": "Our work",
+    "page": "portfolio",
+    "id": "n5204fef3b5"
+   },
+   {
+    "label": "Contact",
+    "page": "contact",
+    "id": "n2891d78dd3"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e8",
+     "type": "section",
+     "props": {
+      "role": "hero"
+     },
+     "style": {
+      "padding_block": "32px 80px"
+     },
+     "children": [
+      {
+       "id": "e7",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e6",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "asset",
+           "id": "an7eba3e1360"
+          },
+          "alt": "Vicreations engineers on culvert and headwall works",
+          "ratio": 2.05
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "e5",
+         "type": "container",
+         "props": {
+          "tone": "default"
+         },
+         "style": {
+          "gap": "16px",
+          "padding": "clamp(26px,4vw,52px)",
+          "max_width": "680px",
+          "margin_top": "-180px",
+          "margin_left": "clamp(0px,5vw,64px)",
+          "border_radius": "$radius",
+          "z_index": "2",
+          "box_shadow": "0 24px 60px rgba(10,14,28,.16)"
+         },
+         "responsive": {
+          "mobile": {
+           "style": {
+            "margin_top": "-48px",
+            "margin_left": "0"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e1",
+           "type": "heading",
+           "props": {
+            "text": "One team to build, brand and supply",
+            "level": 1
+           },
+           "style": {
+            "font_size": "clamp(2.3rem,4.4vw,3.9rem)"
+           }
+          },
+          {
+           "id": "e2",
+           "type": "text",
+           "props": {
+            "text": "Vicreations is a wholly Zambian incorporated company. We are creative professionals working with brands and companies across the country, helping turn business opportunities into commercial success.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e4",
+           "type": "row",
+           "props": {},
+           "style": {
+            "margin_top": "10px",
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e3",
+             "type": "button",
+             "props": {
+              "label": "Contact us",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e29",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e28",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e26",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e25",
+           "type": "heading",
+           "props": {
+            "text": "Four divisions, one accountable team",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e27",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "18px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 3
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e12",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "14px",
+            "padding": "36px",
+            "border_radius": "$radius",
+            "grid_row": "span 2",
+            "min_height": "400px"
+           },
+           "responsive": {
+            "mobile": {
+             "style": {
+              "min_height": "280px",
+              "grid_row": "auto"
+             }
+            }
+           },
+           "children": [
+            {
+             "id": "n2452720715",
+             "type": "illustration",
+             "props": {
+              "name": "crane",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "150px",
+              "margin_left": "0",
+              "margin_bottom": "8px"
+             }
+            },
+            {
+             "id": "e10",
+             "type": "heading",
+             "props": {
+              "text": "Engineering and construction",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.6rem,3vw,2.4rem)",
+              "margin_top": "auto"
+             }
+            },
+            {
+             "id": "e11",
+             "type": "text",
+             "props": {
+              "text": "Project planning and management, civil and structural engineering, roads in gravel, paving blocks, concrete and bitumen with their drainage, and residential, commercial and institutional buildings.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e16",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "nb4ef1cfe82",
+             "type": "illustration",
+             "props": {
+              "name": "palette",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "150px",
+              "margin_left": "0",
+              "margin_bottom": "8px"
+             }
+            },
+            {
+             "id": "e14",
+             "type": "heading",
+             "props": {
+              "text": "Branding and signage",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.2rem"
+             }
+            },
+            {
+             "id": "e15",
+             "type": "text",
+             "props": {
+              "text": "Billboards and banners, storefront and office front branding, show booths, exhibition stands, pull-up banners and teardrop flags. Safety, site and road signage, worksuit and vehicle branding.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e20",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "n749a9a91f4",
+             "type": "illustration",
+             "props": {
+              "name": "hanger",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "150px",
+              "margin_left": "0",
+              "margin_bottom": "8px"
+             }
+            },
+            {
+             "id": "e18",
+             "type": "heading",
+             "props": {
+              "text": "Print and promotion",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.2rem"
+             }
+            },
+            {
+             "id": "e19",
+             "type": "text",
+             "props": {
+              "text": "Company profiles, brochures, business stationery and books, event backdrops, name tags, lanyards, custom shirt prints, hoodies, caps and replica jerseys.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e24",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "grid_column": "span 2"
+           },
+           "children": [
+            {
+             "id": "n7fe671d442",
+             "type": "illustration",
+             "props": {
+              "name": "code",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "150px",
+              "margin_left": "0",
+              "margin_bottom": "8px"
+             }
+            },
+            {
+             "id": "e22",
+             "type": "heading",
+             "props": {
+              "text": "Design, supplies and ICT",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.2rem"
+             }
+            },
+            {
+             "id": "e23",
+             "type": "text",
+             "props": {
+              "text": "Product labels and stickers, CAD drawings, concept renders, pattern cut-outs and illustrations. Office stationery and consumables, and ICT software and hardware installations.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "grid_column": "auto"
+             }
+            }
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e48",
+     "type": "section",
+     "props": {
+      "role": "credentials",
+      "tone": "primary",
+      "ambient": "grid"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e47",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e45",
+         "type": "heading",
+         "props": {
+          "text": "Registered, compliant and ready to tender",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(1.6rem,3vw,2.4rem)",
+          "margin_bottom": "36px",
+          "max_width": "22em"
+         }
+        },
+        {
+         "id": "e46",
+         "type": "columns",
+         "props": {
+          "columns": 5
+         },
+         "style": {
+          "gap": "0 24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 3
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e32",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "padding": "22px 22px 22px 0",
+            "border_top": "2px solid currentColor"
+           },
+           "children": [
+            {
+             "id": "e30",
+             "type": "heading",
+             "props": {
+              "text": "ZPPA registered",
+              "level": 4
+             },
+             "style": {
+              "font_size": "1.15rem"
+             }
+            },
+            {
+             "id": "e31",
+             "type": "text",
+             "props": {
+              "text": "Supplier on the public e-tendering system, valid to October 2027",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e35",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "padding": "22px 22px 22px 0",
+            "border_top": "2px solid currentColor"
+           },
+           "children": [
+            {
+             "id": "e33",
+             "type": "heading",
+             "props": {
+              "text": "Tax clearance",
+              "level": 4
+             },
+             "style": {
+              "font_size": "1.15rem"
+             }
+            },
+            {
+             "id": "e34",
+             "type": "text",
+             "props": {
+              "text": "Zambia Revenue Authority clearance for 2026",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e38",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "padding": "22px 22px 22px 0",
+            "border_top": "2px solid currentColor"
+           },
+           "children": [
+            {
+             "id": "e36",
+             "type": "heading",
+             "props": {
+              "text": "NAPSA compliant",
+              "level": 4
+             },
+             "style": {
+              "font_size": "1.15rem"
+             }
+            },
+            {
+             "id": "e37",
+             "type": "text",
+             "props": {
+              "text": "National Pension Scheme Authority certificate for 2026",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e41",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "padding": "22px 22px 22px 0",
+            "border_top": "2px solid currentColor"
+           },
+           "children": [
+            {
+             "id": "e39",
+             "type": "heading",
+             "props": {
+              "text": "Workers' Compensation",
+              "level": 4
+             },
+             "style": {
+              "font_size": "1.15rem"
+             }
+            },
+            {
+             "id": "e40",
+             "type": "text",
+             "props": {
+              "text": "Employer compliance certificate for 2026",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e44",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "padding": "22px 22px 22px 0",
+            "border_top": "2px solid currentColor"
+           },
+           "children": [
+            {
+             "id": "e42",
+             "type": "heading",
+             "props": {
+              "text": "Citizen owned",
+              "level": 4
+             },
+             "style": {
+              "font_size": "1.15rem"
+             }
+            },
+            {
+             "id": "e43",
+             "type": "text",
+             "props": {
+              "text": "Zambian owned, incorporated on 14 May 2018",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".9rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e63",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {
+      "padding_block": "0"
+     },
+     "children": [
+      {
+       "id": "e55",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "full"
+       },
+       "style": {
+        "gap": "0"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e54",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "asset",
+           "id": "anbb0098723c"
+          },
+          "alt": "A building under construction by Vicreations",
+          "ratio": 1.15
+         },
+         "style": {
+          "height": "100%",
+          "min_height": "420px"
+         }
+        },
+        {
+         "id": "e53",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "18px",
+          "justify_content": "center",
+          "padding": "clamp(40px,7vw,104px) clamp(22px,6vw,96px)"
+         },
+         "children": [
+          {
+           "id": "e49",
+           "type": "heading",
+           "props": {
+            "text": "Buildings and roads",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.8rem,3.4vw,3rem)",
+            "line_height": "1.05"
+           }
+          },
+          {
+           "id": "e50",
+           "type": "text",
+           "props": {
+            "text": "Civil and structural engineering analysis and design. Steel, reinforced concrete and prefabricated structures. Roads in gravel, paving blocks, concrete and bituminous surfacing, with drainage works. Residential, commercial and institutional buildings, delivered within the estimated time frame and budget.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem",
+            "max_width": "46ch"
+           }
+          },
+          {
+           "id": "e51",
+           "type": "text",
+           "props": {
+            "text": "Project planning and management · Feasibility studies · Environmental impact assessments · Contract management · Site supervision and inspections · Quality control and assurance",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem",
+            "max_width": "52ch",
+            "line_height": "1.8"
+           }
+          },
+          {
+           "id": "e52",
+           "type": "link",
+           "props": {
+            "label": "Ask about this",
+            "href": {
+             "page": "contact"
+            },
+            "arrow": true
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e62",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "full"
+       },
+       "style": {
+        "gap": "0"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e60",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "18px",
+          "justify_content": "center",
+          "padding": "clamp(40px,7vw,104px) clamp(22px,6vw,96px)"
+         },
+         "children": [
+          {
+           "id": "e56",
+           "type": "heading",
+           "props": {
+            "text": "Brands on the move",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.8rem,3.4vw,3rem)",
+            "line_height": "1.05"
+           }
+          },
+          {
+           "id": "e57",
+           "type": "text",
+           "props": {
+            "text": "Workplace safety signage, construction site signage, road signage, worksuit branding and vehicle branding.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem",
+            "max_width": "46ch"
+           }
+          },
+          {
+           "id": "e58",
+           "type": "text",
+           "props": {
+            "text": "Billboards and banners · Storefront and office front branding · Show booths and exhibition stands · Pull-up and X-frame banners · Teardrop flags · Workplace safety signage",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem",
+            "max_width": "52ch",
+            "line_height": "1.8"
+           }
+          },
+          {
+           "id": "e59",
+           "type": "link",
+           "props": {
+            "label": "Ask about this",
+            "href": {
+             "page": "contact"
+            },
+            "arrow": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e61",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "asset",
+           "id": "anf8f2c4e0a3"
+          },
+          "alt": "Truck body branded by Vicreations",
+          "ratio": 1.15
+         },
+         "style": {
+          "height": "100%",
+          "min_height": "420px"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e66",
+     "type": "section",
+     "props": {
+      "role": "statement",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "asset",
+        "id": "ane67f7f3056"
+       },
+       "overlay": "linear-gradient(180deg,rgba(6,8,14,.2) 0%,rgba(6,8,14,.72) 100%)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "min_height": "clamp(440px,78vh,820px)",
+      "display": "flex",
+      "align_items": "flex-end",
+      "padding_block": "120px 84px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e65",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e64",
+         "type": "heading",
+         "props": {
+          "text": "Our vision: a regional market leader in products and services that stand out from the rest.",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(2rem,4.8vw,4.2rem)",
+          "line_height": "1.06",
+          "max_width": "17em"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e87",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e86",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e68",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e67",
+           "type": "heading",
+           "props": {
+            "text": "Recent work for our clients",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e85",
+         "type": "columns",
+         "props": {
+          "columns": 2
+         },
+         "style": {
+          "gap": "48px 32px"
+         },
+         "children": [
+          {
+           "id": "e72",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e69",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "asset",
+               "id": "ana13388970b"
+              },
+              "alt": "Bituminous road surfacing",
+              "ratio": 1.45
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e70",
+             "type": "heading",
+             "props": {
+              "text": "Bituminous road surfacing",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e71",
+             "type": "text",
+             "props": {
+              "text": "Roads",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e76",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e73",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "asset",
+               "id": "an32b674bcc0"
+              },
+              "alt": "ZAMEFA office front branding",
+              "ratio": 1.45
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e74",
+             "type": "heading",
+             "props": {
+              "text": "ZAMEFA office front branding",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e75",
+             "type": "text",
+             "props": {
+              "text": "Branding",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e80",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e77",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "asset",
+               "id": "an1372861006"
+              },
+              "alt": "Drainage works",
+              "ratio": 1.45
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e78",
+             "type": "heading",
+             "props": {
+              "text": "Drainage works",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e79",
+             "type": "text",
+             "props": {
+              "text": "Civil engineering",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e84",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e81",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "asset",
+               "id": "an1522bdf2d8"
+              },
+              "alt": "Chitambo College bus branding",
+              "ratio": 1.45
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e82",
+             "type": "heading",
+             "props": {
+              "text": "Chitambo College bus branding",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e83",
+             "type": "text",
+             "props": {
+              "text": "Vehicle branding",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e107",
+     "type": "section",
+     "props": {
+      "role": "process",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e106",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e104",
+         "type": "heading",
+         "props": {
+          "text": "From concept to realisation",
+          "level": 2
+         },
+         "style": {
+          "margin_bottom": "52px"
+         }
+        },
+        {
+         "id": "e105",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {
+          "gap": "40px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e91",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e88",
+             "type": "heading",
+             "props": {
+              "text": "1",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(3rem,6vw,5rem)",
+              "line_height": "1",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e89",
+             "type": "heading",
+             "props": {
+              "text": "Consult",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.35rem"
+             }
+            },
+            {
+             "id": "e90",
+             "type": "text",
+             "props": {
+              "text": "We work in consultation with you from the first conversation.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e95",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e92",
+             "type": "heading",
+             "props": {
+              "text": "2",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(3rem,6vw,5rem)",
+              "line_height": "1",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e93",
+             "type": "heading",
+             "props": {
+              "text": "Interpret",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.35rem"
+             }
+            },
+            {
+             "id": "e94",
+             "type": "text",
+             "props": {
+              "text": "We read your vision accurately and turn the concept into a design and a plan.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e99",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e96",
+             "type": "heading",
+             "props": {
+              "text": "3",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(3rem,6vw,5rem)",
+              "line_height": "1",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e97",
+             "type": "heading",
+             "props": {
+              "text": "Deliver",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.35rem"
+             }
+            },
+            {
+             "id": "e98",
+             "type": "text",
+             "props": {
+              "text": "Creative, modern solutions, built and produced by our own team.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e103",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e100",
+             "type": "heading",
+             "props": {
+              "text": "4",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(3rem,6vw,5rem)",
+              "line_height": "1",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e101",
+             "type": "heading",
+             "props": {
+              "text": "Report",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.35rem"
+             }
+            },
+            {
+             "id": "e102",
+             "type": "text",
+             "props": {
+              "text": "We keep you informed throughout, so the work stays on schedule and within budget.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e117",
+     "type": "section",
+     "props": {
+      "role": "faq"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e116",
+       "type": "columns",
+       "props": {
+        "columns": "4fr 7fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "60px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e110",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px"
+         },
+         "children": [
+          {
+           "id": "e108",
+           "type": "heading",
+           "props": {
+            "text": "Trusted by public institutions",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e109",
+           "type": "text",
+           "props": {
+            "text": "Ministry of Education  ·  Ministry of Agriculture  ·  Ministry of Fisheries and Livestock",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e115",
+         "type": "container",
+         "props": {},
+         "style": {},
+         "children": [
+          {
+           "id": "e111",
+           "type": "faq_item",
+           "props": {
+            "question": "Who do you work with?",
+            "answer": "Parastatals, public works agencies, municipalities and commercial private clients.",
+            "open": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e112",
+           "type": "faq_item",
+           "props": {
+            "question": "Can you supply public institutions?",
+            "answer": "Yes. We are registered on the ZPPA e-tendering system and hold current tax, NAPSA and Workers' Compensation certificates.",
+            "open": false
+           },
+           "style": {}
+          },
+          {
+           "id": "e113",
+           "type": "faq_item",
+           "props": {
+            "question": "Where are you based?",
+            "answer": "In Luanshya CBD, on the Copperbelt, and we work across Zambia.",
+            "open": false
+           },
+           "style": {}
+          },
+          {
+           "id": "e114",
+           "type": "faq_item",
+           "props": {
+            "question": "Can you take a project from concept to completion?",
+            "answer": "Yes. We plan, design, build and brand, and keep you informed at every stage.",
+            "open": false
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e123",
+     "type": "section",
+     "props": {
+      "role": "call_to_action",
+      "ambient": "aurora"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e122",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e121",
+         "type": "container",
+         "props": {
+          "tone": "primary"
+         },
+         "style": {
+          "gap": "16px",
+          "padding": "clamp(32px,6vw,72px)",
+          "border_radius": "$radius"
+         },
+         "children": [
+          {
+           "id": "e118",
+           "type": "heading",
+           "props": {
+            "text": "Tell us what you need",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e119",
+           "type": "text",
+           "props": {
+            "text": "We will reply with a quotation and a programme.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem",
+            "max_width": "50ch"
+           }
+          },
+          {
+           "id": "e120",
+           "type": "button",
+           "props": {
+            "label": "Start a conversation",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {
+            "align_self": "flex-start",
+            "margin_top": "8px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e175",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e174",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e172",
+         "type": "heading",
+         "props": {
+          "text": "About us",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e173",
+         "type": "text",
+         "props": {
+          "text": "A wholly Zambian company, incorporated on 14 May 2018.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e126",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e125",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "22px"
+       },
+       "children": [
+        {
+         "id": "e124",
+         "type": "heading",
+         "props": {
+          "text": "From concept to realisation, whether you are launching a new business, exploring new markets or expanding existing ones, our team works in consultation with you and brings your vision to reality through creative, modern solutions.",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(1.8rem,3.8vw,3.2rem)",
+          "line_height": "1.22",
+          "max_width": "24em"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e138",
+     "type": "section",
+     "props": {
+      "role": "values",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e137",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e136",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "40px 56px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e129",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e127",
+             "type": "heading",
+             "props": {
+              "text": "Our values",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e128",
+             "type": "text",
+             "props": {
+              "text": "We maintain the highest standard of professionalism, integrity, creativity and positive attitude, with delivery that meets and surpasses client satisfaction."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e132",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e130",
+             "type": "heading",
+             "props": {
+              "text": "Our mission",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e131",
+             "type": "text",
+             "props": {
+              "text": "To be a world class firm providing efficient, affordable, sustainable and cost effective services of the highest quality."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e135",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "16px",
+            "border_top": "1px solid currentColor",
+            "padding_top": "22px"
+           },
+           "children": [
+            {
+             "id": "e133",
+             "type": "heading",
+             "props": {
+              "text": "Our vision",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.1rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".08em"
+             }
+            },
+            {
+             "id": "e134",
+             "type": "text",
+             "props": {
+              "text": "To be established as a regional market leader in products and services that stand out from the rest."
+             },
+             "style": {
+              "font_size": "clamp(1.15rem,1.8vw,1.45rem)",
+              "line_height": "1.45"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e159",
+     "type": "section",
+     "props": {
+      "role": "team"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e158",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e156",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e155",
+           "type": "heading",
+           "props": {
+            "text": "Leadership and design",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e157",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e142",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e140",
+             "type": "heading",
+             "props": {
+              "text": "Victor Mulenga",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e141",
+             "type": "text",
+             "props": {
+              "text": "Director",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e146",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e144",
+             "type": "heading",
+             "props": {
+              "text": "Brian Mulenga",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e145",
+             "type": "text",
+             "props": {
+              "text": "Director",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e150",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e148",
+             "type": "heading",
+             "props": {
+              "text": "Sam Chanda",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e149",
+             "type": "text",
+             "props": {
+              "text": "Marketing Director",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e154",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e152",
+             "type": "heading",
+             "props": {
+              "text": "Susha Mwansa",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e153",
+             "type": "text",
+             "props": {
+              "text": "Graphics Designer",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e171",
+     "type": "section",
+     "props": {
+      "role": "statistics"
+     },
+     "style": {
+      "padding_block": "64px"
+     },
+     "children": [
+      {
+       "id": "e170",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e169",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e162",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e160",
+             "type": "heading",
+             "props": {
+              "text": "2018",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e161",
+             "type": "text",
+             "props": {
+              "text": "Year incorporated",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e165",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e163",
+             "type": "heading",
+             "props": {
+              "text": "4",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e164",
+             "type": "text",
+             "props": {
+              "text": "Divisions",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e168",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e166",
+             "type": "heading",
+             "props": {
+              "text": "40+",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e167",
+             "type": "text",
+             "props": {
+              "text": "Products and services",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "services",
+   "title": "Services",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e302",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e301",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e299",
+         "type": "heading",
+         "props": {
+          "text": "Services",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e300",
+         "type": "text",
+         "props": {
+          "text": "Engineering, branding, print and supplies.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e191",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e190",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e189",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e188",
+           "type": "heading",
+           "props": {
+            "text": "What each division does",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e178",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e176",
+           "type": "heading",
+           "props": {
+            "text": "Engineering and construction",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e177",
+           "type": "text",
+           "props": {
+            "text": "Construction project planning and management, feasibility studies, environmental impact assessments, contract management, supervision, site inspections, quality control and assurance, and construction labour hire. Civil and structural engineering analysis and design. Steel, reinforced concrete and prefabricated structures. Roads in gravel, paving blocks, concrete and bituminous surfacing, with drainage works. Residential, commercial and institutional buildings, delivered within the estimated time frame and budget.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e181",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e179",
+           "type": "heading",
+           "props": {
+            "text": "Branding and signage",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e180",
+           "type": "text",
+           "props": {
+            "text": "Billboards and banners, storefront and office front branding, show booths, exhibition stands, pull-up banners and teardrop flags. Workplace safety signage, construction site signage, road signage, worksuit branding and vehicle branding.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e184",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e182",
+           "type": "heading",
+           "props": {
+            "text": "Print and promotion",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e183",
+           "type": "text",
+           "props": {
+            "text": "Company profiles, brochures, flyers, business cards, calendars, diaries, receipt, quotation, invoice and delivery note books, and tickets. Event backdrops, posters, name tags, lanyards, ID cards, custom shirt prints, dye sublimation, hoodies, caps and replica jerseys.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e187",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e185",
+           "type": "heading",
+           "props": {
+            "text": "Design, supplies and ICT",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e186",
+           "type": "text",
+           "props": {
+            "text": "Product labels and stickers, CAD drawings, concept renders, pattern cut-outs and illustrations. Office stationery and consumables, and ICT software and hardware installations.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e245",
+     "type": "section",
+     "props": {
+      "role": "catalogue",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e244",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e242",
+         "type": "columns",
+         "props": {
+          "columns": "6fr 5fr"
+         },
+         "style": {
+          "margin_bottom": "56px",
+          "gap": "20px 64px",
+          "align_items": "end"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e240",
+           "type": "heading",
+           "props": {
+            "text": "The full catalogue",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e241",
+           "type": "text",
+           "props": {
+            "text": "Everything listed in our profile, and many more on request.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e243",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {
+          "gap": "44px 32px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e203",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "9px"
+           },
+           "children": [
+            {
+             "id": "e192",
+             "type": "heading",
+             "props": {
+              "text": "Engineering and construction",
+              "level": 4
+             },
+             "style": {
+              "padding_bottom": "12px",
+              "border_bottom": "1px solid $c-border"
+             }
+            },
+            {
+             "id": "e193",
+             "type": "text",
+             "props": {
+              "text": "Project planning and management"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e194",
+             "type": "text",
+             "props": {
+              "text": "Feasibility studies"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e195",
+             "type": "text",
+             "props": {
+              "text": "Environmental impact assessments"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e196",
+             "type": "text",
+             "props": {
+              "text": "Contract management"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e197",
+             "type": "text",
+             "props": {
+              "text": "Site supervision and inspections"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e198",
+             "type": "text",
+             "props": {
+              "text": "Quality control and assurance"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e199",
+             "type": "text",
+             "props": {
+              "text": "Structural analysis and design"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e200",
+             "type": "text",
+             "props": {
+              "text": "Roads: gravel, paving, concrete, bitumen"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e201",
+             "type": "text",
+             "props": {
+              "text": "Drainage works"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e202",
+             "type": "text",
+             "props": {
+              "text": "Residential, commercial and institutional buildings"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e215",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "9px"
+           },
+           "children": [
+            {
+             "id": "e204",
+             "type": "heading",
+             "props": {
+              "text": "Branding and signage",
+              "level": 4
+             },
+             "style": {
+              "padding_bottom": "12px",
+              "border_bottom": "1px solid $c-border"
+             }
+            },
+            {
+             "id": "e205",
+             "type": "text",
+             "props": {
+              "text": "Billboards and banners"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e206",
+             "type": "text",
+             "props": {
+              "text": "Storefront and office front branding"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e207",
+             "type": "text",
+             "props": {
+              "text": "Show booths and exhibition stands"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e208",
+             "type": "text",
+             "props": {
+              "text": "Pull-up and X-frame banners"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e209",
+             "type": "text",
+             "props": {
+              "text": "Teardrop flags"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e210",
+             "type": "text",
+             "props": {
+              "text": "Workplace safety signage"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e211",
+             "type": "text",
+             "props": {
+              "text": "Construction site signage"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e212",
+             "type": "text",
+             "props": {
+              "text": "Road signage"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e213",
+             "type": "text",
+             "props": {
+              "text": "Vehicle branding"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e214",
+             "type": "text",
+             "props": {
+              "text": "Worksuit branding"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e227",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "9px"
+           },
+           "children": [
+            {
+             "id": "e216",
+             "type": "heading",
+             "props": {
+              "text": "Print",
+              "level": 4
+             },
+             "style": {
+              "padding_bottom": "12px",
+              "border_bottom": "1px solid $c-border"
+             }
+            },
+            {
+             "id": "e217",
+             "type": "text",
+             "props": {
+              "text": "Company profiles"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e218",
+             "type": "text",
+             "props": {
+              "text": "Brochures and flyers"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e219",
+             "type": "text",
+             "props": {
+              "text": "Business cards"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e220",
+             "type": "text",
+             "props": {
+              "text": "Calendars and branded diaries"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e221",
+             "type": "text",
+             "props": {
+              "text": "Receipt, quotation and invoice books"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e222",
+             "type": "text",
+             "props": {
+              "text": "Delivery note books"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e223",
+             "type": "text",
+             "props": {
+              "text": "Site instruction books"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e224",
+             "type": "text",
+             "props": {
+              "text": "Tickets"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e225",
+             "type": "text",
+             "props": {
+              "text": "Posters and invitation cards"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e226",
+             "type": "text",
+             "props": {
+              "text": "Product labels and stickers"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e239",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "9px"
+           },
+           "children": [
+            {
+             "id": "e228",
+             "type": "heading",
+             "props": {
+              "text": "Promotion, design and supplies",
+              "level": 4
+             },
+             "style": {
+              "padding_bottom": "12px",
+              "border_bottom": "1px solid $c-border"
+             }
+            },
+            {
+             "id": "e229",
+             "type": "text",
+             "props": {
+              "text": "Event backdrops and decor"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e230",
+             "type": "text",
+             "props": {
+              "text": "Name tags, lanyards and ID cards"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e231",
+             "type": "text",
+             "props": {
+              "text": "Custom shirt prints"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e232",
+             "type": "text",
+             "props": {
+              "text": "Dye sublimation"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e233",
+             "type": "text",
+             "props": {
+              "text": "Hoodies, caps and replica jerseys"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e234",
+             "type": "text",
+             "props": {
+              "text": "CAD drawings and concept renders"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e235",
+             "type": "text",
+             "props": {
+              "text": "Pattern cut-outs and illustrations"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e236",
+             "type": "text",
+             "props": {
+              "text": "Office stationery"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e237",
+             "type": "text",
+             "props": {
+              "text": "Office consumables"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            },
+            {
+             "id": "e238",
+             "type": "text",
+             "props": {
+              "text": "ICT software and hardware installation"
+             },
+             "style": {
+              "font_size": ".98rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e266",
+     "type": "section",
+     "props": {
+      "role": "features"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e265",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "72px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e263",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px"
+         },
+         "children": [
+          {
+           "id": "e261",
+           "type": "heading",
+           "props": {
+            "text": "How we work",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e262",
+           "type": "text",
+           "props": {
+            "text": "We maintain the highest standard of professionalism, integrity, creativity and positive attitude, with delivery that meets and surpasses client satisfaction.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e248",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e246",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e247",
+             "type": "text",
+             "props": {
+              "text": "Professionalism"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e251",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e249",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e250",
+             "type": "text",
+             "props": {
+              "text": "Integrity"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e254",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e252",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e253",
+             "type": "text",
+             "props": {
+              "text": "Creativity"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e257",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e255",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e256",
+             "type": "text",
+             "props": {
+              "text": "Positive attitude"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e260",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e258",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e259",
+             "type": "text",
+             "props": {
+              "text": "Client satisfaction"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e264",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "asset",
+           "id": "anbdff9fa398"
+          },
+          "alt": "Fixing reinforcement for a concrete column",
+          "ratio": 0.95
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "our-work",
+   "title": "Our work",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e346",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e345",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e343",
+         "type": "heading",
+         "props": {
+          "text": "Our work",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e344",
+         "type": "text",
+         "props": {
+          "text": "Construction and branding, photographed on site.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e336",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e335",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e334",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e333",
+           "type": "heading",
+           "props": {
+            "text": "Selected projects",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e308",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e303",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "asset",
+             "id": "an7eba3e1360"
+            },
+            "alt": "Culvert and headwall works",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e306",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e304",
+             "type": "heading",
+             "props": {
+              "text": "Culvert and headwall works",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e305",
+             "type": "text",
+             "props": {
+              "text": "Civil engineering",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e314",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e309",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "asset",
+             "id": "anf0eedc5a45"
+            },
+            "alt": "Gravel road works",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e312",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e310",
+             "type": "heading",
+             "props": {
+              "text": "Gravel road works",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e311",
+             "type": "text",
+             "props": {
+              "text": "Roads",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e320",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e315",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "asset",
+             "id": "anb5671e902e"
+            },
+            "alt": "Casting a floor slab",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e318",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e316",
+             "type": "heading",
+             "props": {
+              "text": "Casting a floor slab",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e317",
+             "type": "text",
+             "props": {
+              "text": "Building",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e326",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e321",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "asset",
+             "id": "an32b674bcc0"
+            },
+            "alt": "ZAMEFA office front branding",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e324",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e322",
+             "type": "heading",
+             "props": {
+              "text": "ZAMEFA office front branding",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e323",
+             "type": "text",
+             "props": {
+              "text": "Branding",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e332",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e327",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "asset",
+             "id": "ane67f7f3056"
+            },
+            "alt": "DMC Ichimpe Magazines wall sign",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e330",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e328",
+             "type": "heading",
+             "props": {
+              "text": "DMC Ichimpe Magazines wall sign",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e329",
+             "type": "text",
+             "props": {
+              "text": "Signage",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e381",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e380",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e378",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e379",
+         "type": "text",
+         "props": {
+          "text": "Shop No. 2, Mtini Building, Luanshya CBD, Zambia  ·  +260 968 813 285  |  +260 977 250 848",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e377",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e376",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e375",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e373",
+           "type": "heading",
+           "props": {
+            "text": "Speak with our team",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e374",
+           "type": "text",
+           "props": {
+            "text": "Email sales@vi-creations.com or send a message below.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e372",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px",
+          "background": "$c-card",
+          "border_radius": "$card-radius",
+          "padding": "clamp(24px,4vw,44px)"
+         },
+         "children": [
+          {
+           "id": "e371",
+           "type": "contact_form",
+           "props": {
+            "fields": [
+             {
+              "label": "Your name",
+              "type": "text"
+             },
+             {
+              "label": "Email address",
+              "type": "email"
+             },
+             {
+              "label": "Message",
+              "type": "textarea"
+             }
+            ],
+            "submit": "Send message"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": [
+   {
+    "id": "ana13388970b",
+    "kind": "image",
+    "file": "vicreations-paving.jpg",
+    "name": "vicreations-paving",
+    "sha256": "4e9ddb2cf601d8becfe4902e8a615ed761a00331e45b21172503aea0c518b1ee",
+    "width": 669,
+    "height": 375,
+    "format": "JPEG",
+    "bytes": 60020
+   },
+   {
+    "id": "an4b8b0b1b73",
+    "kind": "image",
+    "file": "vicreations-survey.jpg",
+    "name": "vicreations-survey",
+    "sha256": "6e6bdd005c6e67ac39d9dda994dc8c4ee22bb14514650043b2921701aa5f64ab",
+    "width": 669,
+    "height": 376,
+    "format": "JPEG",
+    "bytes": 75537
+   },
+   {
+    "id": "anf0eedc5a45",
+    "kind": "image",
+    "file": "vicreations-gravel.jpg",
+    "name": "vicreations-gravel",
+    "sha256": "8aebac83e38e14ca70683eedff9958cdd0a65dbc8df4b809fefb8a4f8ec26481",
+    "width": 669,
+    "height": 501,
+    "format": "JPEG",
+    "bytes": 116049
+   },
+   {
+    "id": "an1372861006",
+    "kind": "image",
+    "file": "vicreations-drainage.jpg",
+    "name": "vicreations-drainage",
+    "sha256": "8db86934ca4643aa099232a262bc19f5ffe80a06b561a13b4607a3e9e5800276",
+    "width": 669,
+    "height": 892,
+    "format": "JPEG",
+    "bytes": 171390
+   },
+   {
+    "id": "anaebb67bc6a",
+    "kind": "image",
+    "file": "vicreations-rebar.jpg",
+    "name": "vicreations-rebar",
+    "sha256": "a8fcc99b2b427697a1557bb0f020cfd7fb1b2b5027f2a4682235fc767f2b9e3f",
+    "width": 723,
+    "height": 406,
+    "format": "JPEG",
+    "bytes": 99916
+   },
+   {
+    "id": "an5d64acd334",
+    "kind": "image",
+    "file": "vicreations-site.jpg",
+    "name": "vicreations-site",
+    "sha256": "fdb51ba515e95e415154362e879ee6a0e916fd66e2588a9bab182496bc62b0cd",
+    "width": 702,
+    "height": 394,
+    "format": "JPEG",
+    "bytes": 93623
+   },
+   {
+    "id": "an504f82548a",
+    "kind": "image",
+    "file": "vicreations-blocks.jpg",
+    "name": "vicreations-blocks",
+    "sha256": "aefb6db391262224b82e7a09da28bebd4c57bf828ebedcca087ee387b1aad82c",
+    "width": 629,
+    "height": 354,
+    "format": "JPEG",
+    "bytes": 68662
+   },
+   {
+    "id": "anbdff9fa398",
+    "kind": "image",
+    "file": "vicreations-column.jpg",
+    "name": "vicreations-column",
+    "sha256": "e2d76df835a8715a91feb82bc95fbb5d56052313e885d720678517b3b1666ae7",
+    "width": 629,
+    "height": 354,
+    "format": "JPEG",
+    "bytes": 70288
+   },
+   {
+    "id": "an1ddb70a8e3",
+    "kind": "image",
+    "file": "vicreations-footings.jpg",
+    "name": "vicreations-footings",
+    "sha256": "22c7052a9a07a12940cf34d1a477c888b5bba3f07ed39e7a69350b87e52aba43",
+    "width": 629,
+    "height": 354,
+    "format": "JPEG",
+    "bytes": 50057
+   },
+   {
+    "id": "an324112ba4c",
+    "kind": "image",
+    "file": "vicreations-scaffold.jpg",
+    "name": "vicreations-scaffold",
+    "sha256": "4155a18cd63da4155f4b91f235a0170ec9c9c7d1aa9ec8c97bd6a05d2a54ca33",
+    "width": 629,
+    "height": 354,
+    "format": "JPEG",
+    "bytes": 79499
+   },
+   {
+    "id": "anb5671e902e",
+    "kind": "image",
+    "file": "vicreations-slab.jpg",
+    "name": "vicreations-slab",
+    "sha256": "5dde3cf7d180a0dd80249130ad0822427dceb6d92e2d0be6fbd296ec14add6b5",
+    "width": 629,
+    "height": 354,
+    "format": "JPEG",
+    "bytes": 73494
+   },
+   {
+    "id": "anbb0098723c",
+    "kind": "image",
+    "file": "vicreations-building.jpg",
+    "name": "vicreations-building",
+    "sha256": "9123f2080c2cbc93b5cc35027398cf3734695d512c386862049806622416fca6",
+    "width": 629,
+    "height": 354,
+    "format": "JPEG",
+    "bytes": 52333
+   },
+   {
+    "id": "an32b674bcc0",
+    "kind": "image",
+    "file": "vicreations-storefront.jpg",
+    "name": "vicreations-storefront",
+    "sha256": "4bc018e2e46f30e39ddc2ffbfcb8e65100546780c1d040329975d900c089bf32",
+    "width": 844,
+    "height": 633,
+    "format": "JPEG",
+    "bytes": 79118
+   },
+   {
+    "id": "ane67f7f3056",
+    "kind": "image",
+    "file": "vicreations-wall-sign.jpg",
+    "name": "vicreations-wall-sign",
+    "sha256": "8fe16b27f61ae579166730e9985ff2f90884a7c122adf85eae63f9b7b9791725",
+    "width": 1706,
+    "height": 1280,
+    "format": "JPEG",
+    "bytes": 318202
+   },
+   {
+    "id": "an1522bdf2d8",
+    "kind": "image",
+    "file": "vicreations-bus.jpg",
+    "name": "vicreations-bus",
+    "sha256": "f44147a78633df41d011896def5474a700006069275468e4fb90ff7f64aa94d9",
+    "width": 799,
+    "height": 599,
+    "format": "JPEG",
+    "bytes": 55126
+   },
+   {
+    "id": "anf8f2c4e0a3",
+    "kind": "image",
+    "file": "vicreations-truck.jpg",
+    "name": "vicreations-truck",
+    "sha256": "75a80152e61cc109e879af9b64a1f7ad47f96f1887705620ac8f310081b05cd4",
+    "width": 800,
+    "height": 600,
+    "format": "JPEG",
+    "bytes": 108261
+   },
+   {
+    "id": "an7eba3e1360",
+    "kind": "image",
+    "file": "vicreations-culvert.jpg",
+    "name": "vicreations-culvert",
+    "sha256": "424386bbd5a0e45ac9783877c8e72c5264a12d79c0aca039f795c49820c75eb7",
+    "width": 2000,
+    "height": 1124,
+    "format": "JPEG",
+    "bytes": 546443
+   }
+  ]
+ },
+ "reusable": []
+}

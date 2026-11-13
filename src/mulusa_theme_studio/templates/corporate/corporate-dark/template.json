@@ -1,0 +1,3943 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "corporate/corporate-dark",
+  "template_name": "Corporate Dark",
+  "name": "Meridian Capital",
+  "description": "A dark, data-led identity with gold details and an overlay hero.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#d4af6a",
+   "on_primary": "#0d1117",
+   "secondary": "#39465a",
+   "accent": "#d4af6a",
+   "on_accent": "#0d1117",
+   "background": "#0d1117",
+   "surface": "#161c25",
+   "text": "#eef1f5",
+   "muted": "#afb2b7",
+   "border": "#31353b"
+  },
+  "fonts": {
+   "heading": "Outfit",
+   "body": "Inter",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 600,
+   "heading_transform": "none",
+   "heading_tracking": "-0.015em",
+   "heading_line": 1.1,
+   "base": 17,
+   "ratio": 1.3
+  },
+  "shape": {
+   "radius": "4px",
+   "button_radius": "4px",
+   "button_style": "solid",
+   "button_transform": "uppercase",
+   "button_tracking": ".08em",
+   "button_size": ".84rem"
+  },
+  "spacing": {
+   "section": "112px",
+   "gap": "26px",
+   "width": "1220px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Corporate Dark",
+   "colors": {
+    "primary": "#d4af6a",
+    "on_primary": "#0d1117",
+    "secondary": "#39465a",
+    "accent": "#d4af6a",
+    "on_accent": "#0d1117",
+    "background": "#0d1117",
+    "surface": "#161c25",
+    "text": "#eef1f5",
+    "muted": "#afb2b7",
+    "border": "#31353b"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Outfit / Inter",
+   "heading": "Outfit",
+   "body": "Inter"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e289",
+   "type": "header",
+   "props": {
+    "layout": "classic",
+    "brand": "Meridian Capital",
+    "nav_style": "caps",
+    "overlay": true,
+    "cta": {
+     "label": "Enquire",
+     "href": {
+      "page": "contact"
+     }
+    }
+   },
+   "style": {
+    "color": "#ffffff"
+   },
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e308",
+   "type": "footer",
+   "props": {
+    "tone": "surface"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e307",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e304",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 3fr 4fr"
+       },
+       "style": {
+        "gap": "40px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": "5fr 3fr 4fr"
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e292",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "10px"
+         },
+         "children": [
+          {
+           "id": "e290",
+           "type": "heading",
+           "props": {
+            "text": "Meridian Capital",
+            "level": 3
+           },
+           "style": {
+            "font_size": "1.5rem"
+           }
+          },
+          {
+           "id": "e291",
+           "type": "text",
+           "props": {
+            "text": "For two decades we have helped organisations make better decisions, working beside their.",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem",
+            "max_width": "34ch"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e299",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e293",
+           "type": "heading",
+           "props": {
+            "text": "Explore",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e294",
+           "type": "link",
+           "props": {
+            "label": "About",
+            "href": {
+             "page": "about"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e295",
+           "type": "link",
+           "props": {
+            "label": "Services",
+            "href": {
+             "page": "services"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e296",
+           "type": "link",
+           "props": {
+            "label": "Case Studies",
+            "href": {
+             "page": "portfolio"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e297",
+           "type": "link",
+           "props": {
+            "label": "Insights",
+            "href": {
+             "page": "blog"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e298",
+           "type": "link",
+           "props": {
+            "label": "Contact",
+            "href": {
+             "page": "contact"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          }
+         ]
+        },
+        {
+         "id": "e303",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e300",
+           "type": "heading",
+           "props": {
+            "text": "Contact",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e301",
+           "type": "text",
+           "props": {
+            "text": "100 Example Road, Your City",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          },
+          {
+           "id": "e302",
+           "type": "text",
+           "props": {
+            "text": "hello@example.com",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e305",
+       "type": "divider",
+       "props": {},
+       "style": {
+        "margin_block": "40px 14px"
+       }
+      },
+      {
+       "id": "e306",
+       "type": "text",
+       "props": {
+        "text": "© Meridian Capital. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Services",
+    "page": "services"
+   },
+   {
+    "label": "Case Studies",
+    "page": "portfolio"
+   },
+   {
+    "label": "Insights",
+    "page": "blog"
+   },
+   {
+    "label": "Contact",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e8",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "corporate-dark-1",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "linear-gradient(180deg,rgba(6,8,14,.45),rgba(6,8,14,.72))",
+       "alt": ""
+      }
+     },
+     "style": {
+      "min_height": "clamp(560px,86vh,860px)",
+      "display": "flex",
+      "align_items": "flex-end",
+      "padding_block": "150px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e7",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "justify_content": "flex-end",
+        "min_height": "inherit"
+       },
+       "children": [
+        {
+         "id": "e6",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "20px",
+          "max_width": "760px",
+          "color": "#ffffff"
+         },
+         "children": [
+          {
+           "id": "e1",
+           "type": "heading",
+           "props": {
+            "text": "Long-term capital for serious builders",
+            "level": 1
+           },
+           "style": {
+            "font_size": "clamp(2.7rem,7vw,5.6rem)"
+           }
+          },
+          {
+           "id": "e2",
+           "type": "text",
+           "props": {
+            "text": "We partner with management teams to create durable value across infrastructure, energy and industry.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.16rem",
+            "max_width": "60ch"
+           }
+          },
+          {
+           "id": "e5",
+           "type": "row",
+           "props": {},
+           "style": {
+            "margin_top": "10px",
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e3",
+             "type": "button",
+             "props": {
+              "label": "Enquire",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {}
+            },
+            {
+             "id": "e4",
+             "type": "button",
+             "props": {
+              "label": "Our approach",
+              "href": {
+               "page": "portfolio"
+              },
+              "variant": "secondary"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e23",
+     "type": "section",
+     "props": {
+      "role": "statistics",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "56px"
+     },
+     "children": [
+      {
+       "id": "e22",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e21",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 4
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e11",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e9",
+             "type": "heading",
+             "props": {
+              "text": "240+",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e10",
+             "type": "text",
+             "props": {
+              "text": "Clients advised",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e14",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e12",
+             "type": "heading",
+             "props": {
+              "text": "18",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e13",
+             "type": "text",
+             "props": {
+              "text": "Years in practice",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e17",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e15",
+             "type": "heading",
+             "props": {
+              "text": "96%",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e16",
+             "type": "text",
+             "props": {
+              "text": "Clients who return",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e20",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e18",
+             "type": "heading",
+             "props": {
+              "text": "12",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e19",
+             "type": "text",
+             "props": {
+              "text": "Countries served",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e31",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e30",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "68px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e24",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "corporate-dark-2",
+           "subject": "building",
+           "ratio": 1.1,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 1.1
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "e29",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e25",
+           "type": "heading",
+           "props": {
+            "text": "Built on long relationships and straight answers",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e26",
+           "type": "text",
+           "props": {
+            "text": "For two decades we have helped organisations make better decisions, working beside their leadership teams from the first question to the final result.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e27",
+           "type": "text",
+           "props": {
+            "text": "Our advisers combine sector experience with a practical way of working. Each engagement has a named lead, a clear scope and results you can measure.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e28",
+           "type": "link",
+           "props": {
+            "label": "Our story",
+            "href": {
+             "page": "about"
+            },
+            "arrow": true
+           },
+           "style": {
+            "margin_top": "6px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e60",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e59",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e57",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e56",
+           "type": "heading",
+           "props": {
+            "text": "Services shaped around your organisation",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e58",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "46px 40px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e35",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e32",
+             "type": "icon",
+             "props": {
+              "name": "users-round"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e33",
+             "type": "heading",
+             "props": {
+              "text": "People and culture",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e34",
+             "type": "text",
+             "props": {
+              "text": "Leadership development and organisation design that lasts.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e39",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e36",
+             "type": "icon",
+             "props": {
+              "name": "handshake"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e37",
+             "type": "heading",
+             "props": {
+              "text": "Mergers and partnerships",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e38",
+             "type": "text",
+             "props": {
+              "text": "Careful due diligence and smooth integration.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e43",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e40",
+             "type": "icon",
+             "props": {
+              "name": "compass"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e41",
+             "type": "heading",
+             "props": {
+              "text": "Strategy advisory",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e42",
+             "type": "text",
+             "props": {
+              "text": "Clear direction for growth, new markets and major decisions.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e47",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e44",
+             "type": "icon",
+             "props": {
+              "name": "shield-check"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e45",
+             "type": "heading",
+             "props": {
+              "text": "Risk and compliance",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e46",
+             "type": "text",
+             "props": {
+              "text": "Practical frameworks that protect the business without slowing it down.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e51",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e48",
+             "type": "icon",
+             "props": {
+              "name": "trending-up"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e49",
+             "type": "heading",
+             "props": {
+              "text": "Financial planning",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e50",
+             "type": "text",
+             "props": {
+              "text": "Forecasting and capital planning your board can rely on.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e55",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e52",
+             "type": "icon",
+             "props": {
+              "name": "settings"
+             },
+             "style": {
+              "font_size": "34px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e53",
+             "type": "heading",
+             "props": {
+              "text": "Operations",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e54",
+             "type": "text",
+             "props": {
+              "text": "Leaner processes, better systems and fewer surprises.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e94",
+     "type": "section",
+     "props": {
+      "role": "portfolio",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e93",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e92",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e91",
+           "type": "heading",
+           "props": {
+            "text": "Results that speak for themselves",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e66",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e61",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "corporate-dark-3",
+             "subject": "building",
+             "ratio": 1.6,
+             "label": "Retail cost programme"
+            },
+            "alt": "Retail cost programme",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e64",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e62",
+             "type": "heading",
+             "props": {
+              "text": "Retail cost programme",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e63",
+             "type": "text",
+             "props": {
+              "text": "Retail, 6 months",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e65",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e72",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e67",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "corporate-dark-4",
+             "subject": "building",
+             "ratio": 1.6,
+             "label": "Public sector reform"
+            },
+            "alt": "Public sector reform",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e70",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e68",
+             "type": "heading",
+             "props": {
+              "text": "Public sector reform",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e69",
+             "type": "text",
+             "props": {
+              "text": "Government, 24 months",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e71",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e78",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e73",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "corporate-dark-5",
+             "subject": "building",
+             "ratio": 1.6,
+             "label": "Regional bank restructure"
+            },
+            "alt": "Regional bank restructure",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e76",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e74",
+             "type": "heading",
+             "props": {
+              "text": "Regional bank restructure",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e75",
+             "type": "text",
+             "props": {
+              "text": "Finance, 14 months",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e77",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e84",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e79",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "corporate-dark-6",
+             "subject": "building",
+             "ratio": 1.6,
+             "label": "Logistics network review"
+            },
+            "alt": "Logistics network review",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e82",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e80",
+             "type": "heading",
+             "props": {
+              "text": "Logistics network review",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e81",
+             "type": "text",
+             "props": {
+              "text": "Transport, 8 months",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e83",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e90",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e85",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "corporate-dark-7",
+             "subject": "building",
+             "ratio": 1.6,
+             "label": "Energy market entry"
+            },
+            "alt": "Energy market entry",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e88",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e86",
+             "type": "heading",
+             "props": {
+              "text": "Energy market entry",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e87",
+             "type": "text",
+             "props": {
+              "text": "Energy, 11 months",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e89",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e98",
+     "type": "section",
+     "props": {
+      "role": "testimonials"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e97",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "gap": "24px"
+       },
+       "children": [
+        {
+         "id": "e95",
+         "type": "heading",
+         "props": {
+          "text": "“Every commitment they made was met on time. That is rarer than it should be.”",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(1.6rem,3.4vw,2.8rem)",
+          "line_height": "1.25",
+          "font_weight": "inherit"
+         }
+        },
+        {
+         "id": "e96",
+         "type": "text",
+         "props": {
+          "text": "Daniel Osei, Finance Director, Meridian Works",
+          "muted": true
+         },
+         "style": {
+          "font_size": ".95rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e103",
+     "type": "section",
+     "props": {
+      "role": "call_to_action",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "corporate-dark-8",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.62)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "color": "#ffffff",
+      "padding_block": "120px"
+     },
+     "children": [
+      {
+       "id": "e102",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "align_items": "center",
+        "text_align": "center",
+        "gap": "16px"
+       },
+       "children": [
+        {
+         "id": "e99",
+         "type": "heading",
+         "props": {
+          "text": "Ready for a clearer way forward?",
+          "level": 2
+         },
+         "style": {}
+        },
+        {
+         "id": "e100",
+         "type": "text",
+         "props": {
+          "text": "Tell us what you are working on. A partner will reply within two working days."
+         },
+         "style": {
+          "font_size": "1.08rem",
+          "color": "#ffffff"
+         }
+        },
+        {
+         "id": "e101",
+         "type": "button",
+         "props": {
+          "label": "Start a conversation",
+          "href": {
+           "page": "contact"
+          },
+          "variant": "primary"
+         },
+         "style": {
+          "margin_top": "8px"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e143",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "corporate-dark-13",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e142",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e140",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e141",
+         "type": "text",
+         "props": {
+          "text": "Who we are, how we work and what we stand for."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e106",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e105",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "22px"
+       },
+       "children": [
+        {
+         "id": "e104",
+         "type": "heading",
+         "props": {
+          "text": "For two decades we have helped organisations make better decisions, working beside their leadership teams from the first question to the final result.",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(1.8rem,3.8vw,3.2rem)",
+          "line_height": "1.22",
+          "max_width": "24em"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e118",
+     "type": "section",
+     "props": {
+      "role": "statistics"
+     },
+     "style": {
+      "padding_block": "64px"
+     },
+     "children": [
+      {
+       "id": "e117",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e116",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e109",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e107",
+             "type": "heading",
+             "props": {
+              "text": "240+",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e108",
+             "type": "text",
+             "props": {
+              "text": "Clients advised",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e112",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e110",
+             "type": "heading",
+             "props": {
+              "text": "18",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e111",
+             "type": "text",
+             "props": {
+              "text": "Years in practice",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e115",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e113",
+             "type": "heading",
+             "props": {
+              "text": "96%",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e114",
+             "type": "text",
+             "props": {
+              "text": "Clients who return",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e139",
+     "type": "section",
+     "props": {
+      "role": "team",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e138",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e136",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e135",
+           "type": "heading",
+           "props": {
+            "text": "The people behind the work",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e137",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e122",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e119",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "corporate-dark-9",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Ruth Daka"
+              },
+              "alt": "Ruth Daka",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e120",
+             "type": "heading",
+             "props": {
+              "text": "Ruth Daka",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e121",
+             "type": "text",
+             "props": {
+              "text": "People Lead",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e126",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e123",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "corporate-dark-10",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Natasha Phiri"
+              },
+              "alt": "Natasha Phiri",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e124",
+             "type": "heading",
+             "props": {
+              "text": "Natasha Phiri",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e125",
+             "type": "text",
+             "props": {
+              "text": "Managing Partner",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e130",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e127",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "corporate-dark-11",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Peter Mwale"
+              },
+              "alt": "Peter Mwale",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e128",
+             "type": "heading",
+             "props": {
+              "text": "Peter Mwale",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e129",
+             "type": "text",
+             "props": {
+              "text": "Head of Strategy",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e134",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e131",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "corporate-dark-12",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Grace Tembo"
+              },
+              "alt": "Grace Tembo",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e132",
+             "type": "heading",
+             "props": {
+              "text": "Grace Tembo",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e133",
+             "type": "text",
+             "props": {
+              "text": "Risk Director",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "services",
+   "title": "Services",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e199",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "corporate-dark-14",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e198",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e196",
+         "type": "heading",
+         "props": {
+          "text": "Services",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e197",
+         "type": "text",
+         "props": {
+          "text": "Advisory services for organisations that want lasting results."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e160",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e159",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e157",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e156",
+           "type": "heading",
+           "props": {
+            "text": "Services shaped around your organisation",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e158",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e147",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e144",
+             "type": "icon",
+             "props": {
+              "name": "users-round"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e145",
+             "type": "heading",
+             "props": {
+              "text": "People and culture",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e146",
+             "type": "text",
+             "props": {
+              "text": "Leadership development and organisation design that lasts.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e151",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e148",
+             "type": "icon",
+             "props": {
+              "name": "handshake"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e149",
+             "type": "heading",
+             "props": {
+              "text": "Mergers and partnerships",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e150",
+             "type": "text",
+             "props": {
+              "text": "Careful due diligence and smooth integration.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e155",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e152",
+             "type": "icon",
+             "props": {
+              "name": "compass"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e153",
+             "type": "heading",
+             "props": {
+              "text": "Strategy advisory",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e154",
+             "type": "text",
+             "props": {
+              "text": "Clear direction for growth, new markets and major decisions.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e195",
+     "type": "section",
+     "props": {
+      "role": "pricing",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e194",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e192",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e191",
+           "type": "heading",
+           "props": {
+            "text": "Clear ways to work with us",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e193",
+         "type": "columns",
+         "props": {
+          "columns": 2
+         },
+         "style": {
+          "gap": "0 64px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e165",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e163",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e161",
+               "type": "heading",
+               "props": {
+                "text": "Audit",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e162",
+               "type": "heading",
+               "props": {
+                "text": "$1,600",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e164",
+             "type": "text",
+             "props": {
+              "text": "A clear, independent assessment.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e170",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e168",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e166",
+               "type": "heading",
+               "props": {
+                "text": "Retainer",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e167",
+               "type": "heading",
+               "props": {
+                "text": "$2,100",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e169",
+             "type": "text",
+             "props": {
+              "text": "Continuous support, one fixed fee.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e175",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e173",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e171",
+               "type": "heading",
+               "props": {
+                "text": "Starter",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e172",
+               "type": "heading",
+               "props": {
+                "text": "$490",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e174",
+             "type": "text",
+             "props": {
+              "text": "For small teams getting started.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e180",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e178",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e176",
+               "type": "heading",
+               "props": {
+                "text": "Growth",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e177",
+               "type": "heading",
+               "props": {
+                "text": "$1,200",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e179",
+             "type": "text",
+             "props": {
+              "text": "Our most chosen package.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e185",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e183",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e181",
+               "type": "heading",
+               "props": {
+                "text": "Enterprise",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e182",
+               "type": "heading",
+               "props": {
+                "text": "$3,400",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e184",
+             "type": "text",
+             "props": {
+              "text": "For organisations at scale.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e190",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "4px",
+            "padding_block": "18px",
+            "border_bottom": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e188",
+             "type": "row",
+             "props": {},
+             "style": {
+              "justify_content": "space-between",
+              "flex_wrap": "nowrap",
+              "gap": "20px"
+             },
+             "children": [
+              {
+               "id": "e186",
+               "type": "heading",
+               "props": {
+                "text": "Advisory",
+                "level": 4
+               },
+               "style": {}
+              },
+              {
+               "id": "e187",
+               "type": "heading",
+               "props": {
+                "text": "$750",
+                "level": 4
+               },
+               "style": {}
+              }
+             ]
+            },
+            {
+             "id": "e189",
+             "type": "text",
+             "props": {
+              "text": "Senior guidance when you need it.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "case-studies",
+   "title": "Case Studies",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e237",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "corporate-dark-20",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e236",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e234",
+         "type": "heading",
+         "props": {
+          "text": "Case Studies",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e235",
+         "type": "text",
+         "props": {
+          "text": "A selection of recent engagements and their outcomes."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e233",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e232",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e231",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e230",
+           "type": "heading",
+           "props": {
+            "text": "Results that speak for themselves",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e205",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e200",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "corporate-dark-15",
+             "subject": "building",
+             "ratio": 1.6,
+             "label": "Retail cost programme"
+            },
+            "alt": "Retail cost programme",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e203",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e201",
+             "type": "heading",
+             "props": {
+              "text": "Retail cost programme",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e202",
+             "type": "text",
+             "props": {
+              "text": "Retail, 6 months",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e204",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e211",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e206",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "corporate-dark-16",
+             "subject": "building",
+             "ratio": 1.6,
+             "label": "Public sector reform"
+            },
+            "alt": "Public sector reform",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e209",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e207",
+             "type": "heading",
+             "props": {
+              "text": "Public sector reform",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e208",
+             "type": "text",
+             "props": {
+              "text": "Government, 24 months",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e210",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e217",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e212",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "corporate-dark-17",
+             "subject": "building",
+             "ratio": 1.6,
+             "label": "Regional bank restructure"
+            },
+            "alt": "Regional bank restructure",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e215",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e213",
+             "type": "heading",
+             "props": {
+              "text": "Regional bank restructure",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e214",
+             "type": "text",
+             "props": {
+              "text": "Finance, 14 months",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e216",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e223",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e218",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "corporate-dark-18",
+             "subject": "building",
+             "ratio": 1.6,
+             "label": "Logistics network review"
+            },
+            "alt": "Logistics network review",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e221",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e219",
+             "type": "heading",
+             "props": {
+              "text": "Logistics network review",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e220",
+             "type": "text",
+             "props": {
+              "text": "Transport, 8 months",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e222",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e229",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e224",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "corporate-dark-19",
+             "subject": "building",
+             "ratio": 1.6,
+             "label": "Energy market entry"
+            },
+            "alt": "Energy market entry",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e227",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e225",
+             "type": "heading",
+             "props": {
+              "text": "Energy market entry",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e226",
+             "type": "text",
+             "props": {
+              "text": "Energy, 11 months",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e228",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "insights",
+   "title": "Insights",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e269",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "corporate-dark-21",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e268",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e266",
+         "type": "heading",
+         "props": {
+          "text": "Insights",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e267",
+         "type": "text",
+         "props": {
+          "text": "Perspectives from our partners and advisers."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e265",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e264",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e263",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e262",
+           "type": "heading",
+           "props": {
+            "text": "Notes and insights",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e243",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e238",
+           "type": "text",
+           "props": {
+            "text": "People, 9 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e241",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e239",
+             "type": "heading",
+             "props": {
+              "text": "Leading through a merger",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e240",
+             "type": "text",
+             "props": {
+              "text": "What to say, when, and to whom.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e242",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e249",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e244",
+           "type": "text",
+           "props": {
+            "text": "Leadership, 8 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e247",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e245",
+             "type": "heading",
+             "props": {
+              "text": "Five questions every board should ask this year",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e246",
+             "type": "text",
+             "props": {
+              "text": "A short guide to the decisions that matter most right now.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e248",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e255",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e250",
+           "type": "text",
+           "props": {
+            "text": "Strategy, 6 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e253",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e251",
+             "type": "heading",
+             "props": {
+              "text": "What resilient organisations do differently",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e252",
+             "type": "text",
+             "props": {
+              "text": "Patterns from a decade of work with growing companies.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e254",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e261",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e256",
+           "type": "text",
+           "props": {
+            "text": "Risk, 5 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e259",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e257",
+             "type": "heading",
+             "props": {
+              "text": "Making compliance a competitive strength",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e258",
+             "type": "text",
+             "props": {
+              "text": "How good controls can make you faster.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e260",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e288",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "corporate-dark-22",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "rgba(6,8,14,.6)",
+       "alt": ""
+      }
+     },
+     "style": {
+      "padding_block": "170px 80px",
+      "color": "#ffffff"
+     },
+     "children": [
+      {
+       "id": "e287",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e285",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e286",
+         "type": "text",
+         "props": {
+          "text": "Tell us about your organisation and how we can help."
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch",
+          "color": "#ffffff"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e284",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e283",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 6fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "72px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e281",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e270",
+           "type": "heading",
+           "props": {
+            "text": "Speak with a partner",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e271",
+           "type": "text",
+           "props": {
+            "text": "Tell us what you are working on. A partner will reply within two working days.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e274",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e272",
+             "type": "icon",
+             "props": {
+              "name": "map-pin"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e273",
+             "type": "text",
+             "props": {
+              "text": "100 Example Road, Your City"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e277",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e275",
+             "type": "icon",
+             "props": {
+              "name": "phone"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e276",
+             "type": "text",
+             "props": {
+              "text": "+000 000 000 000"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e280",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e278",
+             "type": "icon",
+             "props": {
+              "name": "mail"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "$c-accent"
+             }
+            },
+            {
+             "id": "e279",
+             "type": "text",
+             "props": {
+              "text": "hello@example.com"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e282",
+         "type": "contact_form",
+         "props": {
+          "fields": [
+           {
+            "label": "Your name",
+            "type": "text"
+           },
+           {
+            "label": "Email address",
+            "type": "email"
+           },
+           {
+            "label": "Message",
+            "type": "textarea"
+           }
+          ],
+          "submit": "Send message"
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

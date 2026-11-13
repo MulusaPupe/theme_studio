@@ -52,8 +52,8 @@ t("corporate", "corporate-classic", "Corporate Classic", "Trusted navy and serif
 t("corporate", "modern-consulting", "Modern Consulting", "Bold teal, confident grotesque type and a bento services grid.",
   "Northline", "Change that actually sticks", "We work inside your teams to turn strategy into new habits, better numbers and momentum you can measure.",
   palette("#f6f8f6", "#0e2a2a", "#0b6e69", "#f2a33a", surface="#e9f0ec"), ("Bricolage Grotesque", "DM Sans"), ty(700, tracking="-0.025em", line=1.02), sh("18px", "999px"), sp("104px", "24px", "1240px"),
-  "hero_stats services_bento portfolio_mosaic@surface quote_cards faq_split cta_box",
-  inner("about_statement team_circles stats_cards@surface", "services_rows features_check@surface pricing_cards", "portfolio_rows quote_side@surface", "blog_cards", "contact_card"),
+  "hero_framed services_bento credentials@primary services_panels photo_band portfolio_grid2 process_steps@surface faq_split cta_box",
+  inner("about_statement values_trio@surface team_circles stats_cards", "services_rows catalogue@surface features_check pricing_cards", "portfolio_rows quote_side@surface", "blog_cards", "contact_card"),
   kicker="Management consulting", header={"cta": "Talk to us", "rule": False}, action="Talk to us", action2="See results", card="tint", banner="plain", footer="wordmark", footer_tone="primary", display="clamp(3rem,8vw,6.6rem)", offset=1)
 
 t("corporate", "executive-minimal", "Executive Minimal", "A quiet, narrow, largely typographic layout with wide margins.",
@@ -175,9 +175,9 @@ t("art", "photographer-dark", "Photographer Dark", "Black, edge-to-edge images a
 t("art", "design-studio", "Design Studio", "A Swiss grid in strict red, black and white, numbered and systematic.",
   "Studio Form", "Form follows thinking", "An independent studio for identity, books and exhibition design.",
   palette("#ffffff", "#000000", "#e4002b", "#000000", surface="#f2f2f2"), ("Archivo", "Archivo"), ty(700, tracking="-0.035em", line=.98, base=16, ratio=1.38), sh("0", size=".88rem"), sp("80px", "16px", "1400px"),
-  "hero_giant services_rows portfolio_grid2 stats_strip@primary team_rows blog_list cta_band@inverse",
-  inner("about_statement team_rows", "services_rows pricing_rows", "portfolio_grid2 portfolio_rows", "blog_list", "contact_split"),
-  kicker="", header={"rule": True}, action2="Selected projects", card="rule", eyebrow="none", banner="giant", footer="columns", footer_tone="default", giant="clamp(3.4rem,14vw,13.5rem)", art="flat", offset=3, cta="Have a brief? We would like to read it.", team_title="Studio members")
+  "hero_giant services_rows catalogue portfolio_grid2 photo_band clients_type team_rows blog_list cta_giant@primary",
+  inner("about_statement values_trio team_rows credentials@inverse", "services_rows catalogue@surface pricing_rows", "portfolio_grid2 portfolio_rows", "blog_list", "contact_split"),
+  kicker="", header={"rule": True}, action2="Selected projects", card="rule", eyebrow="none", banner="giant", footer="columns", footer_tone="default", giant="clamp(3.4rem,14vw,13.5rem)", art="flat", offset=3, cta="Have a brief? We would like to read it.", team_title="Studio members", statement="Identity, books and exhibitions, made with the same discipline.")
 
 t("art", "creative-collective", "Creative Collective", "Earthy terracotta and olive, with serif italics and a warm hand-made air.",
   "Red Earth Collective", "Made together, on purpose", "Six artists sharing one studio, one kiln and a belief in things that are made by hand.",
@@ -226,9 +226,9 @@ t("news", "tech-newsletter", "Tech Newsletter", "A sign-up-first newsletter site
 t("construction", "heavy-civil", "Heavy Civil", "Hi-vis yellow on charcoal, with heavy uppercase type and project numbers.",
   "IRONBRIDGE", "We build what others call difficult", "Bridges, roads and earthworks for the projects that keep the region moving.",
   palette("#ffffff", "#17191c", "#17191c", "#ffc20e", surface="#f2f3f4"), ("Oswald", "Inter"), ty(700, "uppercase", ".005em", 1.03, 17, 1.34), sh("0", transform="uppercase", tracking=".06em", size=".86rem"), sp("92px", "22px", "1260px"),
-  "hero_overlay stats_strip@accent services_cards portfolio_grid3@surface features_check quote_single@inverse cta_band@accent",
-  inner("about_split stats_cards@surface team_grid", "services_alt features_check@surface pricing_rows", "portfolio_grid3 stats_strip@accent", "blog_cards", "contact_split"),
-  kicker="Civil engineering contractors", overlay=True, header={"cta": "Get a quote", "caps": True}, action="Request a quote", action2="View projects", card="bordered", eyebrow="rule", footer="columns", display="clamp(3rem,8.4vw,7rem)", offset=0, cta_action="Request a quote")
+  "hero_cinematic services_index services_panels@inverse portfolio_mosaic@surface photo_band process_steps catalogue@inverse credentials@accent clients_type quote_single@inverse cta_band@accent",
+  inner("about_split values_trio@inverse stats_cards@surface team_grid credentials@accent", "services_alt catalogue@inverse features_check@surface pricing_rows", "portfolio_wall portfolio_grid3@surface stats_strip@accent", "blog_cards", "contact_split"),
+  kicker="Civil engineering contractors", statement="Our own crews, our own plant, one accountable manager on every site.", overlay=True, header={"cta": "Get a quote", "caps": True}, action="Request a quote", action2="View projects", card="bordered", eyebrow="rule", footer="columns", display="clamp(3rem,8.4vw,7rem)", offset=0, cta_action="Request a quote")
 
 t("construction", "architects-builders", "Architects and Builders", "Refined stone tones and elegant serif, with big architectural photos.",
   "Stone & Line", "Considered buildings, carefully built", "A design-and-build practice for homes and workplaces that will outlast us all.",
@@ -407,6 +407,78 @@ t("real_estate", "property-developer", "Property Developer", "Sleek navy and cop
   pack_extra=dict(plans_title="Residences", plans_eyebrow="Availability", plans=[("One bedroom", "From $210k", "62 to 78 m²", ["City views", "Private balcony", "One parking bay"]), ("Two bedroom", "From $340k", "96 to 118 m²", ["Corner aspect", "Two bathrooms", "Two parking bays"]), ("Penthouse", "From $880k", "240 m²", ["Private terrace", "Sky garden", "Concierge"]), ("Studio", "From $150k", "44 m²", []), ("Garden suite", "From $290k", "88 m²", []), ("Sky villa", "From $640k", "180 m²", [])]))
 
 
+# ADDED WITH THE RESOURCE LIBRARY (2026-11-13) ---------------------------------------------------
+t("personal", "personal-portfolio", "Personal Portfolio", "A warm, typographic one-person site: giant name, selected work and writing.",
+  "Lina Mwale", "Lina Mwale designs brands that feel lived in", "Identity, websites and art direction for independent businesses. Based in Lusaka, working everywhere.",
+  palette("#f4efe6", "#1d1a16", "#1d1a16", "#c2532d", surface="#ebe3d6"), ("Fraunces", "Figtree"), ty(500, tracking="-0.03em", line=1.0), sh("4px", "999px"), sp("112px", "28px", "1160px"),
+  "hero_giant about_statement services_rows portfolio_wall@surface clients_type quote_single cta_giant@primary",
+  inner("about_split values_trio@surface stats_strip", "services_rows pricing_rows@surface faq_single", "portfolio_wall", "blog_list", "contact_split"),
+  kicker="", header={"layout": "minimal", "rule": False, "cta": "Start a project"}, action="Start a project", action2="See the work", card="flat", banner="plain", footer="wordmark", footer_tone="primary", display="clamp(3.2rem,9vw,7.6rem)", offset=2, cta_action="Start a project")
+
+t("healthcare", "family-clinic", "Family Clinic", "Calm teal and white, rounded and reassuring, with booking up front.",
+  "Riverside Clinic", "Family healthcare, close to home", "Doctors, nurses and therapists who know your family, with same-day appointments for urgent care.",
+  palette("#ffffff", "#0f2b33", "#0d7f86", "#f2994a", surface="#eef7f7"), ("Figtree", "Figtree"), ty(700, tracking="-0.02em", line=1.1), sh("16px", "999px"), sp("92px", "24px", "1180px"),
+  "hero_split services_icons@surface stats_strip about_split team_circles@surface faq_split cta_band@primary",
+  inner("about_split_rev values_trio@surface team_circles", "services_alt products_grid3@surface faq_split", "portfolio_grid3", "blog_cards", "contact_split"),
+  kicker="Open seven days", header={"cta": "Book an appointment", "sticky": True}, action="Book an appointment", action2="Our services", card="tint", banner="tone", footer="columns", offset=3, cta_action="Book an appointment")
+
+t("community", "community-ngo", "Community NGO", "Earthy greens and sunrise orange, photo-led, with impact numbers and ways to give.",
+  "Tiyende Trust", "Clean water, school meals and skills for twelve villages", "A local organisation run with the communities it serves. See where every gift goes.",
+  palette("#fbf8f1", "#1f2a1c", "#2f6b3a", "#e8812f", surface="#f1ece0"), ("DM Serif Display", "DM Sans"), ty(400, tracking="-0.01em", line=1.08), sh("10px", "10px"), sp("100px", "26px", "1180px"),
+  "hero_overlay stats_big about_split_rev@surface services_cards events_rows@surface quote_cards pricing_cards@surface cta_box",
+  inner("about_split values_trio@surface team_grid", "services_alt pricing_cards@surface faq_single", "portfolio_grid3 quote_cards@surface", "blog_cards", "contact_card"),
+  kicker="", header={"cta": "Donate", "rule": False}, action="Donate now", action2="Our programmes", card="bordered", banner="image", footer="columns", footer_tone="surface", overlay=True, offset=1, cta_action="Donate now")
+
+t("automotive", "auto-garage", "Auto Garage", "Charcoal, signal red and condensed capitals: a workshop that means business.",
+  "TORQUE WORKS", "SERVICING AND REPAIRS FOR EVERY MAKE", "Factory-trained technicians, modern diagnostics and a written quote before we touch your car.",
+  palette("#121314", "#f2f2f0", "#e0322b", "#e0322b", secondary="#1d1f21", surface="#1b1d1f"), ("Anton", "Inter"), ty(400, transform="uppercase", tracking="0.01em", line=1.0), sh("2px"), sp("96px", "22px", "1220px"),
+  "hero_cinematic services_index photo_band@inverse pricing_rows process_steps@surface portfolio_mosaic quote_single@surface faq_single cta_band@accent",
+  inner("about_split stats_cards@surface team_grid", "services_alt pricing_rows@surface faq_single", "portfolio_mosaic", "blog_list", "contact_split"),
+  kicker="", header={"cta": "Book a service", "caps": True}, action="Book a service", action2="See prices", card="bordered", banner="image", footer="columns", overlay=True, offset=4, cta_action="Book a service", display="clamp(2.6rem,6.4vw,6rem)")
+
+t("shop", "online-store", "Online Store", "A clean storefront: big product photography, bestsellers and clear delivery promises.",
+  "FIELD & LOOM", "Everyday goods, made to last", "Linen, wool and ceramics in small batches. Free delivery over $80 and repairs for life.",
+  palette("#ffffff", "#141414", "#141414", "#b0683a", surface="#f5f3ef"), ("Jost", "Inter"), ty(500, tracking="-0.01em", line=1.08), sh("0px", "0px"), sp("88px", "22px", "1260px"),
+  "hero_stacked products_grid4 features_check@surface products_feature quote_cards@surface faq_single cta_center",
+  inner("about_split values_trio@surface team_rows", "services_cards faq_split@surface", "products_grid3 portfolio_grid3@surface", "blog_cards", "contact_card"),
+  kicker="", header={"cta": "Shop now", "layout": "centered"}, action="Shop now", action2="Collections", card="flat", heads="center", banner="center", footer="columns", offset=0, cta_action="Shop now")
+
+# Living motion for the strongest templates: drawings on their service cards (``drawings``, matched to each card's topic)
+# and one living background on a plain home section (``ambient``, by section role). One moving
+# moment per page keeps them calm; the drawings and backgrounds stand still for reduced motion.
+MOTION = {
+    "corporate/corporate-classic": {"drawings": True, "ambient": {"call_to_action": "aurora"}},
+    "corporate/modern-consulting": {"drawings": True, "ambient": {"credentials": "grid"}},
+    "corporate/professional-agency": {"drawings": True, "ambient": {"call_to_action": "aurora"}},
+    "technology/saas-launch": {"drawings": True, "ambient": {"call_to_action": "grid"}},
+    "technology/ai-startup": {"drawings": True, "ambient": {"call_to_action": "stars"}},
+    "technology/it-services": {"drawings": True, "ambient": {"call_to_action": "grid"}},
+    "education/modern-academy": {"drawings": True, "ambient": {"call_to_action": "aurora"}},
+    "education/university-classic": {"drawings": True},
+    "construction/residential-builder": {"drawings": True, "ambient": {"call_to_action": "grid"}},
+    "community/community-ngo": {"drawings": True},
+    "art/illustrator-playful": {"drawings": True, "ambient": {"call_to_action": "stars"}},
+    "real_estate/city-agency": {"drawings": True, "ambient": {"call_to_action": "aurora"}},
+    "fashion/modern-boutique": {"drawings": True, "ambient": {"call_to_action": "aurora"}},
+    "healthcare/family-clinic": {"ambient": {"call_to_action": "aurora"}},
+    "music/record-label": {"ambient": {"call_to_action": "stars"}},
+    "music/music-magazine": {"ambient": {"call_to_action": "waves"}},
+    "music/dj-producer": {"ambient": {"call_to_action": "stars"}},
+    "music/artist-portfolio": {"ambient": {"call_to_action": "waves"}},
+}
+
+
+def living(doc: dict, ambient: dict) -> None:
+    """Sets the living backgrounds on home sections by role. Never on a photo section: on WordPress
+    that becomes a cover block, which cannot carry one."""
+    for section in doc["pages"][0]["nodes"]:
+        value = ambient.get(section.get("props", {}).get("role"))
+        if value:
+            if isinstance(section["props"].get("background"), dict):
+                raise SystemExit(f"{doc['meta']['id']}: the {section['props']['role']} section has a photograph")
+            section["props"]["ambient"] = value
+
+
 def build_all() -> int:
     names = dict(CATEGORIES)
     kept = {"categories.json"}
@@ -419,6 +491,7 @@ def build_all() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "categories.json").write_text(json.dumps([{"id": i, "name": n} for i, n in CATEGORIES], indent=1), encoding="utf-8")
     for spec in T:
+        spec.update(MOTION.get(f"{spec['category']}/{spec['slug']}", {}))
         pack = dict(PACKS[spec["category"]])
         pack.update(spec.get("pack_extra", {}))
         if spec.get("subject_override"):
@@ -438,9 +511,12 @@ def build_all() -> int:
         folder = OUT / spec["category"] / spec["slug"]
         folder.mkdir(parents=True, exist_ok=True)
         doc = Kit(spec, pack).build()
+        living(doc, spec.get("ambient", {}))
         (folder / "template.json").write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
+    from build_onepage import build_onepage
+    extra = build_onepage(OUT)
     print(f"built {len(T)} templates, categories={names and len(names)}")
-    return len(T)
+    return len(T) + extra
 
 
 if __name__ == "__main__":

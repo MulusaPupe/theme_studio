@@ -1,0 +1,1360 @@
+[
+ {
+  "id": "hero-split",
+  "name": "Split hero",
+  "kind": "section",
+  "category": "hero",
+  "description": "Headline and actions beside a large image. Shown in the Corporate Classic design.",
+  "tags": [
+   "hero",
+   "corporate"
+  ],
+  "file": "hero-split.json",
+  "preview": "previews/hero-split.png",
+  "source_template": "corporate/corporate-classic"
+ },
+ {
+  "id": "hero-split-rev",
+  "name": "Split hero, image left",
+  "kind": "section",
+  "category": "hero",
+  "description": "Image first, then the headline and actions. Shown in the Creative Collective design.",
+  "tags": [
+   "hero",
+   "art"
+  ],
+  "file": "hero-split-rev.json",
+  "preview": "previews/hero-split-rev.png",
+  "source_template": "art/creative-collective"
+ },
+ {
+  "id": "hero-bleed",
+  "name": "Edge-to-edge split hero",
+  "kind": "section",
+  "category": "hero",
+  "description": "A split hero whose image runs to the edge of the screen. Shown in the Property Developer design.",
+  "tags": [
+   "hero",
+   "real_estate"
+  ],
+  "file": "hero-bleed.json",
+  "preview": "previews/hero-bleed.png",
+  "source_template": "real_estate/property-developer"
+ },
+ {
+  "id": "hero-center",
+  "name": "Centred typographic hero",
+  "kind": "section",
+  "category": "hero",
+  "description": "A centred headline with no image: type does the work. Shown in the Executive Minimal design.",
+  "tags": [
+   "hero",
+   "corporate"
+  ],
+  "file": "hero-center.json",
+  "preview": "previews/hero-center.png",
+  "source_template": "corporate/executive-minimal"
+ },
+ {
+  "id": "hero-stacked",
+  "name": "Stacked hero with wide image",
+  "kind": "section",
+  "category": "hero",
+  "description": "Centred headline above a wide product or scene image. Shown in the Minimal Fashion design.",
+  "tags": [
+   "hero",
+   "fashion"
+  ],
+  "file": "hero-stacked.json",
+  "preview": "previews/hero-stacked.png",
+  "source_template": "fashion/minimal-fashion"
+ },
+ {
+  "id": "hero-overlay",
+  "name": "Full-screen image hero",
+  "kind": "section",
+  "category": "hero",
+  "description": "A full-height photograph with the headline over it. Shown in the Corporate Dark design.",
+  "tags": [
+   "hero",
+   "corporate"
+  ],
+  "file": "hero-overlay.json",
+  "preview": "previews/hero-overlay.png",
+  "source_template": "corporate/corporate-dark"
+ },
+ {
+  "id": "hero-overlay-center",
+  "name": "Full-screen centred image hero",
+  "kind": "section",
+  "category": "hero",
+  "description": "A centred headline over a full-height photograph. Shown in the Luxury Editorial design.",
+  "tags": [
+   "hero",
+   "fashion"
+  ],
+  "file": "hero-overlay-center.json",
+  "preview": "previews/hero-overlay-center.png",
+  "source_template": "fashion/luxury-editorial"
+ },
+ {
+  "id": "hero-giant",
+  "name": "Giant type hero",
+  "kind": "section",
+  "category": "hero",
+  "description": "An oversized headline that fills the width of the screen. Shown in the Record Label design.",
+  "tags": [
+   "hero",
+   "music"
+  ],
+  "file": "hero-giant.json",
+  "preview": "previews/hero-giant.png",
+  "source_template": "music/record-label"
+ },
+ {
+  "id": "hero-mosaic",
+  "name": "Image collage hero",
+  "kind": "section",
+  "category": "hero",
+  "description": "Headline beside a playful collage of images. Shown in the Illustrator Playful design.",
+  "tags": [
+   "hero",
+   "art"
+  ],
+  "file": "hero-mosaic.json",
+  "preview": "previews/hero-mosaic.png",
+  "source_template": "art/illustrator-playful"
+ },
+ {
+  "id": "hero-poster",
+  "name": "Poster hero",
+  "kind": "section",
+  "category": "hero",
+  "description": "Bold poster-style type over colour, for events and street brands. Shown in the Streetwear design.",
+  "tags": [
+   "hero",
+   "fashion"
+  ],
+  "file": "hero-poster.json",
+  "preview": "previews/hero-poster.png",
+  "source_template": "fashion/streetwear"
+ },
+ {
+  "id": "hero-framed",
+  "name": "Framed hero card",
+  "kind": "section",
+  "category": "hero",
+  "description": "A photograph with the headline on a card that overlaps it. Shown in the Modern Consulting design.",
+  "tags": [
+   "hero",
+   "corporate"
+  ],
+  "file": "hero-framed.json",
+  "preview": "previews/hero-framed.png",
+  "source_template": "corporate/modern-consulting"
+ },
+ {
+  "id": "hero-lead",
+  "name": "Lead story hero",
+  "kind": "section",
+  "category": "hero",
+  "description": "A news-style lead story with its picture. Shown in the Fashion Magazine design.",
+  "tags": [
+   "hero",
+   "fashion"
+  ],
+  "file": "hero-lead.json",
+  "preview": "previews/hero-lead.png",
+  "source_template": "fashion/fashion-magazine"
+ },
+ {
+  "id": "hero-search",
+  "name": "Search hero",
+  "kind": "section",
+  "category": "hero",
+  "description": "Headline and a search-style call to action over an image. Shown in the Boutique Hotel design.",
+  "tags": [
+   "hero",
+   "hospitality"
+  ],
+  "file": "hero-search.json",
+  "preview": "previews/hero-search.png",
+  "source_template": "hospitality/boutique-hotel"
+ },
+ {
+  "id": "hero-stats",
+  "name": "Hero with figures",
+  "kind": "section",
+  "category": "hero",
+  "description": "Headline beside a column of key figures. Shown in the Tech Newsletter design.",
+  "tags": [
+   "hero",
+   "news"
+  ],
+  "file": "hero-stats.json",
+  "preview": "previews/hero-stats.png",
+  "source_template": "news/tech-newsletter"
+ },
+ {
+  "id": "hero-marquee",
+  "name": "Marquee hero",
+  "kind": "section",
+  "category": "hero",
+  "description": "Huge, wide type for agencies and studios. Shown in the Professional Agency design.",
+  "tags": [
+   "hero",
+   "corporate"
+  ],
+  "file": "hero-marquee.json",
+  "preview": "previews/hero-marquee.png",
+  "source_template": "corporate/professional-agency"
+ },
+ {
+  "id": "hero-cinematic",
+  "name": "Cinematic hero",
+  "kind": "section",
+  "category": "hero",
+  "description": "A full-bleed photograph with a gradient and an oversized headline. Shown in the Heavy Civil design.",
+  "tags": [
+   "hero",
+   "construction"
+  ],
+  "file": "hero-cinematic.json",
+  "preview": "previews/hero-cinematic.png",
+  "source_template": "construction/heavy-civil"
+ },
+ {
+  "id": "about-split",
+  "name": "About with image",
+  "kind": "section",
+  "category": "about",
+  "description": "Story text beside a photograph. Shown in the Modern Boutique design.",
+  "tags": [
+   "about",
+   "fashion"
+  ],
+  "file": "about-split.json",
+  "preview": "previews/about-split.png",
+  "source_template": "fashion/modern-boutique"
+ },
+ {
+  "id": "about-split-rev",
+  "name": "About with image, image left",
+  "kind": "section",
+  "category": "about",
+  "description": "Photograph first, then the story. Shown in the DJ and Producer design.",
+  "tags": [
+   "about",
+   "music"
+  ],
+  "file": "about-split-rev.json",
+  "preview": "previews/about-split-rev.png",
+  "source_template": "music/dj-producer"
+ },
+ {
+  "id": "about-statement",
+  "name": "Statement",
+  "kind": "section",
+  "category": "about",
+  "description": "One large sentence that says what you stand for. Shown in the Concert and Events design.",
+  "tags": [
+   "about",
+   "music"
+  ],
+  "file": "about-statement.json",
+  "preview": "previews/about-statement.png",
+  "source_template": "music/concert-events"
+ },
+ {
+  "id": "about-columns",
+  "name": "About in two columns",
+  "kind": "section",
+  "category": "about",
+  "description": "A heading and two columns of text. Shown in the Music Magazine design.",
+  "tags": [
+   "about",
+   "music"
+  ],
+  "file": "about-columns.json",
+  "preview": "previews/about-columns.png",
+  "source_template": "music/music-magazine"
+ },
+ {
+  "id": "values-trio",
+  "name": "Values, mission and vision",
+  "kind": "section",
+  "category": "about",
+  "description": "Three short statements side by side. Shown in the Design Studio design.",
+  "tags": [
+   "about",
+   "art"
+  ],
+  "file": "values-trio.json",
+  "preview": "previews/values-trio.png",
+  "source_template": "art/design-studio"
+ },
+ {
+  "id": "photo-band",
+  "name": "Photo band with statement",
+  "kind": "section",
+  "category": "media",
+  "description": "A full-width photograph with one line over it. Shown in the Auto Garage design.",
+  "tags": [
+   "media",
+   "automotive"
+  ],
+  "file": "photo-band.json",
+  "preview": "previews/photo-band.png",
+  "source_template": "automotive/auto-garage"
+ },
+ {
+  "id": "services-cards",
+  "name": "Service cards",
+  "kind": "section",
+  "category": "services",
+  "description": "Three service cards with icons. Shown in the Artist Portfolio design.",
+  "tags": [
+   "services",
+   "music"
+  ],
+  "file": "services-cards.json",
+  "preview": "previews/services-cards.png",
+  "source_template": "music/artist-portfolio"
+ },
+ {
+  "id": "services-cards4",
+  "name": "Service cards, four across",
+  "kind": "section",
+  "category": "services",
+  "description": "Four compact service cards. Shown in the Modern News design.",
+  "tags": [
+   "services",
+   "news"
+  ],
+  "file": "services-cards4.json",
+  "preview": "previews/services-cards4.png",
+  "source_template": "news/modern-news"
+ },
+ {
+  "id": "services-rows",
+  "name": "Service rows",
+  "kind": "section",
+  "category": "services",
+  "description": "Services as a list of rows: name on the left, description on the right. Shown in the Gallery White design.",
+  "tags": [
+   "services",
+   "art"
+  ],
+  "file": "services-rows.json",
+  "preview": "previews/services-rows.png",
+  "source_template": "art/gallery-white"
+ },
+ {
+  "id": "services-alt",
+  "name": "Alternating services",
+  "kind": "section",
+  "category": "services",
+  "description": "Services with images, alternating sides. Shown in the Professional Training design.",
+  "tags": [
+   "services",
+   "education"
+  ],
+  "file": "services-alt.json",
+  "preview": "previews/services-alt.png",
+  "source_template": "education/professional-training"
+ },
+ {
+  "id": "services-icons",
+  "name": "Services with icons",
+  "kind": "section",
+  "category": "services",
+  "description": "An icon grid of six services. Shown in the Daily Broadsheet design.",
+  "tags": [
+   "services",
+   "news"
+  ],
+  "file": "services-icons.json",
+  "preview": "previews/services-icons.png",
+  "source_template": "news/daily-broadsheet"
+ },
+ {
+  "id": "services-bento",
+  "name": "Bento services grid",
+  "kind": "section",
+  "category": "services",
+  "description": "A large featured service with smaller ones around it. Shown in the Modern Academy design.",
+  "tags": [
+   "services",
+   "education"
+  ],
+  "file": "services-bento.json",
+  "preview": "previews/services-bento.png",
+  "source_template": "education/modern-academy"
+ },
+ {
+  "id": "services-index",
+  "name": "Services index",
+  "kind": "section",
+  "category": "services",
+  "description": "A sticky heading with numbered service rows. Shown in the Heavy Civil design.",
+  "tags": [
+   "services",
+   "construction"
+  ],
+  "file": "services-index.json",
+  "preview": "previews/services-index.png",
+  "source_template": "construction/heavy-civil"
+ },
+ {
+  "id": "services-panels",
+  "name": "Service panels",
+  "kind": "section",
+  "category": "services",
+  "description": "Two image-and-text panels for the main services. Shown in the Modern Consulting design.",
+  "tags": [
+   "services",
+   "corporate"
+  ],
+  "file": "services-panels.json",
+  "preview": "previews/services-panels.png",
+  "source_template": "corporate/modern-consulting"
+ },
+ {
+  "id": "catalogue",
+  "name": "Full catalogue",
+  "kind": "section",
+  "category": "services",
+  "description": "Four columns listing everything you offer. Shown in the Design Studio design.",
+  "tags": [
+   "services",
+   "art"
+  ],
+  "file": "catalogue.json",
+  "preview": "previews/catalogue.png",
+  "source_template": "art/design-studio"
+ },
+ {
+  "id": "features-check",
+  "name": "Feature checklist",
+  "kind": "section",
+  "category": "features",
+  "description": "A checklist of benefits beside an image. Shown in the SaaS Launch design.",
+  "tags": [
+   "features",
+   "technology"
+  ],
+  "file": "features-check.json",
+  "preview": "previews/features-check.png",
+  "source_template": "technology/saas-launch"
+ },
+ {
+  "id": "process-steps",
+  "name": "Process steps",
+  "kind": "section",
+  "category": "features",
+  "description": "Four numbered steps: how a project runs. Shown in the Auto Garage design.",
+  "tags": [
+   "features",
+   "automotive"
+  ],
+  "file": "process-steps.json",
+  "preview": "previews/process-steps.png",
+  "source_template": "automotive/auto-garage"
+ },
+ {
+  "id": "credentials",
+  "name": "Credentials",
+  "kind": "section",
+  "category": "features",
+  "description": "Registrations, certificates and other proof in five cells. Shown in the Modern Consulting design.",
+  "tags": [
+   "features",
+   "corporate"
+  ],
+  "file": "credentials.json",
+  "preview": "previews/credentials.png",
+  "source_template": "corporate/modern-consulting"
+ },
+ {
+  "id": "stats-strip",
+  "name": "Statistics strip",
+  "kind": "section",
+  "category": "statistics",
+  "description": "Four figures in a row. Shown in the University Classic design.",
+  "tags": [
+   "statistics",
+   "education"
+  ],
+  "file": "stats-strip.json",
+  "preview": "previews/stats-strip.png",
+  "source_template": "education/university-classic"
+ },
+ {
+  "id": "stats-big",
+  "name": "Big statistics",
+  "kind": "section",
+  "category": "statistics",
+  "description": "Three very large figures with labels. Shown in the Industrial Steel design.",
+  "tags": [
+   "statistics",
+   "construction"
+  ],
+  "file": "stats-big.json",
+  "preview": "previews/stats-big.png",
+  "source_template": "construction/industrial-steel"
+ },
+ {
+  "id": "stats-cards",
+  "name": "Statistics cards",
+  "kind": "section",
+  "category": "statistics",
+  "description": "Three figures on cards. Shown in the Engineering Firm design.",
+  "tags": [
+   "statistics",
+   "construction"
+  ],
+  "file": "stats-cards.json",
+  "preview": "previews/stats-cards.png",
+  "source_template": "construction/engineering-firm"
+ },
+ {
+  "id": "quote-single",
+  "name": "Single testimonial",
+  "kind": "section",
+  "category": "testimonials",
+  "description": "One large quotation. Shown in the Photographer Dark design.",
+  "tags": [
+   "testimonials",
+   "art"
+  ],
+  "file": "quote-single.json",
+  "preview": "previews/quote-single.png",
+  "source_template": "art/photographer-dark"
+ },
+ {
+  "id": "quote-cards",
+  "name": "Testimonial cards",
+  "kind": "section",
+  "category": "testimonials",
+  "description": "Three quotations on cards. Shown in the Residential Builder design.",
+  "tags": [
+   "testimonials",
+   "construction"
+  ],
+  "file": "quote-cards.json",
+  "preview": "previews/quote-cards.png",
+  "source_template": "construction/residential-builder"
+ },
+ {
+  "id": "quote-side",
+  "name": "Testimonial with image",
+  "kind": "section",
+  "category": "testimonials",
+  "description": "A quotation beside a portrait. Shown in the AI Startup design.",
+  "tags": [
+   "testimonials",
+   "technology"
+  ],
+  "file": "quote-side.json",
+  "preview": "previews/quote-side.png",
+  "source_template": "technology/ai-startup"
+ },
+ {
+  "id": "team-grid",
+  "name": "Team grid",
+  "kind": "section",
+  "category": "team",
+  "description": "Team members with portraits in a grid. Shown in the TV Broadcast design.",
+  "tags": [
+   "team",
+   "news"
+  ],
+  "file": "team-grid.json",
+  "preview": "previews/team-grid.png",
+  "source_template": "news/tv-broadcast"
+ },
+ {
+  "id": "team-circles",
+  "name": "Team with round portraits",
+  "kind": "section",
+  "category": "team",
+  "description": "Round portraits, names and roles. Shown in the Primary School design.",
+  "tags": [
+   "team",
+   "education"
+  ],
+  "file": "team-circles.json",
+  "preview": "previews/team-circles.png",
+  "source_template": "education/primary-school"
+ },
+ {
+  "id": "team-rows",
+  "name": "Team list",
+  "kind": "section",
+  "category": "team",
+  "description": "Team members as rows of names and roles. Shown in the Longform Journal design.",
+  "tags": [
+   "team",
+   "news"
+  ],
+  "file": "team-rows.json",
+  "preview": "previews/team-rows.png",
+  "source_template": "news/longform-journal"
+ },
+ {
+  "id": "pricing-cards",
+  "name": "Pricing cards",
+  "kind": "section",
+  "category": "pricing",
+  "description": "Three plans on cards with features. Shown in the Developer Tools design.",
+  "tags": [
+   "pricing",
+   "technology"
+  ],
+  "file": "pricing-cards.json",
+  "preview": "previews/pricing-cards.png",
+  "source_template": "technology/developer-tools"
+ },
+ {
+  "id": "pricing-rows",
+  "name": "Price list",
+  "kind": "section",
+  "category": "pricing",
+  "description": "A list of items and prices. Shown in the Fine Dining design.",
+  "tags": [
+   "pricing",
+   "hospitality"
+  ],
+  "file": "pricing-rows.json",
+  "preview": "previews/pricing-rows.png",
+  "source_template": "hospitality/fine-dining"
+ },
+ {
+  "id": "portfolio-grid3",
+  "name": "Portfolio grid",
+  "kind": "section",
+  "category": "portfolio",
+  "description": "Three columns of projects. Shown in the Rustic Bistro design.",
+  "tags": [
+   "portfolio",
+   "hospitality"
+  ],
+  "file": "portfolio-grid3.json",
+  "preview": "previews/portfolio-grid3.png",
+  "source_template": "hospitality/rustic-bistro"
+ },
+ {
+  "id": "portfolio-grid2",
+  "name": "Large portfolio grid",
+  "kind": "section",
+  "category": "portfolio",
+  "description": "Two columns of large project images. Shown in the Hardware Product design.",
+  "tags": [
+   "portfolio",
+   "technology"
+  ],
+  "file": "portfolio-grid2.json",
+  "preview": "previews/portfolio-grid2.png",
+  "source_template": "technology/hardware-product"
+ },
+ {
+  "id": "portfolio-mosaic",
+  "name": "Portfolio mosaic",
+  "kind": "section",
+  "category": "portfolio",
+  "description": "Projects in a mosaic of different sizes. Shown in the Professional Agency design.",
+  "tags": [
+   "portfolio",
+   "corporate"
+  ],
+  "file": "portfolio-mosaic.json",
+  "preview": "previews/portfolio-mosaic.png",
+  "source_template": "corporate/professional-agency"
+ },
+ {
+  "id": "portfolio-rows",
+  "name": "Case study rows",
+  "kind": "section",
+  "category": "portfolio",
+  "description": "Case studies as rows with images. Shown in the Research Institute design.",
+  "tags": [
+   "portfolio",
+   "education"
+  ],
+  "file": "portfolio-rows.json",
+  "preview": "previews/portfolio-rows.png",
+  "source_template": "education/research-institute"
+ },
+ {
+  "id": "portfolio-stack",
+  "name": "Stacked projects",
+  "kind": "section",
+  "category": "portfolio",
+  "description": "Full-width projects one after another. Shown in the Architects and Builders design.",
+  "tags": [
+   "portfolio",
+   "construction"
+  ],
+  "file": "portfolio-stack.json",
+  "preview": "previews/portfolio-stack.png",
+  "source_template": "construction/architects-builders"
+ },
+ {
+  "id": "portfolio-gallery",
+  "name": "Image gallery",
+  "kind": "section",
+  "category": "portfolio",
+  "description": "A tight gallery of images. Shown in the Street Food design.",
+  "tags": [
+   "portfolio",
+   "hospitality"
+  ],
+  "file": "portfolio-gallery.json",
+  "preview": "previews/portfolio-gallery.png",
+  "source_template": "hospitality/street-food"
+ },
+ {
+  "id": "portfolio-wall",
+  "name": "Project wall",
+  "kind": "section",
+  "category": "portfolio",
+  "description": "A dense wall of nine project images with captions. Shown in the Personal Portfolio design.",
+  "tags": [
+   "portfolio",
+   "personal"
+  ],
+  "file": "portfolio-wall.json",
+  "preview": "previews/portfolio-wall.png",
+  "source_template": "personal/personal-portfolio"
+ },
+ {
+  "id": "clients-type",
+  "name": "Clients as type",
+  "kind": "section",
+  "category": "clients",
+  "description": "Client and partner names set as large type. Shown in the Personal Portfolio design.",
+  "tags": [
+   "clients",
+   "personal"
+  ],
+  "file": "clients-type.json",
+  "preview": "previews/clients-type.png",
+  "source_template": "personal/personal-portfolio"
+ },
+ {
+  "id": "blog-cards",
+  "name": "Blog cards",
+  "kind": "section",
+  "category": "blog",
+  "description": "Recent articles on cards. Shown in the Coffee House design.",
+  "tags": [
+   "blog",
+   "hospitality"
+  ],
+  "file": "blog-cards.json",
+  "preview": "previews/blog-cards.png",
+  "source_template": "hospitality/coffee-house"
+ },
+ {
+  "id": "blog-list",
+  "name": "Blog list",
+  "kind": "section",
+  "category": "blog",
+  "description": "Recent articles as a list. Shown in the Luxury Estates design.",
+  "tags": [
+   "blog",
+   "real_estate"
+  ],
+  "file": "blog-list.json",
+  "preview": "previews/blog-list.png",
+  "source_template": "real_estate/luxury-estates"
+ },
+ {
+  "id": "blog-magazine",
+  "name": "Magazine layout",
+  "kind": "section",
+  "category": "blog",
+  "description": "A lead article with smaller ones beside it. Shown in the Luxury Editorial design.",
+  "tags": [
+   "blog",
+   "fashion"
+  ],
+  "file": "blog-magazine.json",
+  "preview": "previews/blog-magazine.png",
+  "source_template": "fashion/luxury-editorial"
+ },
+ {
+  "id": "products-grid4",
+  "name": "Product grid",
+  "kind": "section",
+  "category": "products",
+  "description": "Four products across with prices. Shown in the Online Store design.",
+  "tags": [
+   "products",
+   "shop"
+  ],
+  "file": "products-grid4.json",
+  "preview": "previews/products-grid4.png",
+  "source_template": "shop/online-store"
+ },
+ {
+  "id": "products-grid3",
+  "name": "Product grid, three across",
+  "kind": "section",
+  "category": "products",
+  "description": "Three larger products with prices. Shown in the City Agency design.",
+  "tags": [
+   "products",
+   "real_estate"
+  ],
+  "file": "products-grid3.json",
+  "preview": "previews/products-grid3.png",
+  "source_template": "real_estate/city-agency"
+ },
+ {
+  "id": "products-feature",
+  "name": "Featured product",
+  "kind": "section",
+  "category": "products",
+  "description": "One product shown large with its options. Shown in the Hardware Product design.",
+  "tags": [
+   "products",
+   "technology"
+  ],
+  "file": "products-feature.json",
+  "preview": "previews/products-feature.png",
+  "source_template": "technology/hardware-product"
+ },
+ {
+  "id": "events-rows",
+  "name": "Event list",
+  "kind": "section",
+  "category": "events",
+  "description": "Dates, events and places as rows. Shown in the Community NGO design.",
+  "tags": [
+   "events",
+   "community"
+  ],
+  "file": "events-rows.json",
+  "preview": "previews/events-rows.png",
+  "source_template": "community/community-ngo"
+ },
+ {
+  "id": "events-cards",
+  "name": "Event cards",
+  "kind": "section",
+  "category": "events",
+  "description": "Upcoming events on cards. Shown in the Streetwear design.",
+  "tags": [
+   "events",
+   "fashion"
+  ],
+  "file": "events-cards.json",
+  "preview": "previews/events-cards.png",
+  "source_template": "fashion/streetwear"
+ },
+ {
+  "id": "video-wide",
+  "name": "Wide video",
+  "kind": "section",
+  "category": "media",
+  "description": "A full-width video with a title. Shown in the Artist Portfolio design.",
+  "tags": [
+   "media",
+   "music"
+  ],
+  "file": "video-wide.json",
+  "preview": "previews/video-wide.png",
+  "source_template": "music/artist-portfolio"
+ },
+ {
+  "id": "cta-band",
+  "name": "Call-to-action band",
+  "kind": "section",
+  "category": "call_to_action",
+  "description": "A coloured band with one action. Shown in the IT Services design.",
+  "tags": [
+   "call_to_action",
+   "technology"
+  ],
+  "file": "cta-band.json",
+  "preview": "previews/cta-band.png",
+  "source_template": "technology/it-services"
+ },
+ {
+  "id": "cta-center",
+  "name": "Centred call to action",
+  "kind": "section",
+  "category": "call_to_action",
+  "description": "A centred heading and button. Shown in the Executive Minimal design.",
+  "tags": [
+   "call_to_action",
+   "corporate"
+  ],
+  "file": "cta-center.json",
+  "preview": "previews/cta-center.png",
+  "source_template": "corporate/executive-minimal"
+ },
+ {
+  "id": "cta-box",
+  "name": "Call-to-action box",
+  "kind": "section",
+  "category": "call_to_action",
+  "description": "A rounded panel with heading, text and button. Shown in the Family Homes design.",
+  "tags": [
+   "call_to_action",
+   "real_estate"
+  ],
+  "file": "cta-box.json",
+  "preview": "previews/cta-box.png",
+  "source_template": "real_estate/family-homes"
+ },
+ {
+  "id": "cta-giant",
+  "name": "Giant call to action",
+  "kind": "section",
+  "category": "call_to_action",
+  "description": "An oversized closing line and button. Shown in the DJ and Producer design.",
+  "tags": [
+   "call_to_action",
+   "music"
+  ],
+  "file": "cta-giant.json",
+  "preview": "previews/cta-giant.png",
+  "source_template": "music/dj-producer"
+ },
+ {
+  "id": "cta-image",
+  "name": "Call to action over image",
+  "kind": "section",
+  "category": "call_to_action",
+  "description": "A closing call to action over a photograph. Shown in the Corporate Dark design.",
+  "tags": [
+   "call_to_action",
+   "corporate"
+  ],
+  "file": "cta-image.json",
+  "preview": "previews/cta-image.png",
+  "source_template": "corporate/corporate-dark"
+ },
+ {
+  "id": "faq-single",
+  "name": "FAQ",
+  "kind": "section",
+  "category": "faq",
+  "description": "Questions and answers in one column. Shown in the Corporate Classic design.",
+  "tags": [
+   "faq",
+   "corporate"
+  ],
+  "file": "faq-single.json",
+  "preview": "previews/faq-single.png",
+  "source_template": "corporate/corporate-classic"
+ },
+ {
+  "id": "faq-split",
+  "name": "FAQ with heading",
+  "kind": "section",
+  "category": "faq",
+  "description": "A heading on the left and questions on the right. Shown in the Family Clinic design.",
+  "tags": [
+   "faq",
+   "healthcare"
+  ],
+  "file": "faq-split.json",
+  "preview": "previews/faq-split.png",
+  "source_template": "healthcare/family-clinic"
+ },
+ {
+  "id": "contact-split",
+  "name": "Contact with details",
+  "kind": "section",
+  "category": "contact",
+  "description": "Contact details beside the form. Shown in the Modern Architecture design.",
+  "tags": [
+   "contact",
+   "real_estate"
+  ],
+  "file": "contact-split.json",
+  "preview": "previews/contact-split.png",
+  "source_template": "real_estate/modern-architecture"
+ },
+ {
+  "id": "contact-card",
+  "name": "Contact card",
+  "kind": "section",
+  "category": "contact",
+  "description": "The form on a card. Shown in the Modern Boutique design.",
+  "tags": [
+   "contact",
+   "fashion"
+  ],
+  "file": "contact-card.json",
+  "preview": "previews/contact-card.png",
+  "source_template": "fashion/modern-boutique"
+ },
+ {
+  "id": "contact-image",
+  "name": "Contact with image",
+  "kind": "section",
+  "category": "contact",
+  "description": "A form beside a photograph. Shown in the Photographer Dark design.",
+  "tags": [
+   "contact",
+   "art"
+  ],
+  "file": "contact-image.json",
+  "preview": "previews/contact-image.png",
+  "source_template": "art/photographer-dark"
+ },
+ {
+  "id": "header-corporate-corporate-classic",
+  "name": "Classic navigation",
+  "kind": "header",
+  "category": "header",
+  "description": "Layout and behaviour from Corporate Classic; your site name and button stay. Collapses to a menu button on phones.",
+  "tags": [
+   "navigation",
+   "classic"
+  ],
+  "file": "header-corporate-corporate-classic.json",
+  "preview": "previews/header-corporate-corporate-classic.png",
+  "source_template": "corporate/corporate-classic"
+ },
+ {
+  "id": "header-corporate-corporate-dark",
+  "name": "Transparent classic navigation",
+  "kind": "header",
+  "category": "header",
+  "description": "Over the first section, for photo heroes. Layout and behaviour from Corporate Dark; your site name and button stay. Collapses to a menu button on phones.",
+  "tags": [
+   "navigation",
+   "classic"
+  ],
+  "file": "header-corporate-corporate-dark.json",
+  "preview": "previews/header-corporate-corporate-dark.png",
+  "source_template": "corporate/corporate-dark"
+ },
+ {
+  "id": "header-corporate-executive-minimal",
+  "name": "Minimal navigation",
+  "kind": "header",
+  "category": "header",
+  "description": "Layout and behaviour from Executive Minimal; your site name and button stay. Collapses to a menu button on phones.",
+  "tags": [
+   "navigation",
+   "minimal"
+  ],
+  "file": "header-corporate-executive-minimal.json",
+  "preview": "previews/header-corporate-executive-minimal.png",
+  "source_template": "corporate/executive-minimal"
+ },
+ {
+  "id": "header-fashion-fashion-magazine",
+  "name": "Masthead navigation",
+  "kind": "header",
+  "category": "header",
+  "description": "Layout and behaviour from Fashion Magazine; your site name and button stay. Collapses to a menu button on phones.",
+  "tags": [
+   "navigation",
+   "masthead"
+  ],
+  "file": "header-fashion-fashion-magazine.json",
+  "preview": "previews/header-fashion-fashion-magazine.png",
+  "source_template": "fashion/fashion-magazine"
+ },
+ {
+  "id": "header-fashion-luxury-editorial",
+  "name": "Transparent split navigation",
+  "kind": "header",
+  "category": "header",
+  "description": "Over the first section, for photo heroes. Layout and behaviour from Luxury Editorial; your site name and button stay. Collapses to a menu button on phones.",
+  "tags": [
+   "navigation",
+   "split"
+  ],
+  "file": "header-fashion-luxury-editorial.json",
+  "preview": "previews/header-fashion-luxury-editorial.png",
+  "source_template": "fashion/luxury-editorial"
+ },
+ {
+  "id": "header-fashion-minimal-fashion",
+  "name": "Minimal navigation (Minimal Fashion)",
+  "kind": "header",
+  "category": "header",
+  "description": "Layout and behaviour from Minimal Fashion; your site name and button stay. Collapses to a menu button on phones.",
+  "tags": [
+   "navigation",
+   "minimal"
+  ],
+  "file": "header-fashion-minimal-fashion.json",
+  "preview": "previews/header-fashion-minimal-fashion.png",
+  "source_template": "fashion/minimal-fashion"
+ },
+ {
+  "id": "header-fashion-modern-boutique",
+  "name": "Centred navigation",
+  "kind": "header",
+  "category": "header",
+  "description": "Layout and behaviour from Modern Boutique; your site name and button stay. Collapses to a menu button on phones.",
+  "tags": [
+   "navigation",
+   "centered"
+  ],
+  "file": "header-fashion-modern-boutique.json",
+  "preview": "previews/header-fashion-modern-boutique.png",
+  "source_template": "fashion/modern-boutique"
+ },
+ {
+  "id": "header-fashion-streetwear",
+  "name": "Classic navigation (Streetwear)",
+  "kind": "header",
+  "category": "header",
+  "description": "Layout and behaviour from Streetwear; your site name and button stay. Collapses to a menu button on phones.",
+  "tags": [
+   "navigation",
+   "classic"
+  ],
+  "file": "header-fashion-streetwear.json",
+  "preview": "previews/header-fashion-streetwear.png",
+  "source_template": "fashion/streetwear"
+ },
+ {
+  "id": "header-music-artist-portfolio",
+  "name": "Transparent classic navigation (Artist Portfolio)",
+  "kind": "header",
+  "category": "header",
+  "description": "Over the first section, for photo heroes. Layout and behaviour from Artist Portfolio; your site name and button stay. Collapses to a menu button on phones.",
+  "tags": [
+   "navigation",
+   "classic"
+  ],
+  "file": "header-music-artist-portfolio.json",
+  "preview": "previews/header-music-artist-portfolio.png",
+  "source_template": "music/artist-portfolio"
+ },
+ {
+  "id": "header-music-concert-events",
+  "name": "Classic navigation (Concert and Events)",
+  "kind": "header",
+  "category": "header",
+  "description": "Stays at the top while scrolling. Layout and behaviour from Concert and Events; your site name and button stay. Collapses to a menu button on phones.",
+  "tags": [
+   "navigation",
+   "classic"
+  ],
+  "file": "header-music-concert-events.json",
+  "preview": "previews/header-music-concert-events.png",
+  "source_template": "music/concert-events"
+ },
+ {
+  "id": "header-music-music-magazine",
+  "name": "Masthead navigation (Music Magazine)",
+  "kind": "header",
+  "category": "header",
+  "description": "Layout and behaviour from Music Magazine; your site name and button stay. Collapses to a menu button on phones.",
+  "tags": [
+   "navigation",
+   "masthead"
+  ],
+  "file": "header-music-music-magazine.json",
+  "preview": "previews/header-music-music-magazine.png",
+  "source_template": "music/music-magazine"
+ },
+ {
+  "id": "header-music-record-label",
+  "name": "Classic navigation (Record Label)",
+  "kind": "header",
+  "category": "header",
+  "description": "Layout and behaviour from Record Label; your site name and button stay. Collapses to a menu button on phones.",
+  "tags": [
+   "navigation",
+   "classic"
+  ],
+  "file": "header-music-record-label.json",
+  "preview": "previews/header-music-record-label.png",
+  "source_template": "music/record-label"
+ },
+ {
+  "id": "header-art-illustrator-playful",
+  "name": "Classic navigation (Illustrator Playful)",
+  "kind": "header",
+  "category": "header",
+  "description": "Layout and behaviour from Illustrator Playful; your site name and button stay. Collapses to a menu button on phones.",
+  "tags": [
+   "navigation",
+   "classic"
+  ],
+  "file": "header-art-illustrator-playful.json",
+  "preview": "previews/header-art-illustrator-playful.png",
+  "source_template": "art/illustrator-playful"
+ },
+ {
+  "id": "header-art-photographer-dark",
+  "name": "Transparent minimal navigation",
+  "kind": "header",
+  "category": "header",
+  "description": "Over the first section, for photo heroes. Layout and behaviour from Photographer Dark; your site name and button stay. Collapses to a menu button on phones.",
+  "tags": [
+   "navigation",
+   "minimal"
+  ],
+  "file": "header-art-photographer-dark.json",
+  "preview": "previews/header-art-photographer-dark.png",
+  "source_template": "art/photographer-dark"
+ },
+ {
+  "id": "header-news-modern-news",
+  "name": "Classic navigation (Modern News)",
+  "kind": "header",
+  "category": "header",
+  "description": "Stays at the top while scrolling. Layout and behaviour from Modern News; your site name and button stay. Collapses to a menu button on phones.",
+  "tags": [
+   "navigation",
+   "classic"
+  ],
+  "file": "header-news-modern-news.json",
+  "preview": "previews/header-news-modern-news.png",
+  "source_template": "news/modern-news"
+ },
+ {
+  "id": "footer-corporate-corporate-classic",
+  "name": "Multi-column footer (Corporate Classic)",
+  "kind": "footer",
+  "category": "footer",
+  "description": "The footer design of Corporate Classic. Its sample name is replaced by yours.",
+  "tags": [
+   "footer"
+  ],
+  "file": "footer-corporate-corporate-classic.json",
+  "preview": "previews/footer-corporate-corporate-classic.png",
+  "source_template": "corporate/corporate-classic",
+  "sample_brand": "Halden & Partners"
+ },
+ {
+  "id": "footer-corporate-corporate-dark",
+  "name": "Multi-column footer (Corporate Dark)",
+  "kind": "footer",
+  "category": "footer",
+  "description": "The footer design of Corporate Dark. Its sample name is replaced by yours.",
+  "tags": [
+   "footer"
+  ],
+  "file": "footer-corporate-corporate-dark.json",
+  "preview": "previews/footer-corporate-corporate-dark.png",
+  "source_template": "corporate/corporate-dark",
+  "sample_brand": "Meridian Capital"
+ },
+ {
+  "id": "footer-corporate-executive-minimal",
+  "name": "Minimal footer (Executive Minimal)",
+  "kind": "footer",
+  "category": "footer",
+  "description": "The footer design of Executive Minimal. Its sample name is replaced by yours.",
+  "tags": [
+   "footer"
+  ],
+  "file": "footer-corporate-executive-minimal.json",
+  "preview": "previews/footer-corporate-executive-minimal.png",
+  "source_template": "corporate/executive-minimal",
+  "sample_brand": "Lindqvist"
+ },
+ {
+  "id": "footer-corporate-modern-consulting",
+  "name": "Wordmark footer (Modern Consulting)",
+  "kind": "footer",
+  "category": "footer",
+  "description": "The footer design of Modern Consulting. Its sample name is replaced by yours.",
+  "tags": [
+   "footer"
+  ],
+  "file": "footer-corporate-modern-consulting.json",
+  "preview": "previews/footer-corporate-modern-consulting.png",
+  "source_template": "corporate/modern-consulting",
+  "sample_brand": "Northline"
+ },
+ {
+  "id": "footer-corporate-professional-agency",
+  "name": "Wordmark footer (Professional Agency)",
+  "kind": "footer",
+  "category": "footer",
+  "description": "The footer design of Professional Agency. Its sample name is replaced by yours.",
+  "tags": [
+   "footer"
+  ],
+  "file": "footer-corporate-professional-agency.json",
+  "preview": "previews/footer-corporate-professional-agency.png",
+  "source_template": "corporate/professional-agency",
+  "sample_brand": "Foundry & Co"
+ },
+ {
+  "id": "footer-fashion-modern-boutique",
+  "name": "Multi-column footer (Modern Boutique)",
+  "kind": "footer",
+  "category": "footer",
+  "description": "The footer design of Modern Boutique. Its sample name is replaced by yours.",
+  "tags": [
+   "footer"
+  ],
+  "file": "footer-fashion-modern-boutique.json",
+  "preview": "previews/footer-fashion-modern-boutique.png",
+  "source_template": "fashion/modern-boutique",
+  "sample_brand": "Rosewater"
+ },
+ {
+  "id": "footer-fashion-streetwear",
+  "name": "Wordmark footer (Streetwear)",
+  "kind": "footer",
+  "category": "footer",
+  "description": "The footer design of Streetwear. Its sample name is replaced by yours.",
+  "tags": [
+   "footer"
+  ],
+  "file": "footer-fashion-streetwear.json",
+  "preview": "previews/footer-fashion-streetwear.png",
+  "source_template": "fashion/streetwear",
+  "sample_brand": "BLOCK—09"
+ },
+ {
+  "id": "footer-music-artist-portfolio",
+  "name": "Wordmark footer (Artist Portfolio)",
+  "kind": "footer",
+  "category": "footer",
+  "description": "The footer design of Artist Portfolio. Its sample name is replaced by yours.",
+  "tags": [
+   "footer"
+  ],
+  "file": "footer-music-artist-portfolio.json",
+  "preview": "previews/footer-music-artist-portfolio.png",
+  "source_template": "music/artist-portfolio",
+  "sample_brand": "Kaya Bright"
+ },
+ {
+  "id": "footer-art-design-studio",
+  "name": "Multi-column footer (Design Studio)",
+  "kind": "footer",
+  "category": "footer",
+  "description": "The footer design of Design Studio. Its sample name is replaced by yours.",
+  "tags": [
+   "footer"
+  ],
+  "file": "footer-art-design-studio.json",
+  "preview": "previews/footer-art-design-studio.png",
+  "source_template": "art/design-studio",
+  "sample_brand": "Studio Form"
+ },
+ {
+  "id": "footer-construction-architects-builders",
+  "name": "Minimal footer (Architects and Builders)",
+  "kind": "footer",
+  "category": "footer",
+  "description": "The footer design of Architects and Builders. Its sample name is replaced by yours.",
+  "tags": [
+   "footer"
+  ],
+  "file": "footer-construction-architects-builders.json",
+  "preview": "previews/footer-construction-architects-builders.png",
+  "source_template": "construction/architects-builders",
+  "sample_brand": "Stone & Line"
+ }
+]

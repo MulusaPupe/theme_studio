@@ -1,0 +1,1 @@
+{"schema": "mulusa.section/1", "nodes": [{"id": "e291", "type": "header", "props": {"layout": "masthead", "brand": "VERVE", "nav_style": "caps"}, "style": {}, "name": "Site header"}], "source_template": "fashion/fashion-magazine"}

@@ -1,0 +1,320 @@
+{
+ "schema": "mulusa.theme/2",
+ "meta": {
+  "id": "onepage/music-album",
+  "template_name": "Music: Album release",
+  "name": "Mwila",
+  "description": "An album countdown: a spinning record, floating notes and pre-save buttons.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#a855f7",
+   "on_primary": "#160b24",
+   "secondary": "#24123a",
+   "accent": "#f472b6",
+   "on_accent": "#160b24",
+   "background": "#160b24",
+   "surface": "#1e1030",
+   "text": "#f6efff",
+   "muted": "#b7afc2",
+   "border": "#3a2f47"
+  },
+  "fonts": {
+   "heading": "Unbounded",
+   "body": "DM Sans",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 700,
+   "heading_transform": "none",
+   "heading_tracking": "-0.02em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.28
+  },
+  "shape": {
+   "radius": "10px",
+   "button_radius": "999px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "96px",
+   "gap": "24px",
+   "width": "1120px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Music: Album release",
+   "colors": {
+    "primary": "#a855f7",
+    "on_primary": "#160b24",
+    "secondary": "#24123a",
+    "accent": "#f472b6",
+    "on_accent": "#160b24",
+    "background": "#160b24",
+    "surface": "#1e1030",
+    "text": "#f6efff",
+    "muted": "#b7afc2",
+    "border": "#3a2f47"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Unbounded / DM Sans",
+   "heading": "Unbounded",
+   "body": "DM Sans"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "mus19",
+   "type": "header",
+   "props": {
+    "layout": "minimal",
+    "brand": "Mwila"
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "mus18",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "40px"
+   },
+   "name": "Site footer"
+  }
+ },
+ "navigation": {
+  "primary": []
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "landing",
+   "nodes": [
+    {
+     "id": "mus15",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "ambient": "waves"
+     },
+     "style": {
+      "min_height": "100vh",
+      "display": "flex",
+      "align_items": "center",
+      "padding_block": "64px"
+     },
+     "name": "Hero",
+     "children": [
+      {
+       "id": "mus14",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "align_items": "center"
+       },
+       "children": [
+        {
+         "id": "mus13",
+         "type": "container",
+         "props": {},
+         "style": {
+          "width": "100%",
+          "max_width": "680px",
+          "margin_inline": "auto",
+          "gap": "22px",
+          "align_items": "center"
+         },
+         "children": [
+          {
+           "id": "mus11",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "center",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "mus10",
+             "type": "text",
+             "props": {
+              "text": "Mwila"
+             },
+             "style": {
+              "font_weight": "700",
+              "letter_spacing": "0.14em",
+              "text_transform": "uppercase",
+              "font_size": ".82rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "mus9",
+           "type": "container",
+           "props": {},
+           "style": {
+            "background": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.16)",
+            "backdrop_filter": "blur(16px) saturate(140%)",
+            "box_shadow": "0 30px 80px rgba(0,0,0,0.4)",
+            "border_radius": "24px",
+            "padding": "46px 38px",
+            "gap": "18px",
+            "align_items": "center",
+            "text_align": "center",
+            "width": "100%"
+           },
+           "name": "Glass card",
+           "children": [
+            {
+             "id": "mus1",
+             "type": "illustration",
+             "props": {
+              "name": "vinyl",
+              "animate": true
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "250px"
+             }
+            },
+            {
+             "id": "mus2",
+             "type": "text",
+             "props": {
+              "text": "New album"
+             },
+             "style": {
+              "letter_spacing": "0.2em",
+              "text_transform": "uppercase",
+              "font_size": ".8rem"
+             }
+            },
+            {
+             "id": "mus3",
+             "type": "heading",
+             "props": {
+              "text": "Night Signals",
+              "level": 1
+             },
+             "style": {
+              "font_size": "clamp(2.6rem,7vw,4.4rem)"
+             }
+            },
+            {
+             "id": "mus4",
+             "type": "text",
+             "props": {
+              "text": "Eleven songs written between Lusaka and Johannesburg. Out everywhere on the date below.",
+              "muted": true
+             },
+             "style": {
+              "max_width": "44ch"
+             }
+            },
+            {
+             "id": "mus5",
+             "type": "countdown",
+             "props": {
+              "target": "2027-04-10T00:00",
+              "utc_offset": "+02:00",
+              "show_seconds": true,
+              "done_text": "Out now."
+             },
+             "style": {
+              "margin_block": "4px"
+             }
+            },
+            {
+             "id": "mus8",
+             "type": "row",
+             "props": {},
+             "style": {
+              "gap": "12px",
+              "justify_content": "center"
+             },
+             "children": [
+              {
+               "id": "mus6",
+               "type": "button",
+               "props": {
+                "label": "Pre-save",
+                "href": "#",
+                "variant": "primary"
+               },
+               "style": {}
+              },
+              {
+               "id": "mus7",
+               "type": "button",
+               "props": {
+                "label": "Watch the teaser",
+                "href": "#",
+                "variant": "secondary"
+               },
+               "style": {}
+              }
+             ]
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "padding": "34px 20px"
+             }
+            }
+           }
+          },
+          {
+           "id": "mus12",
+           "type": "text",
+           "props": {
+            "text": "Tour dates announced soon",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".8rem",
+            "text_align": "center"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "responsive": {
+      "mobile": {
+       "style": {
+        "padding_block": "40px"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

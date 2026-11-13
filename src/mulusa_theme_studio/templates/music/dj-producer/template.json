@@ -1,0 +1,3675 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "music/dj-producer",
+  "template_name": "DJ and Producer",
+  "name": "DEE/LWANGA",
+  "description": "Neon on near-black, wide type and a glowing, technical feel.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#21f3b1",
+   "on_primary": "#050608",
+   "secondary": "#123b34",
+   "accent": "#7a5cff",
+   "on_accent": "#050608",
+   "background": "#050608",
+   "surface": "#0e1216",
+   "text": "#e9fff7",
+   "muted": "#a9b9b4",
+   "border": "#292e2e"
+  },
+  "fonts": {
+   "heading": "Unbounded",
+   "body": "Space Grotesk",
+   "extra": [
+    "JetBrains Mono"
+   ]
+  },
+  "type": {
+   "heading_weight": 600,
+   "heading_transform": "uppercase",
+   "heading_tracking": "-0.01em",
+   "heading_line": 1.06,
+   "base": 16,
+   "ratio": 1.26
+  },
+  "shape": {
+   "radius": "0",
+   "button_radius": "0",
+   "button_style": "solid",
+   "button_transform": "uppercase",
+   "button_tracking": ".14em",
+   "button_size": ".76rem"
+  },
+  "spacing": {
+   "section": "92px",
+   "gap": "18px",
+   "width": "1300px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "DJ and Producer",
+   "colors": {
+    "primary": "#21f3b1",
+    "on_primary": "#050608",
+    "secondary": "#123b34",
+    "accent": "#7a5cff",
+    "on_accent": "#050608",
+    "background": "#050608",
+    "surface": "#0e1216",
+    "text": "#e9fff7",
+    "muted": "#a9b9b4",
+    "border": "#292e2e"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Unbounded / Space Grotesk",
+   "heading": "Unbounded",
+   "body": "Space Grotesk"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e274",
+   "type": "header",
+   "props": {
+    "layout": "minimal",
+    "brand": "DEE/LWANGA",
+    "nav_style": "caps"
+   },
+   "style": {
+    "border_bottom": "1px solid $c-border"
+   },
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e284",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e283",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e280",
+       "type": "row",
+       "props": {},
+       "style": {
+        "gap": "26px"
+       },
+       "children": [
+        {
+         "id": "e275",
+         "type": "link",
+         "props": {
+          "label": "About",
+          "href": {
+           "page": "about"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e276",
+         "type": "link",
+         "props": {
+          "label": "Services",
+          "href": {
+           "page": "services"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e277",
+         "type": "link",
+         "props": {
+          "label": "Releases",
+          "href": {
+           "page": "portfolio"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e278",
+         "type": "link",
+         "props": {
+          "label": "News",
+          "href": {
+           "page": "blog"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        },
+        {
+         "id": "e279",
+         "type": "link",
+         "props": {
+          "label": "Contact",
+          "href": {
+           "page": "contact"
+          }
+         },
+         "style": {
+          "font_weight": 400
+         }
+        }
+       ]
+      },
+      {
+       "id": "e281",
+       "type": "heading",
+       "props": {
+        "text": "DEE/LWANGA",
+        "level": 2
+       },
+       "style": {
+        "font_size": "min(8.57vw,12rem)",
+        "line_height": "1",
+        "margin_block": "34px 20px"
+       }
+      },
+      {
+       "id": "e282",
+       "type": "text",
+       "props": {
+        "text": "© DEE/LWANGA. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Services",
+    "page": "services"
+   },
+   {
+    "label": "Releases",
+    "page": "portfolio"
+   },
+   {
+    "label": "News",
+    "page": "blog"
+   },
+   {
+    "label": "Contact",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e8",
+     "type": "section",
+     "props": {
+      "role": "hero"
+     },
+     "style": {
+      "padding_block": "clamp(90px,14vw,190px)"
+     },
+     "children": [
+      {
+       "id": "e7",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e6",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "20px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "880px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e1",
+           "type": "heading",
+           "props": {
+            "text": "Sound built for the last hour",
+            "level": 1
+           },
+           "style": {
+            "font_size": "clamp(2.2rem,6.4vw,5.4rem)"
+           }
+          },
+          {
+           "id": "e2",
+           "type": "text",
+           "props": {
+            "text": "DJ, producer and sound designer. Club, festival and studio.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.16rem",
+            "max_width": "60ch"
+           }
+          },
+          {
+           "id": "e5",
+           "type": "row",
+           "props": {},
+           "style": {
+            "margin_top": "10px",
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e3",
+             "type": "button",
+             "props": {
+              "label": "Book a set",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {}
+            },
+            {
+             "id": "e4",
+             "type": "button",
+             "props": {
+              "label": "Latest mixes",
+              "href": {
+               "page": "portfolio"
+              },
+              "variant": "secondary"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e24",
+     "type": "section",
+     "props": {
+      "role": "services",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e23",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e22",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e21",
+           "type": "heading",
+           "props": {
+            "text": "Work with the studio",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e11",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e9",
+           "type": "heading",
+           "props": {
+            "text": "Live production",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e10",
+           "type": "text",
+           "props": {
+            "text": "Sound, lights and touring support for shows of any size.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e14",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e12",
+           "type": "heading",
+           "props": {
+            "text": "Sync licensing",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e13",
+           "type": "text",
+           "props": {
+            "text": "Placing your music in film, television and adverts.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e17",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e15",
+           "type": "heading",
+           "props": {
+            "text": "Recording",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e16",
+           "type": "text",
+           "props": {
+            "text": "Live rooms, vintage desks and engineers who care about the take.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e20",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e18",
+           "type": "heading",
+           "props": {
+            "text": "Mixing and mastering",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e19",
+           "type": "text",
+           "props": {
+            "text": "Records that translate from headphones to festival stages.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e41",
+     "type": "section",
+     "props": {
+      "role": "events"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e40",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e38",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e37",
+           "type": "heading",
+           "props": {
+            "text": "On tour",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e39",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e28",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e25",
+             "type": "heading",
+             "props": {
+              "text": "13 Dec",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.5rem"
+             }
+            },
+            {
+             "id": "e26",
+             "type": "heading",
+             "props": {
+              "text": "London, Village Underground",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e27",
+             "type": "text",
+             "props": {
+              "text": "On sale",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".94rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e32",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e29",
+             "type": "heading",
+             "props": {
+              "text": "14 Nov",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.5rem"
+             }
+            },
+            {
+             "id": "e30",
+             "type": "heading",
+             "props": {
+              "text": "Lusaka, The Warehouse",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e31",
+             "type": "text",
+             "props": {
+              "text": "Sold out",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".94rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e36",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "border": "1px solid $c-border",
+            "border_radius": "$card-radius",
+            "padding": "30px"
+           },
+           "children": [
+            {
+             "id": "e33",
+             "type": "heading",
+             "props": {
+              "text": "21 Nov",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.5rem"
+             }
+            },
+            {
+             "id": "e34",
+             "type": "heading",
+             "props": {
+              "text": "Johannesburg, Bassline",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e35",
+             "type": "text",
+             "props": {
+              "text": "Few left",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".94rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e75",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e74",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e73",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e72",
+           "type": "heading",
+           "props": {
+            "text": "Discography",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e47",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e42",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "dj-producer-1",
+             "subject": "vinyl",
+             "ratio": 1.6,
+             "label": "Static Hearts"
+            },
+            "alt": "Static Hearts",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e45",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e43",
+             "type": "heading",
+             "props": {
+              "text": "Static Hearts",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e44",
+             "type": "text",
+             "props": {
+              "text": "Album, 2021",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e46",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e53",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e48",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "dj-producer-2",
+             "subject": "vinyl",
+             "ratio": 1.6,
+             "label": "First Recordings"
+            },
+            "alt": "First Recordings",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e51",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e49",
+             "type": "heading",
+             "props": {
+              "text": "First Recordings",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e50",
+             "type": "text",
+             "props": {
+              "text": "EP, 2019",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e52",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e59",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e54",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "dj-producer-3",
+             "subject": "vinyl",
+             "ratio": 1.6,
+             "label": "Night Transit"
+            },
+            "alt": "Night Transit",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e57",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e55",
+             "type": "heading",
+             "props": {
+              "text": "Night Transit",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e56",
+             "type": "text",
+             "props": {
+              "text": "Album, 2026",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e58",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e65",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e60",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "dj-producer-4",
+             "subject": "vinyl",
+             "ratio": 1.6,
+             "label": "Glass Rivers"
+            },
+            "alt": "Glass Rivers",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e63",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e61",
+             "type": "heading",
+             "props": {
+              "text": "Glass Rivers",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e62",
+             "type": "text",
+             "props": {
+              "text": "Album, 2024",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e64",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e71",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e66",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "dj-producer-5",
+             "subject": "vinyl",
+             "ratio": 1.6,
+             "label": "Low Light EP"
+            },
+            "alt": "Low Light EP",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e69",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e67",
+             "type": "heading",
+             "props": {
+              "text": "Low Light EP",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e68",
+             "type": "text",
+             "props": {
+              "text": "EP, 2023",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e70",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e101",
+     "type": "section",
+     "props": {
+      "role": "pricing",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e100",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e98",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e97",
+           "type": "heading",
+           "props": {
+            "text": "Studio rates",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e99",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "20px",
+          "align_items": "stretch"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e81",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e76",
+             "type": "heading",
+             "props": {
+              "text": "Master only",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e77",
+             "type": "heading",
+             "props": {
+              "text": "$90",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e78",
+             "type": "text",
+             "props": {
+              "text": "Per song, one revision.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e79",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e80",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e87",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius"
+           },
+           "children": [
+            {
+             "id": "e82",
+             "type": "heading",
+             "props": {
+              "text": "Rehearsal room",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e83",
+             "type": "heading",
+             "props": {
+              "text": "$40",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e84",
+             "type": "text",
+             "props": {
+              "text": "Per hour, backline included.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e85",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e86",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e96",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e91",
+             "type": "heading",
+             "props": {
+              "text": "Studio day",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e92",
+             "type": "heading",
+             "props": {
+              "text": "$450",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e93",
+             "type": "text",
+             "props": {
+              "text": "Ten hours with an engineer.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e94",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e88",
+             "type": "text",
+             "props": {
+              "text": "✓  Live room",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e89",
+             "type": "text",
+             "props": {
+              "text": "✓  Engineer included",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e90",
+             "type": "text",
+             "props": {
+              "text": "✓  Session files",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e95",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e107",
+     "type": "section",
+     "props": {
+      "role": "call_to_action",
+      "ambient": "stars"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e106",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e102",
+         "type": "heading",
+         "props": {
+          "text": "Hear it live this winter",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(2.8rem,9vw,8rem)",
+          "line_height": ".98"
+         }
+        },
+        {
+         "id": "e105",
+         "type": "row",
+         "props": {},
+         "style": {
+          "justify_content": "space-between",
+          "margin_top": "30px",
+          "gap": "24px"
+         },
+         "children": [
+          {
+           "id": "e103",
+           "type": "text",
+           "props": {
+            "text": "Tickets for the tour are on sale now. For booking and press, send us a message.",
+            "muted": true
+           },
+           "style": {
+            "max_width": "44ch"
+           }
+          },
+          {
+           "id": "e104",
+           "type": "button",
+           "props": {
+            "label": "Book a set",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e134",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "56px 30px"
+     },
+     "children": [
+      {
+       "id": "e133",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e130",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {
+          "font_size": "min(17.14vw,10rem)",
+          "line_height": ".95"
+         }
+        },
+        {
+         "id": "e131",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_block": "26px 14px"
+         }
+        },
+        {
+         "id": "e132",
+         "type": "text",
+         "props": {
+          "text": "The story so far, and who is in the room.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e114",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e113",
+       "type": "columns",
+       "props": {
+        "columns": "6fr 5fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "80px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e111",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e108",
+           "type": "heading",
+           "props": {
+            "text": "Songs written late, played loud",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e109",
+           "type": "text",
+           "props": {
+            "text": "What began in a borrowed room has become a life on the road: three records, hundreds of shows and a sound that keeps changing.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e110",
+           "type": "text",
+           "props": {
+            "text": "Every release is recorded live wherever possible and mixed with the people who were in the room. The new material is the most honest work yet.",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e112",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "dj-producer-6",
+           "subject": "vinyl",
+           "ratio": 0.86,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 0.86
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e129",
+     "type": "section",
+     "props": {
+      "role": "statistics",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "56px"
+     },
+     "children": [
+      {
+       "id": "e128",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e127",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 4
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e117",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e115",
+             "type": "heading",
+             "props": {
+              "text": "3",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e116",
+             "type": "text",
+             "props": {
+              "text": "Studio albums",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e120",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e118",
+             "type": "heading",
+             "props": {
+              "text": "412",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e119",
+             "type": "text",
+             "props": {
+              "text": "Live shows",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e123",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e121",
+             "type": "heading",
+             "props": {
+              "text": "28M",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e122",
+             "type": "text",
+             "props": {
+              "text": "Streams",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e126",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e124",
+             "type": "heading",
+             "props": {
+              "text": "19",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e125",
+             "type": "text",
+             "props": {
+              "text": "Countries toured",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "services",
+   "title": "Services",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e181",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "56px 30px"
+     },
+     "children": [
+      {
+       "id": "e180",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e177",
+         "type": "heading",
+         "props": {
+          "text": "Services",
+          "level": 1
+         },
+         "style": {
+          "font_size": "min(10.71vw,10rem)",
+          "line_height": ".95"
+         }
+        },
+        {
+         "id": "e178",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_block": "26px 14px"
+         }
+        },
+        {
+         "id": "e179",
+         "type": "text",
+         "props": {
+          "text": "Recording, mixing and live production.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e150",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e149",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e148",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e147",
+           "type": "heading",
+           "props": {
+            "text": "Work with the studio",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e137",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e135",
+           "type": "heading",
+           "props": {
+            "text": "Live production",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e136",
+           "type": "text",
+           "props": {
+            "text": "Sound, lights and touring support for shows of any size.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e140",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e138",
+           "type": "heading",
+           "props": {
+            "text": "Sync licensing",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e139",
+           "type": "text",
+           "props": {
+            "text": "Placing your music in film, television and adverts.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e143",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e141",
+           "type": "heading",
+           "props": {
+            "text": "Recording",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e142",
+           "type": "text",
+           "props": {
+            "text": "Live rooms, vintage desks and engineers who care about the take.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e146",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e144",
+           "type": "heading",
+           "props": {
+            "text": "Mixing and mastering",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e145",
+           "type": "text",
+           "props": {
+            "text": "Records that translate from headphones to festival stages.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e176",
+     "type": "section",
+     "props": {
+      "role": "pricing",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e175",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e173",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e172",
+           "type": "heading",
+           "props": {
+            "text": "Studio rates",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e174",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "20px",
+          "align_items": "stretch"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e156",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e151",
+             "type": "heading",
+             "props": {
+              "text": "Master only",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e152",
+             "type": "heading",
+             "props": {
+              "text": "$90",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e153",
+             "type": "text",
+             "props": {
+              "text": "Per song, one revision.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e154",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e155",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e162",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius"
+           },
+           "children": [
+            {
+             "id": "e157",
+             "type": "heading",
+             "props": {
+              "text": "Rehearsal room",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e158",
+             "type": "heading",
+             "props": {
+              "text": "$40",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e159",
+             "type": "text",
+             "props": {
+              "text": "Per hour, backline included.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e160",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e161",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e171",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e166",
+             "type": "heading",
+             "props": {
+              "text": "Studio day",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e167",
+             "type": "heading",
+             "props": {
+              "text": "$450",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e168",
+             "type": "text",
+             "props": {
+              "text": "Ten hours with an engineer.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e169",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e163",
+             "type": "text",
+             "props": {
+              "text": "✓  Live room",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e164",
+             "type": "text",
+             "props": {
+              "text": "✓  Engineer included",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e165",
+             "type": "text",
+             "props": {
+              "text": "✓  Session files",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e170",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "releases",
+   "title": "Releases",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e220",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "56px 30px"
+     },
+     "children": [
+      {
+       "id": "e219",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e216",
+         "type": "heading",
+         "props": {
+          "text": "Releases",
+          "level": 1
+         },
+         "style": {
+          "font_size": "min(10.71vw,10rem)",
+          "line_height": ".95"
+         }
+        },
+        {
+         "id": "e217",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_block": "26px 14px"
+         }
+        },
+        {
+         "id": "e218",
+         "type": "text",
+         "props": {
+          "text": "Every release, newest first.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e215",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e214",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e213",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e212",
+           "type": "heading",
+           "props": {
+            "text": "Discography",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e187",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e182",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "dj-producer-7",
+             "subject": "vinyl",
+             "ratio": 1.6,
+             "label": "Static Hearts"
+            },
+            "alt": "Static Hearts",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e185",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e183",
+             "type": "heading",
+             "props": {
+              "text": "Static Hearts",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e184",
+             "type": "text",
+             "props": {
+              "text": "Album, 2021",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e186",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e193",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e188",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "dj-producer-8",
+             "subject": "vinyl",
+             "ratio": 1.6,
+             "label": "First Recordings"
+            },
+            "alt": "First Recordings",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e191",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e189",
+             "type": "heading",
+             "props": {
+              "text": "First Recordings",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e190",
+             "type": "text",
+             "props": {
+              "text": "EP, 2019",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e192",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e199",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e194",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "dj-producer-9",
+             "subject": "vinyl",
+             "ratio": 1.6,
+             "label": "Night Transit"
+            },
+            "alt": "Night Transit",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e197",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e195",
+             "type": "heading",
+             "props": {
+              "text": "Night Transit",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e196",
+             "type": "text",
+             "props": {
+              "text": "Album, 2026",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e198",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e205",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e200",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "dj-producer-10",
+             "subject": "vinyl",
+             "ratio": 1.6,
+             "label": "Glass Rivers"
+            },
+            "alt": "Glass Rivers",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e203",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e201",
+             "type": "heading",
+             "props": {
+              "text": "Glass Rivers",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e202",
+             "type": "text",
+             "props": {
+              "text": "Album, 2024",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e204",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e211",
+         "type": "columns",
+         "props": {
+          "columns": "3fr 7fr 2fr"
+         },
+         "style": {
+          "padding_block": "22px",
+          "border_top": "1px solid $c-border",
+          "gap": "30px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "3fr 7fr 2fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e206",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "dj-producer-11",
+             "subject": "vinyl",
+             "ratio": 1.6,
+             "label": "Low Light EP"
+            },
+            "alt": "Low Light EP",
+            "ratio": 1.6
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e209",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e207",
+             "type": "heading",
+             "props": {
+              "text": "Low Light EP",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.4rem,3vw,2.5rem)"
+             }
+            },
+            {
+             "id": "e208",
+             "type": "text",
+             "props": {
+              "text": "EP, 2023",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e210",
+           "type": "link",
+           "props": {
+            "label": "View",
+            "href": {
+             "page": "portfolio"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "news",
+   "title": "News",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e253",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "56px 30px"
+     },
+     "children": [
+      {
+       "id": "e252",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e249",
+         "type": "heading",
+         "props": {
+          "text": "News",
+          "level": 1
+         },
+         "style": {
+          "font_size": "min(21.42vw,10rem)",
+          "line_height": ".95"
+         }
+        },
+        {
+         "id": "e250",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_block": "26px 14px"
+         }
+        },
+        {
+         "id": "e251",
+         "type": "text",
+         "props": {
+          "text": "News, diaries and notes from the road.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e248",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e247",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e246",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e245",
+           "type": "heading",
+           "props": {
+            "text": "Notes and insights",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e226",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e221",
+           "type": "text",
+           "props": {
+            "text": "Records, 4 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e224",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e222",
+             "type": "heading",
+             "props": {
+              "text": "Why vinyl still matters to us",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e223",
+             "type": "text",
+             "props": {
+              "text": "On pressing plants and patience.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e225",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e232",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e227",
+           "type": "text",
+           "props": {
+            "text": "Studio, 6 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e230",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e228",
+             "type": "heading",
+             "props": {
+              "text": "Making Night Transit in eleven days",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e229",
+             "type": "text",
+             "props": {
+              "text": "Why we locked ourselves in and recorded everything live.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e231",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e238",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e233",
+           "type": "text",
+           "props": {
+            "text": "Road, 8 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e236",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e234",
+             "type": "heading",
+             "props": {
+              "text": "Tour diary: forty shows, one van",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e235",
+             "type": "text",
+             "props": {
+              "text": "Notes from the longest run yet.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e237",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e244",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e239",
+           "type": "text",
+           "props": {
+            "text": "Gear, 5 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e242",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e240",
+             "type": "heading",
+             "props": {
+              "text": "The gear we actually use",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e241",
+             "type": "text",
+             "props": {
+              "text": "Less than you might think.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e243",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e273",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "56px 30px"
+     },
+     "children": [
+      {
+       "id": "e272",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e269",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {
+          "font_size": "min(12.24vw,10rem)",
+          "line_height": ".95"
+         }
+        },
+        {
+         "id": "e270",
+         "type": "divider",
+         "props": {},
+         "style": {
+          "margin_block": "26px 14px"
+         }
+        },
+        {
+         "id": "e271",
+         "type": "text",
+         "props": {
+          "text": "Booking, press and everything else.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e268",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e267",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 6fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "72px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e265",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e254",
+           "type": "heading",
+           "props": {
+            "text": "Booking and press",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e255",
+           "type": "text",
+           "props": {
+            "text": "Tickets for the tour are on sale now. For booking and press, send us a message.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e258",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e256",
+             "type": "icon",
+             "props": {
+              "name": "map-pin"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e257",
+             "type": "text",
+             "props": {
+              "text": "100 Example Road, Your City"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e261",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e259",
+             "type": "icon",
+             "props": {
+              "name": "phone"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e260",
+             "type": "text",
+             "props": {
+              "text": "+000 000 000 000"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e264",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e262",
+             "type": "icon",
+             "props": {
+              "name": "mail"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e263",
+             "type": "text",
+             "props": {
+              "text": "hello@example.com"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e266",
+         "type": "contact_form",
+         "props": {
+          "fields": [
+           {
+            "label": "Your name",
+            "type": "text"
+           },
+           {
+            "label": "Email address",
+            "type": "email"
+           },
+           {
+            "label": "Message",
+            "type": "textarea"
+           }
+          ],
+          "submit": "Send message"
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "line",
+  "assets": []
+ },
+ "reusable": []
+}

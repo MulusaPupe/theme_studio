@@ -1,0 +1,295 @@
+{
+ "schema": "mulusa.theme/2",
+ "meta": {
+  "id": "onepage/saas-waitlist",
+  "template_name": "SaaS: Waitlist launch",
+  "name": "Lumen AI",
+  "description": "A product launch waitlist: a floating rocket over an aurora, a live countdown and sign-up.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#6063ea",
+   "on_primary": "#ffffff",
+   "secondary": "#15153a",
+   "accent": "#22d3ee",
+   "on_accent": "#0b0b1a",
+   "background": "#0b0b1a",
+   "surface": "#121230",
+   "text": "#eef0ff",
+   "muted": "#aeb0bf",
+   "border": "#2f303f"
+  },
+  "fonts": {
+   "heading": "Bricolage Grotesque",
+   "body": "Inter",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 700,
+   "heading_transform": "none",
+   "heading_tracking": "-0.02em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.28
+  },
+  "shape": {
+   "radius": "14px",
+   "button_radius": "999px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "96px",
+   "gap": "24px",
+   "width": "1120px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "SaaS: Waitlist launch",
+   "colors": {
+    "primary": "#6063ea",
+    "on_primary": "#ffffff",
+    "secondary": "#15153a",
+    "accent": "#22d3ee",
+    "on_accent": "#0b0b1a",
+    "background": "#0b0b1a",
+    "surface": "#121230",
+    "text": "#eef0ff",
+    "muted": "#aeb0bf",
+    "border": "#2f303f"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Bricolage Grotesque / Inter",
+   "heading": "Bricolage Grotesque",
+   "body": "Inter"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "saa16",
+   "type": "header",
+   "props": {
+    "layout": "minimal",
+    "brand": "Lumen AI"
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "saa15",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "40px"
+   },
+   "name": "Site footer"
+  }
+ },
+ "navigation": {
+  "primary": []
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "landing",
+   "nodes": [
+    {
+     "id": "saa12",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "ambient": "aurora"
+     },
+     "style": {
+      "min_height": "100vh",
+      "display": "flex",
+      "align_items": "center",
+      "padding_block": "64px"
+     },
+     "name": "Hero",
+     "children": [
+      {
+       "id": "saa11",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "align_items": "center"
+       },
+       "children": [
+        {
+         "id": "saa10",
+         "type": "container",
+         "props": {},
+         "style": {
+          "width": "100%",
+          "max_width": "680px",
+          "margin_inline": "auto",
+          "gap": "22px",
+          "align_items": "center"
+         },
+         "children": [
+          {
+           "id": "saa8",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "center",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "saa7",
+             "type": "text",
+             "props": {
+              "text": "Lumen"
+             },
+             "style": {
+              "font_weight": "700",
+              "letter_spacing": "0.14em",
+              "text_transform": "uppercase",
+              "font_size": ".82rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "saa6",
+           "type": "container",
+           "props": {},
+           "style": {
+            "background": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.16)",
+            "backdrop_filter": "blur(16px) saturate(140%)",
+            "box_shadow": "0 30px 80px rgba(0,0,0,0.4)",
+            "border_radius": "24px",
+            "padding": "46px 38px",
+            "gap": "18px",
+            "align_items": "center",
+            "text_align": "center",
+            "width": "100%"
+           },
+           "name": "Glass card",
+           "children": [
+            {
+             "id": "saa1",
+             "type": "illustration",
+             "props": {
+              "name": "rocket",
+              "animate": true
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "210px"
+             }
+            },
+            {
+             "id": "saa2",
+             "type": "heading",
+             "props": {
+              "text": "Your reports, written for you.",
+              "level": 1
+             },
+             "style": {
+              "font_size": "clamp(2.1rem,5.4vw,3.4rem)"
+             }
+            },
+            {
+             "id": "saa3",
+             "type": "text",
+             "props": {
+              "text": "Lumen reads your numbers and writes the weekly report your team actually reads. Join the waitlist for early access.",
+              "muted": true
+             },
+             "style": {
+              "max_width": "46ch"
+             }
+            },
+            {
+             "id": "saa4",
+             "type": "countdown",
+             "props": {
+              "target": "2027-01-20T16:00",
+              "utc_offset": "+00:00",
+              "show_seconds": true,
+              "done_text": "Early access is open."
+             },
+             "style": {
+              "margin_block": "4px"
+             }
+            },
+            {
+             "id": "saa5",
+             "type": "contact_form",
+             "props": {
+              "fields": [
+               {
+                "label": "Your email",
+                "type": "email"
+               }
+              ],
+              "submit": "Join the waitlist"
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "420px",
+              "margin_inline": "auto"
+             }
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "padding": "34px 20px"
+             }
+            }
+           }
+          },
+          {
+           "id": "saa9",
+           "type": "text",
+           "props": {
+            "text": "No spam. One email when we open.",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".8rem",
+            "text_align": "center"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "responsive": {
+      "mobile": {
+       "style": {
+        "padding_block": "40px"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

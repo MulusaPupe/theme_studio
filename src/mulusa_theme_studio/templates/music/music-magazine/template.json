@@ -1,0 +1,3894 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "music/music-magazine",
+  "template_name": "Music Magazine",
+  "name": "THE LISTENING POST",
+  "description": "Editorial serif headlines with reviews and cards in electric blue.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#2740ff",
+   "on_primary": "#ffffff",
+   "secondary": "#1f31b3",
+   "accent": "#ff4f64",
+   "on_accent": "#101426",
+   "background": "#ffffff",
+   "surface": "#eef0fb",
+   "text": "#101426",
+   "muted": "#535663",
+   "border": "#d9d9dc"
+  },
+  "fonts": {
+   "heading": "Newsreader",
+   "body": "Inter",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 600,
+   "heading_transform": "none",
+   "heading_tracking": "-0.015em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.3
+  },
+  "shape": {
+   "radius": "2px",
+   "button_radius": "2px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "72px",
+   "gap": "24px",
+   "width": "1240px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Music Magazine",
+   "colors": {
+    "primary": "#2740ff",
+    "on_primary": "#ffffff",
+    "secondary": "#1f31b3",
+    "accent": "#ff4f64",
+    "on_accent": "#101426",
+    "background": "#ffffff",
+    "surface": "#eef0fb",
+    "text": "#101426",
+    "muted": "#535663",
+    "border": "#d9d9dc"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Newsreader / Inter",
+   "heading": "Newsreader",
+   "body": "Inter"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e296",
+   "type": "header",
+   "props": {
+    "layout": "masthead",
+    "brand": "THE LISTENING POST"
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e315",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e314",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e311",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 3fr 4fr"
+       },
+       "style": {
+        "gap": "40px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": "5fr 3fr 4fr"
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e299",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "10px"
+         },
+         "children": [
+          {
+           "id": "e297",
+           "type": "heading",
+           "props": {
+            "text": "THE LISTENING POST",
+            "level": 3
+           },
+           "style": {
+            "font_size": "1.5rem"
+           }
+          },
+          {
+           "id": "e298",
+           "type": "text",
+           "props": {
+            "text": "What began in a borrowed room has become a life on the road: three records, hundreds of shows.",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem",
+            "max_width": "34ch"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e306",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e300",
+           "type": "heading",
+           "props": {
+            "text": "Explore",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e301",
+           "type": "link",
+           "props": {
+            "label": "About",
+            "href": {
+             "page": "about"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e302",
+           "type": "link",
+           "props": {
+            "label": "Services",
+            "href": {
+             "page": "services"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e303",
+           "type": "link",
+           "props": {
+            "label": "Releases",
+            "href": {
+             "page": "portfolio"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e304",
+           "type": "link",
+           "props": {
+            "label": "News",
+            "href": {
+             "page": "blog"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e305",
+           "type": "link",
+           "props": {
+            "label": "Contact",
+            "href": {
+             "page": "contact"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          }
+         ]
+        },
+        {
+         "id": "e310",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e307",
+           "type": "heading",
+           "props": {
+            "text": "Contact",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e308",
+           "type": "text",
+           "props": {
+            "text": "100 Example Road, Your City",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          },
+          {
+           "id": "e309",
+           "type": "text",
+           "props": {
+            "text": "hello@example.com",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e312",
+       "type": "divider",
+       "props": {},
+       "style": {
+        "margin_block": "40px 14px"
+       }
+      },
+      {
+       "id": "e313",
+       "type": "text",
+       "props": {
+        "text": "© THE LISTENING POST. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Services",
+    "page": "services"
+   },
+   {
+    "label": "Releases",
+    "page": "portfolio"
+   },
+   {
+    "label": "News",
+    "page": "blog"
+   },
+   {
+    "label": "Contact",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e24",
+     "type": "section",
+     "props": {
+      "role": "hero"
+     },
+     "style": {
+      "padding_block": "36px 64px"
+     },
+     "children": [
+      {
+       "id": "e23",
+       "type": "columns",
+       "props": {
+        "columns": "8fr 4fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "44px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e20",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e17",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "music-magazine-1",
+             "subject": "vinyl",
+             "ratio": 1.7,
+             "label": "Lead story image"
+            },
+            "alt": "Lead story image",
+            "ratio": 1.7
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e18",
+           "type": "heading",
+           "props": {
+            "text": "The year's best new voices, ranked",
+            "level": 1
+           },
+           "style": {
+            "font_size": "clamp(2.7rem,7vw,5.6rem)"
+           }
+          },
+          {
+           "id": "e19",
+           "type": "text",
+           "props": {
+            "text": "Fifty artists, twelve critics, a lot of arguing. Here is what you should be hearing.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.12rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e22",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e21",
+           "type": "heading",
+           "props": {
+            "text": "Latest",
+            "level": 5
+           },
+           "style": {
+            "text_transform": "uppercase",
+            "letter_spacing": ".14em",
+            "border_bottom": "3px solid currentColor",
+            "padding_bottom": "10px"
+           }
+          },
+          {
+           "id": "e3",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e1",
+             "type": "text",
+             "props": {
+              "text": "News, 2 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".76rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".1em"
+             }
+            },
+            {
+             "id": "e2",
+             "type": "heading",
+             "props": {
+              "text": "New single out Friday",
+              "level": 4
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e4",
+           "type": "divider",
+           "props": {},
+           "style": {}
+          },
+          {
+           "id": "e7",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e5",
+             "type": "text",
+             "props": {
+              "text": "Records, 4 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".76rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".1em"
+             }
+            },
+            {
+             "id": "e6",
+             "type": "heading",
+             "props": {
+              "text": "Why vinyl still matters to us",
+              "level": 4
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e8",
+           "type": "divider",
+           "props": {},
+           "style": {}
+          },
+          {
+           "id": "e11",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e9",
+             "type": "text",
+             "props": {
+              "text": "Studio, 6 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".76rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".1em"
+             }
+            },
+            {
+             "id": "e10",
+             "type": "heading",
+             "props": {
+              "text": "Making Night Transit in eleven days",
+              "level": 4
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e12",
+           "type": "divider",
+           "props": {},
+           "style": {}
+          },
+          {
+           "id": "e15",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e13",
+             "type": "text",
+             "props": {
+              "text": "Road, 8 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".76rem",
+              "text_transform": "uppercase",
+              "letter_spacing": ".1em"
+             }
+            },
+            {
+             "id": "e14",
+             "type": "heading",
+             "props": {
+              "text": "Tour diary: forty shows, one van",
+              "level": 4
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e16",
+           "type": "divider",
+           "props": {},
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e44",
+     "type": "section",
+     "props": {
+      "role": "blog",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e43",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e41",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e40",
+           "type": "heading",
+           "props": {
+            "text": "Reviews and features",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e42",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "32px"
+         },
+         "children": [
+          {
+           "id": "e29",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e25",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-2",
+               "subject": "portrait",
+               "ratio": 1.55,
+               "label": "New single out Friday"
+              },
+              "alt": "New single out Friday",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e26",
+             "type": "text",
+             "props": {
+              "text": "News, 2 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e27",
+             "type": "heading",
+             "props": {
+              "text": "New single out Friday",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e28",
+             "type": "text",
+             "props": {
+              "text": "First listen, and what it means.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e34",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e30",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-3",
+               "subject": "portrait",
+               "ratio": 1.55,
+               "label": "Why vinyl still matters to us"
+              },
+              "alt": "Why vinyl still matters to us",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e31",
+             "type": "text",
+             "props": {
+              "text": "Records, 4 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e32",
+             "type": "heading",
+             "props": {
+              "text": "Why vinyl still matters to us",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e33",
+             "type": "text",
+             "props": {
+              "text": "On pressing plants and patience.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e39",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e35",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-4",
+               "subject": "portrait",
+               "ratio": 1.55,
+               "label": "Making Night Transit in eleven days"
+              },
+              "alt": "Making Night Transit in eleven days",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e36",
+             "type": "text",
+             "props": {
+              "text": "Studio, 6 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e37",
+             "type": "heading",
+             "props": {
+              "text": "Making Night Transit in eleven days",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e38",
+             "type": "text",
+             "props": {
+              "text": "Why we locked ourselves in and recorded everything live.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e47",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e46",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "22px"
+       },
+       "children": [
+        {
+         "id": "e45",
+         "type": "heading",
+         "props": {
+          "text": "Serious writing about music, for people who listen to whole albums.",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(1.8rem,3.8vw,3.2rem)",
+          "line_height": "1.22",
+          "max_width": "24em"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e76",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e75",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e49",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e48",
+           "type": "heading",
+           "props": {
+            "text": "Discography",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e74",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "36px 26px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e53",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e50",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-5",
+               "subject": "vinyl",
+               "ratio": 1.25,
+               "label": "Copperbelt Sessions"
+              },
+              "alt": "Copperbelt Sessions",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e51",
+             "type": "heading",
+             "props": {
+              "text": "Copperbelt Sessions",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e52",
+             "type": "text",
+             "props": {
+              "text": "Live, 2022",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e57",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e54",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-6",
+               "subject": "vinyl",
+               "ratio": 1.25,
+               "label": "Static Hearts"
+              },
+              "alt": "Static Hearts",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e55",
+             "type": "heading",
+             "props": {
+              "text": "Static Hearts",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e56",
+             "type": "text",
+             "props": {
+              "text": "Album, 2021",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e61",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e58",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-7",
+               "subject": "vinyl",
+               "ratio": 1.25,
+               "label": "First Recordings"
+              },
+              "alt": "First Recordings",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e59",
+             "type": "heading",
+             "props": {
+              "text": "First Recordings",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e60",
+             "type": "text",
+             "props": {
+              "text": "EP, 2019",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e65",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e62",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-8",
+               "subject": "vinyl",
+               "ratio": 1.25,
+               "label": "Night Transit"
+              },
+              "alt": "Night Transit",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e63",
+             "type": "heading",
+             "props": {
+              "text": "Night Transit",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e64",
+             "type": "text",
+             "props": {
+              "text": "Album, 2026",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e69",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e66",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-9",
+               "subject": "vinyl",
+               "ratio": 1.25,
+               "label": "Glass Rivers"
+              },
+              "alt": "Glass Rivers",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e67",
+             "type": "heading",
+             "props": {
+              "text": "Glass Rivers",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e68",
+             "type": "text",
+             "props": {
+              "text": "Album, 2024",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e73",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e70",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-10",
+               "subject": "vinyl",
+               "ratio": 1.25,
+               "label": "Low Light EP"
+              },
+              "alt": "Low Light EP",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e71",
+             "type": "heading",
+             "props": {
+              "text": "Low Light EP",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e72",
+             "type": "text",
+             "props": {
+              "text": "EP, 2023",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e81",
+     "type": "section",
+     "props": {
+      "role": "video",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e80",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e79",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e78",
+           "type": "heading",
+           "props": {
+            "text": "See it in motion",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e77",
+         "type": "video",
+         "props": {
+          "poster": {
+           "kind": "placeholder",
+           "seed": "music-magazine-v11",
+           "subject": "vinyl",
+           "ratio": 1.78,
+           "label": "Video poster"
+          },
+          "ratio": 1.78,
+          "title": "Play video"
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e109",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e108",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e107",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e106",
+           "type": "heading",
+           "props": {
+            "text": "Reviews and features",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e87",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e82",
+           "type": "text",
+           "props": {
+            "text": "News, 2 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e85",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e83",
+             "type": "heading",
+             "props": {
+              "text": "New single out Friday",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e84",
+             "type": "text",
+             "props": {
+              "text": "First listen, and what it means.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e86",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e93",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e88",
+           "type": "text",
+           "props": {
+            "text": "Records, 4 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e91",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e89",
+             "type": "heading",
+             "props": {
+              "text": "Why vinyl still matters to us",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e90",
+             "type": "text",
+             "props": {
+              "text": "On pressing plants and patience.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e92",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e99",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e94",
+           "type": "text",
+           "props": {
+            "text": "Studio, 6 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e97",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e95",
+             "type": "heading",
+             "props": {
+              "text": "Making Night Transit in eleven days",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e96",
+             "type": "text",
+             "props": {
+              "text": "Why we locked ourselves in and recorded everything live.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e98",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e105",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e100",
+           "type": "text",
+           "props": {
+            "text": "Road, 8 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e103",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e101",
+             "type": "heading",
+             "props": {
+              "text": "Tour diary: forty shows, one van",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e102",
+             "type": "text",
+             "props": {
+              "text": "Notes from the longest run yet.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e104",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e115",
+     "type": "section",
+     "props": {
+      "role": "call_to_action",
+      "ambient": "waves"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e114",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e113",
+         "type": "container",
+         "props": {
+          "tone": "primary"
+         },
+         "style": {
+          "gap": "16px",
+          "padding": "clamp(32px,6vw,72px)",
+          "border_radius": "$radius"
+         },
+         "children": [
+          {
+           "id": "e110",
+           "type": "heading",
+           "props": {
+            "text": "Hear it live this winter",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e111",
+           "type": "text",
+           "props": {
+            "text": "Tickets for the tour are on sale now. For booking and press, send us a message.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem",
+            "max_width": "50ch"
+           }
+          },
+          {
+           "id": "e112",
+           "type": "button",
+           "props": {
+            "label": "Subscribe",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {
+            "align_self": "flex-start",
+            "margin_top": "8px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e148",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e147",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e145",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e146",
+         "type": "text",
+         "props": {
+          "text": "The story so far, and who is in the room.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e123",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e122",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e117",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e116",
+           "type": "heading",
+           "props": {
+            "text": "Songs written late, played loud",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e120",
+         "type": "columns",
+         "props": {
+          "columns": 2
+         },
+         "style": {
+          "gap": "48px"
+         },
+         "children": [
+          {
+           "id": "e118",
+           "type": "text",
+           "props": {
+            "text": "What began in a borrowed room has become a life on the road: three records, hundreds of shows and a sound that keeps changing.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem"
+           }
+          },
+          {
+           "id": "e119",
+           "type": "text",
+           "props": {
+            "text": "Every release is recorded live wherever possible and mixed with the people who were in the room. The new material is the most honest work yet.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e121",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "music-magazine-12",
+           "subject": "vinyl",
+           "ratio": 2.6,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 2.6
+         },
+         "style": {
+          "margin_top": "48px",
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e144",
+     "type": "section",
+     "props": {
+      "role": "team",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e143",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e141",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e140",
+           "type": "heading",
+           "props": {
+            "text": "The people behind the work",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e142",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e127",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e124",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-13",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Sam Chileshe"
+              },
+              "alt": "Sam Chileshe",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e125",
+             "type": "heading",
+             "props": {
+              "text": "Sam Chileshe",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e126",
+             "type": "text",
+             "props": {
+              "text": "Producer",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e131",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e128",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-14",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Dee Lwanga"
+              },
+              "alt": "Dee Lwanga",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e129",
+             "type": "heading",
+             "props": {
+              "text": "Dee Lwanga",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e130",
+             "type": "text",
+             "props": {
+              "text": "Label manager",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e135",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e132",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-15",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Kaya Bright"
+              },
+              "alt": "Kaya Bright",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e133",
+             "type": "heading",
+             "props": {
+              "text": "Kaya Bright",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e134",
+             "type": "text",
+             "props": {
+              "text": "Vocals, guitar",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e139",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e136",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-16",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Joel Mutale"
+              },
+              "alt": "Joel Mutale",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e137",
+             "type": "heading",
+             "props": {
+              "text": "Joel Mutale",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e138",
+             "type": "text",
+             "props": {
+              "text": "Bass",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "services",
+   "title": "Services",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e192",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e191",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e189",
+         "type": "heading",
+         "props": {
+          "text": "Services",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e190",
+         "type": "text",
+         "props": {
+          "text": "Recording, mixing and live production.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e165",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e164",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e162",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e161",
+           "type": "heading",
+           "props": {
+            "text": "Work with the studio",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e163",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e152",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e149",
+             "type": "icon",
+             "props": {
+              "name": "globe"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e150",
+             "type": "heading",
+             "props": {
+              "text": "Distribution",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e151",
+             "type": "text",
+             "props": {
+              "text": "Every major platform, with clean royalties and clear reports.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e156",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e153",
+             "type": "icon",
+             "props": {
+              "name": "zap"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e154",
+             "type": "heading",
+             "props": {
+              "text": "Live production",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e155",
+             "type": "text",
+             "props": {
+              "text": "Sound, lights and touring support for shows of any size.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e160",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e157",
+             "type": "icon",
+             "props": {
+              "name": "video"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e158",
+             "type": "heading",
+             "props": {
+              "text": "Sync licensing",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e159",
+             "type": "text",
+             "props": {
+              "text": "Placing your music in film, television and adverts.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e188",
+     "type": "section",
+     "props": {
+      "role": "pricing"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e187",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e185",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e184",
+           "type": "heading",
+           "props": {
+            "text": "Studio rates",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e186",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "20px",
+          "align_items": "stretch"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e171",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e166",
+             "type": "heading",
+             "props": {
+              "text": "Mix only",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e167",
+             "type": "heading",
+             "props": {
+              "text": "$280",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e168",
+             "type": "text",
+             "props": {
+              "text": "Per song, two revisions.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e169",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e170",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e177",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius"
+           },
+           "children": [
+            {
+             "id": "e172",
+             "type": "heading",
+             "props": {
+              "text": "Master only",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e173",
+             "type": "heading",
+             "props": {
+              "text": "$90",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e174",
+             "type": "text",
+             "props": {
+              "text": "Per song, one revision.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e175",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e176",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e183",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e178",
+             "type": "heading",
+             "props": {
+              "text": "Rehearsal room",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e179",
+             "type": "heading",
+             "props": {
+              "text": "$40",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e180",
+             "type": "text",
+             "props": {
+              "text": "Per hour, backline included.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e181",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e182",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "releases",
+   "title": "Releases",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e217",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e216",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e214",
+         "type": "heading",
+         "props": {
+          "text": "Releases",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e215",
+         "type": "text",
+         "props": {
+          "text": "Every release, newest first.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e213",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e212",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e194",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e193",
+           "type": "heading",
+           "props": {
+            "text": "Discography",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e211",
+         "type": "columns",
+         "props": {
+          "columns": "7fr 5fr"
+         },
+         "style": {
+          "gap": "44px 28px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e198",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e195",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-17",
+               "subject": "vinyl",
+               "ratio": 1.3,
+               "label": "Copperbelt Sessions"
+              },
+              "alt": "Copperbelt Sessions",
+              "ratio": 1.3
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e196",
+             "type": "heading",
+             "props": {
+              "text": "Copperbelt Sessions",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e197",
+             "type": "text",
+             "props": {
+              "text": "Live, 2022",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e202",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e199",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-18",
+               "subject": "vinyl",
+               "ratio": 0.95,
+               "label": "Static Hearts"
+              },
+              "alt": "Static Hearts",
+              "ratio": 0.95
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e200",
+             "type": "heading",
+             "props": {
+              "text": "Static Hearts",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e201",
+             "type": "text",
+             "props": {
+              "text": "Album, 2021",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e206",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e203",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-19",
+               "subject": "vinyl",
+               "ratio": 1.6,
+               "label": "First Recordings"
+              },
+              "alt": "First Recordings",
+              "ratio": 1.6
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e204",
+             "type": "heading",
+             "props": {
+              "text": "First Recordings",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e205",
+             "type": "text",
+             "props": {
+              "text": "EP, 2019",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e210",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e207",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-20",
+               "subject": "vinyl",
+               "ratio": 1.15,
+               "label": "Night Transit"
+              },
+              "alt": "Night Transit",
+              "ratio": 1.15
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e208",
+             "type": "heading",
+             "props": {
+              "text": "Night Transit",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e209",
+             "type": "text",
+             "props": {
+              "text": "Album, 2026",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "news",
+   "title": "News",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e276",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e275",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e273",
+         "type": "heading",
+         "props": {
+          "text": "News",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e274",
+         "type": "text",
+         "props": {
+          "text": "News, diaries and notes from the road.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e244",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e243",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e241",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e240",
+           "type": "heading",
+           "props": {
+            "text": "Reviews and features",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e242",
+         "type": "columns",
+         "props": {
+          "columns": "6fr 6fr"
+         },
+         "style": {
+          "gap": "44px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e222",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e218",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "music-magazine-21",
+               "subject": "portrait",
+               "ratio": 1.5,
+               "label": "New single out Friday"
+              },
+              "alt": "New single out Friday",
+              "ratio": 1.5
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e219",
+             "type": "text",
+             "props": {
+              "text": "News, 2 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e220",
+             "type": "heading",
+             "props": {
+              "text": "New single out Friday",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e221",
+             "type": "text",
+             "props": {
+              "text": "First listen, and what it means.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e239",
+           "type": "columns",
+           "props": {
+            "columns": 2
+           },
+           "style": {
+            "gap": "26px 22px"
+           },
+           "responsive": {
+            "mobile": {
+             "props": {
+              "columns": 1
+             }
+            }
+           },
+           "children": [
+            {
+             "id": "e226",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "8px"
+             },
+             "children": [
+              {
+               "id": "e223",
+               "type": "image",
+               "props": {
+                "media": {
+                 "kind": "placeholder",
+                 "seed": "music-magazine-22",
+                 "subject": "portrait",
+                 "ratio": 1.3,
+                 "label": "Why vinyl still matters to us"
+                },
+                "alt": "Why vinyl still matters to us",
+                "ratio": 1.3
+               },
+               "style": {
+                "border_radius": "$radius"
+               }
+              },
+              {
+               "id": "e224",
+               "type": "text",
+               "props": {
+                "text": "Records, 4 min",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".8rem"
+               }
+              },
+              {
+               "id": "e225",
+               "type": "heading",
+               "props": {
+                "text": "Why vinyl still matters to us",
+                "level": 4
+               },
+               "style": {
+                "font_size": "1.08rem",
+                "line_height": "1.22"
+               }
+              }
+             ]
+            },
+            {
+             "id": "e230",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "8px"
+             },
+             "children": [
+              {
+               "id": "e227",
+               "type": "image",
+               "props": {
+                "media": {
+                 "kind": "placeholder",
+                 "seed": "music-magazine-23",
+                 "subject": "portrait",
+                 "ratio": 1.3,
+                 "label": "Making Night Transit in eleven days"
+                },
+                "alt": "Making Night Transit in eleven days",
+                "ratio": 1.3
+               },
+               "style": {
+                "border_radius": "$radius"
+               }
+              },
+              {
+               "id": "e228",
+               "type": "text",
+               "props": {
+                "text": "Studio, 6 min",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".8rem"
+               }
+              },
+              {
+               "id": "e229",
+               "type": "heading",
+               "props": {
+                "text": "Making Night Transit in eleven days",
+                "level": 4
+               },
+               "style": {
+                "font_size": "1.08rem",
+                "line_height": "1.22"
+               }
+              }
+             ]
+            },
+            {
+             "id": "e234",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "8px"
+             },
+             "children": [
+              {
+               "id": "e231",
+               "type": "image",
+               "props": {
+                "media": {
+                 "kind": "placeholder",
+                 "seed": "music-magazine-24",
+                 "subject": "portrait",
+                 "ratio": 1.3,
+                 "label": "Tour diary: forty shows, one van"
+                },
+                "alt": "Tour diary: forty shows, one van",
+                "ratio": 1.3
+               },
+               "style": {
+                "border_radius": "$radius"
+               }
+              },
+              {
+               "id": "e232",
+               "type": "text",
+               "props": {
+                "text": "Road, 8 min",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".8rem"
+               }
+              },
+              {
+               "id": "e233",
+               "type": "heading",
+               "props": {
+                "text": "Tour diary: forty shows, one van",
+                "level": 4
+               },
+               "style": {
+                "font_size": "1.08rem",
+                "line_height": "1.22"
+               }
+              }
+             ]
+            },
+            {
+             "id": "e238",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "8px"
+             },
+             "children": [
+              {
+               "id": "e235",
+               "type": "image",
+               "props": {
+                "media": {
+                 "kind": "placeholder",
+                 "seed": "music-magazine-25",
+                 "subject": "portrait",
+                 "ratio": 1.3,
+                 "label": "The gear we actually use"
+                },
+                "alt": "The gear we actually use",
+                "ratio": 1.3
+               },
+               "style": {
+                "border_radius": "$radius"
+               }
+              },
+              {
+               "id": "e236",
+               "type": "text",
+               "props": {
+                "text": "Gear, 5 min",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".8rem"
+               }
+              },
+              {
+               "id": "e237",
+               "type": "heading",
+               "props": {
+                "text": "The gear we actually use",
+                "level": 4
+               },
+               "style": {
+                "font_size": "1.08rem",
+                "line_height": "1.22"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e272",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e271",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e270",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e269",
+           "type": "heading",
+           "props": {
+            "text": "Reviews and features",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e250",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e245",
+           "type": "text",
+           "props": {
+            "text": "News, 2 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e248",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e246",
+             "type": "heading",
+             "props": {
+              "text": "New single out Friday",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e247",
+             "type": "text",
+             "props": {
+              "text": "First listen, and what it means.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e249",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e256",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e251",
+           "type": "text",
+           "props": {
+            "text": "Records, 4 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e254",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e252",
+             "type": "heading",
+             "props": {
+              "text": "Why vinyl still matters to us",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e253",
+             "type": "text",
+             "props": {
+              "text": "On pressing plants and patience.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e255",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e262",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e257",
+           "type": "text",
+           "props": {
+            "text": "Studio, 6 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e260",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e258",
+             "type": "heading",
+             "props": {
+              "text": "Making Night Transit in eleven days",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e259",
+             "type": "text",
+             "props": {
+              "text": "Why we locked ourselves in and recorded everything live.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e261",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e268",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e263",
+           "type": "text",
+           "props": {
+            "text": "Road, 8 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e266",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e264",
+             "type": "heading",
+             "props": {
+              "text": "Tour diary: forty shows, one van",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e265",
+             "type": "text",
+             "props": {
+              "text": "Notes from the longest run yet.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e267",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e295",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e294",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e292",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e293",
+         "type": "text",
+         "props": {
+          "text": "Booking, press and everything else.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e291",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e290",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 6fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "72px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e288",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e277",
+           "type": "heading",
+           "props": {
+            "text": "Booking and press",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e278",
+           "type": "text",
+           "props": {
+            "text": "Tickets for the tour are on sale now. For booking and press, send us a message.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e281",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e279",
+             "type": "icon",
+             "props": {
+              "name": "map-pin"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e280",
+             "type": "text",
+             "props": {
+              "text": "100 Example Road, Your City"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e284",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e282",
+             "type": "icon",
+             "props": {
+              "name": "phone"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e283",
+             "type": "text",
+             "props": {
+              "text": "+000 000 000 000"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e287",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e285",
+             "type": "icon",
+             "props": {
+              "name": "mail"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e286",
+             "type": "text",
+             "props": {
+              "text": "hello@example.com"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e289",
+         "type": "contact_form",
+         "props": {
+          "fields": [
+           {
+            "label": "Your name",
+            "type": "text"
+           },
+           {
+            "label": "Email address",
+            "type": "email"
+           },
+           {
+            "label": "Message",
+            "type": "textarea"
+           }
+          ],
+          "submit": "Send message"
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

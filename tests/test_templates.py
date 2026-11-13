@@ -1,4 +1,4 @@
-"""Fifty templates, and proof that they are valid, readable and genuinely different."""
+"""Fifty-five templates, and proof that they are valid, readable and genuinely different."""
 from __future__ import annotations
 
 import hashlib
@@ -18,6 +18,7 @@ from mulusa_theme_studio.render.fonts import catalog
 LIB = TemplateLibrary()
 DOCS = {t.id: json.loads(t.file.read_text(encoding="utf-8")) for t in LIB.templates}
 EXPECTED = {"corporate", "fashion", "music", "art", "news", "construction", "education", "hospitality", "technology", "real_estate"}
+STARTERS = {"personal", "healthcare", "community", "automotive", "shop"}   # one starter each, added with the resource library
 
 
 def _lum(c):
@@ -41,9 +42,10 @@ def home_layout(doc):
     return tuple((n["props"].get("role"), shape(n)) for n in doc["pages"][0]["nodes"])
 
 
-def test_fifty_templates_five_in_each_of_ten_categories():
+def test_sixty_nine_templates_in_sixteen_categories():
     counts = Counter(t.category for t in LIB.templates)
-    assert set(counts) == EXPECTED and set(counts.values()) == {5} and len(LIB.templates) == 50
+    assert set(counts) == EXPECTED | STARTERS | {"onepage"} and len(LIB.templates) == 69
+    assert {counts[c] for c in EXPECTED} == {5} and {counts[c] for c in STARTERS} == {1} and counts["onepage"] == 14
     assert LIB.problems == []
 
 
@@ -54,7 +56,11 @@ def test_named_examples_from_the_brief_exist():
             "Artist Portfolio", "Record Label", "Concert and Events", "Music Magazine", "DJ and Producer"} <= names
 
 
-@pytest.mark.parametrize("tid", sorted(DOCS))
+SITES = {i: d for i, d in DOCS.items() if not i.startswith("onepage/")}    # full websites
+ONEPAGE = {i: d for i, d in DOCS.items() if i.startswith("onepage/")}     # launch, maintenance and one-page templates
+
+
+@pytest.mark.parametrize("tid", sorted(SITES))
 def test_each_template_is_valid_and_complete(tid):
     doc = DOCS[tid]
     assert validate_document(doc) == []
@@ -68,7 +74,7 @@ def test_each_template_is_valid_and_complete(tid):
 @pytest.mark.parametrize("tid", sorted(DOCS))
 def test_images_are_placeholder_references_never_embedded(tid):
     refs = list(media_refs(DOCS[tid]))
-    assert refs and all(r["kind"] == "placeholder" for r in refs)
+    assert (refs or tid in ONEPAGE) and all(r["kind"] == "placeholder" for r in refs)
     assert "data:image" not in json.dumps(DOCS[tid])
 
 
@@ -99,8 +105,36 @@ def test_every_section_over_a_photo_uses_the_image_tone(tid):
 
 
 def test_no_two_templates_share_a_home_layout():
-    layouts = Counter(home_layout(d) for d in DOCS.values())
+    layouts = Counter(home_layout(d) for d in SITES.values())
     assert max(layouts.values()) == 1
+
+
+def _living(doc) -> tuple:
+    """What makes a one-page template look like itself: its drawing, its background motion and its parts."""
+    nodes = list(walk_document(doc))
+    return (tuple(n["props"]["name"] for n in nodes if n["type"] == "illustration"),
+            tuple(n["props"].get("ambient", "") for n in nodes if n["type"] == "section"),
+            home_layout(doc))
+
+
+@pytest.mark.parametrize("tid", sorted(ONEPAGE))
+def test_each_one_page_template_is_a_valid_single_living_page(tid):
+    doc = ONEPAGE[tid]
+    assert validate_document(doc) == []
+    assert [p["id"] for p in doc["pages"]] == ["home"] and doc["pages"][0]["nodes"]
+    types = {n["type"] for n in walk_document(doc)}
+    assert types & {"illustration", "countdown", "progress"}, "a one-page template has a living element"
+    assert any(n["props"].get("ambient") for n in walk_document(doc) if n["type"] == "section") or "illustration" in types
+    for name in (doc["tokens"]["fonts"]["heading"], doc["tokens"]["fonts"]["body"], *doc["tokens"]["fonts"]["extra"]):
+        assert name in catalog(), name
+
+
+def test_one_page_templates_cover_many_trades_and_each_looks_different():
+    looks = Counter(_living(d) for d in ONEPAGE.values())
+    assert max(looks.values()) == 1
+    drawings = {name for d in ONEPAGE.values() for name in _living(d)[0]}
+    assert len(drawings) >= 10
+    assert {"music", "ict", "security", "construction", "maintenance"} <= {w for i in ONEPAGE for w in i.split("/")[1].split("-")}
 
 
 def test_no_two_templates_share_a_palette_or_font_and_palette_identity():
@@ -135,7 +169,7 @@ def test_every_template_has_a_distinct_real_thumbnail():
             assert image.size == (640, 480)
             assert len(image.convert("RGB").getcolors(1 << 24)) > 200, f"{info.id} looks blank"
         seen.add(hashlib.sha1(info.thumbnail.read_bytes()).hexdigest())
-    assert len(seen) == 50
+    assert len(seen) == 69
 
 
 def test_new_templates_need_only_a_new_folder(tmp_path):

@@ -45,3 +45,21 @@ def test_no_platform_knowledge_in_the_engine_or_editor():
         for file in files(package):
             assert "wordpress" not in file.read_text(encoding="utf-8").lower(), file
     assert "wordpress" not in (PKG / "ui" / "canvas.py").read_text(encoding="utf-8").lower()
+
+
+def test_the_resource_library_has_no_qt_and_no_editor_dependency():
+    """Importing and converting packages is plain Python; the window lives in ui/ and calls into it."""
+    for file in files("library"):
+        for name in imports(file):
+            assert not name.startswith(("PySide6", "PIL.ImageQt")), (file, name)
+            assert not {"ui", "exporters"} & set(name.split(".")), (file, name)
+
+
+def test_imported_code_is_never_executed():
+    """No eval, exec, subprocess or dynamic import anywhere in the library package."""
+    for file in files("library"):
+        tree = ast.parse(file.read_text(encoding="utf-8"))
+        for node in ast.walk(tree):
+            if isinstance(node, ast.Call) and isinstance(node.func, ast.Name):
+                assert node.func.id not in ("eval", "exec", "compile", "__import__"), (file, node.func.id)
+        assert not {"subprocess", "importlib", "runpy", "os.system"} & imports(file), file

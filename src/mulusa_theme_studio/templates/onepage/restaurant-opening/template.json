@@ -1,0 +1,319 @@
+{
+ "schema": "mulusa.theme/2",
+ "meta": {
+  "id": "onepage/restaurant-opening",
+  "template_name": "Restaurant: Opening",
+  "name": "Kalulu Kitchen",
+  "description": "A restaurant opening page: a sizzling pan, a countdown to the first night and table bookings.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#e0793a",
+   "on_primary": "#1f140d",
+   "secondary": "#2c1d13",
+   "accent": "#f2c46d",
+   "on_accent": "#1f140d",
+   "background": "#1f140d",
+   "surface": "#2a1b11",
+   "text": "#fbf3ea",
+   "muted": "#bdb5ac",
+   "border": "#423830"
+  },
+  "fonts": {
+   "heading": "DM Serif Display",
+   "body": "DM Sans",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 400,
+   "heading_transform": "none",
+   "heading_tracking": "-0.02em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.28
+  },
+  "shape": {
+   "radius": "12px",
+   "button_radius": "999px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "96px",
+   "gap": "24px",
+   "width": "1120px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Restaurant: Opening",
+   "colors": {
+    "primary": "#e0793a",
+    "on_primary": "#1f140d",
+    "secondary": "#2c1d13",
+    "accent": "#f2c46d",
+    "on_accent": "#1f140d",
+    "background": "#1f140d",
+    "surface": "#2a1b11",
+    "text": "#fbf3ea",
+    "muted": "#bdb5ac",
+    "border": "#423830"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "DM Serif Display / DM Sans",
+   "heading": "DM Serif Display",
+   "body": "DM Sans"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "res18",
+   "type": "header",
+   "props": {
+    "layout": "minimal",
+    "brand": "Kalulu Kitchen"
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "res17",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "40px"
+   },
+   "name": "Site footer"
+  }
+ },
+ "navigation": {
+  "primary": []
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "landing",
+   "nodes": [
+    {
+     "id": "res14",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "restaurant-opening-bg",
+        "subject": "food",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "linear-gradient(180deg,rgba(24,14,8,.66),rgba(24,14,8,.9))",
+       "alt": ""
+      }
+     },
+     "style": {
+      "min_height": "100vh",
+      "display": "flex",
+      "align_items": "center",
+      "padding_block": "64px"
+     },
+     "name": "Hero",
+     "children": [
+      {
+       "id": "res13",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "align_items": "center"
+       },
+       "children": [
+        {
+         "id": "res12",
+         "type": "container",
+         "props": {},
+         "style": {
+          "width": "100%",
+          "max_width": "680px",
+          "margin_inline": "auto",
+          "gap": "22px",
+          "align_items": "center"
+         },
+         "children": [
+          {
+           "id": "res10",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "center",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "res9",
+             "type": "text",
+             "props": {
+              "text": "Kalulu Kitchen"
+             },
+             "style": {
+              "font_weight": "700",
+              "letter_spacing": "0.14em",
+              "text_transform": "uppercase",
+              "font_size": ".82rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "res8",
+           "type": "container",
+           "props": {},
+           "style": {
+            "background": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.16)",
+            "backdrop_filter": "blur(16px) saturate(140%)",
+            "box_shadow": "0 30px 80px rgba(0,0,0,0.4)",
+            "border_radius": "24px",
+            "padding": "46px 38px",
+            "gap": "18px",
+            "align_items": "center",
+            "text_align": "center",
+            "width": "100%"
+           },
+           "name": "Glass card",
+           "children": [
+            {
+             "id": "res1",
+             "type": "illustration",
+             "props": {
+              "name": "pan",
+              "animate": true
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "230px"
+             }
+            },
+            {
+             "id": "res2",
+             "type": "heading",
+             "props": {
+              "text": "Kalulu Kitchen opens soon.",
+              "level": 1
+             },
+             "style": {
+              "font_size": "clamp(2.1rem,5vw,3.3rem)"
+             }
+            },
+            {
+             "id": "res3",
+             "type": "text",
+             "props": {
+              "text": "Charcoal grills, village chicken and the best nshima in town. Tables for the opening weekend are going fast.",
+              "muted": true
+             },
+             "style": {
+              "max_width": "44ch"
+             }
+            },
+            {
+             "id": "res4",
+             "type": "countdown",
+             "props": {
+              "target": "2027-02-26T18:00",
+              "utc_offset": "+02:00",
+              "show_seconds": true,
+              "done_text": "We are open. Come hungry."
+             },
+             "style": {
+              "margin_block": "4px"
+             }
+            },
+            {
+             "id": "res7",
+             "type": "row",
+             "props": {},
+             "style": {
+              "gap": "12px",
+              "justify_content": "center"
+             },
+             "children": [
+              {
+               "id": "res5",
+               "type": "button",
+               "props": {
+                "label": "Book a table",
+                "href": "tel:+000000000000",
+                "variant": "primary"
+               },
+               "style": {}
+              },
+              {
+               "id": "res6",
+               "type": "button",
+               "props": {
+                "label": "See the menu",
+                "href": "#",
+                "variant": "secondary"
+               },
+               "style": {}
+              }
+             ]
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "padding": "34px 20px"
+             }
+            }
+           }
+          },
+          {
+           "id": "res11",
+           "type": "text",
+           "props": {
+            "text": "Open Thursday to Sunday",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".8rem",
+            "text_align": "center"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "responsive": {
+      "mobile": {
+       "style": {
+        "padding_block": "40px"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

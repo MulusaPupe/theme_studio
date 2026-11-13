@@ -1,0 +1,319 @@
+{
+ "schema": "mulusa.theme/2",
+ "meta": {
+  "id": "onepage/security-launch",
+  "template_name": "Security: Launch",
+  "name": "Sentinel Guard",
+  "description": "A security launch page: a scanning shield, live countdown and a direct line to the control room.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#e11d48",
+   "on_primary": "#ffffff",
+   "secondary": "#1f1f23",
+   "accent": "#f43f5e",
+   "on_accent": "#121214",
+   "background": "#121214",
+   "surface": "#1b1b1f",
+   "text": "#f4f4f5",
+   "muted": "#b5b5b6",
+   "border": "#363638"
+  },
+  "fonts": {
+   "heading": "Sora",
+   "body": "Manrope",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 700,
+   "heading_transform": "none",
+   "heading_tracking": "-0.02em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.28
+  },
+  "shape": {
+   "radius": "8px",
+   "button_radius": "8px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "96px",
+   "gap": "24px",
+   "width": "1120px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Security: Launch",
+   "colors": {
+    "primary": "#e11d48",
+    "on_primary": "#ffffff",
+    "secondary": "#1f1f23",
+    "accent": "#f43f5e",
+    "on_accent": "#121214",
+    "background": "#121214",
+    "surface": "#1b1b1f",
+    "text": "#f4f4f5",
+    "muted": "#b5b5b6",
+    "border": "#363638"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Sora / Manrope",
+   "heading": "Sora",
+   "body": "Manrope"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "sec18",
+   "type": "header",
+   "props": {
+    "layout": "minimal",
+    "brand": "Sentinel Guard"
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "sec17",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "40px"
+   },
+   "name": "Site footer"
+  }
+ },
+ "navigation": {
+  "primary": []
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "landing",
+   "nodes": [
+    {
+     "id": "sec14",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "security-launch-bg",
+        "subject": "building",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "linear-gradient(180deg,rgba(10,10,12,.72),rgba(10,10,12,.88))",
+       "alt": ""
+      }
+     },
+     "style": {
+      "min_height": "100vh",
+      "display": "flex",
+      "align_items": "center",
+      "padding_block": "64px"
+     },
+     "name": "Hero",
+     "children": [
+      {
+       "id": "sec13",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "align_items": "center"
+       },
+       "children": [
+        {
+         "id": "sec12",
+         "type": "container",
+         "props": {},
+         "style": {
+          "width": "100%",
+          "max_width": "680px",
+          "margin_inline": "auto",
+          "gap": "22px",
+          "align_items": "center"
+         },
+         "children": [
+          {
+           "id": "sec10",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "center",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "sec9",
+             "type": "text",
+             "props": {
+              "text": "Sentinel Guard"
+             },
+             "style": {
+              "font_weight": "700",
+              "letter_spacing": "0.14em",
+              "text_transform": "uppercase",
+              "font_size": ".82rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "sec8",
+           "type": "container",
+           "props": {},
+           "style": {
+            "background": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.16)",
+            "backdrop_filter": "blur(16px) saturate(140%)",
+            "box_shadow": "0 30px 80px rgba(0,0,0,0.4)",
+            "border_radius": "24px",
+            "padding": "46px 38px",
+            "gap": "18px",
+            "align_items": "center",
+            "text_align": "center",
+            "width": "100%"
+           },
+           "name": "Glass card",
+           "children": [
+            {
+             "id": "sec1",
+             "type": "illustration",
+             "props": {
+              "name": "shield",
+              "animate": true
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "220px"
+             }
+            },
+            {
+             "id": "sec2",
+             "type": "heading",
+             "props": {
+              "text": "Protection, rebuilt.",
+              "level": 1
+             },
+             "style": {
+              "font_size": "clamp(2.1rem,5vw,3.2rem)"
+             }
+            },
+            {
+             "id": "sec3",
+             "type": "text",
+             "props": {
+              "text": "Sentinel Guard is launching a new home for guarding, CCTV and cyber security services. Until then, our control room is open around the clock.",
+              "muted": true
+             },
+             "style": {
+              "max_width": "48ch"
+             }
+            },
+            {
+             "id": "sec4",
+             "type": "countdown",
+             "props": {
+              "target": "2027-02-14T09:00",
+              "utc_offset": "+02:00",
+              "show_seconds": true,
+              "done_text": "We are live."
+             },
+             "style": {
+              "margin_block": "4px"
+             }
+            },
+            {
+             "id": "sec7",
+             "type": "row",
+             "props": {},
+             "style": {
+              "gap": "12px",
+              "justify_content": "center"
+             },
+             "children": [
+              {
+               "id": "sec5",
+               "type": "button",
+               "props": {
+                "label": "Call the control room",
+                "href": "tel:+000000000000",
+                "variant": "primary"
+               },
+               "style": {}
+              },
+              {
+               "id": "sec6",
+               "type": "button",
+               "props": {
+                "label": "Email us",
+                "href": "mailto:hello@sentinel.example",
+                "variant": "secondary"
+               },
+               "style": {}
+              }
+             ]
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "padding": "34px 20px"
+             }
+            }
+           }
+          },
+          {
+           "id": "sec11",
+           "type": "text",
+           "props": {
+            "text": "Guarding · CCTV · Cyber security",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".8rem",
+            "text_align": "center"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "responsive": {
+      "mobile": {
+       "style": {
+        "padding_block": "40px"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

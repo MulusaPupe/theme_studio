@@ -1,0 +1,2741 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "construction/architects-builders",
+  "template_name": "Architects and Builders",
+  "name": "Stone & Line",
+  "description": "Refined stone tones and elegant serif, with big architectural photos.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#3e4a3a",
+   "on_primary": "#f6f4ef",
+   "secondary": "#353d31",
+   "accent": "#9d673d",
+   "on_accent": "#ffffff",
+   "background": "#f6f4ef",
+   "surface": "#ebe7dd",
+   "text": "#23241f",
+   "muted": "#5e5e59",
+   "border": "#d4d3ce"
+  },
+  "fonts": {
+   "heading": "Cormorant Garamond",
+   "body": "Manrope",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 500,
+   "heading_transform": "none",
+   "heading_tracking": "-0.01em",
+   "heading_line": 1.06,
+   "base": 17,
+   "ratio": 1.36
+  },
+  "shape": {
+   "radius": "0",
+   "button_radius": "0",
+   "button_style": "underline",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "116px",
+   "gap": "28px",
+   "width": "1260px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Architects and Builders",
+   "colors": {
+    "primary": "#3e4a3a",
+    "on_primary": "#f6f4ef",
+    "secondary": "#353d31",
+    "accent": "#9d673d",
+    "on_accent": "#ffffff",
+    "background": "#f6f4ef",
+    "surface": "#ebe7dd",
+    "text": "#23241f",
+    "muted": "#5e5e59",
+    "border": "#d4d3ce"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Cormorant Garamond / Manrope",
+   "heading": "Cormorant Garamond",
+   "body": "Manrope"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e203",
+   "type": "header",
+   "props": {
+    "layout": "minimal",
+    "brand": "Stone & Line",
+    "nav_style": "caps"
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e215",
+   "type": "footer",
+   "props": {
+    "tone": "primary"
+   },
+   "style": {
+    "padding_block": "40px 26px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e214",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e211",
+       "type": "row",
+       "props": {},
+       "style": {
+        "justify_content": "space-between",
+        "gap": "20px"
+       },
+       "children": [
+        {
+         "id": "e204",
+         "type": "heading",
+         "props": {
+          "text": "Stone & Line",
+          "level": 4
+         },
+         "style": {}
+        },
+        {
+         "id": "e210",
+         "type": "row",
+         "props": {},
+         "style": {
+          "gap": "20px"
+         },
+         "children": [
+          {
+           "id": "e205",
+           "type": "link",
+           "props": {
+            "label": "About",
+            "href": {
+             "page": "about"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e206",
+           "type": "link",
+           "props": {
+            "label": "Services",
+            "href": {
+             "page": "services"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e207",
+           "type": "link",
+           "props": {
+            "label": "Projects",
+            "href": {
+             "page": "portfolio"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e208",
+           "type": "link",
+           "props": {
+            "label": "News",
+            "href": {
+             "page": "blog"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e209",
+           "type": "link",
+           "props": {
+            "label": "Contact",
+            "href": {
+             "page": "contact"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e212",
+       "type": "divider",
+       "props": {},
+       "style": {
+        "margin_block": "20px 14px"
+       }
+      },
+      {
+       "id": "e213",
+       "type": "text",
+       "props": {
+        "text": "© Stone & Line. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Services",
+    "page": "services"
+   },
+   {
+    "label": "Projects",
+    "page": "portfolio"
+   },
+   {
+    "label": "News",
+    "page": "blog"
+   },
+   {
+    "label": "Contact",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e8",
+     "type": "section",
+     "props": {
+      "role": "hero"
+     },
+     "style": {
+      "padding_block": "32px 80px"
+     },
+     "children": [
+      {
+       "id": "e7",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e6",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "architects-builders-1",
+           "subject": "building",
+           "ratio": 2.05,
+           "label": "Hero image"
+          },
+          "alt": "Hero image",
+          "ratio": 2.05
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "e5",
+         "type": "container",
+         "props": {
+          "tone": "default"
+         },
+         "style": {
+          "gap": "16px",
+          "padding": "clamp(26px,4vw,52px)",
+          "max_width": "680px",
+          "margin_top": "-180px",
+          "margin_left": "clamp(0px,5vw,64px)",
+          "border_radius": "$radius",
+          "z_index": "2",
+          "box_shadow": "0 24px 60px rgba(10,14,28,.16)"
+         },
+         "responsive": {
+          "mobile": {
+           "style": {
+            "margin_top": "-48px",
+            "margin_left": "0"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e1",
+           "type": "heading",
+           "props": {
+            "text": "Considered buildings, carefully built",
+            "level": 1
+           },
+           "style": {
+            "font_size": "clamp(2.6rem,5.6vw,4.8rem)"
+           }
+          },
+          {
+           "id": "e2",
+           "type": "text",
+           "props": {
+            "text": "A design-and-build practice for homes and workplaces that will outlast us all.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e4",
+           "type": "row",
+           "props": {},
+           "style": {
+            "margin_top": "10px",
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e3",
+             "type": "button",
+             "props": {
+              "label": "Discuss a project",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e11",
+     "type": "section",
+     "props": {
+      "role": "about",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e10",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "22px"
+       },
+       "children": [
+        {
+         "id": "e9",
+         "type": "heading",
+         "props": {
+          "text": "We believe the best buildings come from architects and builders sitting at the same table, from the very first sketch.",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(1.8rem,3.8vw,3.2rem)",
+          "line_height": "1.22",
+          "max_width": "24em"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e30",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e29",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e28",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e27",
+           "type": "heading",
+           "props": {
+            "text": "Projects we are proud of",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e16",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px",
+          "margin_bottom": "48px"
+         },
+         "children": [
+          {
+           "id": "e12",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "architects-builders-2",
+             "subject": "building",
+             "ratio": 2.1,
+             "label": "Northgate Logistics Park"
+            },
+            "alt": "Northgate Logistics Park",
+            "ratio": 2.1
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e15",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "gap": "20px"
+           },
+           "children": [
+            {
+             "id": "e13",
+             "type": "heading",
+             "props": {
+              "text": "Northgate Logistics Park",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e14",
+             "type": "text",
+             "props": {
+              "text": "Industrial, 48,000 m²",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e21",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px",
+          "margin_bottom": "48px"
+         },
+         "children": [
+          {
+           "id": "e17",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "architects-builders-3",
+             "subject": "building",
+             "ratio": 2.1,
+             "label": "Great East Road Upgrade"
+            },
+            "alt": "Great East Road Upgrade",
+            "ratio": 2.1
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e20",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "gap": "20px"
+           },
+           "children": [
+            {
+             "id": "e18",
+             "type": "heading",
+             "props": {
+              "text": "Great East Road Upgrade",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e19",
+             "type": "text",
+             "props": {
+              "text": "Roads, 62 km",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e26",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px",
+          "margin_bottom": "48px"
+         },
+         "children": [
+          {
+           "id": "e22",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "architects-builders-4",
+             "subject": "building",
+             "ratio": 2.1,
+             "label": "Riverside Medical Centre"
+            },
+            "alt": "Riverside Medical Centre",
+            "ratio": 2.1
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e25",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "gap": "20px"
+           },
+           "children": [
+            {
+             "id": "e23",
+             "type": "heading",
+             "props": {
+              "text": "Riverside Medical Centre",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e24",
+             "type": "text",
+             "props": {
+              "text": "Healthcare, 12,000 m²",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e46",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e45",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e44",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e43",
+           "type": "heading",
+           "props": {
+            "text": "From first drawing to final handover",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e33",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e31",
+           "type": "heading",
+           "props": {
+            "text": "Civil engineering",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e32",
+           "type": "text",
+           "props": {
+            "text": "Roads, drainage, bridges and earthworks.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e36",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e34",
+           "type": "heading",
+           "props": {
+            "text": "Project management",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e35",
+           "type": "text",
+           "props": {
+            "text": "One accountable lead and clear weekly reporting.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e39",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e37",
+           "type": "heading",
+           "props": {
+            "text": "Structural design",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e38",
+           "type": "text",
+           "props": {
+            "text": "In-house engineers working from concept to detail.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e42",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e40",
+           "type": "heading",
+           "props": {
+            "text": "Plant and equipment",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e41",
+           "type": "text",
+           "props": {
+            "text": "A modern, maintained fleet with skilled operators.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e63",
+     "type": "section",
+     "props": {
+      "role": "team",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e62",
+       "type": "columns",
+       "props": {
+        "columns": "4fr 8fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "48px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e60",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px"
+         },
+         "children": [
+          {
+           "id": "e59",
+           "type": "heading",
+           "props": {
+            "text": "The people who run our sites",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e61",
+         "type": "container",
+         "props": {},
+         "style": {},
+         "children": [
+          {
+           "id": "e49",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e47",
+             "type": "heading",
+             "props": {
+              "text": "Agnes Lungu",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e48",
+             "type": "text",
+             "props": {
+              "text": "Chief Engineer",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e52",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e50",
+             "type": "heading",
+             "props": {
+              "text": "Mark van Wyk",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e51",
+             "type": "text",
+             "props": {
+              "text": "Operations Director",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e55",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e53",
+             "type": "heading",
+             "props": {
+              "text": "Precious Zimba",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e54",
+             "type": "text",
+             "props": {
+              "text": "Health and Safety Lead",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e58",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e56",
+             "type": "heading",
+             "props": {
+              "text": "Felix Sichone",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e57",
+             "type": "text",
+             "props": {
+              "text": "Senior QS",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e68",
+     "type": "section",
+     "props": {
+      "role": "call_to_action"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e67",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "align_items": "center",
+        "text_align": "center",
+        "gap": "18px"
+       },
+       "children": [
+        {
+         "id": "e64",
+         "type": "heading",
+         "props": {
+          "text": "Have a project to price?",
+          "level": 2
+         },
+         "style": {
+          "font_size": "clamp(2.2rem,5.6vw,4.6rem)"
+         }
+        },
+        {
+         "id": "e65",
+         "type": "text",
+         "props": {
+          "text": "Send us your drawings or brief. An estimator will be in touch within three working days.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.1rem"
+         }
+        },
+        {
+         "id": "e66",
+         "type": "button",
+         "props": {
+          "label": "Start a conversation",
+          "href": {
+           "page": "contact"
+          },
+          "variant": "primary"
+         },
+         "style": {
+          "margin_top": "8px"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e97",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e96",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e94",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e95",
+         "type": "text",
+         "props": {
+          "text": "Three decades of building, and how we work on site.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e76",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e75",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e70",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e69",
+           "type": "heading",
+           "props": {
+            "text": "Built right, handed over on time",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e73",
+         "type": "columns",
+         "props": {
+          "columns": 2
+         },
+         "style": {
+          "gap": "48px"
+         },
+         "children": [
+          {
+           "id": "e71",
+           "type": "text",
+           "props": {
+            "text": "We deliver commercial, civil and residential projects with our own crews, our own plant and one accountable project manager on every site.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem"
+           }
+          },
+          {
+           "id": "e72",
+           "type": "text",
+           "props": {
+            "text": "Safety and quality come first on every project. Our engineers are involved from early design, so problems get solved on paper rather than on site.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e74",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "architects-builders-5",
+           "subject": "building",
+           "ratio": 2.6,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 2.6
+         },
+         "style": {
+          "margin_top": "48px",
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e93",
+     "type": "section",
+     "props": {
+      "role": "team"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e92",
+       "type": "columns",
+       "props": {
+        "columns": "4fr 8fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "48px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e90",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px"
+         },
+         "children": [
+          {
+           "id": "e89",
+           "type": "heading",
+           "props": {
+            "text": "The people who run our sites",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e91",
+         "type": "container",
+         "props": {},
+         "style": {},
+         "children": [
+          {
+           "id": "e79",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e77",
+             "type": "heading",
+             "props": {
+              "text": "Agnes Lungu",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e78",
+             "type": "text",
+             "props": {
+              "text": "Chief Engineer",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e82",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e80",
+             "type": "heading",
+             "props": {
+              "text": "Mark van Wyk",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e81",
+             "type": "text",
+             "props": {
+              "text": "Operations Director",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e85",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e83",
+             "type": "heading",
+             "props": {
+              "text": "Precious Zimba",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e84",
+             "type": "text",
+             "props": {
+              "text": "Health and Safety Lead",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e88",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "padding_block": "20px",
+            "border_top": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e86",
+             "type": "heading",
+             "props": {
+              "text": "Felix Sichone",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.3rem,2.6vw,2.1rem)"
+             }
+            },
+            {
+             "id": "e87",
+             "type": "text",
+             "props": {
+              "text": "Senior QS",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "services",
+   "title": "Services",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e127",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e126",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e124",
+         "type": "heading",
+         "props": {
+          "text": "Services",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e125",
+         "type": "text",
+         "props": {
+          "text": "Construction, civil works and engineering design.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e113",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e112",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e111",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e110",
+           "type": "heading",
+           "props": {
+            "text": "From first drawing to final handover",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e100",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e98",
+           "type": "heading",
+           "props": {
+            "text": "Civil engineering",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e99",
+           "type": "text",
+           "props": {
+            "text": "Roads, drainage, bridges and earthworks.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e103",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e101",
+           "type": "heading",
+           "props": {
+            "text": "Project management",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e102",
+           "type": "text",
+           "props": {
+            "text": "One accountable lead and clear weekly reporting.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e106",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e104",
+           "type": "heading",
+           "props": {
+            "text": "Structural design",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e105",
+           "type": "text",
+           "props": {
+            "text": "In-house engineers working from concept to detail.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e109",
+         "type": "columns",
+         "props": {
+          "columns": "5fr 6fr"
+         },
+         "style": {
+          "padding_block": "30px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px 48px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "1fr 1fr"
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e107",
+           "type": "heading",
+           "props": {
+            "text": "Plant and equipment",
+            "level": 3
+           },
+           "style": {
+            "font_size": "clamp(1.3rem,2.4vw,2rem)"
+           }
+          },
+          {
+           "id": "e108",
+           "type": "text",
+           "props": {
+            "text": "A modern, maintained fleet with skilled operators.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e123",
+     "type": "section",
+     "props": {
+      "role": "faq",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e122",
+       "type": "columns",
+       "props": {
+        "columns": "4fr 7fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "60px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e116",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px"
+         },
+         "children": [
+          {
+           "id": "e114",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e115",
+           "type": "text",
+           "props": {
+            "text": "Send us your drawings or brief. An estimator will be in touch within three working days.",
+            "muted": true
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e121",
+         "type": "container",
+         "props": {},
+         "style": {},
+         "children": [
+          {
+           "id": "e117",
+           "type": "faq_item",
+           "props": {
+            "question": "Do you work on design and build?",
+            "answer": "Yes. We can take on design and construction under one contract, or build to your consultant's design.",
+            "open": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e118",
+           "type": "faq_item",
+           "props": {
+            "question": "How do you handle variations?",
+            "answer": "They are priced and agreed in writing before any work is carried out.",
+            "open": false
+           },
+           "style": {}
+          },
+          {
+           "id": "e119",
+           "type": "faq_item",
+           "props": {
+            "question": "Where do you operate?",
+            "answer": "Across the region, with permanent yards in three provinces.",
+            "open": false
+           },
+           "style": {}
+          },
+          {
+           "id": "e120",
+           "type": "faq_item",
+           "props": {
+            "question": "What size of project do you take on?",
+            "answer": "From single-building contracts to multi-year infrastructure programmes.",
+            "open": false
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "projects",
+   "title": "Projects",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e150",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e149",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e147",
+         "type": "heading",
+         "props": {
+          "text": "Projects",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e148",
+         "type": "text",
+         "props": {
+          "text": "Recent projects, by sector.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e146",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e145",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e144",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e143",
+           "type": "heading",
+           "props": {
+            "text": "Projects we are proud of",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e132",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px",
+          "margin_bottom": "48px"
+         },
+         "children": [
+          {
+           "id": "e128",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "architects-builders-6",
+             "subject": "building",
+             "ratio": 2.1,
+             "label": "Northgate Logistics Park"
+            },
+            "alt": "Northgate Logistics Park",
+            "ratio": 2.1
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e131",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "gap": "20px"
+           },
+           "children": [
+            {
+             "id": "e129",
+             "type": "heading",
+             "props": {
+              "text": "Northgate Logistics Park",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e130",
+             "type": "text",
+             "props": {
+              "text": "Industrial, 48,000 m²",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e137",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px",
+          "margin_bottom": "48px"
+         },
+         "children": [
+          {
+           "id": "e133",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "architects-builders-7",
+             "subject": "building",
+             "ratio": 2.1,
+             "label": "Great East Road Upgrade"
+            },
+            "alt": "Great East Road Upgrade",
+            "ratio": 2.1
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e136",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "gap": "20px"
+           },
+           "children": [
+            {
+             "id": "e134",
+             "type": "heading",
+             "props": {
+              "text": "Great East Road Upgrade",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e135",
+             "type": "text",
+             "props": {
+              "text": "Roads, 62 km",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e142",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px",
+          "margin_bottom": "48px"
+         },
+         "children": [
+          {
+           "id": "e138",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "architects-builders-8",
+             "subject": "building",
+             "ratio": 2.1,
+             "label": "Riverside Medical Centre"
+            },
+            "alt": "Riverside Medical Centre",
+            "ratio": 2.1
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e141",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "space-between",
+            "gap": "20px"
+           },
+           "children": [
+            {
+             "id": "e139",
+             "type": "heading",
+             "props": {
+              "text": "Riverside Medical Centre",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e140",
+             "type": "text",
+             "props": {
+              "text": "Healthcare, 12,000 m²",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "news",
+   "title": "News",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e182",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e181",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e179",
+         "type": "heading",
+         "props": {
+          "text": "News",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e180",
+         "type": "text",
+         "props": {
+          "text": "News from our sites and advice for clients.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e178",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e177",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e176",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "max_width": "760px"
+         },
+         "children": [
+          {
+           "id": "e175",
+           "type": "heading",
+           "props": {
+            "text": "News and insight",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e156",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e151",
+           "type": "text",
+           "props": {
+            "text": "Projects, 8 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e154",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e152",
+             "type": "heading",
+             "props": {
+              "text": "Lessons from a 62 km road upgrade",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e153",
+             "type": "text",
+             "props": {
+              "text": "Keeping traffic moving while building.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e155",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e162",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e157",
+           "type": "text",
+           "props": {
+            "text": "Guide, 6 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e160",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e158",
+             "type": "heading",
+             "props": {
+              "text": "Reading a programme of works",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e159",
+             "type": "text",
+             "props": {
+              "text": "What clients should actually look for.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e161",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e168",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e163",
+           "type": "text",
+           "props": {
+            "text": "Safety, 4 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e166",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e164",
+             "type": "heading",
+             "props": {
+              "text": "Our zero-harm site procedures",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e165",
+             "type": "text",
+             "props": {
+              "text": "What changed, and what it achieved.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e167",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e174",
+         "type": "columns",
+         "props": {
+          "columns": "2fr 7fr 3fr"
+         },
+         "style": {
+          "padding_block": "26px",
+          "border_top": "1px solid $c-border",
+          "gap": "24px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": "2fr 7fr 3fr"
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e169",
+           "type": "text",
+           "props": {
+            "text": "Guide, 7 min",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".88rem"
+           }
+          },
+          {
+           "id": "e172",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e170",
+             "type": "heading",
+             "props": {
+              "text": "Choosing the right contract form",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.25rem,2.4vw,1.8rem)"
+             }
+            },
+            {
+             "id": "e171",
+             "type": "text",
+             "props": {
+              "text": "A plain comparison for developers.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e173",
+           "type": "link",
+           "props": {
+            "label": "Read",
+            "href": {
+             "page": "blog"
+            },
+            "arrow": true
+           },
+           "style": {
+            "justify_self": "end"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e202",
+     "type": "section",
+     "props": {
+      "role": "page_header"
+     },
+     "style": {
+      "padding_block": "72px 12px"
+     },
+     "children": [
+      {
+       "id": "e201",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e199",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e200",
+         "type": "text",
+         "props": {
+          "text": "Tell us about your project.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem",
+          "max_width": "60ch"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e198",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e197",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "60px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e183",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "architects-builders-9",
+           "subject": "building",
+           "ratio": 1,
+           "label": "Location image"
+          },
+          "alt": "Location image",
+          "ratio": 1
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "e196",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px"
+         },
+         "children": [
+          {
+           "id": "e184",
+           "type": "heading",
+           "props": {
+            "text": "Talk to an estimator",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e187",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e185",
+             "type": "icon",
+             "props": {
+              "name": "map-pin"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e186",
+             "type": "text",
+             "props": {
+              "text": "100 Example Road, Your City"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e190",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e188",
+             "type": "icon",
+             "props": {
+              "name": "phone"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e189",
+             "type": "text",
+             "props": {
+              "text": "+000 000 000 000"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e193",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e191",
+             "type": "icon",
+             "props": {
+              "name": "mail"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e192",
+             "type": "text",
+             "props": {
+              "text": "hello@example.com"
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e194",
+           "type": "divider",
+           "props": {},
+           "style": {
+            "margin_block": "8px"
+           }
+          },
+          {
+           "id": "e195",
+           "type": "contact_form",
+           "props": {
+            "fields": [
+             {
+              "label": "Your name",
+              "type": "text"
+             },
+             {
+              "label": "Email address",
+              "type": "email"
+             },
+             {
+              "label": "Message",
+              "type": "textarea"
+             }
+            ],
+            "submit": "Request a quote"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "soft",
+  "assets": []
+ },
+ "reusable": []
+}

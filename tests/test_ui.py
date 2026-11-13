@@ -67,9 +67,10 @@ def test_no_enabled_button_is_dead(window):
     assert dead == []
 
 
-def test_export_is_clearly_marked_as_not_ready(window):
+def test_export_says_honestly_when_it_cannot_run(window):
+    """Export now works. With nothing to export it is still disabled, and says why."""
     assert not window.export_btn.isEnabled()
-    assert "Stage 05" in window.export_btn.toolTip() and "Stage 06" in window.export_btn.toolTip()
+    assert "Open or create a project" in window.export_btn.toolTip()
 
 
 def test_preview_template_on_canvas(window, qtbot):
@@ -280,12 +281,12 @@ def test_closing_with_unsaved_work_asks_first(window, qtbot, monkeypatch):
 
 def test_templates_panel_search_and_filter(window):
     panel = window.templates_panel
-    assert panel.list.count() == 50
+    assert panel.list.count() == 69
     panel.search.setText("streetwear")
     assert panel.list.count() == 1
     panel.search.clear()
     panel.category.setCurrentIndex(panel.category.findData("music"))
-    assert panel.list.count() == 5 and panel.count.text().startswith("5 of 50")
+    assert panel.list.count() == 5 and panel.count.text().startswith("5 of 69")
 
 
 def test_every_sidebar_tab_opens(window):
@@ -309,7 +310,7 @@ def test_new_project_dialog_validates_and_creates(window, qtbot, tmp_path):
 
     session = window.session
     dialog = NewProjectDialog(session.library, session.settings, TID, window)
-    assert dialog.grid.count() == 50 and dialog.template_id == TID
+    assert dialog.grid.count() == 69 and dialog.template_id == TID
     assert not dialog.create.isEnabled() and "name" in dialog.message.text()
     dialog.name.setText(" ?*: ")
     assert not dialog.create.isEnabled() and "letter or number" in dialog.message.text()
@@ -346,3 +347,38 @@ def test_settings_dialog_applies_and_autosave_timer_follows(window, qtbot):
     window._apply_autosave_settings()
     assert not window._autosave.isActive()
     dialog.deleteLater()
+
+
+def test_home_closes_the_project_and_shows_the_start_screen(window, qtbot, monkeypatch):
+    assert not window.home_btn.isEnabled()                       # already home
+    loaded(qtbot, window, lambda: window.session.create_project("Home Test", TID))
+    assert window.home_btn.isEnabled() and window.canvas.stack.currentIndex() != 0
+    folder = str(window.session.project.folder)
+    loaded(qtbot, window, lambda: window.session.apply_template_to_project(OTHER))
+    assert window.session.project.dirty
+    monkeypatch.setattr(QMessageBox, "question", staticmethod(lambda *a, **k: QMessageBox.StandardButton.Cancel))
+    window.go_home()
+    assert window.session.project is not None                    # Cancel keeps you in the project
+    monkeypatch.setattr(QMessageBox, "question", staticmethod(lambda *a, **k: QMessageBox.StandardButton.Discard))
+    window.go_home()
+    settle()
+    assert window.session.project is None and window.session.document is None
+    assert window.canvas.stack.currentIndex() == 0 and not window.home_btn.isEnabled()
+    assert window.windowTitle() == "MULUSA THEME STUDIO" and window.status_project.text() == "No project open"
+    assert folder in [window.recent.item(i).data(0x0100) for i in range(window.recent.count())]
+
+
+def test_home_also_leaves_a_template_preview(window, qtbot):
+    loaded(qtbot, window, lambda: window.session.preview_template(OTHER))
+    window.go_home()
+    settle()
+    assert window.session.preview is None and window.canvas.stack.currentIndex() == 0
+
+
+def test_the_splash_draws_real_progress(qapp):
+    from PySide6.QtGui import QColor
+    from mulusa_theme_studio.ui.splash import HEIGHT, WIDTH, splash_pixmap
+    empty, half = splash_pixmap(0, "Starting").toImage(), splash_pixmap(.5, "Loading templates").toImage()
+    assert (empty.width(), empty.height()) == (WIDTH, HEIGHT)
+    probe = (int(48 + (WIDTH - 96) * .4), 288)                  # inside the filled half of the bar
+    assert QColor(half.pixel(*probe)).red() > QColor(empty.pixel(*probe)).red() + 60

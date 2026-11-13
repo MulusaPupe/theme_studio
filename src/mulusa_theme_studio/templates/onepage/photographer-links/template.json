@@ -1,0 +1,304 @@
+{
+ "schema": "mulusa.theme/2",
+ "meta": {
+  "id": "onepage/photographer-links",
+  "template_name": "Photography: Link in bio",
+  "name": "Chanda Studio",
+  "description": "A link-in-bio page for a photographer: a flashing camera and every link in one glass card.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#f5f5f4",
+   "on_primary": "#0d0d0d",
+   "secondary": "#1c1917",
+   "accent": "#fb923c",
+   "on_accent": "#0d0d0d",
+   "background": "#0d0d0d",
+   "surface": "#171615",
+   "text": "#f5f5f4",
+   "muted": "#b4b4b3",
+   "border": "#323232"
+  },
+  "fonts": {
+   "heading": "Syne",
+   "body": "Figtree",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 700,
+   "heading_transform": "none",
+   "heading_tracking": "-0.02em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.28
+  },
+  "shape": {
+   "radius": "14px",
+   "button_radius": "14px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "96px",
+   "gap": "24px",
+   "width": "1120px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Photography: Link in bio",
+   "colors": {
+    "primary": "#f5f5f4",
+    "on_primary": "#0d0d0d",
+    "secondary": "#1c1917",
+    "accent": "#fb923c",
+    "on_accent": "#0d0d0d",
+    "background": "#0d0d0d",
+    "surface": "#171615",
+    "text": "#f5f5f4",
+    "muted": "#b4b4b3",
+    "border": "#323232"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Syne / Figtree",
+   "heading": "Syne",
+   "body": "Figtree"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "pho17",
+   "type": "header",
+   "props": {
+    "layout": "minimal",
+    "brand": "Chanda Studio"
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "pho16",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "40px"
+   },
+   "name": "Site footer"
+  }
+ },
+ "navigation": {
+  "primary": []
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "landing",
+   "nodes": [
+    {
+     "id": "pho13",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "ambient": "stars"
+     },
+     "style": {
+      "min_height": "100vh",
+      "display": "flex",
+      "align_items": "center",
+      "padding_block": "64px"
+     },
+     "name": "Hero",
+     "children": [
+      {
+       "id": "pho12",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "align_items": "center"
+       },
+       "children": [
+        {
+         "id": "pho11",
+         "type": "container",
+         "props": {},
+         "style": {
+          "width": "100%",
+          "max_width": "680px",
+          "margin_inline": "auto",
+          "gap": "22px",
+          "align_items": "center"
+         },
+         "children": [
+          {
+           "id": "pho9",
+           "type": "container",
+           "props": {},
+           "style": {
+            "background": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.16)",
+            "backdrop_filter": "blur(16px) saturate(140%)",
+            "box_shadow": "0 30px 80px rgba(0,0,0,0.4)",
+            "border_radius": "24px",
+            "padding": "46px 38px",
+            "gap": "18px",
+            "align_items": "center",
+            "text_align": "center",
+            "width": "100%"
+           },
+           "name": "Glass card",
+           "children": [
+            {
+             "id": "pho5",
+             "type": "illustration",
+             "props": {
+              "name": "camera",
+              "animate": true
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "190px"
+             }
+            },
+            {
+             "id": "pho6",
+             "type": "heading",
+             "props": {
+              "text": "Chanda Studio",
+              "level": 1
+             },
+             "style": {
+              "font_size": "clamp(2rem,5vw,2.8rem)"
+             }
+            },
+            {
+             "id": "pho7",
+             "type": "text",
+             "props": {
+              "text": "Portraits, weddings and brands, photographed in natural light.",
+              "muted": true
+             },
+             "style": {
+              "max_width": "36ch"
+             }
+            },
+            {
+             "id": "pho8",
+             "type": "container",
+             "props": {},
+             "style": {
+              "width": "100%",
+              "max_width": "380px",
+              "gap": "10px"
+             },
+             "children": [
+              {
+               "id": "pho1",
+               "type": "button",
+               "props": {
+                "label": "See the portfolio",
+                "href": "#",
+                "variant": "primary"
+               },
+               "style": {
+                "width": "100%",
+                "justify_content": "center"
+               }
+              },
+              {
+               "id": "pho2",
+               "type": "button",
+               "props": {
+                "label": "Book a shoot",
+                "href": "mailto:book@chandastudio.example",
+                "variant": "secondary"
+               },
+               "style": {
+                "width": "100%",
+                "justify_content": "center"
+               }
+              },
+              {
+               "id": "pho3",
+               "type": "button",
+               "props": {
+                "label": "Prints and frames",
+                "href": "#",
+                "variant": "secondary"
+               },
+               "style": {
+                "width": "100%",
+                "justify_content": "center"
+               }
+              },
+              {
+               "id": "pho4",
+               "type": "button",
+               "props": {
+                "label": "Instagram",
+                "href": "https://instagram.com/",
+                "variant": "secondary"
+               },
+               "style": {
+                "width": "100%",
+                "justify_content": "center"
+               }
+              }
+             ]
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "padding": "34px 20px"
+             }
+            }
+           }
+          },
+          {
+           "id": "pho10",
+           "type": "text",
+           "props": {
+            "text": "Lusaka · Available worldwide",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".8rem",
+            "text_align": "center"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "responsive": {
+      "mobile": {
+       "style": {
+        "padding_block": "40px"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

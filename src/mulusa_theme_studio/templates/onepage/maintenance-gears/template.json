@@ -1,0 +1,287 @@
+{
+ "schema": "mulusa.theme/2",
+ "meta": {
+  "id": "onepage/maintenance-gears",
+  "template_name": "Maintenance: Gears",
+  "name": "Vertex Group",
+  "description": "A calm maintenance notice: turning gears, a loading bar and a way to reach you.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#2563eb",
+   "on_primary": "#f1f5f9",
+   "secondary": "#1e293b",
+   "accent": "#f59e0b",
+   "on_accent": "#0f172a",
+   "background": "#0f172a",
+   "surface": "#16213a",
+   "text": "#f1f5f9",
+   "muted": "#b2b7bf",
+   "border": "#333b4b"
+  },
+  "fonts": {
+   "heading": "Outfit",
+   "body": "Inter",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 700,
+   "heading_transform": "none",
+   "heading_tracking": "-0.02em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.28
+  },
+  "shape": {
+   "radius": "10px",
+   "button_radius": "999px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "96px",
+   "gap": "24px",
+   "width": "1120px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Maintenance: Gears",
+   "colors": {
+    "primary": "#2563eb",
+    "on_primary": "#f1f5f9",
+    "secondary": "#1e293b",
+    "accent": "#f59e0b",
+    "on_accent": "#0f172a",
+    "background": "#0f172a",
+    "surface": "#16213a",
+    "text": "#f1f5f9",
+    "muted": "#b2b7bf",
+    "border": "#333b4b"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Outfit / Inter",
+   "heading": "Outfit",
+   "body": "Inter"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "mai16",
+   "type": "header",
+   "props": {
+    "layout": "minimal",
+    "brand": "Vertex Group"
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "mai15",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "40px"
+   },
+   "name": "Site footer"
+  }
+ },
+ "navigation": {
+  "primary": []
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "landing",
+   "nodes": [
+    {
+     "id": "mai12",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "ambient": "grid"
+     },
+     "style": {
+      "min_height": "100vh",
+      "display": "flex",
+      "align_items": "center",
+      "padding_block": "64px"
+     },
+     "name": "Hero",
+     "children": [
+      {
+       "id": "mai11",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "align_items": "center"
+       },
+       "children": [
+        {
+         "id": "mai10",
+         "type": "container",
+         "props": {},
+         "style": {
+          "width": "100%",
+          "max_width": "680px",
+          "margin_inline": "auto",
+          "gap": "22px",
+          "align_items": "center"
+         },
+         "children": [
+          {
+           "id": "mai8",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "center",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "mai7",
+             "type": "text",
+             "props": {
+              "text": "Vertex Group"
+             },
+             "style": {
+              "font_weight": "700",
+              "letter_spacing": "0.14em",
+              "text_transform": "uppercase",
+              "font_size": ".82rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "mai6",
+           "type": "container",
+           "props": {},
+           "style": {
+            "background": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.16)",
+            "backdrop_filter": "blur(16px) saturate(140%)",
+            "box_shadow": "0 30px 80px rgba(0,0,0,0.4)",
+            "border_radius": "24px",
+            "padding": "46px 38px",
+            "gap": "18px",
+            "align_items": "center",
+            "text_align": "center",
+            "width": "100%"
+           },
+           "name": "Glass card",
+           "children": [
+            {
+             "id": "mai1",
+             "type": "illustration",
+             "props": {
+              "name": "gears",
+              "animate": true
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "240px"
+             }
+            },
+            {
+             "id": "mai2",
+             "type": "heading",
+             "props": {
+              "text": "We are tuning things up.",
+              "level": 1
+             },
+             "style": {
+              "font_size": "clamp(2rem,5vw,3rem)"
+             }
+            },
+            {
+             "id": "mai3",
+             "type": "text",
+             "props": {
+              "text": "Our website is getting some planned maintenance. It will be back shortly, faster than before. Thank you for your patience.",
+              "muted": true
+             },
+             "style": {
+              "max_width": "46ch"
+             }
+            },
+            {
+             "id": "mai4",
+             "type": "progress",
+             "props": {
+              "mode": "loading",
+              "value": 60,
+              "show_value": true
+             },
+             "style": {
+              "max_width": "380px",
+              "margin_inline": "auto"
+             }
+            },
+            {
+             "id": "mai5",
+             "type": "text",
+             "props": {
+              "text": "Need us urgently? Email hello@vertexgroup.example"
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "padding": "34px 20px"
+             }
+            }
+           }
+          },
+          {
+           "id": "mai9",
+           "type": "text",
+           "props": {
+            "text": "© Vertex Group",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".8rem",
+            "text_align": "center"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "responsive": {
+      "mobile": {
+       "style": {
+        "padding_block": "40px"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

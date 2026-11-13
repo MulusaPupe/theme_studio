@@ -1,0 +1,3449 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "construction/residential-builder",
+  "template_name": "Residential Builder",
+  "name": "Homestead Builders",
+  "description": "Friendly green and warm white, focused on families building a home.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#27613f",
+   "on_primary": "#fffdf8",
+   "secondary": "#244e36",
+   "accent": "#e38b29",
+   "on_accent": "#1f2c24",
+   "background": "#fffdf8",
+   "surface": "#eff4ec",
+   "text": "#1f2c24",
+   "muted": "#5e675f",
+   "border": "#dbdcd6"
+  },
+  "fonts": {
+   "heading": "Manrope",
+   "body": "Manrope",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 800,
+   "heading_transform": "none",
+   "heading_tracking": "-0.02em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.3
+  },
+  "shape": {
+   "radius": "16px",
+   "button_radius": "999px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "88px",
+   "gap": "24px",
+   "width": "1180px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Residential Builder",
+   "colors": {
+    "primary": "#27613f",
+    "on_primary": "#fffdf8",
+    "secondary": "#244e36",
+    "accent": "#e38b29",
+    "on_accent": "#1f2c24",
+    "background": "#fffdf8",
+    "surface": "#eff4ec",
+    "text": "#1f2c24",
+    "muted": "#5e675f",
+    "border": "#dbdcd6"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Manrope / Manrope",
+   "heading": "Manrope",
+   "body": "Manrope"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e262",
+   "type": "header",
+   "props": {
+    "layout": "classic",
+    "brand": "Homestead Builders",
+    "cta": {
+     "label": "Free quote",
+     "href": {
+      "page": "contact"
+     }
+    }
+   },
+   "style": {
+    "border_bottom": "1px solid $c-border"
+   },
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e281",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e280",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e277",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 3fr 4fr"
+       },
+       "style": {
+        "gap": "40px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": "5fr 3fr 4fr"
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e265",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "10px"
+         },
+         "children": [
+          {
+           "id": "e263",
+           "type": "heading",
+           "props": {
+            "text": "Homestead Builders",
+            "level": 3
+           },
+           "style": {
+            "font_size": "1.5rem"
+           }
+          },
+          {
+           "id": "e264",
+           "type": "text",
+           "props": {
+            "text": "We deliver commercial, civil and residential projects with our own crews, our own plant and one.",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem",
+            "max_width": "34ch"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e272",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e266",
+           "type": "heading",
+           "props": {
+            "text": "Explore",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e267",
+           "type": "link",
+           "props": {
+            "label": "About",
+            "href": {
+             "page": "about"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e268",
+           "type": "link",
+           "props": {
+            "label": "Services",
+            "href": {
+             "page": "services"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e269",
+           "type": "link",
+           "props": {
+            "label": "Projects",
+            "href": {
+             "page": "portfolio"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e270",
+           "type": "link",
+           "props": {
+            "label": "News",
+            "href": {
+             "page": "blog"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e271",
+           "type": "link",
+           "props": {
+            "label": "Contact",
+            "href": {
+             "page": "contact"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          }
+         ]
+        },
+        {
+         "id": "e276",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e273",
+           "type": "heading",
+           "props": {
+            "text": "Contact",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e274",
+           "type": "text",
+           "props": {
+            "text": "100 Example Road, Your City",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          },
+          {
+           "id": "e275",
+           "type": "text",
+           "props": {
+            "text": "hello@example.com",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e278",
+       "type": "divider",
+       "props": {},
+       "style": {
+        "margin_block": "40px 14px"
+       }
+      },
+      {
+       "id": "e279",
+       "type": "text",
+       "props": {
+        "text": "© Homestead Builders. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Services",
+    "page": "services"
+   },
+   {
+    "label": "Projects",
+    "page": "portfolio"
+   },
+   {
+    "label": "News",
+    "page": "blog"
+   },
+   {
+    "label": "Contact",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e9",
+     "type": "section",
+     "props": {
+      "role": "hero"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e8",
+       "type": "columns",
+       "props": {
+        "columns": "6fr 5fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "64px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e6",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "20px"
+         },
+         "children": [
+          {
+           "id": "e1",
+           "type": "heading",
+           "props": {
+            "text": "The home you've been picturing, built right",
+            "level": 1
+           },
+           "style": {
+            "font_size": "clamp(2.7rem,7vw,5.6rem)"
+           }
+          },
+          {
+           "id": "e2",
+           "type": "text",
+           "props": {
+            "text": "Family-run home builders with fixed quotes, one point of contact and no surprises.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.16rem",
+            "max_width": "60ch"
+           }
+          },
+          {
+           "id": "e5",
+           "type": "row",
+           "props": {},
+           "style": {
+            "margin_top": "10px",
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e3",
+             "type": "button",
+             "props": {
+              "label": "Get a free quote",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {}
+            },
+            {
+             "id": "e4",
+             "type": "button",
+             "props": {
+              "label": "See our homes",
+              "href": {
+               "page": "portfolio"
+              },
+              "variant": "secondary"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e7",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "residential-builder-1",
+           "subject": "interior",
+           "ratio": 0.92,
+           "label": "Hero image"
+          },
+          "alt": "Hero image",
+          "ratio": 0.92
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e26",
+     "type": "section",
+     "props": {
+      "role": "services",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e25",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e23",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e22",
+           "type": "heading",
+           "props": {
+            "text": "From first drawing to final handover",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e24",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e13",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e10",
+             "type": "icon",
+             "props": {
+              "name": "ruler"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e11",
+             "type": "heading",
+             "props": {
+              "text": "Structural design",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e12",
+             "type": "text",
+             "props": {
+              "text": "In-house engineers working from concept to detail.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e17",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e14",
+             "type": "icon",
+             "props": {
+              "name": "truck"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e15",
+             "type": "heading",
+             "props": {
+              "text": "Plant and equipment",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e16",
+             "type": "text",
+             "props": {
+              "text": "A modern, maintained fleet with skilled operators.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e21",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e18",
+             "type": "icon",
+             "props": {
+              "name": "hard-hat"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e19",
+             "type": "heading",
+             "props": {
+              "text": "Health and safety",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e20",
+             "type": "text",
+             "props": {
+              "text": "Rigorous site procedures, audited independently.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e47",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e46",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e28",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e27",
+           "type": "heading",
+           "props": {
+            "text": "Projects we are proud of",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e45",
+         "type": "columns",
+         "props": {
+          "columns": 2
+         },
+         "style": {
+          "gap": "48px 32px"
+         },
+         "children": [
+          {
+           "id": "e32",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e29",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "residential-builder-2",
+               "subject": "interior",
+               "ratio": 1.45,
+               "label": "Riverside Medical Centre"
+              },
+              "alt": "Riverside Medical Centre",
+              "ratio": 1.45
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e30",
+             "type": "heading",
+             "props": {
+              "text": "Riverside Medical Centre",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e31",
+             "type": "text",
+             "props": {
+              "text": "Healthcare, 12,000 m²",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e36",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e33",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "residential-builder-3",
+               "subject": "interior",
+               "ratio": 1.45,
+               "label": "Ndola Office Tower"
+              },
+              "alt": "Ndola Office Tower",
+              "ratio": 1.45
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e34",
+             "type": "heading",
+             "props": {
+              "text": "Ndola Office Tower",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e35",
+             "type": "text",
+             "props": {
+              "text": "Commercial, 18 storeys",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e40",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e37",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "residential-builder-4",
+               "subject": "interior",
+               "ratio": 1.45,
+               "label": "Solwezi Water Works"
+              },
+              "alt": "Solwezi Water Works",
+              "ratio": 1.45
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e38",
+             "type": "heading",
+             "props": {
+              "text": "Solwezi Water Works",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e39",
+             "type": "text",
+             "props": {
+              "text": "Infrastructure, 40 ML/day",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e44",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e41",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "residential-builder-5",
+               "subject": "interior",
+               "ratio": 1.45,
+               "label": "Kafue River Bridge"
+              },
+              "alt": "Kafue River Bridge",
+              "ratio": 1.45
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e42",
+             "type": "heading",
+             "props": {
+              "text": "Kafue River Bridge",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e43",
+             "type": "text",
+             "props": {
+              "text": "Civil, 240 m span",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e59",
+     "type": "section",
+     "props": {
+      "role": "statistics",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "64px"
+     },
+     "children": [
+      {
+       "id": "e58",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e57",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e50",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e48",
+             "type": "heading",
+             "props": {
+              "text": "2.1M",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e49",
+             "type": "text",
+             "props": {
+              "text": "Safe hours worked",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e53",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e51",
+             "type": "heading",
+             "props": {
+              "text": "320",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e52",
+             "type": "text",
+             "props": {
+              "text": "Projects delivered",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e56",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e54",
+             "type": "heading",
+             "props": {
+              "text": "31",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e55",
+             "type": "text",
+             "props": {
+              "text": "Years building",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e79",
+     "type": "section",
+     "props": {
+      "role": "testimonials"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e78",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e76",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e75",
+           "type": "heading",
+           "props": {
+            "text": "What people say",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e77",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e64",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e60",
+             "type": "text",
+             "props": {
+              "text": "“Handed over two weeks early, with a snag list of almost nothing.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e63",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e61",
+               "type": "text",
+               "props": {
+                "text": "Mwansa Kaunda"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e62",
+               "type": "text",
+               "props": {
+                "text": "Development Director, Apex Properties",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e69",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e65",
+             "type": "text",
+             "props": {
+              "text": "“The one contractor who tells you about a problem before you find it.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e68",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e66",
+               "type": "text",
+               "props": {
+                "text": "Rob Hendricks"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e67",
+               "type": "text",
+               "props": {
+                "text": "Principal Engineer, BKS Consulting",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e74",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e70",
+             "type": "text",
+             "props": {
+              "text": "“Their safety record is the reason we keep inviting them to tender.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e73",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e71",
+               "type": "text",
+               "props": {
+                "text": "Joyce Ngoma"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e72",
+               "type": "text",
+               "props": {
+                "text": "Procurement Lead, Roads Authority",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e102",
+     "type": "section",
+     "props": {
+      "role": "pricing",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e101",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e99",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e98",
+           "type": "heading",
+           "props": {
+            "text": "Ways to engage us",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e100",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "20px",
+          "align_items": "stretch"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e85",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e80",
+             "type": "heading",
+             "props": {
+              "text": "Plant hire",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e81",
+             "type": "heading",
+             "props": {
+              "text": "Daily rates",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e82",
+             "type": "text",
+             "props": {
+              "text": "With or without operators.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e83",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e84",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e91",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius"
+           },
+           "children": [
+            {
+             "id": "e86",
+             "type": "heading",
+             "props": {
+              "text": "Condition survey",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e87",
+             "type": "heading",
+             "props": {
+              "text": "From $600",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e88",
+             "type": "text",
+             "props": {
+              "text": "Existing structures assessed.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e89",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e90",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e97",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e92",
+             "type": "heading",
+             "props": {
+              "text": "Project audit",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e93",
+             "type": "heading",
+             "props": {
+              "text": "From $1,200",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e94",
+             "type": "text",
+             "props": {
+              "text": "Independent review of a live project.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e95",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e96",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e110",
+     "type": "section",
+     "props": {
+      "role": "faq"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e109",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e104",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e103",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e105",
+         "type": "faq_item",
+         "props": {
+          "question": "Where do you operate?",
+          "answer": "Across the region, with permanent yards in three provinces.",
+          "open": true
+         },
+         "style": {}
+        },
+        {
+         "id": "e106",
+         "type": "faq_item",
+         "props": {
+          "question": "What size of project do you take on?",
+          "answer": "From single-building contracts to multi-year infrastructure programmes.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e107",
+         "type": "faq_item",
+         "props": {
+          "question": "Do you work on design and build?",
+          "answer": "Yes. We can take on design and construction under one contract, or build to your consultant's design.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e108",
+         "type": "faq_item",
+         "props": {
+          "question": "How do you handle variations?",
+          "answer": "They are priced and agreed in writing before any work is carried out.",
+          "open": false
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e116",
+     "type": "section",
+     "props": {
+      "role": "call_to_action",
+      "ambient": "grid"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e115",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e114",
+         "type": "container",
+         "props": {
+          "tone": "primary"
+         },
+         "style": {
+          "gap": "16px",
+          "padding": "clamp(32px,6vw,72px)",
+          "border_radius": "$radius"
+         },
+         "children": [
+          {
+           "id": "e111",
+           "type": "heading",
+           "props": {
+            "text": "Have a project to price?",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e112",
+           "type": "text",
+           "props": {
+            "text": "Send us your drawings or brief. An estimator will be in touch within three working days.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem",
+            "max_width": "50ch"
+           }
+          },
+          {
+           "id": "e113",
+           "type": "button",
+           "props": {
+            "label": "Get a free quote",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {
+            "align_self": "flex-start",
+            "margin_top": "8px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e149",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "96px"
+     },
+     "children": [
+      {
+       "id": "e148",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "align_items": "center",
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e146",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e147",
+         "type": "text",
+         "props": {
+          "text": "Three decades of building, and how we work on site.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e124",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e123",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "68px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e117",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "residential-builder-6",
+           "subject": "interior",
+           "ratio": 1.1,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 1.1
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "e122",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e118",
+           "type": "heading",
+           "props": {
+            "text": "Built right, handed over on time",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e119",
+           "type": "text",
+           "props": {
+            "text": "We deliver commercial, civil and residential projects with our own crews, our own plant and one accountable project manager on every site.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e120",
+           "type": "text",
+           "props": {
+            "text": "Safety and quality come first on every project. Our engineers are involved from early design, so problems get solved on paper rather than on site.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e121",
+           "type": "link",
+           "props": {
+            "label": "Our story",
+            "href": {
+             "page": "about"
+            },
+            "arrow": true
+           },
+           "style": {
+            "margin_top": "6px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e145",
+     "type": "section",
+     "props": {
+      "role": "team",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e144",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e142",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e141",
+           "type": "heading",
+           "props": {
+            "text": "The people who run our sites",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e143",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e128",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e125",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "residential-builder-7",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Precious Zimba"
+              },
+              "alt": "Precious Zimba",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e126",
+             "type": "heading",
+             "props": {
+              "text": "Precious Zimba",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e127",
+             "type": "text",
+             "props": {
+              "text": "Health and Safety Lead",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e132",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e129",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "residential-builder-8",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Felix Sichone"
+              },
+              "alt": "Felix Sichone",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e130",
+             "type": "heading",
+             "props": {
+              "text": "Felix Sichone",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e131",
+             "type": "text",
+             "props": {
+              "text": "Senior QS",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e136",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e133",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "residential-builder-9",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Kelvin Chisanga"
+              },
+              "alt": "Kelvin Chisanga",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e134",
+             "type": "heading",
+             "props": {
+              "text": "Kelvin Chisanga",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e135",
+             "type": "text",
+             "props": {
+              "text": "Managing Director",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e140",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "8px",
+            "align_items": "center",
+            "text_align": "center"
+           },
+           "children": [
+            {
+             "id": "e137",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "residential-builder-10",
+               "subject": "portrait",
+               "ratio": 1,
+               "label": "Agnes Lungu"
+              },
+              "alt": "Agnes Lungu",
+              "ratio": 1
+             },
+             "style": {
+              "border_radius": "50%",
+              "width": "140px"
+             }
+            },
+            {
+             "id": "e138",
+             "type": "heading",
+             "props": {
+              "text": "Agnes Lungu",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e139",
+             "type": "text",
+             "props": {
+              "text": "Chief Engineer",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "services",
+   "title": "Services",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e201",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "96px"
+     },
+     "children": [
+      {
+       "id": "e200",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "align_items": "center",
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e198",
+         "type": "heading",
+         "props": {
+          "text": "Services",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e199",
+         "type": "text",
+         "props": {
+          "text": "Construction, civil works and engineering design.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e166",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e165",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e163",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e162",
+           "type": "heading",
+           "props": {
+            "text": "From first drawing to final handover",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e164",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e153",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e150",
+             "type": "icon",
+             "props": {
+              "name": "ruler"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e151",
+             "type": "heading",
+             "props": {
+              "text": "Structural design",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e152",
+             "type": "text",
+             "props": {
+              "text": "In-house engineers working from concept to detail.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e157",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e154",
+             "type": "icon",
+             "props": {
+              "name": "truck"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e155",
+             "type": "heading",
+             "props": {
+              "text": "Plant and equipment",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e156",
+             "type": "text",
+             "props": {
+              "text": "A modern, maintained fleet with skilled operators.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e161",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e158",
+             "type": "icon",
+             "props": {
+              "name": "hard-hat"
+             },
+             "style": {
+              "font_size": "28px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e159",
+             "type": "heading",
+             "props": {
+              "text": "Health and safety",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e160",
+             "type": "text",
+             "props": {
+              "text": "Rigorous site procedures, audited independently.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e189",
+     "type": "section",
+     "props": {
+      "role": "pricing",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e188",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e186",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e185",
+           "type": "heading",
+           "props": {
+            "text": "Ways to engage us",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e187",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "20px",
+          "align_items": "stretch"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e172",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e167",
+             "type": "heading",
+             "props": {
+              "text": "Plant hire",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e168",
+             "type": "heading",
+             "props": {
+              "text": "Daily rates",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e169",
+             "type": "text",
+             "props": {
+              "text": "With or without operators.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e170",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e171",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e178",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius"
+           },
+           "children": [
+            {
+             "id": "e173",
+             "type": "heading",
+             "props": {
+              "text": "Condition survey",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e174",
+             "type": "heading",
+             "props": {
+              "text": "From $600",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e175",
+             "type": "text",
+             "props": {
+              "text": "Existing structures assessed.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e176",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e177",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e184",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e179",
+             "type": "heading",
+             "props": {
+              "text": "Project audit",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e180",
+             "type": "heading",
+             "props": {
+              "text": "From $1,200",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e181",
+             "type": "text",
+             "props": {
+              "text": "Independent review of a live project.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e182",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e183",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e197",
+     "type": "section",
+     "props": {
+      "role": "faq"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e196",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e191",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e190",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e192",
+         "type": "faq_item",
+         "props": {
+          "question": "Where do you operate?",
+          "answer": "Across the region, with permanent yards in three provinces.",
+          "open": true
+         },
+         "style": {}
+        },
+        {
+         "id": "e193",
+         "type": "faq_item",
+         "props": {
+          "question": "What size of project do you take on?",
+          "answer": "From single-building contracts to multi-year infrastructure programmes.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e194",
+         "type": "faq_item",
+         "props": {
+          "question": "Do you work on design and build?",
+          "answer": "Yes. We can take on design and construction under one contract, or build to your consultant's design.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e195",
+         "type": "faq_item",
+         "props": {
+          "question": "How do you handle variations?",
+          "answer": "They are priced and agreed in writing before any work is carried out.",
+          "open": false
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "projects",
+   "title": "Projects",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e226",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "96px"
+     },
+     "children": [
+      {
+       "id": "e225",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "align_items": "center",
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e223",
+         "type": "heading",
+         "props": {
+          "text": "Projects",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e224",
+         "type": "text",
+         "props": {
+          "text": "Recent projects, by sector.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e222",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e221",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e203",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e202",
+           "type": "heading",
+           "props": {
+            "text": "Projects we are proud of",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e220",
+         "type": "columns",
+         "props": {
+          "columns": 2
+         },
+         "style": {
+          "gap": "48px 32px"
+         },
+         "children": [
+          {
+           "id": "e207",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e204",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "residential-builder-11",
+               "subject": "interior",
+               "ratio": 1.45,
+               "label": "Riverside Medical Centre"
+              },
+              "alt": "Riverside Medical Centre",
+              "ratio": 1.45
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e205",
+             "type": "heading",
+             "props": {
+              "text": "Riverside Medical Centre",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e206",
+             "type": "text",
+             "props": {
+              "text": "Healthcare, 12,000 m²",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e211",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e208",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "residential-builder-12",
+               "subject": "interior",
+               "ratio": 1.45,
+               "label": "Ndola Office Tower"
+              },
+              "alt": "Ndola Office Tower",
+              "ratio": 1.45
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e209",
+             "type": "heading",
+             "props": {
+              "text": "Ndola Office Tower",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e210",
+             "type": "text",
+             "props": {
+              "text": "Commercial, 18 storeys",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e215",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e212",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "residential-builder-13",
+               "subject": "interior",
+               "ratio": 1.45,
+               "label": "Solwezi Water Works"
+              },
+              "alt": "Solwezi Water Works",
+              "ratio": 1.45
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e213",
+             "type": "heading",
+             "props": {
+              "text": "Solwezi Water Works",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e214",
+             "type": "text",
+             "props": {
+              "text": "Infrastructure, 40 ML/day",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e219",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e216",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "residential-builder-14",
+               "subject": "interior",
+               "ratio": 1.45,
+               "label": "Kafue River Bridge"
+              },
+              "alt": "Kafue River Bridge",
+              "ratio": 1.45
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e217",
+             "type": "heading",
+             "props": {
+              "text": "Kafue River Bridge",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e218",
+             "type": "text",
+             "props": {
+              "text": "Civil, 240 m span",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "news",
+   "title": "News",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e250",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "96px"
+     },
+     "children": [
+      {
+       "id": "e249",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "align_items": "center",
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e247",
+         "type": "heading",
+         "props": {
+          "text": "News",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e248",
+         "type": "text",
+         "props": {
+          "text": "News from our sites and advice for clients.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e246",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e245",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e243",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e242",
+           "type": "heading",
+           "props": {
+            "text": "News and insight",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e244",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "32px"
+         },
+         "children": [
+          {
+           "id": "e231",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e227",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "residential-builder-15",
+               "subject": "crane",
+               "ratio": 1.55,
+               "label": "Our zero-harm site procedures"
+              },
+              "alt": "Our zero-harm site procedures",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e228",
+             "type": "text",
+             "props": {
+              "text": "Safety, 4 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e229",
+             "type": "heading",
+             "props": {
+              "text": "Our zero-harm site procedures",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e230",
+             "type": "text",
+             "props": {
+              "text": "What changed, and what it achieved.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e236",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e232",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "residential-builder-16",
+               "subject": "crane",
+               "ratio": 1.55,
+               "label": "Choosing the right contract form"
+              },
+              "alt": "Choosing the right contract form",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e233",
+             "type": "text",
+             "props": {
+              "text": "Guide, 7 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e234",
+             "type": "heading",
+             "props": {
+              "text": "Choosing the right contract form",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e235",
+             "type": "text",
+             "props": {
+              "text": "A plain comparison for developers.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e241",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e237",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "residential-builder-17",
+               "subject": "crane",
+               "ratio": 1.55,
+               "label": "How early contractor involvement saves money"
+              },
+              "alt": "How early contractor involvement saves money",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e238",
+             "type": "text",
+             "props": {
+              "text": "Insight, 5 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e239",
+             "type": "heading",
+             "props": {
+              "text": "How early contractor involvement saves money",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e240",
+             "type": "text",
+             "props": {
+              "text": "Where the savings really come from.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e261",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "96px"
+     },
+     "children": [
+      {
+       "id": "e260",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "align_items": "center",
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e258",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e259",
+         "type": "text",
+         "props": {
+          "text": "Tell us about your project.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e257",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e256",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e255",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e253",
+           "type": "heading",
+           "props": {
+            "text": "Talk to an estimator",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e254",
+           "type": "text",
+           "props": {
+            "text": "Send us your drawings or brief. An estimator will be in touch within three working days.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e252",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px",
+          "background": "$c-card",
+          "border_radius": "$card-radius",
+          "padding": "clamp(24px,4vw,44px)",
+          "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+         },
+         "children": [
+          {
+           "id": "e251",
+           "type": "contact_form",
+           "props": {
+            "fields": [
+             {
+              "label": "Your name",
+              "type": "text"
+             },
+             {
+              "label": "Email address",
+              "type": "email"
+             },
+             {
+              "label": "Message",
+              "type": "textarea"
+             }
+            ],
+            "submit": "Request a quote"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "soft",
+  "assets": []
+ },
+ "reusable": []
+}

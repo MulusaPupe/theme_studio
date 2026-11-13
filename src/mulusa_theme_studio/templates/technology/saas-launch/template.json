@@ -1,0 +1,4113 @@
+{
+ "schema": "mulusa.theme/1",
+ "meta": {
+  "id": "technology/saas-launch",
+  "template_name": "SaaS Launch",
+  "name": "Flowbase",
+  "description": "A clean product launch with soft gradients, wide image and pricing.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#4f46e5",
+   "on_primary": "#ffffff",
+   "secondary": "#3936a4",
+   "accent": "#06b6d4",
+   "on_accent": "#0f172a",
+   "background": "#ffffff",
+   "surface": "#f3f4fd",
+   "text": "#0f172a",
+   "muted": "#525866",
+   "border": "#d9dadd"
+  },
+  "fonts": {
+   "heading": "Manrope",
+   "body": "Inter",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 800,
+   "heading_transform": "none",
+   "heading_tracking": "-0.035em",
+   "heading_line": 1.04,
+   "base": 17,
+   "ratio": 1.3
+  },
+  "shape": {
+   "radius": "14px",
+   "button_radius": "10px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "96px",
+   "gap": "24px",
+   "width": "1180px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "SaaS Launch",
+   "colors": {
+    "primary": "#4f46e5",
+    "on_primary": "#ffffff",
+    "secondary": "#3936a4",
+    "accent": "#06b6d4",
+    "on_accent": "#0f172a",
+    "background": "#ffffff",
+    "surface": "#f3f4fd",
+    "text": "#0f172a",
+    "muted": "#525866",
+    "border": "#d9dadd"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Manrope / Inter",
+   "heading": "Manrope",
+   "body": "Inter"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "e312",
+   "type": "header",
+   "props": {
+    "layout": "classic",
+    "brand": "Flowbase",
+    "sticky": true,
+    "cta": {
+     "label": "Start free",
+     "href": {
+      "page": "contact"
+     }
+    }
+   },
+   "style": {
+    "border_bottom": "1px solid $c-border"
+   },
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "e331",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "64px 30px"
+   },
+   "name": "Site footer",
+   "children": [
+    {
+     "id": "e330",
+     "type": "container",
+     "props": {
+      "width": "content"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e327",
+       "type": "columns",
+       "props": {
+        "columns": "5fr 3fr 4fr"
+       },
+       "style": {
+        "gap": "40px"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": "5fr 3fr 4fr"
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e315",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "10px"
+         },
+         "children": [
+          {
+           "id": "e313",
+           "type": "heading",
+           "props": {
+            "text": "Flowbase",
+            "level": 3
+           },
+           "style": {
+            "font_size": "1.5rem"
+           }
+          },
+          {
+           "id": "e314",
+           "type": "text",
+           "props": {
+            "text": "We started as a team of engineers frustrated by slow, fragile software. Today thousands of.",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem",
+            "max_width": "34ch"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e322",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e316",
+           "type": "heading",
+           "props": {
+            "text": "Explore",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e317",
+           "type": "link",
+           "props": {
+            "label": "About",
+            "href": {
+             "page": "about"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e318",
+           "type": "link",
+           "props": {
+            "label": "Product",
+            "href": {
+             "page": "services"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e319",
+           "type": "link",
+           "props": {
+            "label": "Customers",
+            "href": {
+             "page": "portfolio"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e320",
+           "type": "link",
+           "props": {
+            "label": "Blog",
+            "href": {
+             "page": "blog"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          },
+          {
+           "id": "e321",
+           "type": "link",
+           "props": {
+            "label": "Contact",
+            "href": {
+             "page": "contact"
+            }
+           },
+           "style": {
+            "font_weight": 400
+           }
+          }
+         ]
+        },
+        {
+         "id": "e326",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "8px"
+         },
+         "children": [
+          {
+           "id": "e323",
+           "type": "heading",
+           "props": {
+            "text": "Contact",
+            "level": 5
+           },
+           "style": {}
+          },
+          {
+           "id": "e324",
+           "type": "text",
+           "props": {
+            "text": "100 Example Road, Your City",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          },
+          {
+           "id": "e325",
+           "type": "text",
+           "props": {
+            "text": "hello@example.com",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".95rem"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e328",
+       "type": "divider",
+       "props": {},
+       "style": {
+        "margin_block": "40px 14px"
+       }
+      },
+      {
+       "id": "e329",
+       "type": "text",
+       "props": {
+        "text": "© Flowbase. All rights reserved.",
+        "muted": true
+       },
+       "style": {
+        "font_size": ".84rem"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "navigation": {
+  "primary": [
+   {
+    "label": "About",
+    "page": "about"
+   },
+   {
+    "label": "Product",
+    "page": "services"
+   },
+   {
+    "label": "Customers",
+    "page": "portfolio"
+   },
+   {
+    "label": "Blog",
+    "page": "blog"
+   },
+   {
+    "label": "Contact",
+    "page": "contact"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e9",
+     "type": "section",
+     "props": {
+      "role": "hero"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e8",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e6",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "20px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "840px",
+          "margin_inline": "auto",
+          "margin_bottom": "56px"
+         },
+         "children": [
+          {
+           "id": "e1",
+           "type": "heading",
+           "props": {
+            "text": "Automate the work nobody wants to do",
+            "level": 1
+           },
+           "style": {
+            "font_size": "clamp(2.7rem,7vw,5.6rem)"
+           }
+          },
+          {
+           "id": "e2",
+           "type": "text",
+           "props": {
+            "text": "Connect your tools, build workflows in minutes and give your team its time back.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.16rem",
+            "max_width": "60ch"
+           }
+          },
+          {
+           "id": "e5",
+           "type": "row",
+           "props": {},
+           "style": {
+            "margin_top": "10px",
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e3",
+             "type": "button",
+             "props": {
+              "label": "Start for free",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {}
+            },
+            {
+             "id": "e4",
+             "type": "button",
+             "props": {
+              "label": "Watch demo",
+              "href": {
+               "page": "portfolio"
+              },
+              "variant": "secondary"
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e7",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "saas-launch-1",
+           "subject": "circuit",
+           "ratio": 2.2,
+           "label": "Hero image"
+          },
+          "alt": "Hero image",
+          "ratio": 2.2
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e24",
+     "type": "section",
+     "props": {
+      "role": "statistics"
+     },
+     "style": {
+      "padding_block": "56px"
+     },
+     "children": [
+      {
+       "id": "e23",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e22",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 4
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e12",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e10",
+             "type": "heading",
+             "props": {
+              "text": "99.99%",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e11",
+             "type": "text",
+             "props": {
+              "text": "Uptime",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e15",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e13",
+             "type": "heading",
+             "props": {
+              "text": "14k",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e14",
+             "type": "text",
+             "props": {
+              "text": "Teams",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e18",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e16",
+             "type": "heading",
+             "props": {
+              "text": "3.2B",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e17",
+             "type": "text",
+             "props": {
+              "text": "Requests a day",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e21",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px",
+            "border_top": "1px solid $c-border",
+            "padding_top": "18px"
+           },
+           "children": [
+            {
+             "id": "e19",
+             "type": "heading",
+             "props": {
+              "text": "40 ms",
+              "level": 2
+             },
+             "style": {
+              "font_size": "clamp(2.2rem,4vw,3.2rem)"
+             }
+            },
+            {
+             "id": "e20",
+             "type": "text",
+             "props": {
+              "text": "Median latency",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e45",
+     "type": "section",
+     "props": {
+      "role": "services",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e44",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e42",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e41",
+           "type": "heading",
+           "props": {
+            "text": "Everything your team needs, in one place",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e43",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "18px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 3
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e28",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "14px",
+            "padding": "36px",
+            "border_radius": "$radius",
+            "grid_row": "span 2",
+            "min_height": "400px"
+           },
+           "responsive": {
+            "mobile": {
+             "style": {
+              "min_height": "280px",
+              "grid_row": "auto"
+             }
+            }
+           },
+           "children": [
+            {
+             "id": "e25",
+             "type": "illustration",
+             "props": {
+              "name": "gears",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "170px",
+              "margin_left": "0",
+              "margin_bottom": "6px"
+             }
+            },
+            {
+             "id": "e26",
+             "type": "heading",
+             "props": {
+              "text": "Automated workflows",
+              "level": 3
+             },
+             "style": {
+              "font_size": "clamp(1.6rem,3vw,2.4rem)",
+              "margin_top": "auto"
+             }
+            },
+            {
+             "id": "e27",
+             "type": "text",
+             "props": {
+              "text": "Connect your tools and stop doing the same work twice.",
+              "muted": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e32",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e29",
+             "type": "illustration",
+             "props": {
+              "name": "growth",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "150px",
+              "margin_left": "0",
+              "margin_bottom": "6px"
+             }
+            },
+            {
+             "id": "e30",
+             "type": "heading",
+             "props": {
+              "text": "Real-time analytics",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.2rem"
+             }
+            },
+            {
+             "id": "e31",
+             "type": "text",
+             "props": {
+              "text": "Live dashboards built from your own data.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e36",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e33",
+             "type": "illustration",
+             "props": {
+              "name": "lock",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "150px",
+              "margin_left": "0",
+              "margin_bottom": "6px"
+             }
+            },
+            {
+             "id": "e34",
+             "type": "heading",
+             "props": {
+              "text": "Enterprise security",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.2rem"
+             }
+            },
+            {
+             "id": "e35",
+             "type": "text",
+             "props": {
+              "text": "SSO, audit logs and encryption by default.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e40",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "12px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)",
+            "grid_column": "span 2"
+           },
+           "children": [
+            {
+             "id": "e37",
+             "type": "illustration",
+             "props": {
+              "name": "code",
+              "animate": true,
+              "aria_label": ""
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "150px",
+              "margin_left": "0",
+              "margin_bottom": "6px"
+             }
+            },
+            {
+             "id": "e38",
+             "type": "heading",
+             "props": {
+              "text": "Developer API",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.2rem"
+             }
+            },
+            {
+             "id": "e39",
+             "type": "text",
+             "props": {
+              "text": "A clean, documented API and SDKs for every stack.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "grid_column": "auto"
+             }
+            }
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e65",
+     "type": "section",
+     "props": {
+      "role": "testimonials"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e64",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e62",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e61",
+           "type": "heading",
+           "props": {
+            "text": "What people say",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e63",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e50",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e46",
+             "type": "text",
+             "props": {
+              "text": "“We replaced four tools with one, and our engineers got their afternoons back.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e49",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e47",
+               "type": "text",
+               "props": {
+                "text": "Priya Nair"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e48",
+               "type": "text",
+               "props": {
+                "text": "CTO, Fernway",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e55",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e51",
+             "type": "text",
+             "props": {
+              "text": "“Setup took an hour. We were in production the same week.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e54",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e52",
+               "type": "text",
+               "props": {
+                "text": "Luke Sampa"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e53",
+               "type": "text",
+               "props": {
+                "text": "Lead Engineer, Orbit Pay",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e60",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e56",
+             "type": "text",
+             "props": {
+              "text": "“The best developer documentation I have ever used.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e59",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e57",
+               "type": "text",
+               "props": {
+                "text": "Hannah Berg"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e58",
+               "type": "text",
+               "props": {
+                "text": "Staff Engineer, Kite Labs",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e97",
+     "type": "section",
+     "props": {
+      "role": "pricing",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e96",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e94",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e93",
+           "type": "heading",
+           "props": {
+            "text": "Pricing that scales with you",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e95",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "20px",
+          "align_items": "stretch"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e74",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e69",
+             "type": "heading",
+             "props": {
+              "text": "Free",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e70",
+             "type": "heading",
+             "props": {
+              "text": "$0",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e71",
+             "type": "text",
+             "props": {
+              "text": "For individuals and side projects.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e72",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e66",
+             "type": "text",
+             "props": {
+              "text": "✓  Three projects",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e67",
+             "type": "text",
+             "props": {
+              "text": "✓  Community support",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e68",
+             "type": "text",
+             "props": {
+              "text": "✓  Basic analytics",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e73",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e83",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius"
+           },
+           "children": [
+            {
+             "id": "e78",
+             "type": "heading",
+             "props": {
+              "text": "Team",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e79",
+             "type": "heading",
+             "props": {
+              "text": "$29",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e80",
+             "type": "text",
+             "props": {
+              "text": "Per user, per month.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e81",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e75",
+             "type": "text",
+             "props": {
+              "text": "✓  Unlimited projects",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e76",
+             "type": "text",
+             "props": {
+              "text": "✓  Priority support",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e77",
+             "type": "text",
+             "props": {
+              "text": "✓  Advanced analytics",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e82",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e92",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e87",
+             "type": "heading",
+             "props": {
+              "text": "Enterprise",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e88",
+             "type": "heading",
+             "props": {
+              "text": "Custom",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e89",
+             "type": "text",
+             "props": {
+              "text": "For security-minded organisations.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e90",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e84",
+             "type": "text",
+             "props": {
+              "text": "✓  SSO and audit logs",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e85",
+             "type": "text",
+             "props": {
+              "text": "✓  Dedicated support",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e86",
+             "type": "text",
+             "props": {
+              "text": "✓  Custom contracts",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e91",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e105",
+     "type": "section",
+     "props": {
+      "role": "faq"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e104",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e99",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e98",
+           "type": "heading",
+           "props": {
+            "text": "Common questions",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e100",
+         "type": "faq_item",
+         "props": {
+          "question": "Can I try it for free?",
+          "answer": "Yes. The free plan has no time limit and needs no credit card.",
+          "open": true
+         },
+         "style": {}
+        },
+        {
+         "id": "e101",
+         "type": "faq_item",
+         "props": {
+          "question": "Where is my data stored?",
+          "answer": "In the region you choose, encrypted at rest and in transit.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e102",
+         "type": "faq_item",
+         "props": {
+          "question": "Can I export my data?",
+          "answer": "Any time, in open formats. Your data is always yours.",
+          "open": false
+         },
+         "style": {}
+        },
+        {
+         "id": "e103",
+         "type": "faq_item",
+         "props": {
+          "question": "Do you offer an SLA?",
+          "answer": "Yes. Enterprise plans include a 99.99 percent uptime commitment.",
+          "open": false
+         },
+         "style": {}
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e111",
+     "type": "section",
+     "props": {
+      "role": "call_to_action",
+      "ambient": "grid"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e110",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e109",
+         "type": "container",
+         "props": {
+          "tone": "primary"
+         },
+         "style": {
+          "gap": "16px",
+          "padding": "clamp(32px,6vw,72px)",
+          "border_radius": "$radius"
+         },
+         "children": [
+          {
+           "id": "e106",
+           "type": "heading",
+           "props": {
+            "text": "Start building today",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e107",
+           "type": "text",
+           "props": {
+            "text": "Free to start. No credit card needed. Set up your first workflow in minutes.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.05rem",
+            "max_width": "50ch"
+           }
+          },
+          {
+           "id": "e108",
+           "type": "button",
+           "props": {
+            "label": "Start a conversation",
+            "href": {
+             "page": "contact"
+            },
+            "variant": "primary"
+           },
+           "style": {
+            "align_self": "flex-start",
+            "margin_top": "8px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "slug": "about",
+   "title": "About",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e144",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "96px"
+     },
+     "children": [
+      {
+       "id": "e143",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "align_items": "center",
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e141",
+         "type": "heading",
+         "props": {
+          "text": "About",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e142",
+         "type": "text",
+         "props": {
+          "text": "Why we started, and what we believe.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e119",
+     "type": "section",
+     "props": {
+      "role": "about"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e118",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "68px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e112",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "saas-launch-2",
+           "subject": "circuit",
+           "ratio": 1.1,
+           "label": "About image"
+          },
+          "alt": "About image",
+          "ratio": 1.1
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        },
+        {
+         "id": "e117",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "16px"
+         },
+         "children": [
+          {
+           "id": "e113",
+           "type": "heading",
+           "props": {
+            "text": "We build the tools we wished we had",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e114",
+           "type": "text",
+           "props": {
+            "text": "We started as a team of engineers frustrated by slow, fragile software. Today thousands of teams use our platform every day.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e115",
+           "type": "text",
+           "props": {
+            "text": "We ship small and often, publish our uptime and listen closely to the people who use what we build. Your data stays yours, always.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e116",
+           "type": "link",
+           "props": {
+            "label": "Our story",
+            "href": {
+             "page": "about"
+            },
+            "arrow": true
+           },
+           "style": {
+            "margin_top": "6px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e140",
+     "type": "section",
+     "props": {
+      "role": "team",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e139",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e137",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e136",
+           "type": "heading",
+           "props": {
+            "text": "The team building it",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e138",
+         "type": "columns",
+         "props": {
+          "columns": 4
+         },
+         "style": {},
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          },
+          "mobile": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e123",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e120",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "saas-launch-3",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Musonda Chola"
+              },
+              "alt": "Musonda Chola",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e121",
+             "type": "heading",
+             "props": {
+              "text": "Musonda Chola",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e122",
+             "type": "text",
+             "props": {
+              "text": "Co-founder, CEO",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e127",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e124",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "saas-launch-4",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Arjun Mehta"
+              },
+              "alt": "Arjun Mehta",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e125",
+             "type": "heading",
+             "props": {
+              "text": "Arjun Mehta",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e126",
+             "type": "text",
+             "props": {
+              "text": "Co-founder, CTO",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e131",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e128",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "saas-launch-5",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Sofia Lind"
+              },
+              "alt": "Sofia Lind",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e129",
+             "type": "heading",
+             "props": {
+              "text": "Sofia Lind",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e130",
+             "type": "text",
+             "props": {
+              "text": "VP Product",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e135",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e132",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "saas-launch-6",
+               "subject": "portrait",
+               "ratio": 0.82,
+               "label": "Emeka Eze"
+              },
+              "alt": "Emeka Eze",
+              "ratio": 0.82
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e133",
+             "type": "heading",
+             "props": {
+              "text": "Emeka Eze",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "6px"
+             }
+            },
+            {
+             "id": "e134",
+             "type": "text",
+             "props": {
+              "text": "Head of Security",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".93rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "services",
+   "slug": "product",
+   "title": "Product",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e223",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "96px"
+     },
+     "children": [
+      {
+       "id": "e222",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "align_items": "center",
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e220",
+         "type": "heading",
+         "props": {
+          "text": "Product",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e221",
+         "type": "text",
+         "props": {
+          "text": "Every part of the platform, explained.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e166",
+     "type": "section",
+     "props": {
+      "role": "services"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e165",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e164",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e163",
+           "type": "heading",
+           "props": {
+            "text": "Everything your team needs, in one place",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e150",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "0",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e149",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "saas-launch-7",
+             "subject": "circuit",
+             "ratio": 1.5,
+             "label": "Automated workflows"
+            },
+            "alt": "Automated workflows",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e148",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e145",
+             "type": "heading",
+             "props": {
+              "text": "Automated workflows",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e146",
+             "type": "text",
+             "props": {
+              "text": "Connect your tools and stop doing the same work twice.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e147",
+             "type": "link",
+             "props": {
+              "label": "Learn more",
+              "href": {
+               "page": "services"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e156",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "56px",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e154",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e151",
+             "type": "heading",
+             "props": {
+              "text": "Real-time analytics",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e152",
+             "type": "text",
+             "props": {
+              "text": "Live dashboards built from your own data.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e153",
+             "type": "link",
+             "props": {
+              "label": "Learn more",
+              "href": {
+               "page": "services"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          },
+          {
+           "id": "e155",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "saas-launch-8",
+             "subject": "circuit",
+             "ratio": 1.5,
+             "label": "Real-time analytics"
+            },
+            "alt": "Real-time analytics",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e162",
+         "type": "columns",
+         "props": {
+          "columns": "1fr 1fr"
+         },
+         "style": {
+          "margin_top": "56px",
+          "gap": "64px",
+          "align_items": "center"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e161",
+           "type": "image",
+           "props": {
+            "media": {
+             "kind": "placeholder",
+             "seed": "saas-launch-9",
+             "subject": "circuit",
+             "ratio": 1.5,
+             "label": "Enterprise security"
+            },
+            "alt": "Enterprise security",
+            "ratio": 1.5
+           },
+           "style": {
+            "border_radius": "$radius"
+           }
+          },
+          {
+           "id": "e160",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "14px"
+           },
+           "children": [
+            {
+             "id": "e157",
+             "type": "heading",
+             "props": {
+              "text": "Enterprise security",
+              "level": 3
+             },
+             "style": {}
+            },
+            {
+             "id": "e158",
+             "type": "text",
+             "props": {
+              "text": "SSO, audit logs and encryption by default.",
+              "muted": true
+             },
+             "style": {
+              "font_size": "1.05rem"
+             }
+            },
+            {
+             "id": "e159",
+             "type": "link",
+             "props": {
+              "label": "Learn more",
+              "href": {
+               "page": "services"
+              },
+              "arrow": true
+             },
+             "style": {}
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e187",
+     "type": "section",
+     "props": {
+      "role": "features",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e186",
+       "type": "columns",
+       "props": {
+        "columns": "1fr 1fr",
+        "width": "content"
+       },
+       "style": {
+        "gap": "72px",
+        "align_items": "center"
+       },
+       "responsive": {
+        "tablet": {
+         "props": {
+          "columns": 1
+         }
+        }
+       },
+       "children": [
+        {
+         "id": "e184",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px"
+         },
+         "children": [
+          {
+           "id": "e182",
+           "type": "heading",
+           "props": {
+            "text": "The standard we hold ourselves to",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e183",
+           "type": "text",
+           "props": {
+            "text": "We ship small and often, publish our uptime and listen closely to the people who use what we build. Your data stays yours, always.",
+            "muted": true
+           },
+           "style": {}
+          },
+          {
+           "id": "e169",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e167",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e168",
+             "type": "text",
+             "props": {
+              "text": "Automated workflows"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e172",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e170",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e171",
+             "type": "text",
+             "props": {
+              "text": "Real-time analytics"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e175",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e173",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e174",
+             "type": "text",
+             "props": {
+              "text": "Enterprise security"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e178",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e176",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e177",
+             "type": "text",
+             "props": {
+              "text": "Developer API"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e181",
+           "type": "row",
+           "props": {},
+           "style": {
+            "flex_wrap": "nowrap",
+            "align_items": "flex-start",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "e179",
+             "type": "icon",
+             "props": {
+              "name": "circle-check"
+             },
+             "style": {
+              "font_size": "20px",
+              "color": "currentColor"
+             }
+            },
+            {
+             "id": "e180",
+             "type": "text",
+             "props": {
+              "text": "Cloud infrastructure"
+             },
+             "style": {
+              "flex": "1",
+              "min_width": "0"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "e185",
+         "type": "image",
+         "props": {
+          "media": {
+           "kind": "placeholder",
+           "seed": "saas-launch-10",
+           "subject": "circuit",
+           "ratio": 0.95,
+           "label": "Feature image"
+          },
+          "alt": "Feature image",
+          "ratio": 0.95
+         },
+         "style": {
+          "border_radius": "$radius"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e219",
+     "type": "section",
+     "props": {
+      "role": "pricing"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e218",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e216",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e215",
+           "type": "heading",
+           "props": {
+            "text": "Pricing that scales with you",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e217",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "20px",
+          "align_items": "stretch"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 1
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e196",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e191",
+             "type": "heading",
+             "props": {
+              "text": "Free",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e192",
+             "type": "heading",
+             "props": {
+              "text": "$0",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e193",
+             "type": "text",
+             "props": {
+              "text": "For individuals and side projects.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e194",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e188",
+             "type": "text",
+             "props": {
+              "text": "✓  Three projects",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e189",
+             "type": "text",
+             "props": {
+              "text": "✓  Community support",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e190",
+             "type": "text",
+             "props": {
+              "text": "✓  Basic analytics",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e195",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e205",
+           "type": "container",
+           "props": {
+            "tone": "primary"
+           },
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius"
+           },
+           "children": [
+            {
+             "id": "e200",
+             "type": "heading",
+             "props": {
+              "text": "Team",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e201",
+             "type": "heading",
+             "props": {
+              "text": "$29",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e202",
+             "type": "text",
+             "props": {
+              "text": "Per user, per month.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e203",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e197",
+             "type": "text",
+             "props": {
+              "text": "✓  Unlimited projects",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e198",
+             "type": "text",
+             "props": {
+              "text": "✓  Priority support",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e199",
+             "type": "text",
+             "props": {
+              "text": "✓  Advanced analytics",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e204",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "primary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e214",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px",
+            "padding": "32px",
+            "border_radius": "$radius",
+            "border": "1px solid $c-border"
+           },
+           "children": [
+            {
+             "id": "e209",
+             "type": "heading",
+             "props": {
+              "text": "Enterprise",
+              "level": 4
+             },
+             "style": {}
+            },
+            {
+             "id": "e210",
+             "type": "heading",
+             "props": {
+              "text": "Custom",
+              "level": 2
+             },
+             "style": {}
+            },
+            {
+             "id": "e211",
+             "type": "text",
+             "props": {
+              "text": "For security-minded organisations.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            },
+            {
+             "id": "e212",
+             "type": "divider",
+             "props": {},
+             "style": {
+              "margin_block": "8px"
+             }
+            },
+            {
+             "id": "e206",
+             "type": "text",
+             "props": {
+              "text": "✓  SSO and audit logs",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e207",
+             "type": "text",
+             "props": {
+              "text": "✓  Dedicated support",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e208",
+             "type": "text",
+             "props": {
+              "text": "✓  Custom contracts",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            },
+            {
+             "id": "e213",
+             "type": "button",
+             "props": {
+              "label": "Choose plan",
+              "href": {
+               "page": "contact"
+              },
+              "variant": "secondary"
+             },
+             "style": {
+              "margin_top": "auto",
+              "align_self": "stretch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "slug": "customers",
+   "title": "Customers",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e276",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "96px"
+     },
+     "children": [
+      {
+       "id": "e275",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "align_items": "center",
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e273",
+         "type": "heading",
+         "props": {
+          "text": "Customers",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e274",
+         "type": "text",
+         "props": {
+          "text": "How teams use the platform in production.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e252",
+     "type": "section",
+     "props": {
+      "role": "portfolio"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e251",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e225",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e224",
+           "type": "heading",
+           "props": {
+            "text": "Teams shipping faster",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e250",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "36px 26px"
+         },
+         "responsive": {
+          "tablet": {
+           "props": {
+            "columns": 2
+           }
+          }
+         },
+         "children": [
+          {
+           "id": "e229",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e226",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "saas-launch-11",
+               "subject": "circuit",
+               "ratio": 1.25,
+               "label": "Fernway cut deploys to minutes"
+              },
+              "alt": "Fernway cut deploys to minutes",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e227",
+             "type": "heading",
+             "props": {
+              "text": "Fernway cut deploys to minutes",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e228",
+             "type": "text",
+             "props": {
+              "text": "Fintech",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e233",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e230",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "saas-launch-12",
+               "subject": "circuit",
+               "ratio": 1.25,
+               "label": "Orbit Pay scaled to ten million users"
+              },
+              "alt": "Orbit Pay scaled to ten million users",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e231",
+             "type": "heading",
+             "props": {
+              "text": "Orbit Pay scaled to ten million users",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e232",
+             "type": "text",
+             "props": {
+              "text": "Payments",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e237",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e234",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "saas-launch-13",
+               "subject": "circuit",
+               "ratio": 1.25,
+               "label": "Kite Labs replaced four tools"
+              },
+              "alt": "Kite Labs replaced four tools",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e235",
+             "type": "heading",
+             "props": {
+              "text": "Kite Labs replaced four tools",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e236",
+             "type": "text",
+             "props": {
+              "text": "Developer tools",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e241",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e238",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "saas-launch-14",
+               "subject": "circuit",
+               "ratio": 1.25,
+               "label": "Nomad Health passed its audit"
+              },
+              "alt": "Nomad Health passed its audit",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e239",
+             "type": "heading",
+             "props": {
+              "text": "Nomad Health passed its audit",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e240",
+             "type": "text",
+             "props": {
+              "text": "Healthcare",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e245",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e242",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "saas-launch-15",
+               "subject": "circuit",
+               "ratio": 1.25,
+               "label": "Tessera automated reporting"
+              },
+              "alt": "Tessera automated reporting",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e243",
+             "type": "heading",
+             "props": {
+              "text": "Tessera automated reporting",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e244",
+             "type": "text",
+             "props": {
+              "text": "Analytics",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e249",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "6px"
+           },
+           "children": [
+            {
+             "id": "e246",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "saas-launch-16",
+               "subject": "circuit",
+               "ratio": 1.25,
+               "label": "Vela Freight tracked every load"
+              },
+              "alt": "Vela Freight tracked every load",
+              "ratio": 1.25
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e247",
+             "type": "heading",
+             "props": {
+              "text": "Vela Freight tracked every load",
+              "level": 4
+             },
+             "style": {
+              "margin_top": "4px"
+             }
+            },
+            {
+             "id": "e248",
+             "type": "text",
+             "props": {
+              "text": "Logistics",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".92rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e272",
+     "type": "section",
+     "props": {
+      "role": "testimonials",
+      "tone": "surface"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e271",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e269",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e268",
+           "type": "heading",
+           "props": {
+            "text": "What people say",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e270",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {},
+         "children": [
+          {
+           "id": "e257",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e253",
+             "type": "text",
+             "props": {
+              "text": "“We replaced four tools with one, and our engineers got their afternoons back.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e256",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e254",
+               "type": "text",
+               "props": {
+                "text": "Priya Nair"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e255",
+               "type": "text",
+               "props": {
+                "text": "CTO, Fernway",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e262",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e258",
+             "type": "text",
+             "props": {
+              "text": "“Setup took an hour. We were in production the same week.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e261",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e259",
+               "type": "text",
+               "props": {
+                "text": "Luke Sampa"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e260",
+               "type": "text",
+               "props": {
+                "text": "Lead Engineer, Orbit Pay",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e267",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "20px",
+            "background": "$c-card",
+            "border_radius": "$card-radius",
+            "padding": "30px",
+            "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+           },
+           "children": [
+            {
+             "id": "e263",
+             "type": "text",
+             "props": {
+              "text": "“The best developer documentation I have ever used.”"
+             },
+             "style": {}
+            },
+            {
+             "id": "e266",
+             "type": "container",
+             "props": {},
+             "style": {
+              "gap": "0",
+              "margin_top": "auto"
+             },
+             "children": [
+              {
+               "id": "e264",
+               "type": "text",
+               "props": {
+                "text": "Hannah Berg"
+               },
+               "style": {
+                "font_weight": 600
+               }
+              },
+              {
+               "id": "e265",
+               "type": "text",
+               "props": {
+                "text": "Staff Engineer, Kite Labs",
+                "muted": true
+               },
+               "style": {
+                "font_size": ".88rem"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "slug": "blog",
+   "title": "Blog",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e300",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "96px"
+     },
+     "children": [
+      {
+       "id": "e299",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "align_items": "center",
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e297",
+         "type": "heading",
+         "props": {
+          "text": "Blog",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e298",
+         "type": "text",
+         "props": {
+          "text": "Engineering, product and design notes.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e296",
+     "type": "section",
+     "props": {
+      "role": "blog"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e295",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e293",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e292",
+           "type": "heading",
+           "props": {
+            "text": "From the engineering blog",
+            "level": 2
+           },
+           "style": {}
+          }
+         ]
+        },
+        {
+         "id": "e294",
+         "type": "columns",
+         "props": {
+          "columns": 3
+         },
+         "style": {
+          "gap": "32px"
+         },
+         "children": [
+          {
+           "id": "e281",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e277",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "saas-launch-17",
+               "subject": "circuit",
+               "ratio": 1.55,
+               "label": "How we reduced latency by 60 percent"
+              },
+              "alt": "How we reduced latency by 60 percent",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e278",
+             "type": "text",
+             "props": {
+              "text": "Engineering, 9 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e279",
+             "type": "heading",
+             "props": {
+              "text": "How we reduced latency by 60 percent",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e280",
+             "type": "text",
+             "props": {
+              "text": "A deep dive into our new edge layer.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e286",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e282",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "saas-launch-18",
+               "subject": "circuit",
+               "ratio": 1.55,
+               "label": "Introducing workflow templates"
+              },
+              "alt": "Introducing workflow templates",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e283",
+             "type": "text",
+             "props": {
+              "text": "Product, 3 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e284",
+             "type": "heading",
+             "props": {
+              "text": "Introducing workflow templates",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e285",
+             "type": "text",
+             "props": {
+              "text": "Start from what works.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "e291",
+           "type": "container",
+           "props": {},
+           "style": {
+            "gap": "10px"
+           },
+           "children": [
+            {
+             "id": "e287",
+             "type": "image",
+             "props": {
+              "media": {
+               "kind": "placeholder",
+               "seed": "saas-launch-19",
+               "subject": "circuit",
+               "ratio": 1.55,
+               "label": "Security is a product feature"
+              },
+              "alt": "Security is a product feature",
+              "ratio": 1.55
+             },
+             "style": {
+              "border_radius": "$radius"
+             }
+            },
+            {
+             "id": "e288",
+             "type": "text",
+             "props": {
+              "text": "Security, 6 min",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".84rem"
+             }
+            },
+            {
+             "id": "e289",
+             "type": "heading",
+             "props": {
+              "text": "Security is a product feature",
+              "level": 3
+             },
+             "style": {
+              "font_size": "1.3rem"
+             }
+            },
+            {
+             "id": "e290",
+             "type": "text",
+             "props": {
+              "text": "How we think about trust.",
+              "muted": true
+             },
+             "style": {
+              "font_size": ".97rem"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "slug": "contact",
+   "title": "Contact",
+   "home": false,
+   "layout": "default",
+   "nodes": [
+    {
+     "id": "e311",
+     "type": "section",
+     "props": {
+      "role": "page_header",
+      "tone": "surface"
+     },
+     "style": {
+      "padding_block": "96px"
+     },
+     "children": [
+      {
+       "id": "e310",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {
+        "text_align": "center",
+        "align_items": "center",
+        "gap": "14px"
+       },
+       "children": [
+        {
+         "id": "e308",
+         "type": "heading",
+         "props": {
+          "text": "Contact",
+          "level": 1
+         },
+         "style": {}
+        },
+        {
+         "id": "e309",
+         "type": "text",
+         "props": {
+          "text": "Questions about sales, support or security.",
+          "muted": true
+         },
+         "style": {
+          "font_size": "1.15rem"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e307",
+     "type": "section",
+     "props": {
+      "role": "contact"
+     },
+     "style": {},
+     "children": [
+      {
+       "id": "e306",
+       "type": "container",
+       "props": {
+        "width": "narrow"
+       },
+       "style": {},
+       "children": [
+        {
+         "id": "e305",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "14px",
+          "margin_bottom": "48px",
+          "align_items": "center",
+          "text_align": "center",
+          "max_width": "720px",
+          "margin_inline": "auto"
+         },
+         "children": [
+          {
+           "id": "e303",
+           "type": "heading",
+           "props": {
+            "text": "Talk to our team",
+            "level": 2
+           },
+           "style": {}
+          },
+          {
+           "id": "e304",
+           "type": "text",
+           "props": {
+            "text": "Free to start. No credit card needed. Set up your first workflow in minutes.",
+            "muted": true
+           },
+           "style": {
+            "font_size": "1.08rem"
+           }
+          }
+         ]
+        },
+        {
+         "id": "e302",
+         "type": "container",
+         "props": {},
+         "style": {
+          "gap": "12px",
+          "background": "$c-card",
+          "border_radius": "$card-radius",
+          "padding": "clamp(24px,4vw,44px)",
+          "box_shadow": "0 18px 44px rgba(10,14,28,.1)"
+         },
+         "children": [
+          {
+           "id": "e301",
+           "type": "contact_form",
+           "props": {
+            "fields": [
+             {
+              "label": "Your name",
+              "type": "text"
+             },
+             {
+              "label": "Email address",
+              "type": "email"
+             },
+             {
+              "label": "Message",
+              "type": "textarea"
+             }
+            ],
+            "submit": "Contact sales"
+           },
+           "style": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

@@ -1,0 +1,298 @@
+{
+ "schema": "mulusa.theme/2",
+ "meta": {
+  "id": "onepage/mining-maintenance",
+  "template_name": "Mining: Maintenance",
+  "name": "Kafue Minerals",
+  "description": "A mining company maintenance page: a working headframe, a loading bar and an urgent contact.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#c2410c",
+   "on_primary": "#f7f2ea",
+   "secondary": "#241d17",
+   "accent": "#eab308",
+   "on_accent": "#17130f",
+   "background": "#17130f",
+   "surface": "#211a14",
+   "text": "#f7f2ea",
+   "muted": "#b8b4ad",
+   "border": "#3b3732"
+  },
+  "fonts": {
+   "heading": "Space Grotesk",
+   "body": "Work Sans",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 600,
+   "heading_transform": "none",
+   "heading_tracking": "-0.02em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.28
+  },
+  "shape": {
+   "radius": "6px",
+   "button_radius": "6px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "96px",
+   "gap": "24px",
+   "width": "1120px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Mining: Maintenance",
+   "colors": {
+    "primary": "#c2410c",
+    "on_primary": "#f7f2ea",
+    "secondary": "#241d17",
+    "accent": "#eab308",
+    "on_accent": "#17130f",
+    "background": "#17130f",
+    "surface": "#211a14",
+    "text": "#f7f2ea",
+    "muted": "#b8b4ad",
+    "border": "#3b3732"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Space Grotesk / Work Sans",
+   "heading": "Space Grotesk",
+   "body": "Work Sans"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "min16",
+   "type": "header",
+   "props": {
+    "layout": "minimal",
+    "brand": "Kafue Minerals"
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "min15",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "40px"
+   },
+   "name": "Site footer"
+  }
+ },
+ "navigation": {
+  "primary": []
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "landing",
+   "nodes": [
+    {
+     "id": "min12",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "tone": "image",
+      "background": {
+       "media": {
+        "kind": "placeholder",
+        "seed": "mining-maintenance-bg",
+        "subject": "landscape",
+        "ratio": 1.78,
+        "label": "Background image"
+       },
+       "overlay": "linear-gradient(180deg,rgba(18,14,10,.7),rgba(18,14,10,.9))",
+       "alt": ""
+      }
+     },
+     "style": {
+      "min_height": "100vh",
+      "display": "flex",
+      "align_items": "center",
+      "padding_block": "64px"
+     },
+     "name": "Hero",
+     "children": [
+      {
+       "id": "min11",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "align_items": "center"
+       },
+       "children": [
+        {
+         "id": "min10",
+         "type": "container",
+         "props": {},
+         "style": {
+          "width": "100%",
+          "max_width": "680px",
+          "margin_inline": "auto",
+          "gap": "22px",
+          "align_items": "center"
+         },
+         "children": [
+          {
+           "id": "min8",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "center",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "min7",
+             "type": "text",
+             "props": {
+              "text": "Kafue Minerals"
+             },
+             "style": {
+              "font_weight": "700",
+              "letter_spacing": "0.14em",
+              "text_transform": "uppercase",
+              "font_size": ".82rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "min6",
+           "type": "container",
+           "props": {},
+           "style": {
+            "background": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.16)",
+            "backdrop_filter": "blur(16px) saturate(140%)",
+            "box_shadow": "0 30px 80px rgba(0,0,0,0.4)",
+            "border_radius": "24px",
+            "padding": "46px 38px",
+            "gap": "18px",
+            "align_items": "center",
+            "text_align": "center",
+            "width": "100%"
+           },
+           "name": "Glass card",
+           "children": [
+            {
+             "id": "min1",
+             "type": "illustration",
+             "props": {
+              "name": "mine",
+              "animate": true
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "240px"
+             }
+            },
+            {
+             "id": "min2",
+             "type": "heading",
+             "props": {
+              "text": "Scheduled maintenance.",
+              "level": 1
+             },
+             "style": {
+              "font_size": "clamp(2rem,5vw,3rem)"
+             }
+            },
+            {
+             "id": "min3",
+             "type": "text",
+             "props": {
+              "text": "Kafue Minerals' portal is being upgraded. Supplier and contractor services return shortly. Site operations are not affected.",
+              "muted": true
+             },
+             "style": {
+              "max_width": "48ch"
+             }
+            },
+            {
+             "id": "min4",
+             "type": "progress",
+             "props": {
+              "mode": "loading",
+              "value": 60,
+              "show_value": true
+             },
+             "style": {
+              "max_width": "380px",
+              "margin_inline": "auto"
+             }
+            },
+            {
+             "id": "min5",
+             "type": "text",
+             "props": {
+              "text": "Urgent site matters: +000 000 000 000"
+             },
+             "style": {
+              "font_size": ".95rem"
+             }
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "padding": "34px 20px"
+             }
+            }
+           }
+          },
+          {
+           "id": "min9",
+           "type": "text",
+           "props": {
+            "text": "Safety first, always",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".8rem",
+            "text_align": "center"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "responsive": {
+      "mobile": {
+       "style": {
+        "padding_block": "40px"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}

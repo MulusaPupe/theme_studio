@@ -1,0 +1,295 @@
+{
+ "schema": "mulusa.theme/2",
+ "meta": {
+  "id": "onepage/energy-solar",
+  "template_name": "Energy: Coming soon",
+  "name": "Sunwise Energy",
+  "description": "A solar energy launch page: turning sun rays, a live countdown and early quote sign-up.",
+  "author": "Mulusa Innovations",
+  "version": "1.0.0"
+ },
+ "tokens": {
+  "colors": {
+   "primary": "#22c55e",
+   "on_primary": "#071a10",
+   "secondary": "#0d2c1b",
+   "accent": "#facc15",
+   "on_accent": "#071a10",
+   "background": "#071a10",
+   "surface": "#0b2416",
+   "text": "#ecfdf3",
+   "muted": "#acbdb3",
+   "border": "#2c3e34"
+  },
+  "fonts": {
+   "heading": "Archivo",
+   "body": "Inter",
+   "extra": []
+  },
+  "type": {
+   "heading_weight": 800,
+   "heading_transform": "none",
+   "heading_tracking": "-0.02em",
+   "heading_line": 1.08,
+   "base": 17,
+   "ratio": 1.28
+  },
+  "shape": {
+   "radius": "10px",
+   "button_radius": "999px",
+   "button_style": "solid",
+   "button_transform": "none",
+   "button_tracking": "0",
+   "button_size": ".97rem"
+  },
+  "spacing": {
+   "section": "96px",
+   "gap": "24px",
+   "width": "1120px"
+  }
+ },
+ "palettes": [
+  {
+   "name": "Energy: Coming soon",
+   "colors": {
+    "primary": "#22c55e",
+    "on_primary": "#071a10",
+    "secondary": "#0d2c1b",
+    "accent": "#facc15",
+    "on_accent": "#071a10",
+    "background": "#071a10",
+    "surface": "#0b2416",
+    "text": "#ecfdf3",
+    "muted": "#acbdb3",
+    "border": "#2c3e34"
+   }
+  }
+ ],
+ "type_pairs": [
+  {
+   "name": "Archivo / Inter",
+   "heading": "Archivo",
+   "body": "Inter"
+  }
+ ],
+ "site": {
+  "header": {
+   "id": "ene16",
+   "type": "header",
+   "props": {
+    "layout": "minimal",
+    "brand": "Sunwise Energy"
+   },
+   "style": {},
+   "name": "Site header"
+  },
+  "footer": {
+   "id": "ene15",
+   "type": "footer",
+   "props": {
+    "tone": "inverse"
+   },
+   "style": {
+    "padding_block": "40px"
+   },
+   "name": "Site footer"
+  }
+ },
+ "navigation": {
+  "primary": []
+ },
+ "pages": [
+  {
+   "id": "home",
+   "slug": "home",
+   "title": "Home",
+   "home": true,
+   "layout": "landing",
+   "nodes": [
+    {
+     "id": "ene12",
+     "type": "section",
+     "props": {
+      "role": "hero",
+      "ambient": "aurora"
+     },
+     "style": {
+      "min_height": "100vh",
+      "display": "flex",
+      "align_items": "center",
+      "padding_block": "64px"
+     },
+     "name": "Hero",
+     "children": [
+      {
+       "id": "ene11",
+       "type": "container",
+       "props": {
+        "width": "content"
+       },
+       "style": {
+        "align_items": "center"
+       },
+       "children": [
+        {
+         "id": "ene10",
+         "type": "container",
+         "props": {},
+         "style": {
+          "width": "100%",
+          "max_width": "680px",
+          "margin_inline": "auto",
+          "gap": "22px",
+          "align_items": "center"
+         },
+         "children": [
+          {
+           "id": "ene8",
+           "type": "row",
+           "props": {},
+           "style": {
+            "justify_content": "center",
+            "gap": "12px"
+           },
+           "children": [
+            {
+             "id": "ene7",
+             "type": "text",
+             "props": {
+              "text": "Sunwise Energy"
+             },
+             "style": {
+              "font_weight": "700",
+              "letter_spacing": "0.14em",
+              "text_transform": "uppercase",
+              "font_size": ".82rem"
+             }
+            }
+           ]
+          },
+          {
+           "id": "ene6",
+           "type": "container",
+           "props": {},
+           "style": {
+            "background": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.16)",
+            "backdrop_filter": "blur(16px) saturate(140%)",
+            "box_shadow": "0 30px 80px rgba(0,0,0,0.4)",
+            "border_radius": "24px",
+            "padding": "46px 38px",
+            "gap": "18px",
+            "align_items": "center",
+            "text_align": "center",
+            "width": "100%"
+           },
+           "name": "Glass card",
+           "children": [
+            {
+             "id": "ene1",
+             "type": "illustration",
+             "props": {
+              "name": "solar",
+              "animate": true
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "250px"
+             }
+            },
+            {
+             "id": "ene2",
+             "type": "heading",
+             "props": {
+              "text": "Power that pays for itself.",
+              "level": 1
+             },
+             "style": {
+              "font_size": "clamp(2.1rem,5vw,3.3rem)"
+             }
+            },
+            {
+             "id": "ene3",
+             "type": "text",
+             "props": {
+              "text": "Sunwise designs and installs solar for homes, farms and factories. Our new site launches with instant quotes.",
+              "muted": true
+             },
+             "style": {
+              "max_width": "46ch"
+             }
+            },
+            {
+             "id": "ene4",
+             "type": "countdown",
+             "props": {
+              "target": "2027-01-31T10:00",
+              "utc_offset": "+02:00",
+              "show_seconds": true,
+              "done_text": "Instant quotes are live."
+             },
+             "style": {
+              "margin_block": "4px"
+             }
+            },
+            {
+             "id": "ene5",
+             "type": "contact_form",
+             "props": {
+              "fields": [
+               {
+                "label": "Email for an early quote",
+                "type": "email"
+               }
+              ],
+              "submit": "Notify me"
+             },
+             "style": {
+              "width": "100%",
+              "max_width": "420px",
+              "margin_inline": "auto"
+             }
+            }
+           ],
+           "responsive": {
+            "mobile": {
+             "style": {
+              "padding": "34px 20px"
+             }
+            }
+           }
+          },
+          {
+           "id": "ene9",
+           "type": "text",
+           "props": {
+            "text": "Homes · Farms · Industry",
+            "muted": true
+           },
+           "style": {
+            "font_size": ".8rem",
+            "text_align": "center"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "responsive": {
+      "mobile": {
+       "style": {
+        "padding_block": "40px"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "media": {
+  "art": "gradient",
+  "assets": []
+ },
+ "reusable": []
+}
